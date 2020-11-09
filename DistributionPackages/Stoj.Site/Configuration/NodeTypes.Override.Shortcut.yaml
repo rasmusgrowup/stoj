@@ -1,0 +1,6 @@
+
+'Neos.Neos:Shortcut':
+  constraints:
+    nodeTypes:
+      'Stoj.Site:Document.HomePage': false
+      'Stoj.Site:Constraint.Document.Restricted': false

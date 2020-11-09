@@ -1,0 +1,9 @@
+prototype(Stoj.Site:Component.DefaultLayout) < prototype(Neos.Fusion:Component) {
+    content = ''
+
+    renderer = afx`
+        <Stoj.Site:Component.Header />
+        {props.content}
+        <Stoj.Site:Component.Footer />
+    `
+}
