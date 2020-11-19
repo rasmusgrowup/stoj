@@ -6,6 +6,9 @@ prototype(Stoj.Site:Component.Header) < prototype(Neos.Fusion:Component) {
         startingPoint = ${site}
         maximumLevels = 2
     }
+    logo = Neos.Fusion:ResourceUri {
+    path = 'resource://Stoj.Site/Public/Frontend/svg/logo.svg'
+    }
 
     ##
     # If you want to use a default rendering for a menu, you can just use:
@@ -20,9 +23,30 @@ prototype(Stoj.Site:Component.Header) < prototype(Neos.Fusion:Component) {
     ##
 
     renderer = afx`
-        <header class="main-header">
-            <a class="logo" href={props.homeLink}>BRAND NAME</a>
-            <Stoj.Site:Component.Header.MenuItemsRenderer items={props.menuItems} />
+        <header class="main-header" id="menu">
+            <a class="logo" href={props.homeLink}>
+                <img
+                class="logo-svg"
+                src={props.logo}
+                alt=""/>
+            </a>
+            <div class="menu">
+                <div class="menu-items">
+                    <Stoj.Site:Component.Header.MenuItemsRenderer items={props.menuItems} />
+                </div>
+                <div class="menu-btn">
+                    <a href="#">
+                        <span></span>
+                        <span></span>
+                    </a>
+                </div>
+            </div>
+            <div class="header-gradient"></div>
+            <div class="contact-btn">
+                <a href="mailto:halloj@hallojstoj.dk">
+                    <button type="button" name="button">Sig halløj</button>
+                </a>
+            </div>
         </header>
     `
 

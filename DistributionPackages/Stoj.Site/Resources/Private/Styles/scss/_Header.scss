@@ -1,0 +1,165 @@
+$stoj-yellow: #FFE300;
+$eb: "EB Garamond", serif;
+
+.main-header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    left: 0;
+    //mix-blend-mode: exclusion;
+    position: fixed;
+    padding: 1em;
+    top: 0;
+    width: 100vw;
+    z-index: 99;
+
+    @media only screen and (min-width: 768px) {
+        padding: 2.5em 5em;
+    }
+
+    .logo {
+        display: block;
+        overflow: hidden;
+        width: 8em;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .menu {
+        align-items: center;
+        display: flex;
+        overflow: hidden;
+
+        .menu-items {
+            display: none;
+
+            ul {
+                li {
+                    a {
+                        font-weight: 600;
+                        font-size: 1.2em;
+                        color: white;
+                    }
+                }
+            }
+
+            @media only screen and (min-width: 768px) {
+                display: block;
+
+                ul {
+                    li {
+                        display: inline-block;
+                        margin-right: 2em;
+
+                        &:hover {
+                            a {
+                                //color: $stoj-yellow;
+                            }
+                        }
+
+                        &:last-child {
+                            //margin-right: 0;
+                        }
+                    }
+                }
+            }
+        }
+        .menu-btn {
+            display: block;
+            mix-blend-mode: exclusion;
+
+            @media only screen and (min-width: 768px) {
+                //display: none;
+            }
+
+            span {
+                background-color: white;
+                display: block;
+                height: .175em;
+                margin: .35em 0 0 auto;
+                width: 2.75em;
+
+                &:hover {
+                    //background-color: $stoj-yellow;
+                }
+
+/*
+                &:first-child {
+                    margin-top: 0;
+                    width: 30px;
+                }
+*/
+            }
+        }
+    }
+
+    .contact-btn {
+        bottom: 1em;
+        display: block;
+        mix-blend-mode: exclusion;
+        position: fixed;
+        right: 1em;
+
+        @media only screen and (min-width: 768px) {
+            bottom: 3em;
+            right: 5em;
+        }
+
+        a {
+            button {
+                background-color: white;
+                border: none;
+                border-radius: 3px;
+                font-size: 1em;
+                font-weight: 700;
+                padding: .6em 2.4em;
+                text-transform: uppercase;
+                //color: white;
+
+                &:hover {
+                    //background-color: $stoj-yellow;
+                    //cursor: pointer;
+                }
+            }
+        }
+    }
+
+    .header-gradient {
+        background: rgb(9,10,13);
+        background: linear-gradient(0deg, rgba(9,10,13,1) 0%, rgba(9,10,13,0) 90%);
+        bottom:0;
+        display: block;
+        height: 10em;
+        left: 0;
+        opacity: .9;
+        pointer-events: none;
+        position: fixed;
+        width:100vw;
+    }
+}
+
+.hide {
+    .menu-items, .menu-btn, .logo-svg {
+        transform: translateY(125%);
+        transition: 1s;
+        opacity: .25;
+    }
+}
+
+.show {
+    .menu-items, .menu-btn, .logo-svg {
+        transition: 1s;
+    }
+}
+
+.deep-grey-gradient {
+    background: rgb(15,20,25);
+    background: linear-gradient(0deg, rgba(15,20,25,1) 0%, rgba(15,20,25,0) 100%);
+}
+
+.almost-black-gradient {
+    background: rgb(9,10,13);
+    background: linear-gradient(0deg, rgba(9,10,13,1) 0%, rgba(9,10,13,0) 90%);
+}

@@ -6,6 +6,11 @@ prototype(Stoj.Site:Document.HomePage) < prototype(Stoj.Site:Document.AbstractPa
     body.content = Neos.Fusion:Component {
         main = Neos.Neos:ContentCollection {
             nodePath = 'main'
+            attributes = Neos.Fusion:Attributes {
+                class = Neos.Fusion:DataStructure {
+                        class = 'class1'
+                }
+            }
         }
 
         renderer = afx`

@@ -1,0 +1,105 @@
+prototype(Stoj.Site:Content.Subheader) < prototype(Neos.Neos:ContentComponent) {
+
+    reel = Neos.Fusion:ResourceUri {
+    path = 'resource://Stoj.Site/Public/Frontend/assets/Reel_short.gif'
+    }
+
+    video = Neos.Fusion:ResourceUri {
+    path = 'resource://Stoj.Site/Public/Frontend/assets/reel_219.mov'
+    }
+
+    videoMobile = Neos.Fusion:ResourceUri {
+    path = 'resource://Stoj.Site/Public/Frontend/assets/Reel_high.mov'
+    }
+
+    logo = Neos.Fusion:ResourceUri {
+    path = 'resource://Stoj.Site/Public/Frontend/svg/logo.svg'
+    }
+
+    text = Neos.Neos:Editable {
+        property = 'text'
+    }
+
+    src = Neos.Fusion:Case {
+        image {
+            condition = ${q(node).property('image') ? true : false}
+            renderer = Sitegeist.Kaleidoscope:AssetImageSource {
+                asset = ${q(node).property('image')}
+            }
+        }
+        dummyImage {
+            condition = ${site.context.inBackend}
+            renderer = Sitegeist.Kaleidoscope:DummyImageSource
+        }
+    }
+    alternativeText = ${q(node).property('alternativeText')}
+
+    srcSecond = Neos.Fusion:Case {
+        imageSecond {
+            condition = ${q(node).property('imageSecond') ? true : false}
+            renderer = Sitegeist.Kaleidoscope:AssetImageSource {
+                asset = ${q(node).property('imageSecond')}
+            }
+        }
+        dummyImage {
+            condition = ${site.context.inBackend}
+            renderer = Sitegeist.Kaleidoscope:DummyImageSource
+        }
+    }
+    alternativeTextSecond = ${q(node).property('alternativeTextSecond')}
+
+    renderer = afx`
+        <section class="subheader-body frontpage">
+            <div class="subheader-reel">
+                <div class="subheader-logo">
+                    <img src={props.logo} alt=""/>
+                </div>
+                <div class="reel-overlay">
+                    <h1>Foto, Film & Halløj</h1>
+                </div>
+                <div class="reel-container">
+                    <video preload="metadata" class="fadeOut" id="desktop-video" muted autoplay loop src={props.video}>
+                        Sorry, your browser doesn't support embedded videos.
+                    </video>
+                    <video preload="metadata" class="fadeOut" id="mobile-video" muted autoplay loop src={props.videoMobile}>
+                        Sorry, your browser doesn't support embedded videos.
+                    </video>
+                    <!--<img src={props.reel} alt=""/>-->
+                </div>
+                <div class="reel-text">
+                    <p>Hos Stöj formidler vi budskaber gennem billeder og video. Vi har ekspertisen til at konceptualisere jeres næste reklamekampagne. Mange års erfaring med foto- og videoproduktion gør at vores produkter har den helt rigtige kant.</p>
+                    <p>Uanset om vi skal skyde store reklamekampagner, eller lave mindre produktioner, udvikler vi altid en unik billedstil til jeres projekt. </p>
+                </div>
+                <div class="scroll-videre">
+                    <p>scroll videre</p>
+                    <span></span>
+                </div>
+            </div>
+<!--
+            <section class="subheader-content">
+                <h1 class="aos">Foto, Film & Halløj</h1>
+                <div class="subheader-flex">
+                    <Sitegeist.Lazybones:Image
+                        class="first-image aos"
+                        lazy={true}
+                        lazyWidth={500}
+                        imageSource={props.src}
+                        srcset="320w, 400w, 480w, 600w, 640w, 720w, 768w, 800w, 960w, 1024px, 1280w, 1440w, 1600w, 1680w, 1920w, 2560w"
+                        sizes={props.sizes}
+                        alt={props.alternativeText}
+                        />
+                    <Sitegeist.Lazybones:Image
+                        class="second-image aos"
+                        lazy={true}
+                        lazyWidth={500}
+                        imageSource={props.srcSecond}
+                        srcset="320w, 400w, 480w, 600w, 640w, 720w, 768w, 800w, 960w, 1024px, 1280w, 1440w, 1600w, 1680w, 1920w, 2560w"
+                        sizes={props.sizes}
+                        alt={props.alternativeTextSecond}
+                        />
+                </div>
+            </section>
+-->
+        </section>
+    `
+}

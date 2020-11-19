@@ -1,0 +1,199 @@
+.subheader-body {
+    min-height: 100vh;
+    padding-bottom: 15em;
+}
+
+.frontpage {
+    //background-color: $deep-grey;
+
+    .subheader-reel {
+        display: block;
+        //height: 60vh;
+        position: relative;
+
+        @media only screen and (min-width: 769px) {
+            //height: 3000px;
+            //max-height: 1000px;
+        }
+    }
+
+    .subheader-logo {
+        display: block;
+        display: none;
+        left: 50%;
+        mix-blend-mode: exclusion;
+        padding: 0;
+        position: absolute;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        width: 80vw;
+        z-index: 1;
+
+        &:hover {
+            z-index: 0;
+        }
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .reel-overlay {
+        display: none;
+        color: white;
+        left: 50%;
+        mix-blend-mode: exclusion;
+        position: absolute;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: fit-content;
+        z-index: 4;
+
+        h1 {
+            font-size: 6em;
+            font-weight: 700;
+        }
+    }
+
+    .reel-container {
+        display: block;
+        //min-height: 720px;
+        //left: 50%;
+        padding-top: 4em;
+        position: relative;
+        //top: 50%;
+        //transform: translate(-50%,-50%);
+        //width: calc(100vw - 2em);
+        z-index: 0;
+
+        img, video {
+            width: 100%;
+        }
+
+        #mobile-video {
+            display: block;
+
+            @media only screen and (min-width: 450px) {
+                display: none;
+            }
+        }
+
+        #desktop-video {
+            display: none;
+
+            @media only screen and (min-width: 450px) {
+                display: block;
+            }
+        }
+
+        @media only screen and (min-width: 769px) {
+            margin: 0 auto;
+            padding-top: 8em;
+            width: 100vw;
+        }
+    }
+
+    .reel-text {
+        display: block;
+        margin: 0 auto;
+        padding-top: 2em;
+        width: calc(100vw - 2em);
+        z-index: 5;
+
+        p {
+            color: white;
+            font-size: 1.6em;
+            font-weight: 600;
+            line-height: 1.25;
+            margin-top: 1em;
+
+            &:last-child {
+                font-weight: 300;
+                //opacity: .5;
+            }
+        }
+
+        @media only screen and (min-width: 769px) {
+            margin: -300px auto 10em 10vw;
+            width: 70vw;
+
+            p {
+                font-size: 3em;
+
+                &:last-child {
+                    font-weight: 300;
+                    font-size: 1.5em;
+                    opacity: .5;
+                }
+            }
+        }
+    }
+
+    .scroll-videre {
+        display: none;
+
+        @media only screen and (min-width: 769px) {
+            bottom: 3em;
+            color: white;
+            display: none;
+            left: 50%;
+            position: absolute;
+            transform: translateX(-50%);
+        }
+
+        span {
+            background-color: white;
+            bottom: -20px;
+            display: block;
+            height: 1px;
+            left: 50%;
+            position: absolute;
+            transform: rotate(-90deg) translateY(-1em);
+            width: 2em;
+        }
+    }
+}
+
+.subheader-content {
+    display: block;
+    margin: 0 auto;
+    width: calc(100vw - 2em);
+
+    @media only screen and (min-width: 769px) {
+        width: 80vw;
+    }
+
+    h1 {
+        color: white;
+        font-size: 9.04vw;
+        font-weight: 700;
+    }
+
+    .subheader-flex {
+        display: block;
+
+        img {
+            display: block;
+            margin-bottom: 1em;
+            width: 100%;
+        }
+
+        @media only screen and (min-width: 769px) {
+            display: flex;
+            justify-content: space-between;
+
+            img {
+                display: inline-block;
+                flex: 1;
+
+                &:first-child {
+                    margin-right: 1.5em;
+                }
+
+                &:last-child {
+                    margin-left: 1.5em;
+                }
+            }
+        }
+    }
+}

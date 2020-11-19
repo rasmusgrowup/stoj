@@ -1,0 +1,83 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: "MADE";
+    font-weight: 300;
+    font-style: normal;
+    src: url('../fonts/MADE-Light.otf') format("opentype");
+}
+
+
+@font-face {
+    font-family: "MADE";
+    font-weight: 400;
+    font-style: normal;
+    src: url('../fonts/MADE-Regular.otf') format("opentype");
+}
+
+@font-face {
+    font-family: "MADE";
+    font-weight: 500;
+    font-style: normal;
+    src: url('../fonts/MADE-Medium.otf') format("opentype");
+}
+
+@font-face {
+    font-family: "MADE";
+    font-weight: 600;
+    font-style: normal;
+    src: url('../fonts/MADE-Bold.otf') format("opentype");
+}
+
+@font-face {
+    font-family: "MADE";
+    font-weight: 700;
+    font-style: normal;
+    src: url('../fonts/MADE-Black.otf') format("opentype");
+}
+
+@import "../../../Private/Styles/scss/Header";
+@import "../../../Private/Styles/scss/Subheader";
+@import "../node_modules/bulma/bulma";
+
+$deep-blue: #0F1419;
+$deep-grey: #101219;
+$almost-black: #090A0D;
+$family-sans-serif: "MADE", sans-serif;
+$eb: "EB Garamond", serif;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: none;
+
+    &:hover {
+        cursor: none;
+    }
+}
+
+html {
+    background-color: $almost-black !important;
+}
+
+body {
+    font-family: "MADE" !important;
+}
+
+.custom-cursor {
+    position: fixed;
+    opacity: 0;
+    pointer-events: none;
+    mix-blend-mode: difference;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    transition: transform 350ms ease;
+    transform: translate(-50%, -50%) scale(.4);
+    z-index: 1000;
+}
+.custom-cursor--link {
+    transform: translate(-50%, -50%) scale(1.6);
+}

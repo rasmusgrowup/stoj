@@ -1,6 +1,6 @@
 {
-    "name": "codeq/skeleton",
-    "description": "Best practice skeleton for Neos",
+    "name": "Stöj",
+    "description": "World Class Photography",
     "config": {
         "vendor-dir": "Packages/Libraries",
         "bin-dir": "bin",

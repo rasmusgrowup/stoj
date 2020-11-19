@@ -1,23 +1,43 @@
 prototype(Stoj.Site:Component.Footer) < prototype(Neos.Neos:ContentComponent) {
     @context.node = ${site}
     year = ${Date.format(Date.now(), 'Y')}
-    footerInfo = Neos.Neos:Editable {
-        node = ${site}
-        property = 'footerInfo'
+
+    be = Neos.Fusion:ResourceUri {
+    path = 'resource://Stoj.Site/Public/Frontend/icons/behance.svg'
     }
-    footerItems = Neos.Fusion:Collection {
-        collection = ${q(site).property('footerItems')}
-        itemName = 'node'
-        itemRenderer = Carbon.Link:Link {
-            node = ${node}
-        }
+
+    in = Neos.Fusion:ResourceUri {
+    path = 'resource://Stoj.Site/Public/Frontend/icons/instagram.svg'
+    }
+
+    li = Neos.Fusion:ResourceUri {
+    path = 'resource://Stoj.Site/Public/Frontend/icons/linkedin.svg'
+    }
+
+    logo = Neos.Fusion:ResourceUri {
+    path = 'resource://Stoj.Site/Public/Frontend/svg/logo.svg'
     }
 
     renderer = afx`
         <footer class="main-footer">
-            <div>{props.footerInfo}</div>
-            <div>&copy; {props.year}</div>
-            {props.footerItems}
+            <div class="footer-content">
+
+                <div class="bottom-bar">
+                    <div class="payoff">
+                        <img
+                        class="logo-svg"
+                        src={props.logo}
+                        alt=""/>
+                        <span>Foto, film & halløj</span>
+                    </div>
+                    <div class="some-icons">
+                        <a href="#"><img src={props.be} alt=""/></a>
+                        <a href="#"><img src={props.in} alt=""/></a>
+                        <a href="#"><img src={props.li} alt=""/></a>
+                    </div>
+                </div>
+            </div>
+            <!--<div class="copyright">Stöj &copy; {props.year}</div>-->
         </footer>
     `
 
