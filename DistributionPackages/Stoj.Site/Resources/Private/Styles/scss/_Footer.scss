@@ -16,6 +16,16 @@ $almost-black: #090A0D;
         mix-blend-mode: exclusion;
         width: 100%;
 
+        .payoff {
+            margin-bottom: 3em;
+            text-align: center;
+
+            img {
+                margin-bottom: .5em;
+                width: 8em;
+            }
+        }
+
         @media only screen and (min-width: $break-tablet) {
             align-items: flex-end;
             display: flex;
@@ -24,16 +34,6 @@ $almost-black: #090A0D;
             .payoff {
                 text-align: left;
                 margin-bottom: 0;
-            }
-        }
-
-        .payoff {
-            margin-bottom: 3em;
-            text-align: center;
-
-            img {
-                margin-bottom: .5em;
-                width: 8em;
             }
         }
 

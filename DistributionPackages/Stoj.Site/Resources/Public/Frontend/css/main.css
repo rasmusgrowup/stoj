@@ -7125,6 +7125,12 @@ label.panel-block {
     margin-bottom: 1em;
     mix-blend-mode: exclusion;
     width: 100%; }
+    .main-footer .bottom-bar .payoff {
+      margin-bottom: 3em;
+      text-align: center; }
+      .main-footer .bottom-bar .payoff img {
+        margin-bottom: .5em;
+        width: 8em; }
     @media only screen and (min-width: 768px) {
       .main-footer .bottom-bar {
         align-items: flex-end;
@@ -7133,12 +7139,6 @@ label.panel-block {
         .main-footer .bottom-bar .payoff {
           text-align: left;
           margin-bottom: 0; } }
-    .main-footer .bottom-bar .payoff {
-      margin-bottom: 3em;
-      text-align: center; }
-      .main-footer .bottom-bar .payoff img {
-        margin-bottom: .5em;
-        width: 8em; }
     .main-footer .bottom-bar span {
       color: white;
       display: block;
