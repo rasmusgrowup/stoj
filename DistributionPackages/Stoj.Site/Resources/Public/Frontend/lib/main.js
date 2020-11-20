@@ -125,7 +125,7 @@ gsap.to(".fadeOut", {
 				trigger: ".reel-container",
 				toggleActions: "play none play reverse",
 				scrub: true,
-				markers: true,
+				//markers: true,
 				start: "-25% top",
 				end: "bottom top"
 		},

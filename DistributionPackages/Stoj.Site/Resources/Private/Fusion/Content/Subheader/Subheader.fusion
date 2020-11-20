@@ -58,7 +58,7 @@ prototype(Stoj.Site:Content.Subheader) < prototype(Neos.Neos:ContentComponent) {
                     <h1>Foto, film & halløj</h1>
                 </div>
                 <div class="reel-container">
-                    <video preload="metadata" class="fadeOut" id="desktop-video" muted autoplay loop src={props.video}>
+                    <video preload="metadata" class="fadeOut" id="desktop-video" muted autoplay loop playsinline src={props.video}>
                         Sorry, your browser doesn't support embedded videos.
                     </video>
                     <video preload="metadata" class="fadeOut" id="mobile-video" muted autoplay loop src={props.videoMobile}>
