@@ -9,13 +9,7 @@
 
     .subheader-reel {
         display: block;
-        //height: 60vh;
         position: relative;
-
-        @media only screen and (min-width: 769px) {
-            //height: 3000px;
-            //max-height: 1000px;
-        }
     }
 
     .subheader-logo {
@@ -43,12 +37,6 @@
         display: block;
         color: white;
         margin: 0 auto;
-        //left: 50%;
-        //mix-blend-mode: exclusion;
-        //position: absolute;
-        //top: 50%;
-        //transform: translate(-50%, -50%);
-        //width: fit-content;
         padding: 5em 1em 0;
         z-index: 4;
 
@@ -59,9 +47,13 @@
             margin-bottom: .3em;
         }
 
-        @media only screen and (min-width: 769px) {
+        @media only screen and (min-width: $break-tablet) {
+            padding: 6em 3em 0;
+            width: 100%;
+        }
+
+        @media only screen and (min-width: $break-desk) {
             padding: 6em 0 0;
-            //margin-left: 5em;
             max-width: $max-width;
             width: 70vw;
 
@@ -80,13 +72,7 @@
 
     .reel-container {
         display: block;
-        //min-height: 720px;
-        //left: 50%;
-        //padding-top: 4em;
         position: relative;
-        //top: 50%;
-        //transform: translate(-50%,-50%);
-        //width: calc(100vw - 2em);
         z-index: 0;
 
         img, video {
@@ -140,9 +126,9 @@
             }
         }
 
-        @media only screen and (min-width: 769px) {
-            //margin: -300px auto 10em 10vw;
-            width: 70vw;
+        @media only screen and (min-width: $break-tablet) {
+            margin-left: 3em;
+            width: 80vw;
 
             p {
                 font-size: 3em;
@@ -153,6 +139,11 @@
                     opacity: .5;
                 }
             }
+        }
+
+        @media only screen and (min-width: $break-desk) {
+            margin: 0 auto;
+            width: 70vw;
         }
     }
 

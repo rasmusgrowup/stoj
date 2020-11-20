@@ -12,6 +12,9 @@ $stoj-yellow: #FAD353;
 $family-sans-serif: "MADE", sans-serif;
 $eb: "EB Garamond", serif;
 $almost-black: #090A0D;
+$break-desk: 1025px;
+$break-tablet: 768px;
+$break-mobile: 414px;
 
 @import "../node_modules/bulma/bulma";
 
