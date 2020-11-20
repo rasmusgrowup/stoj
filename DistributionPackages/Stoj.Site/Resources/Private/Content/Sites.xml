@@ -21,6 +21,156 @@
       <lastModificationDateTime __type="object" __classname="DateTime">2018-06-26T23:20:17+02:00</lastModificationDateTime>
       <properties/>
      </variant>
+     <node identifier="f14a38f9-059e-4112-8ca4-516fce0ef9e0" nodeName="node-3up4121dt2ibl">
+      <variant sortingIndex="200" workspace="live" nodeType="Stoj.Site:Sections.Section" version="2" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>da</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2020-11-19T10:41:24+01:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2020-11-19T10:42:01+01:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2020-11-19T10:42:01+01:00</lastPublicationDateTime>
+       <properties/>
+      </variant>
+      <node identifier="2dbe3390-145f-472f-b5e4-6c9a5f237f56" nodeName="node-6rn9a1jq7v6hr">
+       <variant sortingIndex="650" workspace="live" nodeType="Stoj.Site:Templates.TemplateThree" version="7" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>da</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2020-11-20T14:05:17+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2020-11-20T14:09:18+01:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2020-11-20T14:09:18+01:00</lastPublicationDateTime>
+        <properties>
+         <link __type="string">#</link>
+         <text __type="string">&lt;p&gt;Uanset om vi skal skyde store reklamekampagner, eller lave mindre produktioner, udvikler vi altid en unik billedstil til jeres projekt.&lt;/p&gt;</text>
+         <image __type="object" __identifier="3e62c251-501d-4c44-8690-5d6598526eb1" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;3e62c251-501d-4c44-8690-5d6598526eb1&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;oles chokolade_julekatalog_beska\u030aret_A3_27.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;4cc0f1a165c05682a145557a2ddecd4e9cb38521&quot;,&quot;hash&quot;:&quot;4cc0f1a165c05682a145557a2ddecd4e9cb38521&quot;,&quot;__identity&quot;:&quot;81116708-7506-431a-aa2e-491aa81a4c26&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image>
+         <label __type="string">&lt;p&gt;Læs vores case om Løgismose&lt;/p&gt;</label>
+         <title __type="string">03 - Løgismose</title>
+        </properties>
+       </variant>
+      </node>
+      <node identifier="0d675718-b79d-493b-8362-6be3ff943ace" nodeName="node-73xh1malj9wiu">
+       <variant sortingIndex="450" workspace="live" nodeType="Stoj.Site:Templates.TemplateOne" version="10" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>da</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2020-11-19T15:00:33+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2020-11-19T16:03:11+01:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2020-11-19T16:03:11+01:00</lastPublicationDateTime>
+        <properties>
+         <link __type="string">#</link>
+         <text __type="string">&lt;p&gt;Uanset om vi skal skyde store reklamekampagner, eller lave mindre produktioner, udvikler vi altid en unik billedstil til jeres projekt.&lt;/p&gt;</text>
+         <image __type="object" __identifier="91ccf058-cc61-4e88-9143-602a484a6f4a" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;91ccf058-cc61-4e88-9143-602a484a6f4a&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;Sk\u00e6rmbillede 2020-11-16 kl. 20.42.47.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;003ca433a2937be0ab0e43fab2572a6a6ad4d0bd&quot;,&quot;hash&quot;:&quot;003ca433a2937be0ab0e43fab2572a6a6ad4d0bd&quot;,&quot;__identity&quot;:&quot;3b59fcb8-ec47-4854-a376-29829ba4ca62&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image>
+         <label __type="string">&lt;p&gt;Se vores case om Tuborg Strandeng&lt;/p&gt;</label>
+         <title __type="string">01 - Tuborg Strandeng</title>
+         <image2 __type="object" __identifier="71111310-e68d-40df-abda-11dd01451b3b" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;71111310-e68d-40df-abda-11dd01451b3b&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;Sk\u00e6rmbillede 2020-11-16 kl. 20.42.56.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;4b10077d9db91857488a56488897acba85b45027&quot;,&quot;hash&quot;:&quot;4b10077d9db91857488a56488897acba85b45027&quot;,&quot;__identity&quot;:&quot;9d94298b-120c-4a0f-9fb4-edea1377e229&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image2>
+        </properties>
+       </variant>
+      </node>
+      <node identifier="e9f1f74b-b4d5-4a22-9fb4-b01e97724823" nodeName="node-9nc4waxz7ynw0">
+       <variant sortingIndex="350" workspace="live" nodeType="Stoj.Site:Content.HeaderHeadline" version="4" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>da</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2020-11-19T10:56:42+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2020-11-19T10:56:52+01:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2020-11-19T10:56:52+01:00</lastPublicationDateTime>
+        <properties>
+         <title __type="string">Udvalgte projekter</title>
+        </properties>
+       </variant>
+      </node>
+      <node identifier="c3e5f726-b33f-4507-926d-a7638d85e3e9" nodeName="node-pb8qhew9jikiu">
+       <variant sortingIndex="550" workspace="live" nodeType="Stoj.Site:Templates.TemplateTwo" version="13" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>da</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2020-11-19T16:04:19+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2020-11-20T14:09:05+01:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2020-11-20T14:09:04+01:00</lastPublicationDateTime>
+        <properties>
+         <id __type="string">https://player.vimeo.com/video/481279725?background=1</id>
+         <link __type="string">#</link>
+         <text __type="string">&lt;p&gt;Uanset om vi skal skyde store reklamekampagner, eller lave mindre produktioner, udvikler vi altid en unik billedstil til jeres projekt.&lt;/p&gt;</text>
+         <label __type="string">&lt;p&gt;Se filmen om Lego Builders&lt;/p&gt;</label>
+         <title __type="string">02 - LEGO Builders</title>
+        </properties>
+       </variant>
+      </node>
+     </node>
+     <node identifier="c321dc86-1478-4762-aa10-a9c078b1e943" nodeName="node-a6j5de5rcfo2n">
+      <variant sortingIndex="100" workspace="live" nodeType="Stoj.Site:Content.Subheader" version="5" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>da</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2020-11-10T14:35:08+01:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2020-11-11T15:32:36+01:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2020-11-11T15:32:36+01:00</lastPublicationDateTime>
+       <properties>
+        <image __type="object" __identifier="300a0045-cf05-4711-b4c3-0f77715fce24" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;300a0045-cf05-4711-b4c3-0f77715fce24&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;\u00d8verste billede 1.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;4090490362fbd02c2278ff1553c90715a81efa3c&quot;,&quot;hash&quot;:&quot;4090490362fbd02c2278ff1553c90715a81efa3c&quot;,&quot;__identity&quot;:&quot;1d4d795c-945b-4610-877f-13023d1d2eb5&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image>
+        <imageSecond __type="object" __identifier="20f28a5e-15bb-49b7-80b2-e347ad56b17d" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;20f28a5e-15bb-49b7-80b2-e347ad56b17d&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;\u00d8verste billede 2.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;876dcc68b53179400108ded38ecadff766f24559&quot;,&quot;hash&quot;:&quot;876dcc68b53179400108ded38ecadff766f24559&quot;,&quot;__identity&quot;:&quot;6fe5637d-aa98-4772-a7ac-ab356d6b4e3d&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</imageSecond>
+       </properties>
+      </variant>
+     </node>
+    </node>
+    <node identifier="83d51e1b-1253-4922-8089-79afbbeb9120" nodeName="node-39zlksln35mcz">
+     <variant sortingIndex="550" workspace="live" nodeType="Stoj.Site:Document.Page" version="5" removed="" hidden="" hiddenInIndex="">
+      <dimensions>
+       <language>da</language>
+      </dimensions>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2020-11-10T15:04:28+01:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2020-11-12T13:24:01+01:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2020-11-12T13:24:00+01:00</lastPublicationDateTime>
+      <properties>
+       <title __type="string">Om Stöj</title>
+       <uriPathSegment __type="string">om-stoej</uriPathSegment>
+      </properties>
+     </variant>
+     <node identifier="ad1935dc-2e97-4944-3cd4-b30d404b7bc7" nodeName="main">
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>da</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2020-11-10T15:04:28+01:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2020-11-10T15:10:32+01:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2020-11-10T15:10:32+01:00</lastPublicationDateTime>
+       <properties/>
+      </variant>
+     </node>
+    </node>
+    <node identifier="dbc9f9bc-7414-45e5-a490-0b6d3af8f4f6" nodeName="node-qcxnkgva3j7rw">
+     <variant sortingIndex="350" workspace="live" nodeType="Stoj.Site:Document.Page" version="4" removed="" hidden="" hiddenInIndex="">
+      <dimensions>
+       <language>da</language>
+      </dimensions>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2020-11-10T15:05:22+01:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2020-11-10T15:10:32+01:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2020-11-10T15:10:32+01:00</lastPublicationDateTime>
+      <properties>
+       <title __type="string">Projekter</title>
+       <uriPathSegment __type="string">projekter</uriPathSegment>
+      </properties>
+     </variant>
+     <node identifier="5f20fc02-2007-b9e6-7f1e-abc50288f34a" nodeName="main">
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>da</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2020-11-10T15:05:22+01:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2020-11-10T15:10:32+01:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2020-11-10T15:10:32+01:00</lastPublicationDateTime>
+       <properties/>
+      </variant>
+     </node>
     </node>
     <node identifier="b90b9ac8-4919-41ce-8ac8-1f1bb0464c90" nodeName="node-st848k789igwk">
      <variant sortingIndex="200" workspace="live" nodeType="Stoj.Site:Document.Page" version="3" removed="" hidden="" hiddenInIndex="1">
@@ -30,10 +180,9 @@
       <lastModificationDateTime __type="object" __classname="DateTime">2018-06-26T23:23:05+02:00</lastModificationDateTime>
       <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-26T23:23:05+02:00</lastPublicationDateTime>
       <properties>
-       <uriPathSegment __type="string">notfound</uriPathSegment>
-       <canonicalLink __type="string"></canonicalLink>
        <title __type="string">Page not found</title>
        <_hiddenInIndex __type="boolean">1</_hiddenInIndex>
+       <uriPathSegment __type="string">notfound</uriPathSegment>
        <metaRobotsNoindex __type="boolean">1</metaRobotsNoindex>
       </properties>
      </variant>
@@ -44,6 +193,33 @@
        <creationDateTime __type="object" __classname="DateTime">2018-06-26T23:21:39+02:00</creationDateTime>
        <lastModificationDateTime __type="object" __classname="DateTime">2018-06-26T23:23:05+02:00</lastModificationDateTime>
        <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-26T23:23:05+02:00</lastPublicationDateTime>
+       <properties/>
+      </variant>
+     </node>
+    </node>
+    <node identifier="07673564-3c56-47cb-8860-cd37d9a54fb2" nodeName="node-yodyxiaj5ccc1">
+     <variant sortingIndex="400" workspace="live" nodeType="Stoj.Site:Document.Page" version="2" removed="" hidden="" hiddenInIndex="">
+      <dimensions>
+       <language>da</language>
+      </dimensions>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2020-11-10T15:05:07+01:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2020-11-10T15:05:12+01:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2020-11-10T15:05:12+01:00</lastPublicationDateTime>
+      <properties>
+       <title __type="string">Galleri</title>
+       <uriPathSegment __type="string">galleri</uriPathSegment>
+      </properties>
+     </variant>
+     <node identifier="7996c5db-b97a-e991-6e64-47109068e61e" nodeName="main">
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>da</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2020-11-10T15:05:07+01:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2020-11-10T15:05:12+01:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2020-11-10T15:05:12+01:00</lastPublicationDateTime>
        <properties/>
       </variant>
      </node>
