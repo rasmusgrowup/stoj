@@ -3,8 +3,12 @@ $almost-black: #090A0D;
 
 .main-footer {
     background-color: white;
-    padding: 2.5em 1em;
+    padding: 1em;
     text-align: center;
+
+    @media only screen and (min-width: $break-tablet) {
+        padding: 2.5em 1em;
+    }
 
     .bottom-bar {
         display: block;

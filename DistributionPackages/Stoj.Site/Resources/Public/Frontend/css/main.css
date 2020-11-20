@@ -7115,8 +7115,11 @@ label.panel-block {
 
 .main-footer {
   background-color: white;
-  padding: 2.5em 1em;
+  padding: 1em;
   text-align: center; }
+  @media only screen and (min-width: 768px) {
+    .main-footer {
+      padding: 2.5em 1em; } }
   .main-footer .bottom-bar {
     display: block;
     margin-bottom: 1em;
