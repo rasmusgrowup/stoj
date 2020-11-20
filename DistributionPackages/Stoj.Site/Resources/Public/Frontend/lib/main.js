@@ -126,7 +126,7 @@ gsap.to(".fadeOut", {
 				toggleActions: "play none play reverse",
 				scrub: true,
 				markers: true,
-				start: "-20% top",
+				start: "-25% top",
 				end: "bottom top"
 		},
 		opacity: 0,
