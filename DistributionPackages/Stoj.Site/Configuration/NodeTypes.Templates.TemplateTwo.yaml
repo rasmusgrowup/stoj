@@ -1,0 +1,35 @@
+'Stoj.Site:Templates.TemplateTwo':
+  superTypes:
+    'Neos.Neos:Content': true
+    'Stoj.Site:Content.Text': true
+    'Stoj.Site:Content.Headline': true
+  ui:
+    group: 'structure'
+    label: Template 2
+    icon: icon-pager
+    position: 310
+    inlineEditable: true
+    reloadIfChanged: true
+    inspector:
+      groups:
+        video:
+          label: 'Video indstillinger'
+          icon: video
+  properties:
+    id:
+      type: string
+      ui:
+        label: 'Indsæt Vimeo ID'
+        inspector:
+          group: video
+    label:
+      options:
+        silhouette: text.free
+    link:
+      type: string
+      reloadIfChanged: true
+      ui:
+        label: 'Link target'
+        inspector:
+          group: video
+          editor: Neos.Neos/Inspector/Editors/LinkEditor

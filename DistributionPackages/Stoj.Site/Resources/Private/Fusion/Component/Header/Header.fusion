@@ -42,12 +42,12 @@ prototype(Stoj.Site:Component.Header) < prototype(Neos.Fusion:Component) {
                 </div>
             </div>
             <div class="header-gradient"></div>
-            <div class="contact-btn">
-                <a href="mailto:halloj@hallojstoj.dk">
-                    <button type="button" name="button">Sig halløj</button>
-                </a>
-            </div>
         </header>
+        <div class="contact-btn">
+            <a href="mailto:halloj@hallojstoj.dk">
+                <button type="button" name="button">Sig halløj</button>
+            </a>
+        </div>
     `
 
 	@cache {

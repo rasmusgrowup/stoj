@@ -2,7 +2,7 @@ $deep-grey: #0F1419;
 $almost-black: #090A0D;
 
 .main-footer {
-    //background-color: $deep-grey;
+    background-color: white;
     padding: 2.5em 1em;
     text-align: center;
 
@@ -11,6 +11,8 @@ $almost-black: #090A0D;
         display: flex;
         justify-content: space-between;
         margin-bottom: 1em;
+        mix-blend-mode: exclusion;
+        width: 100%;
 
         .payoff {
             text-align: left;
@@ -24,7 +26,7 @@ $almost-black: #090A0D;
         span {
             color: white;
             display: block;
-            font-size: 1.5em;
+            font-size: 1em;
             font-weight: 500;
             line-height: 1.3;
             text-align: left;

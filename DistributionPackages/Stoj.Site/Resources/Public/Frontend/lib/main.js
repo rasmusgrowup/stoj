@@ -76,13 +76,47 @@ animateIn.forEach(function (elem) {
 						trigger: elem,
 						toggleActions: "play none play reverse",
 						//markers: true,
-						start: 'top bottom'
+						start: '-400 bottom'
 				},
-				y: 300,
+				y: 400,
 				scaleY: 1.5,
 				opacity: 0,
-				duration: 1.5,
-				ease: "power3.out"
+				duration: 1.25,
+				delay: .1,
+				ease: "power2.out"
+		});
+});
+
+var animateText = document.querySelectorAll('.aos-text');
+
+animateText.forEach(function (elem) {
+		gsap.from(elem, {
+				scrollTrigger: {
+						trigger: elem,
+						toggleActions: "play none play reverse",
+						//markers: true,
+						start: '-300 bottom'
+				},
+				y: 300,
+				scaleY: 2,
+				opacity: 0,
+				duration: 1.25,
+				delay: .1,
+				ease: "power2.out"
+		});
+});
+
+var animateLine = document.querySelectorAll('.animate-line');
+
+animateLine.forEach(function (elem) {
+		gsap.from(elem, {
+				scrollTrigger: {
+						trigger: elem,
+						toggleActions: "play none reverse reset",
+						toggleClass: "magic-line",
+						//markers: true,
+						start: 'top bottom'
+				}
 		});
 });
 
@@ -90,28 +124,15 @@ gsap.to(".fadeOut", {
 		scrollTrigger: {
 				trigger: ".fadeOut",
 				toggleActions: "play none play reverse",
-				scrub: true,
+				scrub: .5,
 				//markers: true,
-				start: "-400px top",
-				end: "bottom top"
+				start: "-300 top",
+				end: "120% top"
 		},
 		opacity: 0,
-		duration: 1.5
-		//ease: "power3.in"
-});
-
-gsap.from(".reel-text", {
-		scrollTrigger: {
-				trigger: ".reel-container",
-				start: "top 20%",
-				end: "bottom 20%",
-				toggleActions: "play none play reverse",
-				//markers: true,
-				scrub: true
-		},
 		y: 300,
 		duration: 1.5
-		//ease: "power1.in"
+		//ease: "power3.in"
 });
 
 gsap.to(".contact-btn", {
@@ -140,8 +161,17 @@ gsap.to(".header-gradient", {
 gsap.from(".reel-text", {
 		opacity: 0,
 		duration: 1.5,
-		delay: 1.5,
+		delay: 1,
 		ease: "power3.in"
+});
+
+gsap.from(".reel-overlay", {
+		y: 300,
+		scaleY: 1.5,
+		opacity: 0,
+		duration: 1.5,
+		delay: .5,
+		ease: "power3.out"
 });
 
 gsap.from(".reel-container", {

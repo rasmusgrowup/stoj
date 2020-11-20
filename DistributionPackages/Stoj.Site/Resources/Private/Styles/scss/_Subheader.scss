@@ -1,6 +1,7 @@
 .subheader-body {
-    min-height: 100vh;
-    padding-bottom: 15em;
+    background-color: $deep-grey;
+    //min-height: 100vh;
+    padding-bottom: 12em;
 }
 
 .frontpage {
@@ -39,19 +40,41 @@
     }
 
     .reel-overlay {
-        display: none;
+        display: block;
         color: white;
-        left: 50%;
-        mix-blend-mode: exclusion;
-        position: absolute;
-        top: 50%;
-        transform: translate(-50%, -50%);
-        width: fit-content;
+        margin: 0 auto;
+        //left: 50%;
+        //mix-blend-mode: exclusion;
+        //position: absolute;
+        //top: 50%;
+        //transform: translate(-50%, -50%);
+        //width: fit-content;
+        padding: 5em 1em 0;
         z-index: 4;
 
         h1 {
-            font-size: 6em;
+            color: white;
+            font-size: 10vw;
             font-weight: 700;
+            margin-bottom: .3em;
+        }
+
+        @media only screen and (min-width: 769px) {
+            padding: 6em 0 0;
+            //margin-left: 5em;
+            max-width: $max-width;
+            width: 70vw;
+
+            h1 {
+                font-size: 7.8vw;
+                margin-bottom: 0;
+            }
+        }
+
+        @media only screen and (min-width: 1600px) {
+            h1 {
+                font-size: 7em;
+            }
         }
     }
 
@@ -59,7 +82,7 @@
         display: block;
         //min-height: 720px;
         //left: 50%;
-        padding-top: 4em;
+        //padding-top: 4em;
         position: relative;
         //top: 50%;
         //transform: translate(-50%,-50%);
@@ -68,6 +91,7 @@
 
         img, video {
             width: 100%;
+            z-index: 0;
         }
 
         #mobile-video {
@@ -88,7 +112,8 @@
 
         @media only screen and (min-width: 769px) {
             margin: 0 auto;
-            padding-top: 8em;
+            //padding-top: 8em;
+            max-width: 1600px;
             width: 100vw;
         }
     }
@@ -96,13 +121,15 @@
     .reel-text {
         display: block;
         margin: 0 auto;
-        padding-top: 2em;
+        max-width: $max-width;
+        padding-top: 0;
+        position: relative;
         width: calc(100vw - 2em);
         z-index: 5;
 
         p {
             color: white;
-            font-size: 1.6em;
+            font-size: 1.8em;
             font-weight: 600;
             line-height: 1.25;
             margin-top: 1em;
@@ -114,7 +141,7 @@
         }
 
         @media only screen and (min-width: 769px) {
-            margin: -300px auto 10em 10vw;
+            //margin: -300px auto 10em 10vw;
             width: 70vw;
 
             p {

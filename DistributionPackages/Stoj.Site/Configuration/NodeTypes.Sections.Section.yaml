@@ -1,0 +1,19 @@
+'Stoj.Site:Sections.Section':
+  superTypes:
+    'Neos.Neos:ContentCollection': true
+  ui:
+    group: 'structure'
+    label: Recent Projects Section
+    icon: 'square'
+    inspector:
+      groups:
+        wrapper:
+          label: 'Section settings'
+          icon: square
+  properties:
+    id:
+      type: string
+      ui:
+        label: 'Section id'
+        inspector:
+          group: 'wrapper'

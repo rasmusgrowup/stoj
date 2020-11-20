@@ -1,0 +1,55 @@
+prototype(Stoj.Site:Templates.TemplateTwo) < prototype(Neos.Neos:ContentComponent) {
+
+    vimeoID = Neos.Neos:Editable {
+        property = 'id'
+    }
+
+    renderAsVideo = ${site.context.inBackend ? false : true}
+
+    title = Neos.Neos:Editable {
+        property = 'title'
+    }
+
+    text = Neos.Neos:Editable {
+        property = 'text'
+    }
+
+    label = Neos.Neos:Editable {
+        property = 'label'
+    }
+
+    dummyImage = Neos.Fusion:ResourceUri {
+    path = 'resource://Stoj.Site/Public/Frontend/assets/VideoDummy.jpg'
+    }
+
+
+    link = ${q(node).property('link')}
+    linkTarget = ${q(node).property('linkTarget') ? '_blank' : '_self'}
+    renderAsLink = ${site.context.inBackend ? false : true}
+
+renderer = afx`
+        <section class="project-two">
+            <div class="project-two-video aos">
+                <iframe
+                    src={props.vimeoID}
+                    frameborder="0"
+                    allow="autoplay; fullscreen"
+                    allowfullscreen
+                    @if.render={props.renderAsVideo}
+                    >
+                </iframe>
+                <img
+                    @if.render={!props.renderAsVideo}
+                    src={props.dummyImage} alt=""
+                />
+            </div>
+            <div class="project-two-description aos-text">
+                <div class="">
+                    <h3>{props.title}</h3>
+                    {props.text}
+                    <Carbon.Link:Link link={props.link} additionalClass="reg-button">{props.label}</Carbon.Link:Link>
+                </div>
+            </div>
+        </section>
+    `
+}

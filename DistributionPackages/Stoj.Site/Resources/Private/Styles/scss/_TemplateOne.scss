@@ -1,0 +1,96 @@
+.project-one {
+    margin: 8em auto 4em;
+    max-width: $max-width;
+    padding: 0;
+    width: 100%;
+
+    @media only screen and (min-width: 768px) {
+        padding: 0;
+    }
+
+    .project-one-image {
+        display: block;
+        margin-bottom: 1em;
+        position: relative;
+        width: 100%;
+
+        img {
+            display: block;
+            height: auto;
+            object-fit: cover;
+            width: 100%;
+        }
+
+        @media only screen and (min-width: 768px) {
+            display: inline-block;
+            padding-top: 70%;
+            position: relative;
+            width: calc(50% - 1em);
+
+            &:first-child {
+                margin-right: 1em;
+            }
+
+            &:last-child {
+                margin-left: 1em;
+            }
+
+            img {
+                bottom: 0;
+                display: block;
+                height: 100%;
+                left: 0;
+                object-fit: cover;
+                position: absolute;
+                right: 0;
+                top: 0;
+                width: 100%;
+            }
+        }
+    }
+
+    .project-one-description {
+        margin-top: 1em;
+        max-width: 380px;
+
+        h3 {
+            //color: white;
+            font-weight: 500;
+            font-size: 1.2em;
+            margin-bottom: .25em;
+        }
+
+        p {
+            //color: white;
+            opacity: .8;
+        }
+
+        a {
+            display: table;
+            font-weight: 500;
+            font-size: .9em;
+            margin-top: 1em;
+
+            &:after {
+                animation-timing-function: ease-out;
+                background-color: $deep-grey;
+                content: '';
+                display: block;
+                height: .1em;
+                transition: .3s;
+                transition-delay: .1s;
+                width: 0;
+            }
+
+            &:hover p {
+                //color: $stoj-yellow;
+            }
+        }
+
+        a:hover {
+            &:after {
+                width: 100%;
+            }
+        }
+    }
+}

@@ -55,7 +55,7 @@ prototype(Stoj.Site:Content.Subheader) < prototype(Neos.Neos:ContentComponent) {
                     <img src={props.logo} alt=""/>
                 </div>
                 <div class="reel-overlay">
-                    <h1>Foto, Film & Halløj</h1>
+                    <h1>Foto, film & halløj</h1>
                 </div>
                 <div class="reel-container">
                     <video preload="metadata" class="fadeOut" id="desktop-video" muted autoplay loop src={props.video}>

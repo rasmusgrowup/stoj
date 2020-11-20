@@ -23,14 +23,7 @@
           icon: 'icon-image'
   properties:
     image:
+      type: Neos\Media\Domain\Model\ImageInterface
       ui:
         inspector:
           group: 'image'
-      options:
-        silhouette: codeq.image.asset
-    alternativeText:
-      ui:
-        inspector:
-          group: 'image'
-      options:
-        silhouette: codeq.image.alternativeText

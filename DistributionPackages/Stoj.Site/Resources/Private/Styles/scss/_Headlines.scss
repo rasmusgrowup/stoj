@@ -1,0 +1,36 @@
+h1, h2, h3, h4, h5, h6 {
+    color: $deep-grey;
+    font-family: $family-sans-serif;
+}
+
+.section-headline {
+    //color: white;
+
+    h2 {
+        display: table;
+        font-size: 1.25em;
+        font-weight: 600;
+
+        &:after {
+            animation-timing-function: ease-out;
+            background-color: $deep-grey;
+            content: '';
+            display: block;
+            height: .1em;
+            transition: .5s;
+            transition-delay: .25s;
+            width: 0;
+        }
+    }
+}
+
+.magic-line {
+    h2 {
+        &:after {
+            animation-timing-function: ease-out;
+            transition: .5s;
+            transition-delay: .25s;
+            width: 100%;
+        }
+    }
+}

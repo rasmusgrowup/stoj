@@ -36,10 +36,8 @@
     src: url('../fonts/MADE-Black.otf') format("opentype");
 }
 
-@import "../../../Private/Styles/scss/Header";
-@import "../../../Private/Styles/scss/Subheader";
-@import "../node_modules/bulma/bulma";
-
+$max-width: 1080px;
+$stoj-pink: #FA5393;
 $deep-blue: #0F1419;
 $deep-grey: #101219;
 $almost-black: #090A0D;
@@ -58,11 +56,15 @@ $eb: "EB Garamond", serif;
 }
 
 html {
-    background-color: $almost-black !important;
+    background-color: white !important;
 }
 
 body {
     font-family: "MADE" !important;
+
+    p {
+        color: $deep-grey;
+    }
 }
 
 .custom-cursor {
@@ -75,9 +77,13 @@ body {
     border-radius: 50%;
     background-color: white;
     transition: transform 350ms ease;
-    transform: translate(-50%, -50%) scale(.4);
+    transform: translate(-50%, -50%) scale(.25);
     z-index: 1000;
 }
 .custom-cursor--link {
-    transform: translate(-50%, -50%) scale(1.6);
+    transform: translate(-50%, -50%) scale(2);
 }
+
+@import "../../../Private/Styles/scss/Header";
+@import "../../../Private/Styles/scss/Subheader";
+@import "../node_modules/bulma/bulma";

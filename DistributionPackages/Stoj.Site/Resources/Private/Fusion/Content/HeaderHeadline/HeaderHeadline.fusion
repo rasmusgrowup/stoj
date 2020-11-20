@@ -1,0 +1,11 @@
+prototype(Stoj.Site:Content.HeaderHeadline) < prototype(Neos.Neos:ContentComponent) {
+    title = Neos.Neos:Editable {
+        property = 'title'
+    }
+
+    renderer = afx`
+    <header class="section-headline animate-line">
+        <h2>{props.title}</h2>
+    </header>
+    `
+}

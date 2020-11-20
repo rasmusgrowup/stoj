@@ -6,7 +6,7 @@ $eb: "EB Garamond", serif;
     display: flex;
     justify-content: space-between;
     left: 0;
-    //mix-blend-mode: exclusion;
+    mix-blend-mode: exclusion;
     position: fixed;
     padding: 1em;
     top: 0;
@@ -14,13 +14,24 @@ $eb: "EB Garamond", serif;
     z-index: 99;
 
     @media only screen and (min-width: 768px) {
-        padding: 2.5em 5em;
+        margin: 0 auto;
+        //max-width: 1600px;
+        padding: 2em 3em;
+    }
+
+    @media only screen and (min-width: 1600px) {
+        //left: 50%;
+        //transform: translateX(-50%);
     }
 
     .logo {
         display: block;
         overflow: hidden;
-        width: 8em;
+        width: 6em;
+
+        @media only screen and (min-width: 768px) {
+            width: 6em;
+        }
 
         img {
             width: 100%;
@@ -38,9 +49,27 @@ $eb: "EB Garamond", serif;
             ul {
                 li {
                     a {
-                        font-weight: 600;
-                        font-size: 1.2em;
                         color: white;
+                        font-weight: 500;
+                        font-size: 1em;
+                        text-transform: uppercase;
+
+                        &:after {
+                            animation-timing-function: ease-out;
+                            background-color: white;
+                            content: '';
+                            display: block;
+                            height: .1em;
+                            transition: .3s;
+                            transition-delay: .1s;
+                            width: 0;
+                        }
+                    }
+
+                    a:hover {
+                        &:after {
+                            width: 100%;
+                        }
                     }
                 }
             }
@@ -81,6 +110,10 @@ $eb: "EB Garamond", serif;
                 margin: .35em 0 0 auto;
                 width: 2.75em;
 
+                &:first-child {
+                    margin-top: 0;
+                }
+
                 &:hover {
                     //background-color: $stoj-yellow;
                 }
@@ -95,40 +128,9 @@ $eb: "EB Garamond", serif;
         }
     }
 
-    .contact-btn {
-        bottom: 1em;
-        display: block;
-        mix-blend-mode: exclusion;
-        position: fixed;
-        right: 1em;
-
-        @media only screen and (min-width: 768px) {
-            bottom: 3em;
-            right: 5em;
-        }
-
-        a {
-            button {
-                background-color: white;
-                border: none;
-                border-radius: 3px;
-                font-size: 1em;
-                font-weight: 700;
-                padding: .6em 2.4em;
-                text-transform: uppercase;
-                //color: white;
-
-                &:hover {
-                    //background-color: $stoj-yellow;
-                    //cursor: pointer;
-                }
-            }
-        }
-    }
-
     .header-gradient {
-        background: rgb(9,10,13);
-        background: linear-gradient(0deg, rgba(9,10,13,1) 0%, rgba(9,10,13,0) 90%);
+        //background: rgb(9,10,13);
+        //background: linear-gradient(0deg, rgba(9,10,13,1) 0%, rgba(9,10,13,0) 90%);
         bottom:0;
         display: block;
         height: 10em;
@@ -140,9 +142,41 @@ $eb: "EB Garamond", serif;
     }
 }
 
+.contact-btn {
+    bottom: 1em;
+    display: block;
+    mix-blend-mode: exclusion;
+    position: fixed;
+    right: 1em;
+    z-index: 99999;
+
+    @media only screen and (min-width: 768px) {
+        bottom: 3em;
+        right: 3em;
+    }
+
+    a {
+        button {
+            background-color: white;
+            border: none;
+            border-radius: 3px;
+            font-size: 1em;
+            font-weight: 700;
+            padding: .6em 2.4em;
+            text-transform: uppercase;
+            //color: white;
+
+            &:hover {
+                //background-color: $stoj-yellow;
+                //cursor: pointer;
+            }
+        }
+    }
+}
+
 .hide {
     .menu-items, .menu-btn, .logo-svg {
-        transform: translateY(125%);
+        transform: translateY(40px);
         transition: 1s;
         opacity: .25;
     }

@@ -6,6 +6,9 @@
 // Just uncomment the following block to see the result.
 
 // Update the sans-serif font family
+$max-width: 1080px;
+$stoj-pink: #FA5393;
+$stoj-yellow: #FAD353;
 $family-sans-serif: "MADE", sans-serif;
 $eb: "EB Garamond", serif;
 $almost-black: #090A0D;
@@ -13,3 +16,8 @@ $almost-black: #090A0D;
 @import "../node_modules/bulma/bulma";
 
 @import "../../../Private/Styles/scss/Footer";
+@import "../../../Private/Styles/scss/Headlines";
+@import "../../../Private/Styles/scss/Sections";
+@import "../../../Private/Styles/scss/TemplateOne";
+@import "../../../Private/Styles/scss/TemplateTwo";
+@import "../../../Private/Styles/scss/TemplateThree";

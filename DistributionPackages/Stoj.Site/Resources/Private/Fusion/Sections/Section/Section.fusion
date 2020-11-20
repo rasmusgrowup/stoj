@@ -1,0 +1,17 @@
+prototype(Stoj.Site:Sections.Section) < prototype(Neos.Neos:ContentCollection) {
+    content = Neos.Neos:ContentCollection
+    @process.contentElementWrapping >
+
+    attributes = Neos.Fusion:DataStructure {
+        class = 'recent-projects'
+        id = Neos.Neos:Editable {
+            property = 'id'
+        }
+    }
+
+    renderer = afx`
+    <div>
+        <ts:render path="content" />
+    </div>
+    `
+}

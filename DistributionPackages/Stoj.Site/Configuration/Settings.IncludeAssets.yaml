@@ -21,6 +21,7 @@ Carbon:
           Body:
             - main.js
             - lazysizes.min.js
+            - https://player.vimeo.com/api/player.js
 
       ##
       # Sitegeist.Lazybones required lazysizes, we recommend to include lazysizes javascript
