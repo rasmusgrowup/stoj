@@ -21,11 +21,11 @@
             width: 100%;
         }
 
-        @media only screen and (min-width: 768px) {
+        @media only screen and (min-width: $break-tablet) {
             display: inline-block;
-            padding-top: 90%;
+            padding-top: 80%;
             position: relative;
-            width: calc(100% - 1em - 380px);
+            width: calc(100% - 3em - 300px);
 
             &:first-child {
                 margin-right: 1em;
@@ -46,6 +46,12 @@
                 top: 0;
                 width: 100%;
             }
+        }
+
+        @media only screen and (min-width: $break-desk) {
+            padding-top: 90%;
+            position: relative;
+            width: calc(100% - 3em - 380px);
         }
     }
 

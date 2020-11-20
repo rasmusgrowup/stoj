@@ -7343,9 +7343,9 @@ h6 {
     @media only screen and (min-width: 768px) {
       .project-three .project-three-image {
         display: inline-block;
-        padding-top: 90%;
+        padding-top: 80%;
         position: relative;
-        width: calc(100% - 1em - 380px); }
+        width: calc(100% - 3em - 300px); }
         .project-three .project-three-image:first-child {
           margin-right: 1em; }
         .project-three .project-three-image:last-child {
@@ -7360,6 +7360,11 @@ h6 {
           right: 0;
           top: 0;
           width: 100%; } }
+    @media only screen and (min-width: 1025px) {
+      .project-three .project-three-image {
+        padding-top: 90%;
+        position: relative;
+        width: calc(100% - 3em - 380px); } }
   .project-three .project-three-description {
     display: inline-block;
     margin-top: 1em;
