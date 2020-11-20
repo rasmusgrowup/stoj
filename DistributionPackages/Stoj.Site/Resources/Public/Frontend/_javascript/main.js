@@ -125,8 +125,8 @@ window.addEventListener('scroll', function(e) {
 			trigger: ".reel-container",
 			toggleActions: "play none play reverse",
 			scrub: true,
-			//markers: true,
-			start: "-10% top",
+			markers: true,
+			start: "-20% top",
 			end: "bottom top"
 		},
 		opacity: 0,
