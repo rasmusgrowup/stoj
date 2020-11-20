@@ -7118,14 +7118,21 @@ label.panel-block {
   padding: 2.5em 1em;
   text-align: center; }
   .main-footer .bottom-bar {
-    align-items: flex-end;
-    display: flex;
-    justify-content: space-between;
+    display: block;
     margin-bottom: 1em;
     mix-blend-mode: exclusion;
     width: 100%; }
+    @media only screen and (min-width: 768px) {
+      .main-footer .bottom-bar {
+        align-items: flex-end;
+        display: flex;
+        justify-content: space-between; }
+        .main-footer .bottom-bar .payoff {
+          text-align: left;
+          margin-bottom: 0; } }
     .main-footer .bottom-bar .payoff {
-      text-align: left; }
+      margin-bottom: 3em;
+      text-align: center; }
       .main-footer .bottom-bar .payoff img {
         margin-bottom: .5em;
         width: 8em; }
@@ -7134,8 +7141,7 @@ label.panel-block {
       display: block;
       font-size: 1em;
       font-weight: 500;
-      line-height: 1.3;
-      text-align: left; }
+      line-height: 1.3; }
       .main-footer .bottom-bar span:first-child {
         font-size: 3em;
         font-weight: 700; }
@@ -7143,6 +7149,8 @@ label.panel-block {
       height: 1.4em;
       margin-right: 1.5em;
       width: auto; }
+    .main-footer .bottom-bar .some-icons a:last-child img {
+      margin-right: 0; }
   @media only screen and (min-width: 768px) {
     .main-footer {
       padding: 5em; } }
