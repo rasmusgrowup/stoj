@@ -122,12 +122,12 @@ animateLine.forEach(function (elem) {
 
 gsap.to(".fadeOut", {
 		scrollTrigger: {
-				trigger: ".fadeOut",
+				trigger: ".reel-container",
 				toggleActions: "play none play reverse",
-				scrub: .5,
-				//markers: true,
-				start: "-300 top",
-				end: "120% top"
+				scrub: true,
+				markers: true,
+				start: "-10% top",
+				end: "bottom top"
 		},
 		opacity: 0,
 		y: 300,
