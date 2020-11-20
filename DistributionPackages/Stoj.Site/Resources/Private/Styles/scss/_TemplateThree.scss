@@ -54,6 +54,14 @@
         margin-top: 1em;
         max-width: 380px;
 
+        @media only screen and (min-width: $break-tablet) {
+            max-width: 300px;
+        }
+
+        @media only screen and (min-width: $break-desk) {
+            max-width: 380px;
+        }
+
         @media only screen and (min-width: 768px) {
             float: right;
         }
