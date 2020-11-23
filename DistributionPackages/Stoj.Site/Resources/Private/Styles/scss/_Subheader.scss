@@ -75,6 +75,25 @@
         position: relative;
         z-index: 0;
 
+        .video-container {
+            padding-top: 125%;
+            width: 100%;
+            z-index: 0;
+
+            iframe {
+                bottom: 0;
+                display: block;
+                left: 0;
+                position: absolute;
+                right: 0;
+                top: 0;
+            }
+
+            @media only screen and (min-width: 450px) {
+                padding-top: 42.61%;
+            }
+        }
+
         img, video {
             width: 100%;
             z-index: 0;

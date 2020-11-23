@@ -25,14 +25,10 @@
             display: inline-block;
             padding-top: 70%;
             position: relative;
-            width: calc(50% - 1em);
+            width: calc(50% - .5em);
 
             &:first-child {
                 margin-right: 1em;
-            }
-
-            &:last-child {
-                margin-left: 1em;
             }
 
             img {

@@ -58,7 +58,13 @@ prototype(Stoj.Site:Content.Subheader) < prototype(Neos.Neos:ContentComponent) {
                     <h1>Foto, film & halløj</h1>
                 </div>
                 <div class="reel-container">
-                    <video preload="metadata" class="fadeOut" id="desktop-video" muted autoplay loop playsinline src={props.video}>
+                    <div class="video-container fadeOut" id="desktop-video">
+                        <iframe src="https://player.vimeo.com/video/482513449?background=1" width="100%" height="100%"></iframe>
+                    </div>
+                    <div class="video-container fadeOut" id="mobile-video">
+                        <iframe src="https://player.vimeo.com/video/482516551?background=1" width="100%" height="100%"></iframe>
+                    </div>
+<!--                    <video preload="metadata" class="fadeOut" id="desktop-video" muted autoplay loop playsinline src={props.video}>
                         Sorry, your browser doesn't support embedded videos.
                     </video>
                     <video preload="metadata" class="fadeOut" id="mobile-video" muted autoplay loop playsinline src={props.videoMobile}>
