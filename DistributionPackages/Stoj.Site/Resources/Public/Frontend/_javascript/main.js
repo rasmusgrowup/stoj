@@ -1,46 +1,3 @@
-// Custom curser
-  var cursor = document.querySelector(".custom-cursor");
-  var links = document.querySelectorAll("a");
-  var initCursor = false;
-
-  for (var i = 0; i < links.length; i++) {
-    var selfLink = links[i];
-
-    selfLink.addEventListener("mouseover", function() {
-      cursor.classList.add("custom-cursor--link");
-    });
-    selfLink.addEventListener("mouseout", function() {
-      cursor.classList.remove("custom-cursor--link");
-    });
-  }
-
-  window.onmousemove = function(e) {
-    var mouseX = e.clientX;
-    var mouseY = e.clientY;
-
-    if (!initCursor) {
-      // cursor.style.opacity = 1;
-      gsap.to(cursor, 0.3, {
-        opacity: 1
-      });
-      initCursor = true;
-    }
-
-    gsap.to(cursor, 0, {
-      top: mouseY + "px",
-      left: mouseX + "px"
-    });
-  };
-
-  window.onmouseout = function(e) {
-    gsap.to(cursor, 0.3, {
-      opacity: 0
-    });
-    initCursor = false;
-  };
-
-//Custom cursor end
-
 // Show & Hide menu on scroll down / up
 var new_scroll_position = 0;
 var last_scroll_position;
@@ -65,7 +22,6 @@ window.addEventListener('scroll', function(e) {
   new_scroll_position = last_scroll_position;
 });
 
-
 // Animate on scroll
 	let animateIn = document.querySelectorAll('.aos');
 
@@ -75,7 +31,7 @@ window.addEventListener('scroll', function(e) {
                 trigger: elem,
                 toggleActions: "play none play reverse",
 				//markers: true,
-				start: '-400 bottom'
+				start: '-340 bottom'
             },
 			y: 400,
 			scaleY: 1.5,
@@ -119,6 +75,34 @@ window.addEventListener('scroll', function(e) {
         })
     });
 
+	gsap.from(".payoff", {
+		scrollTrigger: {
+			trigger: ".payoff",
+			toggleActions: "play none play reverse",
+			scrub: 2,
+			//markers: true,
+			start: "-150px bottom",
+			end: "top bottom"
+		},
+		y: 100,
+		duration: 1.5,
+		//ease: "power3.in"
+	})
+
+	gsap.from(".some-icons", {
+		scrollTrigger: {
+			trigger: ".some-icons",
+			toggleActions: "play none play reverse",
+			scrub: 2,
+			//markers: true,
+			start: "-110px bottom",
+			end: "top bottom"
+		},
+		y: 100,
+		duration: 1.5,
+		delay: 1,
+		//ease: "power3.in"
+	})
 
 	gsap.to(".fadeOut", {
 		scrollTrigger: {
@@ -183,10 +167,3 @@ window.addEventListener('scroll', function(e) {
 				delay: 1,
 				ease: "power3.out"
 			});
-
-		gsap.from(".scroll-videre", {
-				opacity: 0,
-				delay: 2,
-				duration: 1,
-			}
-		);

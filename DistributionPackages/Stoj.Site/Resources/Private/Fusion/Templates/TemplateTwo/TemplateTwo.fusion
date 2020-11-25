@@ -38,6 +38,7 @@ renderer = afx`
                     @if.render={props.renderAsVideo}
                     >
                 </iframe>
+                <div class="cursor-div"></div>
                 <img
                     @if.render={!props.renderAsVideo}
                     src={props.dummyImage} alt=""

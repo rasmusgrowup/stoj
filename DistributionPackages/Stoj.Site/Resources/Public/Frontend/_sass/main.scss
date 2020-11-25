@@ -6,9 +6,12 @@
 // Just uncomment the following block to see the result.
 
 // Update the sans-serif font family
-$max-width: 1080px;
-$stoj-pink: #FA5393;
-$stoj-yellow: #FAD353;
+$max-width: 980px;
+$stoj-pink: #FBD7E1;
+$stoj-blue: #2E3EFF;
+$stoj-red: #ff5151;
+$stoj-green: #32D5AF;
+$stoj-yellow: #ffe300;
 $family-sans-serif: "MADE", sans-serif;
 $eb: "EB Garamond", serif;
 $almost-black: #090A0D;
@@ -24,3 +27,5 @@ $break-mobile: 414px;
 @import "../../../Private/Styles/scss/TemplateOne";
 @import "../../../Private/Styles/scss/TemplateTwo";
 @import "../../../Private/Styles/scss/TemplateThree";
+@import "../../../Private/Styles/scss/TemplateFour";
+@import "../../../Private/Styles/scss/Carousel";

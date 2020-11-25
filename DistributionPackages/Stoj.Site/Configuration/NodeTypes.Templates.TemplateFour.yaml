@@ -1,4 +1,4 @@
-'Stoj.Site:Templates.TemplateThree':
+'Stoj.Site:Templates.TemplateFour':
   superTypes:
     'Neos.Neos:Content': true
     'Stoj.Site:Content.Text': true
@@ -6,9 +6,9 @@
     'Stoj.Site:Mixin.Image': true
   ui:
     group: 'structure'
-    label: Template 3
+    label: Template 4
     icon: icon-pager
-    position: 330
+    position: 340
     inlineEditable: true
     reloadIfChanged: true
   properties:

@@ -7207,7 +7207,7 @@ h6 {
 
 .project-one {
   margin: 8em auto 4em;
-  max-width: 1080px;
+  max-width: 980px;
   padding: 0;
   width: 100%; }
   @media only screen and (min-width: 768px) {
@@ -7269,7 +7269,7 @@ h6 {
 
 .project-two {
   margin: 8em auto 4em;
-  max-width: 1080px;
+  max-width: 980px;
   padding: 0;
   width: 100%; }
   .project-two .project-two-video {
@@ -7289,7 +7289,18 @@ h6 {
       position: absolute;
       right: 0;
       top: 0;
-      width: 100%; }
+      width: 100%;
+      z-index: 0; }
+    .project-two .project-two-video .cursor-div {
+      width: 100%;
+      height: 100%;
+      bottom: 0;
+      display: block;
+      left: 0;
+      position: absolute;
+      right: 0;
+      top: 0;
+      z-index: 1; }
   .project-two .project-two-description {
     margin: 0 auto;
     margin-top: 1em;
@@ -7322,7 +7333,7 @@ h6 {
 
 .project-three {
   margin: 8em auto 4em;
-  max-width: 1080px;
+  max-width: 980px;
   padding: 0;
   width: 100%; }
   @media only screen and (min-width: 768px) {
@@ -7360,7 +7371,7 @@ h6 {
           width: 100%; } }
     @media only screen and (min-width: 1025px) {
       .project-three .project-three-image {
-        padding-top: 90%;
+        padding-top: 80%;
         position: relative;
         width: calc(100% - 3em - 380px); } }
   .project-three .project-three-description {
@@ -7398,3 +7409,86 @@ h6 {
         width: 0; }
     .project-three .project-three-description a:hover:after {
       width: 100%; }
+
+.project-four {
+  margin: 8em auto 4em;
+  max-width: 980px;
+  padding: 0;
+  width: 100%; }
+  @media only screen and (min-width: 768px) {
+    .project-four {
+      padding: 0; } }
+  .project-four .project-four-image {
+    display: block;
+    margin-bottom: 1em;
+    position: relative;
+    width: 100%; }
+    .project-four .project-four-image img {
+      display: block;
+      height: auto;
+      object-fit: cover;
+      width: 100%; }
+    @media only screen and (min-width: 768px) {
+      .project-four .project-four-image {
+        margin: 0 auto 1em;
+        padding-top: 80%;
+        position: relative;
+        width: calc(100% - 3em - 300px); }
+        .project-four .project-four-image img {
+          bottom: 0;
+          display: block;
+          height: 100%;
+          left: 0;
+          object-fit: cover;
+          position: absolute;
+          right: 0;
+          top: 0;
+          width: 100%; } }
+    @media only screen and (min-width: 1025px) {
+      .project-four .project-four-image {
+        padding-top: 80%;
+        position: relative;
+        width: calc(100% - 3em - 380px); } }
+  .project-four .project-four-description {
+    margin: 0 auto 2em;
+    width: calc(100% - 3em - 380px); }
+    .project-four .project-four-description .description-wrapper {
+      max-width: 380px; }
+      @media only screen and (min-width: 768px) {
+        .project-four .project-four-description .description-wrapper {
+          max-width: 300px; } }
+      @media only screen and (min-width: 1025px) {
+        .project-four .project-four-description .description-wrapper {
+          max-width: 380px; } }
+    .project-four .project-four-description h3 {
+      font-weight: 500;
+      font-size: 1.2em;
+      margin-bottom: .25em; }
+    .project-four .project-four-description p {
+      opacity: .8; }
+    .project-four .project-four-description a {
+      display: table;
+      font-weight: 500;
+      font-size: .9em;
+      margin-top: 1em; }
+      .project-four .project-four-description a:after {
+        animation-timing-function: ease-out;
+        background-color: #0F1419;
+        content: '';
+        display: block;
+        height: .1em;
+        transition: .3s;
+        transition-delay: .1s;
+        width: 0; }
+    .project-four .project-four-description a:hover:after {
+      width: 100%; }
+
+.carousel-cell {
+  width: 100%;
+  /* full width */
+  height: 720px;
+  /* height of carousel */
+  overflow: hidden;
+  margin-right: 0; }
+  .carousel-cell img {
+    display: block; }

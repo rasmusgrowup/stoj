@@ -164,11 +164,21 @@ $eb: "EB Garamond", serif;
             font-weight: 700;
             padding: .6em 2.4em;
             text-transform: uppercase;
+            transform: scale(1);
+            transition: .1s;
+            transition-timing-function: ease-out;
+            transition-delay: .1s;
+            will-change: transform;
             //color: white;
 
             &:hover {
                 //background-color: $stoj-yellow;
-                //cursor: pointer;
+                cursor: pointer;
+                transform: scale(1.1);
+                transition: .1s;
+                transition-timing-function: ease-out;
+                transition-delay: .1s;
+                will-change: transform;
             }
         }
     }

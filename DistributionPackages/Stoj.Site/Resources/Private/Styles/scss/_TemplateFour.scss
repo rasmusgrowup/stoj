@@ -1,4 +1,4 @@
-.project-three {
+.project-four {
     margin: 8em auto 4em;
     max-width: $max-width;
     padding: 0;
@@ -8,7 +8,7 @@
         padding: 0;
     }
 
-    .project-three-image {
+    .project-four-image {
         display: block;
         margin-bottom: 1em;
         position: relative;
@@ -22,18 +22,11 @@
         }
 
         @media only screen and (min-width: $break-tablet) {
-            display: inline-block;
+            //display: inline-block;
+            margin: 0 auto 1em;
             padding-top: 80%;
             position: relative;
             width: calc(100% - 3em - 300px);
-
-            &:first-child {
-                margin-right: 1em;
-            }
-
-            &:last-child {
-                margin-left: 1em;
-            }
 
             img {
                 bottom: 0;
@@ -55,22 +48,23 @@
         }
     }
 
-    .project-three-description {
-        display: inline-block;
-        margin-top: 1em;
-        max-width: 380px;
+    .project-four-description {
+        //display: inline-block;
+        margin: 0 auto 2em;
+        width: calc(100% - 3em - 380px);
 
-        @media only screen and (min-width: $break-tablet) {
-            max-width: 300px;
-        }
-
-        @media only screen and (min-width: $break-desk) {
+        .description-wrapper {
             max-width: 380px;
+
+            @media only screen and (min-width: $break-tablet) {
+                max-width: 300px;
+            }
+
+            @media only screen and (min-width: $break-desk) {
+                max-width: 380px;
+            }
         }
 
-        @media only screen and (min-width: 768px) {
-            float: right;
-        }
 
         h3 {
             //color: white;

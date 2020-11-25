@@ -1,0 +1,14 @@
+.main-carousel {
+
+}
+
+.carousel-cell {
+  width: 100%; /* full width */
+  height: 720px; /* height of carousel */
+  overflow: hidden;
+  margin-right: 0;
+
+  img {
+      display: block;
+  }
+}

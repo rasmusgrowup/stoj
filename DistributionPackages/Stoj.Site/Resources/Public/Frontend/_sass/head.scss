@@ -36,8 +36,12 @@
     src: url('../fonts/MADE-Black.otf') format("opentype");
 }
 
-$max-width: 1080px;
-$stoj-pink: #FA5393;
+$max-width: 980px;
+$stoj-pink: #FBD7E1;
+$stoj-blue: #2E3EFF;
+$stoj-red: #ff5151;
+$stoj-green: #32D5AF;
+$stoj-yellow: #ffe300;
 $deep-blue: #0F1419;
 $deep-grey: #101219;
 $almost-black: #090A0D;
@@ -47,7 +51,7 @@ $break-desk: 1025px;
 $break-tablet: 768px;
 $break-mobile: 414px;
 
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -56,13 +60,14 @@ $break-mobile: 414px;
     &:hover {
         cursor: none;
     }
-}
+} */
 
 html {
     background-color: white !important;
 }
 
 body {
+    background-color: white !important;
     font-family: "MADE" !important;
 
     p {

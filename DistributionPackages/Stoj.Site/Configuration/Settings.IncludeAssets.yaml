@@ -1,7 +1,7 @@
 
 Carbon:
   IncludeAssets:
-    GoogleFonts: 'EB+Garamond:ital,wght@0,400;1,800&display=swap'
+    GoogleFonts: 'Crimson+Text:wght@400;600;700&display=swap'
     Packages:
       aa_Theme:
         Path:
@@ -18,10 +18,15 @@ Carbon:
             - main.css[async rel="preload"]
             - https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js
             - https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js
+            - flickity.css
+        #    - locomotive-scroll.min.css
           Body:
+        #    - locomotive-scroll.min.js[inline]
             - main.js
             - lazysizes.min.js
             - https://player.vimeo.com/api/player.js
+            - flickity.min.js
+            - flickity.js
 
       ##
       # Sitegeist.Lazybones required lazysizes, we recommend to include lazysizes javascript

@@ -16,6 +16,25 @@ prototype(Stoj.Site:Content.Subheader) < prototype(Neos.Neos:ContentComponent) {
     path = 'resource://Stoj.Site/Public/Frontend/svg/logo.svg'
     }
 
+    cellOne = Neos.Fusion:ResourceUri {
+    path = 'resource://Stoj.Site/Public/Frontend/assets/cellOne.jpg'
+    }
+    cellSecond = Neos.Fusion:ResourceUri {
+    path = 'resource://Stoj.Site/Public/Frontend/assets/cellSecond.jpg'
+    }
+    cellThird = Neos.Fusion:ResourceUri {
+    path = 'resource://Stoj.Site/Public/Frontend/assets/cellThird.jpg'
+    }
+    cellFourth = Neos.Fusion:ResourceUri {
+    path = 'resource://Stoj.Site/Public/Frontend/assets/cellFourth.jpg'
+    }
+    cellFifth = Neos.Fusion:ResourceUri {
+    path = 'resource://Stoj.Site/Public/Frontend/assets/cellFifth.jpg'
+    }
+    cellSixth = Neos.Fusion:ResourceUri {
+    path = 'resource://Stoj.Site/Public/Frontend/assets/cellSixth.jpg'
+    }
+
     text = Neos.Neos:Editable {
         property = 'text'
     }
@@ -34,11 +53,11 @@ prototype(Stoj.Site:Content.Subheader) < prototype(Neos.Neos:ContentComponent) {
     }
     alternativeText = ${q(node).property('alternativeText')}
 
-    srcSecond = Neos.Fusion:Case {
-        imageSecond {
-            condition = ${q(node).property('imageSecond') ? true : false}
+    src2 = Neos.Fusion:Case {
+        image2 {
+            condition = ${q(node).property('image2') ? true : false}
             renderer = Sitegeist.Kaleidoscope:AssetImageSource {
-                asset = ${q(node).property('imageSecond')}
+                asset = ${q(node).property('image2')}
             }
         }
         dummyImage {
@@ -46,7 +65,15 @@ prototype(Stoj.Site:Content.Subheader) < prototype(Neos.Neos:ContentComponent) {
             renderer = Sitegeist.Kaleidoscope:DummyImageSource
         }
     }
-    alternativeTextSecond = ${q(node).property('alternativeTextSecond')}
+    alternativeText2 = ${q(node).property('alternativeText2')}
+
+    label = Neos.Neos:Editable {
+        property = 'label'
+    }
+
+    link = ${q(node).property('link')}
+    linkTarget = ${q(node).property('linkTarget') ? '_blank' : '_self'}
+    renderAsLink = ${site.context.inBackend ? false : true}
 
     renderer = afx`
         <section class="subheader-body frontpage">
@@ -64,48 +91,107 @@ prototype(Stoj.Site:Content.Subheader) < prototype(Neos.Neos:ContentComponent) {
                     <div class="video-container fadeOut" id="mobile-video">
                         <iframe src="https://player.vimeo.com/video/482516551?background=1" width="100%" height="100%"></iframe>
                     </div>
-<!--                    <video preload="metadata" class="fadeOut" id="desktop-video" muted autoplay loop playsinline src={props.video}>
-                        Sorry, your browser doesn't support embedded videos.
-                    </video>
-                    <video preload="metadata" class="fadeOut" id="mobile-video" muted autoplay loop playsinline src={props.videoMobile}>
-                        Sorry, your browser doesn't support embedded videos.
-                    </video>
-                    <!--<img src={props.reel} alt=""/>-->
+                    <div class="cursor-div"></div>
                 </div>
                 <div class="reel-text">
+                    <h2>Odenseansk videoproduktion og fotografering</h2>
                     <p>Hos Stöj formidler vi budskaber gennem billeder og video. Vi har ekspertisen til at konceptualisere jeres næste reklamekampagne. Mange års erfaring med foto- og videoproduktion gør at vores produkter har den helt rigtige kant.</p>
                     <p>Uanset om vi skal skyde store reklamekampagner, eller lave mindre produktioner, udvikler vi altid en unik billedstil til jeres projekt. </p>
                 </div>
-                <div class="scroll-videre">
-                    <p>scroll videre</p>
-                    <span></span>
-                </div>
-            </div>
-<!--
-            <section class="subheader-content">
-                <h1 class="aos">Foto, Film & Halløj</h1>
-                <div class="subheader-flex">
+<!--                <div class="reel-image">
                     <Sitegeist.Lazybones:Image
-                        class="first-image aos"
+                        class="project-image aos"
                         lazy={true}
-                        lazyWidth={500}
+                        lazyWidth={700}
                         imageSource={props.src}
                         srcset="320w, 400w, 480w, 600w, 640w, 720w, 768w, 800w, 960w, 1024px, 1280w, 1440w, 1600w, 1680w, 1920w, 2560w"
                         sizes={props.sizes}
                         alt={props.alternativeText}
                         />
-                    <Sitegeist.Lazybones:Image
-                        class="second-image aos"
-                        lazy={true}
-                        lazyWidth={500}
-                        imageSource={props.srcSecond}
-                        srcset="320w, 400w, 480w, 600w, 640w, 720w, 768w, 800w, 960w, 1024px, 1280w, 1440w, 1600w, 1680w, 1920w, 2560w"
-                        sizes={props.sizes}
-                        alt={props.alternativeTextSecond}
-                        />
-                </div>
-            </section>
--->
+                </div> -->
+                <section class="services-section">
+                    <div class="services-text aos">
+                        <h2>Fotostil</h2>
+                        <p>Hos Stöj formidler vi budskaber gennem billeder og video. Vi har ekspertisen til at konceptualisere jeres næste reklamekampagne.</p>
+                        <p>Vi har erfaring med at skyde profesionelle billeder af
+                            <span
+                                class="list-btn"
+                                data-selector=".cell1">
+                                mad,
+                            </span>
+                            <span
+                                class="list-btn"
+                                data-selector=".cell2">
+                                miljøer,
+                            </span>
+                            <span
+                                class="list-btn"
+                                data-selector=".cell3">
+                                produkter,
+                            </span>
+                            <span
+                                class="list-btn"
+                                data-selector=".cell4">
+                                mennesker,
+                            </span>
+                            <span
+                                class="list-btn"
+                                data-selector=".cell5">
+                                boliger
+                            </span>
+                            <span style="font-weight:300;">og</span>
+                            <span
+                                class="list-btn"
+                                data-selector=".cell6">
+                                indretning
+                            </span>
+                            .
+                        </p>
+                        <!--<div class="services-list">
+                            <ul>
+                                <li class="list-btn" data-selector=".cell1">Mad</li>
+                                <li class="list-btn" data-selector=".cell2">Miljøer</li>
+                                <li class="list-btn" data-selector=".cell3">Produktbilleder</li>
+                                <li class="list-btn" data-selector=".cell4">Personfotografering</li>
+                                <li class="list-btn" data-selector=".cell5">Bolig</li>
+                                <li class="list-btn" data-selector=".cell6">Indretning</li>
+                            </ul>
+                        </div>-->
+                        <Carbon.Link:Link link={props.link} additionalClass="reg-button">{props.label}</Carbon.Link:Link>
+                    </div>
+                    <div class="services-image-wrapper aos">
+                        <div class="carousel">
+                            <div class="carousel-cell cell1">
+                                <img src={props.cellOne} alt=""/>
+                            </div>
+                            <div class="carousel-cell cell2">
+                                <img src={props.cellSecond} alt=""/>
+                            </div>
+                            <div class="carousel-cell cell3">
+                                <img src={props.cellThird} alt=""/>
+                            </div>
+                            <div class="carousel-cell cell4">
+                                <img src={props.cellFourth} alt=""/>
+                            </div>
+                            <div class="carousel-cell cell5">
+                                <img src={props.cellFifth} alt=""/>
+                            </div>
+                            <div class="carousel-cell cell6">
+                                <img src={props.cellSixth} alt=""/>
+                            </div>
+                        </div>
+<!--                        <Sitegeist.Lazybones:Image
+                            class="services-image"
+                            lazy={true}
+                            lazyWidth={500}
+                            imageSource={props.src2}
+                            srcset="320w, 400w, 480w, 600w, 640w, 720w, 768w, 800w, 960w, 1024px, 1280w, 1440w, 1600w, 1680w, 1920w, 2560w"
+                            sizes={props.sizes}
+                            alt={props.alternativeText2}
+                            /> -->
+                    </div>
+                </section>
+            </div>
         </section>
     `
 }

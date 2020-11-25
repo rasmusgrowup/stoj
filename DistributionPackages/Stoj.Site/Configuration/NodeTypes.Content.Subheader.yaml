@@ -1,27 +1,31 @@
 'Stoj.Site:Content.Subheader':
     superTypes:
-        'Neos.Neos:Content': true
-        'Stoj.Site:Mixin.Image': true
-        'Stoj.Site:Content.Headline': true
+      'Neos.Neos:Content': true
+      'Stoj.Site:Mixin.Image': true
+      'Stoj.Site:Content.Headline': true
     ui:
-        label: Subheader
-        icon: icon-square
-        position: 200
+      label: Subheader
+      icon: icon-square
+      position: 200
     properties:
-        payoff:
-            options:
-                silhouette: 'codeq.text.title'
-        imageSecond:
-            ui:
-                label: Second Image
-                inspector:
-                    group: 'image'
-            options:
-                silhouette: codeq.image.asset
-        alternativeTextSecond:
-            ui:
-                label: Alternative Image Text for Second Image
-                inspector:
-                    group: 'image'
-            options:
-                silhouette: codeq.image.alternativeText
+      image2:
+        ui:
+          label: 'Last image'
+          inspector:
+            group: 'image'
+        options:
+          silhouette: codeq.image.asset
+      payoff:
+        options:
+            silhouette: 'codeq.text.title'
+      label:
+        options:
+          silhouette: text.free
+      link:
+        type: string
+        reloadIfChanged: true
+        ui:
+          label: 'Link target'
+          inspector:
+            group: image
+            editor: Neos.Neos/Inspector/Editors/LinkEditor
