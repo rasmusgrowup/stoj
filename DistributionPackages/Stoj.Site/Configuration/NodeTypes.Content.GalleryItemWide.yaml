@@ -1,0 +1,8 @@
+'Stoj.Site:Content.GalleryItemWide':
+  superTypes:
+    'Neos.Neos:Content': true
+    'Stoj.Site:Mixin.Image': true
+  ui:
+    label: Gallery Item Wide
+    icon: icon-picture
+    position: 340

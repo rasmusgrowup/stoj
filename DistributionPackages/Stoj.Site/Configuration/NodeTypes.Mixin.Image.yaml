@@ -15,6 +15,7 @@
 'Stoj.Site:Mixin.Image':
   abstract: true
   ui:
+    reloadIfChanged: true
     inspector:
       groups:
         image:

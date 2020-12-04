@@ -7300,7 +7300,8 @@ h6 {
       position: absolute;
       right: 0;
       top: 0;
-      z-index: 1; }
+      z-index: 1;
+      cursor: none; }
   .project-two .project-two-description {
     margin: 0 auto;
     margin-top: 1em;
@@ -7492,3 +7493,117 @@ h6 {
   margin-right: 0; }
   .carousel-cell img {
     display: block; }
+
+.menu-body {
+  align-items: center;
+  background-color: #FCD8E3;
+  clip-path: circle(0% at calc(100% - 2em) 3em);
+  display: flex;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99;
+  pointer-events: none; }
+  @media only screen and (min-width: 1025px) {
+    .menu-body {
+      align-items: center;
+      display: flex; } }
+  .menu-body .logo {
+    display: block;
+    left: 3em;
+    mix-blend-mode: exclusion;
+    position: absolute;
+    overflow: hidden;
+    top: 2em;
+    width: 6em;
+    z-index: 9; }
+    @media only screen and (min-width: 768px) {
+      .menu-body .logo {
+        width: 6em; } }
+    .menu-body .logo img {
+      width: 100%; }
+  .menu-body .menu-image {
+    display: none; }
+    @media only screen and (min-width: 1025px) {
+      .menu-body .menu-image {
+        display: block;
+        flex: 1;
+        height: 100%;
+        position: relative;
+        max-width: 50%; }
+        .menu-body .menu-image img {
+          bottom: 0;
+          height: 100%;
+          left: 0;
+          object-fit: cover;
+          position: absolute;
+          right: 0;
+          top: 0;
+          width: 100%; } }
+  .menu-body .menu-content {
+    padding: 1em;
+    width: 100%; }
+    @media only screen and (min-width: 1025px) {
+      .menu-body .menu-content {
+        display: block;
+        flex: 1;
+        padding: 1em 8em;
+        position: relative;
+        max-width: 50%; } }
+    .menu-body .menu-content ul li a {
+      color: #090A0D;
+      font-size: clamp(3.5em, 5vw, 6em);
+      font-weight: 600;
+      line-height: 1.25; }
+  .menu-body .menu-btn {
+    display: block;
+    height: 2.75em;
+    mix-blend-mode: exclusion;
+    position: absolute;
+    right: 3em;
+    top: 2em;
+    width: 2.75em; }
+    .menu-body .menu-btn span {
+      background-color: white;
+      display: block;
+      height: .175em;
+      left: 0;
+      position: absolute;
+      top: 50%;
+      width: 2.75em; }
+      .menu-body .menu-btn span:first-child {
+        transform: rotate(-45deg); }
+      .menu-body .menu-btn span:last-child {
+        transform: rotate(45deg); }
+
+.gallery {
+  margin: 5em auto;
+  max-width: calc(2200px);
+  padding-left: 5px;
+  width: calc(100% - 10px); }
+  .gallery .gallery-item {
+    display: inline-block;
+    margin-bottom: 10px;
+    position: relative;
+    width: calc(50% - 10px); }
+    @media only screen and (min-width: 415px) {
+      .gallery .gallery-item {
+        width: calc(33.3% - 10px); } }
+    @media only screen and (min-width: 769px) {
+      .gallery .gallery-item {
+        width: calc(25% - 10px); } }
+    @media only screen and (min-width: 1600px) {
+      .gallery .gallery-item {
+        width: calc(20% - 10px); } }
+    .gallery .gallery-item .gallery-image {
+      display: block;
+      object-fit: cover;
+      border-radius: 6px; }
+  @media only screen and (min-width: 768px) {
+    .gallery .gallery-item-wide {
+      width: calc(50% - 10px); } }
+  @media only screen and (min-width: 1600px) {
+    .gallery .gallery-item-wide {
+      width: calc(40% - 10px); } }

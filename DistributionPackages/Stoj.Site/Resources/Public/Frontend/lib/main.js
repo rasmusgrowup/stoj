@@ -1,4 +1,14 @@
-"use strict";
+'use strict';
+
+//Js for services list span
+window.myFunction = function (event) {
+	// reset all menu items
+	document.querySelectorAll('.list-btn').forEach(function (item) {
+		item.classList.remove('active');
+	});
+	// mark as active selected menu item
+	event.target.classList.add("active");
+};
 
 // Show & Hide menu on scroll down / up
 var new_scroll_position = 0;
@@ -33,10 +43,10 @@ animateIn.forEach(function (elem) {
 			trigger: elem,
 			toggleActions: "play none play reverse",
 			//markers: true,
-			start: '-340 bottom'
+			start: '-200 bottom'
 		},
-		y: 400,
-		scaleY: 1.5,
+		y: 200,
+		//scaleY: 1.5,
 		opacity: 0,
 		duration: 1.25,
 		delay: .1,
@@ -112,7 +122,7 @@ gsap.to(".fadeOut", {
 		toggleActions: "play none play reverse",
 		scrub: true,
 		//markers: true,
-		start: "-25% top",
+		start: "top top",
 		end: "bottom top"
 	},
 	opacity: 0,

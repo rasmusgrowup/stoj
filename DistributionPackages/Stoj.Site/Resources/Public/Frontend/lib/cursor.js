@@ -1,6 +1,6 @@
 // Custom curser
   var cursor = document.querySelector(".custom-cursor");
-  var links = document.querySelectorAll("a");
+  var links = document.querySelectorAll("a, .cursor-link");
   var initCursor = false;
 
   for (var i = 0; i < links.length; i++) {

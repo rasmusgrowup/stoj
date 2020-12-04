@@ -1,0 +1,14 @@
+prototype(Stoj.Site:Collection.Gallery) < prototype(Neos.Neos:ContentCollection) {
+    content = Neos.Neos:ContentCollection {
+        attributes = Neos.Fusion:DataStructure {
+            class = 'gallery'
+        }
+    }
+    @process.contentElementWrapping >
+
+    renderer = afx`
+    <div>
+        <ts:render path="content" />
+    </div>
+    `
+}

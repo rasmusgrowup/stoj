@@ -37,11 +37,12 @@
 }
 
 $max-width: 980px;
-$stoj-pink: #FBD7E1;
+$stoj-pink: #FCD8E3;
 $stoj-blue: #2E3EFF;
 $stoj-red: #ff5151;
 $stoj-green: #32D5AF;
-$stoj-yellow: #ffe300;
+$stoj-turt: #69ffc8;
+$stoj-yellow: #f1d339;
 $deep-blue: #0F1419;
 $deep-grey: #101219;
 $almost-black: #090A0D;
@@ -51,16 +52,16 @@ $break-desk: 1025px;
 $break-tablet: 768px;
 $break-mobile: 414px;
 
-/* * {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    cursor: none;
+    cursor: none !important;
 
     &:hover {
-        cursor: none;
+        cursor: none !important;
     }
-} */
+}
 
 html {
     background-color: white !important;
@@ -90,7 +91,7 @@ body {
         z-index: 1000;
     }
     .custom-cursor--link {
-        transform: translate(-50%, -50%) scale(2);
+        transform: translate(-50%, -50%) scale(1.25);
     }
 }
 

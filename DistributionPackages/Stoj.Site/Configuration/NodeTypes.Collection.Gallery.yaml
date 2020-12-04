@@ -1,0 +1,14 @@
+'Stoj.Site:Collection.Gallery':
+  superTypes:
+    'Neos.Neos:Content': true
+    'Neos.Neos:ContentCollection': true
+  ui:
+    group: 'structure'
+    label: Gallery Container
+    icon: 'square'
+    inlineEditable: true
+    inspector:
+      groups:
+        section:
+          label: 'Section'
+          icon: square

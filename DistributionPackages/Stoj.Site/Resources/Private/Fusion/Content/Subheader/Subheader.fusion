@@ -81,9 +81,6 @@ prototype(Stoj.Site:Content.Subheader) < prototype(Neos.Neos:ContentComponent) {
                 <div class="subheader-logo">
                     <img src={props.logo} alt=""/>
                 </div>
-                <div class="reel-overlay">
-                    <h1>Foto, film & halløj</h1>
-                </div>
                 <div class="reel-container">
                     <div class="video-container fadeOut" id="desktop-video">
                         <iframe src="https://player.vimeo.com/video/482513449?background=1" width="100%" height="100%"></iframe>
@@ -93,12 +90,16 @@ prototype(Stoj.Site:Content.Subheader) < prototype(Neos.Neos:ContentComponent) {
                     </div>
                     <div class="cursor-div"></div>
                 </div>
-                <div class="reel-text">
-                    <h2>Odenseansk videoproduktion og fotografering</h2>
-                    <p>Hos Stöj formidler vi budskaber gennem billeder og video. Vi har ekspertisen til at konceptualisere jeres næste reklamekampagne. Mange års erfaring med foto- og videoproduktion gør at vores produkter har den helt rigtige kant.</p>
-                    <p>Uanset om vi skal skyde store reklamekampagner, eller lave mindre produktioner, udvikler vi altid en unik billedstil til jeres projekt. </p>
+                <div class="reel-overlay">
+                    <h1>Foto, film & halløj</h1>
                 </div>
-<!--                <div class="reel-image">
+                <div class="reel-text">
+                    <h2></h2>
+                    <p>Hos Stöj skaber vi fantastiske oplevelser, gennem billeder og video. Mange års erfaring med foto- og videoproduktion gør at vores produkter, har den helt rigtige kant.</p>
+                    <p>Vi er et lille odenseansk fotostudie, der skyder billeder og film til en lang række danske virksomheder og mediehuse. De vælger os, fordi vi kan tilbyde en esktra dimension til deres billeder, hvilket får budskaberne til at stå ekstra skarpt. Hos os, er der tid og plads til at opdage og udtænke jeres unikke billedunivers. Vi er så heldige, at vi kan nørde helt i bund, når vi skal løse vores kunders opgaver. Det er en af de mange fordele, der hører med til, at være et mindre fotostudie.</p>
+                    <Carbon.Link:Link link="/studiet" additionalClass="stoj-link">Læs mere om vores studie og faciliteter</Carbon.Link:Link>
+                </div>
+               <div class="reel-image">
                     <Sitegeist.Lazybones:Image
                         class="project-image aos"
                         lazy={true}
@@ -108,44 +109,44 @@ prototype(Stoj.Site:Content.Subheader) < prototype(Neos.Neos:ContentComponent) {
                         sizes={props.sizes}
                         alt={props.alternativeText}
                         />
-                </div> -->
+                </div>
                 <section class="services-section">
-                    <div class="services-text aos">
-                        <h2>Fotostil</h2>
-                        <p>Hos Stöj formidler vi budskaber gennem billeder og video. Vi har ekspertisen til at konceptualisere jeres næste reklamekampagne.</p>
-                        <p>Vi har erfaring med at skyde profesionelle billeder af
+                    <div class="services-text aos" onclick="myFunction(event)" id="navList">
+                        <h2>Vores ydelser</h2>
+                        <p style="color:white;">Vi har en bred erfaring, og har løst mange typer af opgaver indenfor billed- og videoproduktion.</p>
+                        <p style="color:white;">Noget af det vi skyder mest af, er
                             <span
-                                class="list-btn"
+                                class="list-btn active cursor-link"
                                 data-selector=".cell1">
                                 mad,
                             </span>
                             <span
-                                class="list-btn"
+                                class="list-btn span-list cursor-link"
                                 data-selector=".cell2">
                                 miljøer,
                             </span>
                             <span
-                                class="list-btn"
+                                class="list-btn span-list cursor-link"
                                 data-selector=".cell3">
                                 produkter,
                             </span>
                             <span
-                                class="list-btn"
+                                class="list-btn span-list cursor-link"
                                 data-selector=".cell4">
                                 mennesker,
                             </span>
                             <span
-                                class="list-btn"
+                                class="list-btn span-list cursor-link"
                                 data-selector=".cell5">
                                 boliger
                             </span>
-                            <span style="font-weight:300;">og</span>
+                            <span class="not-a-service" style="color:white;font-weight:400;">og</span>
                             <span
-                                class="list-btn"
+                                class="list-btn span-list cursor-link"
                                 data-selector=".cell6">
                                 indretning
                             </span>
-                            .
+                            . Vi dog altid frisk på at prøve noget nyt!
                         </p>
                         <!--<div class="services-list">
                             <ul>

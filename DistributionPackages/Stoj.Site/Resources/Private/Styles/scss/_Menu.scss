@@ -1,0 +1,120 @@
+.lock-scroll {
+    //overflow:auto;
+    //height: 100vh;
+    //-webkit-overflow-scrolling: touch;
+}
+
+.menu-body {
+    align-items: center;
+    background-color: $stoj-pink;
+    clip-path: circle(0% at calc(100% - 2em) 3em);
+    display: flex;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+    pointer-events: none;
+
+    @media only screen and (min-width: $break-desk) {
+        align-items: center;
+        display: flex;
+    }
+
+    .logo {
+        display: block;
+        left: 3em;
+        mix-blend-mode: exclusion;
+        position: absolute;
+        overflow: hidden;
+        top: 2em;
+        width: 6em;
+        z-index: 9;
+
+        @media only screen and (min-width: 768px) {
+            width: 6em;
+        }
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .menu-image {
+        display: none;
+
+        @media only screen and (min-width: $break-desk) {
+            display: block;
+            flex: 1;
+            height: 100%;
+            position: relative;
+            max-width: 50%;
+
+            img {
+                bottom: 0;
+                height: 100%;
+                left: 0;
+                object-fit: cover;
+                position: absolute;
+                right: 0;
+                top: 0;
+                width: 100%;
+            }
+        }
+    }
+
+    .menu-content {
+        padding: 1em;
+        width: 100%;
+
+        @media only screen and (min-width: $break-desk) {
+            display: block;
+            flex: 1;
+            //height: 100%;
+            padding: 1em 8em;
+            position: relative;
+            max-width: 50%;
+        }
+
+        ul {
+            li {
+                a {
+                    color: $almost-black;
+                    font-size: $clamp;
+                    font-weight: 600;
+                    line-height: 1.25;
+                }
+            }
+        }
+    }
+
+    .menu-btn {
+        display: block;
+        height: 2.75em;
+        mix-blend-mode: exclusion;
+        position: absolute;
+        right: 3em;
+        top: 2em;
+        width: 2.75em;
+
+        span {
+            background-color: white;
+            display: block;
+            height: .175em;
+            left: 0;
+            //margin: .35em 0 0 auto;
+            position: absolute;
+            top: 50%;
+            width: 2.75em;
+
+            &:first-child {
+                transform: rotate(-45deg);
+            }
+
+            &:last-child {
+                transform: rotate(45deg);
+            }
+        }
+    }
+}

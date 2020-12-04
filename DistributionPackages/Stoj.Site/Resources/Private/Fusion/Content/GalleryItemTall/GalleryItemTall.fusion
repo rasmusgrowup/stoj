@@ -1,0 +1,24 @@
+prototype(Stoj.Site:Content.GalleryItemTall) < prototype(Neos.Neos:ContentComponent) {
+    src = Neos.Fusion:Case {
+        image {
+            condition = ${q(node).property('image') ? true : false}
+            renderer = Neos.Neos:ImageUri {
+                asset = ${q(node).property('image')}
+                maximumWidth = 900
+            }
+        }
+        dummyImage {
+            condition = ${site.context.inBackend}
+            renderer = Neos.Fusion:ResourceUri {
+                path = 'resource://Neos.Neos/Public/Images/dummy-image.svg'
+            }
+        }
+    }
+    alternativeText = ${q(node).property('alternativeText')}
+
+    renderer = afx`
+    <div class="gallery-item gallery-item-tall">
+        <img class="gallery-image" src={props.src} alt={props.alternativeText} />
+    </div>
+    `
+}

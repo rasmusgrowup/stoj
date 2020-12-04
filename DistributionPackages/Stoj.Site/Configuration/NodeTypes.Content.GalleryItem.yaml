@@ -1,0 +1,8 @@
+'Stoj.Site:Content.GalleryItem':
+  superTypes:
+    'Neos.Neos:Content': true
+    'Stoj.Site:Mixin.Image': true
+  ui:
+    label: Gallery Item
+    icon: icon-picture
+    position: 310

@@ -10,6 +10,10 @@ prototype(Stoj.Site:Component.Header) < prototype(Neos.Fusion:Component) {
     path = 'resource://Stoj.Site/Public/Frontend/svg/logo.svg'
     }
 
+    menuImage = Neos.Fusion:ResourceUri {
+    path = 'resource://Stoj.Site/Public/Frontend/assets/fastelavn3.jpg'
+    }
+
     ##
     # If you want to use a default rendering for a menu, you can just use:
     ##
@@ -31,18 +35,34 @@ prototype(Stoj.Site:Component.Header) < prototype(Neos.Fusion:Component) {
                 alt=""/>
             </a>
             <div class="menu">
-                <div class="menu-items">
+<!--         <div class="menu-items">
                     <Stoj.Site:Component.Header.MenuItemsRenderer items={props.menuItems} />
-                </div>
-                <div class="menu-btn">
-                    <a href="#">
+                </div> -->
+                <div class="menu-btn cursor-link" id="open-menu">
                         <span></span>
                         <span></span>
-                    </a>
                 </div>
             </div>
             <div class="header-gradient"></div>
         </header>
+        <div class="menu-body" id="menu">
+            <a class="logo" href={props.homeLink}>
+                <img
+                class="logo-svg"
+                src={props.logo}
+                alt=""/>
+            </a>
+            <div class="menu-image">
+                <img src={props.menuImage} alt=""/>
+            </div>
+            <div class="menu-content">
+                <Stoj.Site:Component.Header.MenuItemsRenderer items={props.menuItems} />
+            </div>
+            <div class="menu-btn cursor-link" id="exit">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
         <div class="contact-btn">
             <a href="mailto:halloj@hallojstoj.dk">
                 <button type="button" name="button">Sig halløj</button>

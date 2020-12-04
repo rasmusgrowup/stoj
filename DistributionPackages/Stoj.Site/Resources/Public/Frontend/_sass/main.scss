@@ -7,17 +7,19 @@
 
 // Update the sans-serif font family
 $max-width: 980px;
-$stoj-pink: #FBD7E1;
+$stoj-pink: #FCD8E3;
 $stoj-blue: #2E3EFF;
-$stoj-red: #ff5151;
+$stoj-red: #ff4f67;
 $stoj-green: #32D5AF;
-$stoj-yellow: #ffe300;
+$stoj-turt: #69ffc8;
+$stoj-yellow: #f1d339;
 $family-sans-serif: "MADE", sans-serif;
 $eb: "EB Garamond", serif;
 $almost-black: #090A0D;
 $break-desk: 1025px;
 $break-tablet: 768px;
 $break-mobile: 414px;
+$clamp: clamp(3.5em, 5vw, 6em);
 
 @import "../node_modules/bulma/bulma";
 
@@ -29,3 +31,5 @@ $break-mobile: 414px;
 @import "../../../Private/Styles/scss/TemplateThree";
 @import "../../../Private/Styles/scss/TemplateFour";
 @import "../../../Private/Styles/scss/Carousel";
+@import "../../../Private/Styles/scss/Menu";
+@import "../../../Private/Styles/scss/Gallery"

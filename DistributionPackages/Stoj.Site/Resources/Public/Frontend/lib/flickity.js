@@ -9,7 +9,7 @@ var flkty = new Flickity( elem, {
   friction: 0.25,
   cellAlign: 'left',
   contain: true,
-  wrapAround: true,
+  //wrapAround: true,
   prevNextButtons: false,
   pageDots: false,
 });
@@ -23,7 +23,7 @@ var transformProp = typeof docStyle.transform == 'string' ?
 flkty.on( 'scroll', function() {
   flkty.slides.forEach( function( slide, i ) {
     var img = imgs[i];
-    var x = ( slide.target + flkty.x ) * -1/5;
+    var x = ( slide.target + flkty.x ) * -1/8;
     img.style[ transformProp ] = 'translateX(' + x  + 'px)';
   });
 });
