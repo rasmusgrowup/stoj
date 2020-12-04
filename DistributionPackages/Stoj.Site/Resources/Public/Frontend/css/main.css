@@ -7591,7 +7591,7 @@ h6 {
     @media only screen and (min-width: 415px) {
       .gallery .gallery-item {
         width: calc(33.3% - 10px); } }
-    @media only screen and (min-width: 769px) {
+    @media only screen and (min-width: 1025px) {
       .gallery .gallery-item {
         width: calc(25% - 10px); } }
     @media only screen and (min-width: 1600px) {
