@@ -16,7 +16,7 @@ prototype(Stoj.Site:Content.GalleryItem) < prototype(Neos.Neos:ContentComponent)
     alternativeText = ${q(node).property('alternativeText')}
 
     renderer = afx`
-    <div class="gallery-item">
+    <div class="gallery-item gallery-fade">
         <img class="gallery-image" src={props.src} alt={props.alternativeText} />
     </div>
     `
