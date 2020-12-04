@@ -102,18 +102,18 @@
        </variant>
       </node>
       <node identifier="63c64189-66a5-4e27-a180-300cb32a8683" nodeName="node-llrocqureh0aa">
-       <variant sortingIndex="500" workspace="live" nodeType="Stoj.Site:Templates.TemplateFour" version="11" removed="" hidden="" hiddenInIndex="">
+       <variant sortingIndex="500" workspace="live" nodeType="Stoj.Site:Templates.TemplateFour" version="12" removed="" hidden="" hiddenInIndex="">
         <dimensions>
          <language>da</language>
         </dimensions>
         <accessRoles __type="array"/>
         <creationDateTime __type="object" __classname="DateTime">2020-11-23T13:52:09+01:00</creationDateTime>
-        <lastModificationDateTime __type="object" __classname="DateTime">2020-11-23T15:20:50+01:00</lastModificationDateTime>
-        <lastPublicationDateTime __type="object" __classname="DateTime">2020-11-23T15:20:50+01:00</lastPublicationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2020-11-25T16:19:33+01:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2020-11-25T16:19:32+01:00</lastPublicationDateTime>
         <properties>
          <link __type="string">#</link>
          <text __type="string">&lt;p&gt;Uanset om vi skal skyde store reklamekampagner, eller lave mindre produktioner, udvikler vi altid en unik billedstil til jeres projekt.&lt;/p&gt;</text>
-         <image __type="object" __identifier="fd51dd0a-0dee-4930-bc61-d560779219f0" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;fd51dd0a-0dee-4930-bc61-d560779219f0&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;Matas-natur-honey-honning.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;613c6da49842154b370a8eb983d514abe6fb4762&quot;,&quot;hash&quot;:&quot;613c6da49842154b370a8eb983d514abe6fb4762&quot;,&quot;__identity&quot;:&quot;de2d061a-6f5a-438b-9b17-feb2dbd7283e&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image>
+         <image __type="object" __identifier="d7d1ab2c-fbe8-4d90-9825-884ca5652427" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;d7d1ab2c-fbe8-4d90-9825-884ca5652427&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;honning-copy.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;a932f42307b7ab4ae91961032ec51b2e63719913&quot;,&quot;hash&quot;:&quot;a932f42307b7ab4ae91961032ec51b2e63719913&quot;,&quot;__identity&quot;:&quot;2dcfd918-70bb-4c03-b3c5-79640ae4d6b5&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image>
          <label __type="string">&lt;p&gt;Læs vores case om Matas Natur&lt;/p&gt;</label>
          <title __type="string">Matas Natur</title>
         </properties>
@@ -139,17 +139,17 @@
       </node>
      </node>
      <node identifier="c321dc86-1478-4762-aa10-a9c078b1e943" nodeName="node-a6j5de5rcfo2n">
-      <variant sortingIndex="100" workspace="live" nodeType="Stoj.Site:Content.Subheader" version="14" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="100" workspace="live" nodeType="Stoj.Site:Content.Subheader" version="15" removed="" hidden="" hiddenInIndex="">
        <dimensions>
         <language>da</language>
        </dimensions>
        <accessRoles __type="array"/>
        <creationDateTime __type="object" __classname="DateTime">2020-11-10T14:35:08+01:00</creationDateTime>
-       <lastModificationDateTime __type="object" __classname="DateTime">2020-11-24T12:13:48+01:00</lastModificationDateTime>
-       <lastPublicationDateTime __type="object" __classname="DateTime">2020-11-24T12:13:48+01:00</lastPublicationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2020-11-25T12:04:45+01:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2020-11-25T12:04:45+01:00</lastPublicationDateTime>
        <properties>
         <link __type="string">node://07673564-3c56-47cb-8860-cd37d9a54fb2</link>
-        <image __type="object" __identifier="c508850e-db43-4897-b882-6d83b56b048a" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;c508850e-db43-4897-b882-6d83b56b048a&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;studiet.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;5e496edf9c290e384ba2b6ca748de2c30d6ee4f7&quot;,&quot;hash&quot;:&quot;5e496edf9c290e384ba2b6ca748de2c30d6ee4f7&quot;,&quot;__identity&quot;:&quot;6c09a3e6-0927-4129-bd80-21dae479149b&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image>
+        <image __type="object" __identifier="2f4c6c1f-869d-4fd7-b68f-de7b8893d453" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;2f4c6c1f-869d-4fd7-b68f-de7b8893d453&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;fastelavn3.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;4154e881fff6d555ed7d165594607ba741abafc5&quot;,&quot;hash&quot;:&quot;4154e881fff6d555ed7d165594607ba741abafc5&quot;,&quot;__identity&quot;:&quot;62d0133d-2097-4957-846d-21413fada140&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image>
         <label __type="string">&lt;p&gt;Se hele vores galleri&lt;/p&gt;</label>
         <image2 __type="object" __identifier="8b32fe00-88d0-43b7-ad1a-076b0d5ec0c2" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;8b32fe00-88d0-43b7-ad1a-076b0d5ec0c2&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;pilaff1.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;6717c3317555c94d5000006855a0bbccc35f26a2&quot;,&quot;hash&quot;:&quot;6717c3317555c94d5000006855a0bbccc35f26a2&quot;,&quot;__identity&quot;:&quot;13874346-ddc1-405f-b6de-51e989304404&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image2>
        </properties>
@@ -179,6 +179,60 @@
        <creationDateTime __type="object" __classname="DateTime">2020-11-10T15:04:28+01:00</creationDateTime>
        <lastModificationDateTime __type="object" __classname="DateTime">2020-11-24T13:55:58+01:00</lastModificationDateTime>
        <lastPublicationDateTime __type="object" __classname="DateTime">2020-11-24T13:55:58+01:00</lastPublicationDateTime>
+       <properties/>
+      </variant>
+     </node>
+    </node>
+    <node identifier="d9efb01e-207d-4d51-831c-9f3a63e4ebfd" nodeName="node-kkcgc05f6mb1f">
+     <variant sortingIndex="304" workspace="live" nodeType="Stoj.Site:Document.Page" version="3" removed="" hidden="" hiddenInIndex="">
+      <dimensions>
+       <language>da</language>
+      </dimensions>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2020-11-26T10:52:03+01:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2020-11-26T10:54:41+01:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2020-11-26T10:54:40+01:00</lastPublicationDateTime>
+      <properties>
+       <title __type="string">Foto</title>
+       <uriPathSegment __type="string">foto</uriPathSegment>
+      </properties>
+     </variant>
+     <node identifier="469fd16a-1097-d78f-dddc-b07e0f769df3" nodeName="main">
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>da</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2020-11-26T10:52:04+01:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2020-11-26T10:54:41+01:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2020-11-26T10:54:40+01:00</lastPublicationDateTime>
+       <properties/>
+      </variant>
+     </node>
+    </node>
+    <node identifier="c40f9dfe-55df-4dd8-b71f-9c7cf0665540" nodeName="node-oyp67umd7bji9">
+     <variant sortingIndex="309" workspace="live" nodeType="Stoj.Site:Document.Page" version="4" removed="" hidden="" hiddenInIndex="">
+      <dimensions>
+       <language>da</language>
+      </dimensions>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2020-11-26T10:54:19+01:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2020-11-26T10:55:01+01:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2020-11-26T10:55:01+01:00</lastPublicationDateTime>
+      <properties>
+       <title __type="string">Film</title>
+       <uriPathSegment __type="string">film</uriPathSegment>
+      </properties>
+     </variant>
+     <node identifier="c938566c-a618-cadd-0fca-1c983c8ca193" nodeName="main">
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>da</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2020-11-26T10:54:19+01:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2020-11-26T10:55:01+01:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2020-11-26T10:55:01+01:00</lastPublicationDateTime>
        <properties/>
       </variant>
      </node>
@@ -260,6 +314,256 @@
        <lastPublicationDateTime __type="object" __classname="DateTime">2020-11-24T13:55:58+01:00</lastPublicationDateTime>
        <properties/>
       </variant>
+      <node identifier="517c5468-2818-4434-9c61-8f5de4a0ac2c" nodeName="node-9ndy5jirejyip">
+       <variant sortingIndex="300" workspace="live" nodeType="Stoj.Site:Collection.Gallery" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>da</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2020-12-03T14:01:08+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2020-12-03T14:31:32+01:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2020-12-03T14:31:32+01:00</lastPublicationDateTime>
+        <properties/>
+       </variant>
+       <node identifier="140ba161-db1d-44da-a415-00d67c4d5921" nodeName="node-179lv0xjeu3f6">
+        <variant sortingIndex="250" workspace="live" nodeType="Stoj.Site:Content.GalleryItem" version="4" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>da</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2020-12-03T14:31:09+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2020-12-03T14:32:01+01:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2020-12-03T14:32:01+01:00</lastPublicationDateTime>
+         <properties>
+          <image __type="object" __identifier="263c1d18-70e6-4af9-ad69-31f2eb16aec3" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;263c1d18-70e6-4af9-ad69-31f2eb16aec3&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;oles chokolade_julekatalog_beska\u030aret_A3_25.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;d4c067ab71594c636525fa0d8700fa2e85ac8768&quot;,&quot;hash&quot;:&quot;d4c067ab71594c636525fa0d8700fa2e85ac8768&quot;,&quot;__identity&quot;:&quot;bc14cdee-5499-4047-a502-132697825d5c&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image>
+         </properties>
+        </variant>
+       </node>
+       <node identifier="8503ecb4-acbf-496f-bcd8-921d582de370" nodeName="node-215aef3nnu8vn">
+        <variant sortingIndex="375" workspace="live" nodeType="Stoj.Site:Content.GalleryItem" version="3" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>da</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2020-12-04T11:08:01+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2020-12-04T11:08:17+01:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2020-12-04T11:08:17+01:00</lastPublicationDateTime>
+         <properties>
+          <image __type="object" __identifier="263c1d18-70e6-4af9-ad69-31f2eb16aec3" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;263c1d18-70e6-4af9-ad69-31f2eb16aec3&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;oles chokolade_julekatalog_beska\u030aret_A3_25.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;d4c067ab71594c636525fa0d8700fa2e85ac8768&quot;,&quot;hash&quot;:&quot;d4c067ab71594c636525fa0d8700fa2e85ac8768&quot;,&quot;__identity&quot;:&quot;bc14cdee-5499-4047-a502-132697825d5c&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image>
+         </properties>
+        </variant>
+       </node>
+       <node identifier="39ce63fd-3796-4de3-8dae-dc008d18e97f" nodeName="node-7k8bhmznaiq7w">
+        <variant sortingIndex="450" workspace="live" nodeType="Stoj.Site:Content.GalleryItem" version="3" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>da</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2020-12-04T11:08:15+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2020-12-04T11:08:17+01:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2020-12-04T11:08:17+01:00</lastPublicationDateTime>
+         <properties>
+          <image __type="object" __identifier="d7d1ab2c-fbe8-4d90-9825-884ca5652427" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;d7d1ab2c-fbe8-4d90-9825-884ca5652427&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;honning-copy.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;a932f42307b7ab4ae91961032ec51b2e63719913&quot;,&quot;hash&quot;:&quot;a932f42307b7ab4ae91961032ec51b2e63719913&quot;,&quot;__identity&quot;:&quot;2dcfd918-70bb-4c03-b3c5-79640ae4d6b5&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image>
+         </properties>
+        </variant>
+       </node>
+       <node identifier="e32c03b7-372b-4c9d-ade4-260d982b4b5f" nodeName="node-bjx6o2uzfxryc">
+        <variant sortingIndex="475" workspace="live" nodeType="Stoj.Site:Content.GalleryItem" version="3" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>da</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2020-12-04T11:12:49+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2020-12-04T11:12:50+01:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2020-12-04T11:12:50+01:00</lastPublicationDateTime>
+         <properties>
+          <image __type="object" __identifier="c508850e-db43-4897-b882-6d83b56b048a" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;c508850e-db43-4897-b882-6d83b56b048a&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;studiet.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;5e496edf9c290e384ba2b6ca748de2c30d6ee4f7&quot;,&quot;hash&quot;:&quot;5e496edf9c290e384ba2b6ca748de2c30d6ee4f7&quot;,&quot;__identity&quot;:&quot;6c09a3e6-0927-4129-bd80-21dae479149b&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image>
+         </properties>
+        </variant>
+       </node>
+       <node identifier="b9ec26f0-932d-4077-be72-938c59c24f65" nodeName="node-j6y39geezjv36">
+        <variant sortingIndex="350" workspace="live" nodeType="Stoj.Site:Content.GalleryItem" version="5" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>da</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2020-12-03T14:33:55+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2020-12-03T15:14:20+01:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2020-12-03T15:14:20+01:00</lastPublicationDateTime>
+         <properties>
+          <image __type="object" __identifier="eadff6ce-4c7b-4543-8f85-b06c787f989a" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;eadff6ce-4c7b-4543-8f85-b06c787f989a&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;Femina-Pernille-Albers.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;ac73a6d358c4a50428fd7afb2a1ad2bf5fec938b&quot;,&quot;hash&quot;:&quot;ac73a6d358c4a50428fd7afb2a1ad2bf5fec938b&quot;,&quot;__identity&quot;:&quot;cb17ecb3-ebe3-4d62-9bf8-8a16d98b6ccd&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image>
+         </properties>
+        </variant>
+       </node>
+       <node identifier="be18af94-b0a5-4d3f-9bab-f90a67bbc0c9" nodeName="node-m0ou5ti7ub1zi">
+        <variant sortingIndex="269" workspace="live" nodeType="Stoj.Site:Content.GalleryItem" version="4" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>da</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2020-12-03T15:40:33+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2020-12-04T10:29:14+01:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2020-12-04T10:29:14+01:00</lastPublicationDateTime>
+         <properties>
+          <image __type="object" __identifier="2ca7b6ff-fa39-46b3-a410-001f8a6320c9" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;2ca7b6ff-fa39-46b3-a410-001f8a6320c9&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;Oysters.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;b7579b52b06901f8d29dd6be124f1335ab6b057a&quot;,&quot;hash&quot;:&quot;b7579b52b06901f8d29dd6be124f1335ab6b057a&quot;,&quot;__identity&quot;:&quot;0f368f18-dc60-489b-9162-2f6b94e73b5c&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image>
+         </properties>
+        </variant>
+       </node>
+       <node identifier="41f2a4e8-246a-436d-aa2f-a3cb47bdbb8e" nodeName="node-n9be3twj0fvx2">
+        <variant sortingIndex="413" workspace="live" nodeType="Stoj.Site:Content.GalleryItem" version="3" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>da</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2020-12-04T11:11:50+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2020-12-04T11:11:57+01:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2020-12-04T11:11:57+01:00</lastPublicationDateTime>
+         <properties>
+          <image __type="object" __identifier="eadff6ce-4c7b-4543-8f85-b06c787f989a" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;eadff6ce-4c7b-4543-8f85-b06c787f989a&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;Femina-Pernille-Albers.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;ac73a6d358c4a50428fd7afb2a1ad2bf5fec938b&quot;,&quot;hash&quot;:&quot;ac73a6d358c4a50428fd7afb2a1ad2bf5fec938b&quot;,&quot;__identity&quot;:&quot;cb17ecb3-ebe3-4d62-9bf8-8a16d98b6ccd&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image>
+         </properties>
+        </variant>
+       </node>
+       <node identifier="a57a5f96-66bf-4e86-886e-8274b5957a4c" nodeName="node-nqoytvm92idf7">
+        <variant sortingIndex="263" workspace="live" nodeType="Stoj.Site:Content.GalleryItem" version="4" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>da</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2020-12-03T15:13:32+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2020-12-04T10:29:03+01:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2020-12-04T10:29:02+01:00</lastPublicationDateTime>
+         <properties>
+          <image __type="object" __identifier="c508850e-db43-4897-b882-6d83b56b048a" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;c508850e-db43-4897-b882-6d83b56b048a&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;studiet.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;5e496edf9c290e384ba2b6ca748de2c30d6ee4f7&quot;,&quot;hash&quot;:&quot;5e496edf9c290e384ba2b6ca748de2c30d6ee4f7&quot;,&quot;__identity&quot;:&quot;6c09a3e6-0927-4129-bd80-21dae479149b&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image>
+         </properties>
+        </variant>
+       </node>
+       <node identifier="09493f9f-8140-42b1-8901-f9b4ace631e9" nodeName="node-pb4fbubzjskdw">
+        <variant sortingIndex="500" workspace="live" nodeType="Stoj.Site:Content.GalleryItem" version="4" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>da</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2020-12-03T15:40:27+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2020-12-04T10:29:39+01:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2020-12-04T10:29:39+01:00</lastPublicationDateTime>
+         <properties>
+          <image __type="object" __identifier="2ca7b6ff-fa39-46b3-a410-001f8a6320c9" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;2ca7b6ff-fa39-46b3-a410-001f8a6320c9&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;Oysters.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;b7579b52b06901f8d29dd6be124f1335ab6b057a&quot;,&quot;hash&quot;:&quot;b7579b52b06901f8d29dd6be124f1335ab6b057a&quot;,&quot;__identity&quot;:&quot;0f368f18-dc60-489b-9162-2f6b94e73b5c&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image>
+         </properties>
+        </variant>
+       </node>
+       <node identifier="d6584b7d-ffb9-4119-8d2e-956f9fec664d" nodeName="node-pduunrtmhpg70">
+        <variant sortingIndex="254" workspace="live" nodeType="Stoj.Site:Content.GalleryItem" version="4" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>da</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2020-12-03T15:13:33+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2020-12-04T10:28:45+01:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2020-12-04T10:28:45+01:00</lastPublicationDateTime>
+         <properties>
+          <image __type="object" __identifier="2ca7b6ff-fa39-46b3-a410-001f8a6320c9" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;2ca7b6ff-fa39-46b3-a410-001f8a6320c9&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;Oysters.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;b7579b52b06901f8d29dd6be124f1335ab6b057a&quot;,&quot;hash&quot;:&quot;b7579b52b06901f8d29dd6be124f1335ab6b057a&quot;,&quot;__identity&quot;:&quot;0f368f18-dc60-489b-9162-2f6b94e73b5c&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image>
+         </properties>
+        </variant>
+       </node>
+       <node identifier="02b2e85d-967f-4242-a0bb-338b516d9788" nodeName="node-peljyw2mxcw61">
+        <variant sortingIndex="438" workspace="live" nodeType="Stoj.Site:Content.GalleryItem" version="6" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>da</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2020-12-03T14:49:46+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2020-12-04T11:13:38+01:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2020-12-04T11:13:38+01:00</lastPublicationDateTime>
+         <properties>
+          <image __type="object" __identifier="2ca7b6ff-fa39-46b3-a410-001f8a6320c9" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;2ca7b6ff-fa39-46b3-a410-001f8a6320c9&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;Oysters.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;b7579b52b06901f8d29dd6be124f1335ab6b057a&quot;,&quot;hash&quot;:&quot;b7579b52b06901f8d29dd6be124f1335ab6b057a&quot;,&quot;__identity&quot;:&quot;0f368f18-dc60-489b-9162-2f6b94e73b5c&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image>
+         </properties>
+        </variant>
+       </node>
+       <node identifier="9bffcfad-87d8-46ec-b1bf-9a0007a6e2a9" nodeName="node-tqkcjxobyahpl">
+        <variant sortingIndex="425" workspace="live" nodeType="Stoj.Site:Content.GalleryItem" version="10" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>da</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2020-12-03T14:32:08+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2020-12-04T11:11:30+01:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2020-12-04T11:11:30+01:00</lastPublicationDateTime>
+         <properties>
+          <image __type="object" __identifier="2f4c6c1f-869d-4fd7-b68f-de7b8893d453" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;2f4c6c1f-869d-4fd7-b68f-de7b8893d453&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;fastelavn3.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;4154e881fff6d555ed7d165594607ba741abafc5&quot;,&quot;hash&quot;:&quot;4154e881fff6d555ed7d165594607ba741abafc5&quot;,&quot;__identity&quot;:&quot;62d0133d-2097-4957-846d-21413fada140&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image>
+         </properties>
+        </variant>
+       </node>
+       <node identifier="c15fa3cb-231e-4399-acfe-eb01550224c3" nodeName="node-ubktglwk9dk42">
+        <variant sortingIndex="257" workspace="live" nodeType="Stoj.Site:Content.GalleryItem" version="3" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>da</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2020-12-03T15:13:33+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2020-12-03T15:13:36+01:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2020-12-03T15:13:36+01:00</lastPublicationDateTime>
+         <properties>
+          <image __type="object" __identifier="8b32fe00-88d0-43b7-ad1a-076b0d5ec0c2" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;8b32fe00-88d0-43b7-ad1a-076b0d5ec0c2&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;pilaff1.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;6717c3317555c94d5000006855a0bbccc35f26a2&quot;,&quot;hash&quot;:&quot;6717c3317555c94d5000006855a0bbccc35f26a2&quot;,&quot;__identity&quot;:&quot;13874346-ddc1-405f-b6de-51e989304404&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image>
+         </properties>
+        </variant>
+       </node>
+       <node identifier="6a1855d4-6eab-42a7-be8c-2b96ad4916ad" nodeName="node-uet8nmwi1zmjs">
+        <variant sortingIndex="275" workspace="live" nodeType="Stoj.Site:Content.GalleryItem" version="4" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>da</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2020-12-03T15:13:32+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2020-12-03T15:13:59+01:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2020-12-03T15:13:59+01:00</lastPublicationDateTime>
+         <properties>
+          <image __type="object" __identifier="d7d1ab2c-fbe8-4d90-9825-884ca5652427" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;d7d1ab2c-fbe8-4d90-9825-884ca5652427&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;honning-copy.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;a932f42307b7ab4ae91961032ec51b2e63719913&quot;,&quot;hash&quot;:&quot;a932f42307b7ab4ae91961032ec51b2e63719913&quot;,&quot;__identity&quot;:&quot;2dcfd918-70bb-4c03-b3c5-79640ae4d6b5&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image>
+         </properties>
+        </variant>
+       </node>
+       <node identifier="7ccbfdfd-3894-4603-9ab2-e4d6ee6b9d9a" nodeName="node-xqmkalc004ls0">
+        <variant sortingIndex="600" workspace="live" nodeType="Stoj.Site:Content.GalleryItem" version="3" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>da</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2020-12-04T11:11:55+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2020-12-04T11:11:57+01:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2020-12-04T11:11:57+01:00</lastPublicationDateTime>
+         <properties>
+          <image __type="object" __identifier="eadff6ce-4c7b-4543-8f85-b06c787f989a" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;eadff6ce-4c7b-4543-8f85-b06c787f989a&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;Femina-Pernille-Albers.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;ac73a6d358c4a50428fd7afb2a1ad2bf5fec938b&quot;,&quot;hash&quot;:&quot;ac73a6d358c4a50428fd7afb2a1ad2bf5fec938b&quot;,&quot;__identity&quot;:&quot;cb17ecb3-ebe3-4d62-9bf8-8a16d98b6ccd&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image>
+         </properties>
+        </variant>
+       </node>
+       <node identifier="5d5b1847-2c79-43b9-8e54-af1f3356e4a2" nodeName="node-zjahoyh5e1tw6">
+        <variant sortingIndex="550" workspace="live" nodeType="Stoj.Site:Content.GalleryItem" version="3" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>da</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2020-12-04T11:12:31+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2020-12-04T11:12:33+01:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2020-12-04T11:12:33+01:00</lastPublicationDateTime>
+         <properties>
+          <image __type="object" __identifier="263c1d18-70e6-4af9-ad69-31f2eb16aec3" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;263c1d18-70e6-4af9-ad69-31f2eb16aec3&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;oles chokolade_julekatalog_beska\u030aret_A3_25.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;d4c067ab71594c636525fa0d8700fa2e85ac8768&quot;,&quot;hash&quot;:&quot;d4c067ab71594c636525fa0d8700fa2e85ac8768&quot;,&quot;__identity&quot;:&quot;bc14cdee-5499-4047-a502-132697825d5c&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image>
+         </properties>
+        </variant>
+       </node>
+      </node>
+      <node identifier="ffc235eb-ef98-46e6-a632-48e7006bd202" nodeName="node-vvo0c3c22zq1z">
+       <variant sortingIndex="200" workspace="live" nodeType="Stoj.Site:Content.Headline" version="4" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>da</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2020-12-03T14:31:19+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2020-12-03T14:31:29+01:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2020-12-03T14:31:29+01:00</lastPublicationDateTime>
+        <properties>
+         <title __type="string">&lt;h1&gt;Galleri&lt;/h1&gt;</title>
+        </properties>
+       </variant>
+      </node>
      </node>
     </node>
    </node>
