@@ -54,7 +54,7 @@ animateIn.forEach(function (elem) {
 	});
 });
 
-var gallery = document.querySelectorAll('.gallery-fade');
+var galler = document.querySelectorAll('.gallery-fade');
 
 gallery.forEach(function (elem) {
 	gsap.from(elem, {
