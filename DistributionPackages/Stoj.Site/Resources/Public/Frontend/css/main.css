@@ -7599,8 +7599,7 @@ h6 {
         width: calc(20% - 10px); } }
     .gallery .gallery-item .gallery-image {
       display: block;
-      object-fit: cover;
-      border-radius: 6px; }
+      object-fit: cover; }
   @media only screen and (min-width: 768px) {
     .gallery .gallery-item-wide {
       width: calc(50% - 10px); } }
