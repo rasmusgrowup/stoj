@@ -15,3 +15,21 @@
         padding: 8em 5em;
     }
 }
+
+.main-section {
+    background-color: white;
+    display: block;
+    padding: 3em 1em;
+    position: relative;
+
+    @media only screen and (min-width: $break-tablet) {
+        margin: 0 auto;
+        padding: 5em 3em;
+    }
+
+    @media only screen and (min-width: $break-desk) {
+        max-width: 1600px;
+        margin: 0 auto;
+        padding: 8em 5em;
+    }
+}

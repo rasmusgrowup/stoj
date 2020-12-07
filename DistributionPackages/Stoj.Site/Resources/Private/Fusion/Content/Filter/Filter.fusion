@@ -1,0 +1,14 @@
+prototype(Stoj.Site:Content.Filter) < prototype(Neos.Neos:ContentComponent) {
+
+    renderer = afx`
+    <div class="button-group filter-button-group">
+        <button class="is-checked cursor-link" data-filter="*">Alle</button>
+        <button class="cursor-link" data-filter=".bolig">Bolig</button>
+        <button class="cursor-link" data-filter=".kommerciel">Kommerciel</button>
+        <button class="cursor-link" data-filter=".livsstil">Livsstil</button>
+        <button class="cursor-link" data-filter=".mad">Mad</button>
+        <button class="cursor-link" data-filter=".mennesker">Mennesker</button>
+        <button class="cursor-link" data-filter=".video">Video</button>
+    </div>
+    `
+}

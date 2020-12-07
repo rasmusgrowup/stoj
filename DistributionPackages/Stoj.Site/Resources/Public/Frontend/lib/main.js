@@ -54,23 +54,6 @@ animateIn.forEach(function (elem) {
 	});
 });
 
-//	let gallery = document.querySelectorAll('.gallery-fade');
-
-gallery.forEach(function (elem) {
-	gsap.from(elem, {
-		scrollTrigger: {
-			trigger: elem,
-			toggleActions: "play none play reverse",
-			//markers: true,
-			start: 'top center'
-		},
-		opacity: .3,
-		duration: .5,
-		delay: .1,
-		ease: "power2.out"
-	});
-});
-
 var animateText = document.querySelectorAll('.aos-text');
 
 animateText.forEach(function (elem) {

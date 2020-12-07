@@ -1,0 +1,33 @@
+'Stoj.Site:Mixin.Gallery':
+  abstract: true
+  ui:
+    reloadIfChanged: true
+    inspector:
+      groups:
+        gallery:
+          label: 'Indstillinger for billede'
+          position: 5
+          icon: 'icon-image'
+  properties:
+    id:
+      type: string
+      ui:
+        label: 'Giv dette billede en kategori'
+        inspector:
+          group: 'gallery'
+          editor: 'Neos.Neos/Inspector/Editors/SelectBoxEditor'
+          reloadIfChanged: true
+          editorOptions:
+            values:
+              'bolig':
+                label: 'Bolig'
+              'kommerciel':
+                label: 'Kommerciel'
+              'livsstil':
+                label: 'Livsstil'
+              'mad':
+                label: 'Mad'
+              'mennesker':
+                label: 'Mennesker'
+              'cideo':
+                label: 'Video'

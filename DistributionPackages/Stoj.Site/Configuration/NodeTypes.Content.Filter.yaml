@@ -1,0 +1,7 @@
+'Stoj.Site:Content.Filter':
+  superTypes:
+    'Neos.Neos:Content': true
+  ui:
+    label: Filter
+    icon: icon-filter
+    position: 310

@@ -2,6 +2,7 @@
   superTypes:
     'Neos.Neos:Content': true
     'Stoj.Site:Mixin.Image': true
+    'Stoj.Site:Mixin.Gallery': true
   ui:
     label: Gallery Item
     icon: icon-picture

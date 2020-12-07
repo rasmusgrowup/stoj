@@ -52,17 +52,6 @@ $break-desk: 1025px;
 $break-tablet: 768px;
 $break-mobile: 414px;
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    cursor: none !important;
-
-    &:hover {
-        cursor: none !important;
-    }
-}
-
 html {
     background-color: white !important;
 }
@@ -77,6 +66,17 @@ body {
 }
 
 @media only screen and (min-width: 1025px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        cursor: none !important;
+
+        &:hover {
+            cursor: none !important;
+        }
+    }
+    
     .custom-cursor {
         position: fixed;
         opacity: 0;

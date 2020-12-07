@@ -1,0 +1,27 @@
+$deep-blue: #0F1419;
+
+.button-group {
+    text-align: center;
+}
+
+.filter-button-group {
+    button {
+        background-color: white;
+        border: 0;
+        padding: .25em 1em;
+        margin-right: .5em;
+
+        &:last-child {
+            margin-right: 0;
+        }
+
+        &:active {
+            outline: 0;
+        }
+    }
+
+    .is-checked {
+        background-color: $deep-blue;
+        color: white;
+    }
+}

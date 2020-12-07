@@ -1,0 +1,14 @@
+prototype(Stoj.Site:Collection.Section) < prototype(Neos.Neos:ContentCollection) {
+    content = Neos.Neos:ContentCollection
+    @process.contentElementWrapping >
+
+    attributes = Neos.Fusion:DataStructure {
+        class = 'main-section'
+    }
+
+    renderer = afx`
+    <div>
+        <ts:render path="content" />
+    </div>
+    `
+}
