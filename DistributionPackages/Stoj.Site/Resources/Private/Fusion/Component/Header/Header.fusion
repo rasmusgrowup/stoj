@@ -9,6 +9,13 @@ prototype(Stoj.Site:Component.Header) < prototype(Neos.Fusion:Component) {
     logo = Neos.Fusion:ResourceUri {
     path = 'resource://Stoj.Site/Public/Frontend/svg/logo.svg'
     }
+    in = Neos.Fusion:ResourceUri {
+    path = 'resource://Stoj.Site/Public/Frontend/icons/instagram.svg'
+    }
+
+    li = Neos.Fusion:ResourceUri {
+    path = 'resource://Stoj.Site/Public/Frontend/icons/linkedin.svg'
+    }
 
     menuImage = Neos.Fusion:ResourceUri {
     path = 'resource://Stoj.Site/Public/Frontend/assets/fastelavn3.jpg'
@@ -43,7 +50,6 @@ prototype(Stoj.Site:Component.Header) < prototype(Neos.Fusion:Component) {
                         <span></span>
                 </div>
             </div>
-            <div class="header-gradient"></div>
         </header>
         <div class="menu-body" id="menu">
             <a class="logo" href={props.homeLink}>

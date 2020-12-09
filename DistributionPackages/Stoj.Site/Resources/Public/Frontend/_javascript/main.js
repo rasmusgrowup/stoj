@@ -69,7 +69,23 @@ window.addEventListener('scroll', function(e) {
 			delay: .1,
 			ease: "power2.out"
         })
-    })
+    });
+
+	let reveal = document.querySelectorAll('.aos-reveal');
+
+    reveal.forEach( function( elem ) {
+        gsap.from(elem, {
+            scrollTrigger: {
+                trigger: elem,
+                toggleActions: "play none play reverse",
+				scrub: true,
+				//markers: true,
+				start: 'top 90%'
+            },
+			opacity: .1,
+			duration: 1.25,
+        })
+    });
 
 	let animateLine = document.querySelectorAll('.animate-line');
 
@@ -123,11 +139,24 @@ window.addEventListener('scroll', function(e) {
 			start: "top top",
 			end: "bottom top"
 		},
-		opacity: 0,
-		y: 300,
-		duration: 1.5,
-		//ease: "power3.in"
-	})
+		//opacity: 0,
+		y: -50,
+		duration: 3,
+	});
+
+	gsap.to(".overlay-image", {
+		scrollTrigger: {
+			trigger: ".reel-overlay",
+			toggleActions: "play none play reverse",
+			scrub: true,
+			//markers: true,
+			start: "top center",
+			end: "bottom top"
+		},
+		//opacity: 0,
+		y: -125,
+		duration: 3,
+	});
 
 	gsap.to(".contact-btn", {
 		scrollTrigger: {
@@ -138,18 +167,7 @@ window.addEventListener('scroll', function(e) {
 			//markers: true,
 		},
 		opacity:0,
-	})
-
-	gsap.to(".header-gradient", {
-		scrollTrigger: {
-			trigger: ".main-footer",
-			start: "-200px bottom",
-			end: "+=100",
-			toggleActions: "play none play reverse",
-			//markers: true,
-		},
-		opacity:0,
-	})
+	});
 
 	// Entry animations
 		gsap.from(".reel-text",{
@@ -161,19 +179,20 @@ window.addEventListener('scroll', function(e) {
 		);
 
 		gsap.from(".reel-overlay",{
-				y: 300,
-				scaleY: 1.5,
+				y: 150,
+				//scaleY: 1.25,
 				opacity: 0,
-				duration: 1.5,
-				delay: .5,
+				duration: 2.5,
+				delay: 2.25,
 				ease: "power3.out"
 			});
 
-		gsap.from(".reel-container",{
-				y: 300,
-				scaleY: 1.5,
+		gsap.from(".video-body",{
+				y: 100,
+				//scaleY: 1.25,
 				opacity: 0,
-				duration: 1.5,
-				delay: 1,
+				stagger: 1,
+				duration: 2.2,
+				delay: 2,
 				ease: "power3.out"
 			});

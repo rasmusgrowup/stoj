@@ -78,26 +78,25 @@ prototype(Stoj.Site:Content.Subheader) < prototype(Neos.Neos:ContentComponent) {
     renderer = afx`
         <section class="subheader-body frontpage">
             <div class="subheader-reel">
-                <div class="subheader-logo">
-                    <img src={props.logo} alt=""/>
-                </div>
                 <div class="reel-container">
-                    <div class="video-container fadeOut" id="desktop-video">
-                        <iframe src="https://player.vimeo.com/video/482513449?background=1" width="100%" height="100%"></iframe>
+                    <div class="video-body">
+                        <div class="video-container fadeOut" id="desktop-video">
+                            <iframe src="https://player.vimeo.com/video/488874518?background=1" width="100%" height="100%"></iframe>
+                        </div>
+                        <div class="video-container fadeOut" id="mobile-video">
+                            <iframe src="https://player.vimeo.com/video/482516551?background=1" width="100%" height="100%"></iframe>
+                        </div>
+                        <div class="cursor-div"></div>
                     </div>
-                    <div class="video-container fadeOut" id="mobile-video">
-                        <iframe src="https://player.vimeo.com/video/482516551?background=1" width="100%" height="100%"></iframe>
+                    <div class="reel-overlay">
+                        <img class="overlay-image" src={props.logo} alt=""/>
                     </div>
-                    <div class="cursor-div"></div>
-                </div>
-                <div class="reel-overlay">
-                    <h1>Foto, film & halløj</h1>
                 </div>
                 <div class="reel-text">
                     <h2></h2>
-                    <p>Hos Stöj skaber vi fantastiske oplevelser, gennem billeder og video. Mange års erfaring med foto- og videoproduktion gør at vores produkter, har den helt rigtige kant.</p>
-                    <p>Vi er et lille odenseansk fotostudie, der skyder billeder og film til en lang række danske virksomheder og mediehuse. De vælger os, fordi vi kan tilbyde en esktra dimension til deres billeder, hvilket får budskaberne til at stå ekstra skarpt. Hos os, er der tid og plads til at opdage og udtænke jeres unikke billedunivers. Vi er så heldige, at vi kan nørde helt i bund, når vi skal løse vores kunders opgaver. Det er en af de mange fordele, der hører med til, at være et mindre fotostudie.</p>
-                    <Carbon.Link:Link link="/studiet" additionalClass="stoj-link">Læs mere om vores studie og faciliteter</Carbon.Link:Link>
+                    <p class="aos-reveal">Hos Stöj skaber vi fantastiske oplevelser, gennem billeder og video. Mange års erfaring med foto- og videoproduktion gør at vores produkter, har den helt rigtige kant.</p>
+                    <p class="aos-reveal">Vi er et lille odenseansk fotostudie, der skyder billeder og film til en lang række danske virksomheder og mediehuse. De vælger os, fordi vi kan tilbyde en esktra dimension til deres billeder, hvilket får budskaberne til at stå ekstra skarpt. Hos os, er der tid og plads til at opdage og udtænke jeres unikke billedunivers. Vi er så heldige, at vi kan nørde helt i bund, når vi skal løse vores kunders opgaver. Det er en af de mange fordele, der hører med til, at være et mindre fotostudie.</p>
+                    <Carbon.Link:Link link="/studiet" additionalClass="stoj-link aos-reveal">Læs mere om vores studie og faciliteter</Carbon.Link:Link>
                 </div>
                <div class="reel-image">
                     <Sitegeist.Lazybones:Image
@@ -110,89 +109,90 @@ prototype(Stoj.Site:Content.Subheader) < prototype(Neos.Neos:ContentComponent) {
                         alt={props.alternativeText}
                         />
                 </div>
-                <section class="services-section">
-                    <div class="services-text aos" onclick="myFunction(event)" id="navList">
-                        <h2>Vores ydelser</h2>
-                        <p style="color:white;">Vi har en bred erfaring, og har løst mange typer af opgaver indenfor billed- og videoproduktion.</p>
-                        <p style="color:white;">Noget af det vi skyder mest af, er
-                            <span
-                                class="list-btn active cursor-link"
-                                data-selector=".cell1">
-                                mad,
-                            </span>
-                            <span
-                                class="list-btn span-list cursor-link"
-                                data-selector=".cell2">
-                                miljøer,
-                            </span>
-                            <span
-                                class="list-btn span-list cursor-link"
-                                data-selector=".cell3">
-                                produkter,
-                            </span>
-                            <span
-                                class="list-btn span-list cursor-link"
-                                data-selector=".cell4">
-                                mennesker,
-                            </span>
-                            <span
-                                class="list-btn span-list cursor-link"
-                                data-selector=".cell5">
-                                boliger
-                            </span>
-                            <span class="not-a-service" style="color:white;font-weight:400;">og</span>
-                            <span
-                                class="list-btn span-list cursor-link"
-                                data-selector=".cell6">
-                                indretning
-                            </span>
-                            . Vi dog altid frisk på at prøve noget nyt!
-                        </p>
-                        <!--<div class="services-list">
-                            <ul>
-                                <li class="list-btn" data-selector=".cell1">Mad</li>
-                                <li class="list-btn" data-selector=".cell2">Miljøer</li>
-                                <li class="list-btn" data-selector=".cell3">Produktbilleder</li>
-                                <li class="list-btn" data-selector=".cell4">Personfotografering</li>
-                                <li class="list-btn" data-selector=".cell5">Bolig</li>
-                                <li class="list-btn" data-selector=".cell6">Indretning</li>
-                            </ul>
-                        </div>-->
-                        <Carbon.Link:Link link={props.link} additionalClass="reg-button">{props.label}</Carbon.Link:Link>
-                    </div>
-                    <div class="services-image-wrapper aos">
-                        <div class="carousel">
-                            <div class="carousel-cell cell1">
-                                <img src={props.cellOne} alt=""/>
-                            </div>
-                            <div class="carousel-cell cell2">
-                                <img src={props.cellSecond} alt=""/>
-                            </div>
-                            <div class="carousel-cell cell3">
-                                <img src={props.cellThird} alt=""/>
-                            </div>
-                            <div class="carousel-cell cell4">
-                                <img src={props.cellFourth} alt=""/>
-                            </div>
-                            <div class="carousel-cell cell5">
-                                <img src={props.cellFifth} alt=""/>
-                            </div>
-                            <div class="carousel-cell cell6">
-                                <img src={props.cellSixth} alt=""/>
-                            </div>
-                        </div>
-<!--                        <Sitegeist.Lazybones:Image
-                            class="services-image"
-                            lazy={true}
-                            lazyWidth={500}
-                            imageSource={props.src2}
-                            srcset="320w, 400w, 480w, 600w, 640w, 720w, 768w, 800w, 960w, 1024px, 1280w, 1440w, 1600w, 1680w, 1920w, 2560w"
-                            sizes={props.sizes}
-                            alt={props.alternativeText2}
-                            /> -->
-                    </div>
-                </section>
             </div>
+            <section class="services-section">
+                <div class="services-text" onclick="myFunction(event)" id="navList">
+                    <h2 class="aos-reveal">Vores ydelser</h2>
+                    <p style="color:white;" class="aos-reveal">Vi har en bred erfaring, og har løst mange typer af opgaver indenfor billed- og videoproduktion.</p>
+                    <p style="color:white;" class="aos-reveal">Noget af det vi skyder mest af, er
+                        <span
+                            class="list-btn active cursor-link"
+                            data-selector=".cell1">
+                            mad,
+                        </span>
+                        <span
+                            class="list-btn span-list cursor-link"
+                            data-selector=".cell2">
+                            miljøer,
+                        </span>
+                        <span
+                            class="list-btn span-list cursor-link"
+                            data-selector=".cell3">
+                            produkter,
+                        </span>
+                        <span
+                            class="list-btn span-list cursor-link"
+                            data-selector=".cell4">
+                            mennesker,
+                        </span>
+                        <span
+                            class="list-btn span-list cursor-link"
+                            data-selector=".cell5">
+                            boliger
+                        </span>
+                        <span class="not-a-service" style="color:white;font-weight:400;">og</span>
+                        <span
+                            class="list-btn span-list cursor-link"
+                            data-selector=".cell6">
+                            indretning
+                        </span>
+                        . Vi dog altid frisk på at prøve noget nyt!
+                    </p>
+                    <!--<div class="services-list">
+                        <ul>
+                            <li class="list-btn" data-selector=".cell1">Mad</li>
+                            <li class="list-btn" data-selector=".cell2">Miljøer</li>
+                            <li class="list-btn" data-selector=".cell3">Produktbilleder</li>
+                            <li class="list-btn" data-selector=".cell4">Personfotografering</li>
+                            <li class="list-btn" data-selector=".cell5">Bolig</li>
+                            <li class="list-btn" data-selector=".cell6">Indretning</li>
+                        </ul>
+                    </div>-->
+                    <Carbon.Link:Link link={props.link} additionalClass="reg-button aos-reveal">{props.label}</Carbon.Link:Link>
+                </div>
+                <div class="services-image-wrapper aos">
+                    <div class="carousel">
+                        <div class="carousel-cell cell1">
+                            <img src={props.cellOne} alt=""/>
+                        </div>
+                        <div class="carousel-cell cell2">
+                            <img src={props.cellSecond} alt=""/>
+                        </div>
+                        <div class="carousel-cell cell3">
+                            <img src={props.cellThird} alt=""/>
+                        </div>
+                        <div class="carousel-cell cell4">
+                            <img src={props.cellFourth} alt=""/>
+                        </div>
+                        <div class="carousel-cell cell5">
+                            <img src={props.cellFifth} alt=""/>
+                        </div>
+                        <div class="carousel-cell cell6">
+                            <img src={props.cellSixth} alt=""/>
+                        </div>
+                    </div>
+<!--                        <Sitegeist.Lazybones:Image
+                        class="services-image"
+                        lazy={true}
+                        lazyWidth={500}
+                        imageSource={props.src2}
+                        srcset="320w, 400w, 480w, 600w, 640w, 720w, 768w, 800w, 960w, 1024px, 1280w, 1440w, 1600w, 1680w, 1920w, 2560w"
+                        sizes={props.sizes}
+                        alt={props.alternativeText2}
+                        /> -->
+                </div>
+            </section>
+            <!--<div class="header-gradient"></div>-->
         </section>
     `
 }
