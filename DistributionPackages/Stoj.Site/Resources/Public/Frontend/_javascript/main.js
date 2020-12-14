@@ -167,7 +167,7 @@ window.addEventListener('scroll', function(e) {
 			start: "top top",
 			end: "bottom top"
 		},
-		opacity: .4,
+		opacity: 0,
 		y: 300,
 		//scale: .6,
 		duration: 3,
