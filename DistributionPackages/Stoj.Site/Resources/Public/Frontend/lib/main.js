@@ -43,14 +43,15 @@ animateIn.forEach(function (elem) {
 			trigger: elem,
 			toggleActions: "play none play reverse",
 			//markers: true,
+			scrub: true,
 			start: '-200 bottom'
 		},
-		y: 200,
-		//scaleY: 1.5,
+		y: 100,
+		//scale: .9,
 		opacity: 0,
-		duration: 1.25,
-		delay: .1,
-		ease: "power2.out"
+		duration: 2,
+		delay: .5,
+		ease: "power3.out"
 	});
 });
 
@@ -64,12 +65,12 @@ animateText.forEach(function (elem) {
 			//markers: true,
 			start: '-300 bottom'
 		},
-		y: 300,
+		y: 100,
 		scaleY: 2,
 		opacity: 0,
 		duration: 1.25,
-		delay: .1,
-		ease: "power2.out"
+		delay: .5,
+		ease: "power3.out"
 	});
 });
 
@@ -82,9 +83,11 @@ reveal.forEach(function (elem) {
 			toggleActions: "play none play reverse",
 			scrub: true,
 			//markers: true,
-			start: 'top 90%'
+			start: 'top 90%',
+			end: 'bottom center'
 		},
-		opacity: .1,
+		opacity: .05,
+		//scale: .9,
 		duration: 1.25
 	});
 });
@@ -103,18 +106,28 @@ animateLine.forEach(function (elem) {
 	});
 });
 
-gsap.from(".payoff", {
-	scrollTrigger: {
-		trigger: ".payoff",
-		toggleActions: "play none play reverse",
-		scrub: 2,
-		//markers: true,
-		start: "-150px bottom",
-		end: "top bottom"
-	},
-	y: 100,
-	duration: 1.5
-	//ease: "power3.in"
+gsap.from(".reel-overlay", {
+	//y: "+=150",
+	//scaleY: 1.25,
+	opacity: 0,
+	duration: 1.5,
+	delay: 1.8,
+	ease: "power3.out"
+});
+
+gsap.from(".video-body", {
+	y: 150,
+	scaleY: 1.25,
+	opacity: 0,
+	duration: 1.5,
+	delay: 2,
+	ease: "power3.out"
+});
+
+gsap.from(".gallery-image", {
+	opacity: 0,
+	duration: .75,
+	stagger: .1
 });
 
 gsap.from(".some-icons", {
@@ -141,8 +154,9 @@ gsap.to(".fadeOut", {
 		start: "top top",
 		end: "bottom top"
 	},
-	//opacity: 0,
+	opacity: .4,
 	y: -50,
+	//scale: 1.1,
 	duration: 3
 });
 
@@ -152,15 +166,16 @@ gsap.to(".overlay-image", {
 		toggleActions: "play none play reverse",
 		scrub: true,
 		//markers: true,
-		start: "top center",
+		start: "center center",
 		end: "bottom top"
 	},
-	//opacity: 0,
-	y: -125,
+	opacity: .4,
+	y: -200,
+	//scale: 1.1,
 	duration: 3
 });
 
-gsap.to(".contact-btn", {
+gsap.to(".contact-btn, .header-social", {
 	scrollTrigger: {
 		trigger: ".main-footer",
 		start: "-200px bottom",
@@ -172,28 +187,11 @@ gsap.to(".contact-btn", {
 });
 
 // Entry animations
-gsap.from(".reel-text", {
-	opacity: 0,
-	duration: 1.5,
-	delay: 1,
-	ease: "power3.in"
-});
-
-gsap.from(".reel-overlay", {
-	y: 150,
-	//scaleY: 1.25,
-	opacity: 0,
-	duration: 2.5,
-	delay: 2.25,
-	ease: "power3.out"
-});
-
-gsap.from(".video-body", {
-	y: 100,
-	//scaleY: 1.25,
-	opacity: 0,
-	stagger: 1,
-	duration: 2.2,
-	delay: 2,
-	ease: "power3.out"
-});
+//		gsap.from(".reel-text",{
+//				opacity: 0,
+//scale: .9,
+//				duration: 1.5,
+//				delay: 1,
+//				ease: "power2.in"
+//			}
+//		);

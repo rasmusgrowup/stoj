@@ -72,6 +72,7 @@
             display: block;
             flex: 1;
             //height: 100%;
+            mix-blend-mode: exclusion;
             padding: 1em 8em;
             position: relative;
             max-width: 50%;
@@ -80,10 +81,31 @@
         ul {
             li {
                 a {
-                    color: $almost-black;
+                    animation-fill-mode: both;
+                    display: table;
+                    color: white;
                     font-size: $clamp;
                     font-weight: 600;
-                    line-height: 1.25;
+                    line-height: 1;
+                    margin-bottom: .25em;
+
+                    &:after {
+                        animation-fill-mode: both;
+                        animation-timing-function: ease-out;
+                        background-color: white;
+                        content: '';
+                        display: block;
+                        height: .1em;
+                        transition: .3s;
+                        transition-delay: .1s;
+                        width: 0;
+                    }
+                }
+
+                a:hover {
+                    &:after {
+                        width: 100%;
+                    }
                 }
             }
         }

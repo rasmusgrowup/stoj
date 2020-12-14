@@ -1,0 +1,78 @@
+prototype(Stoj.Site:Templates.ProjectLanding) < prototype(Neos.Neos:ContentComponent) {
+
+    src = Neos.Fusion:Case {
+        image {
+            condition = ${q(node).property('image') ? true : false}
+            renderer = Sitegeist.Kaleidoscope:AssetImageSource {
+                asset = ${q(node).property('image')}
+            }
+        }
+        dummyImage {
+            condition = ${site.context.inBackend}
+            renderer = Sitegeist.Kaleidoscope:DummyImageSource
+        }
+    }
+    alternativeText = ${q(node).property('alternativeText')}
+
+    title = Neos.Neos:Editable {
+        property = 'title'
+    }
+
+    name = Neos.Neos:Editable {
+        property = 'name'
+    }
+
+    customer = Neos.Neos:Editable {
+        property = 'customer'
+    }
+
+    date = Neos.Neos:Editable {
+        property = 'date'
+    }
+
+    task = Neos.Neos:Editable {
+        property = 'task'
+    }
+
+    text = Neos.Neos:Editable {
+        property = 'text'
+    }
+
+    label = Neos.Neos:Editable {
+        property = 'label'
+    }
+
+    link = ${q(node).property('link')}
+    linkTarget = ${q(node).property('linkTarget') ? '_blank' : '_self'}
+    renderAsLink = ${site.context.inBackend ? false : true}
+
+
+renderer = afx`
+        <section class="project-landing">
+            <div class="project-landing-image-container">
+                <Sitegeist.Lazybones:Image
+                    class="project-landing-image"
+                    lazy={true}
+                    lazyWidth={414}
+                    imageSource={props.src}
+                    srcset="320w, 400w, 480w, 600w, 640w, 720w, 768w, 800w, 960w, 1024px, 1280w, 1440w, 1600w, 1680w, 1920w, 2560w"
+                    sizes={props.sizes}
+                    alt={props.alternativeText}
+                    />
+            </div>
+            <div class="project-landing-description">
+                <div class="project-description-wrapper">
+                    <h1>{props.title}</h1>
+                    <div class="project-details">
+                        <h2>Kampagne: {props.name}</h2>
+                        <h2>Kunde: {props.customer}</h2>
+                        <h2>Dato: {props.date}</h2>
+                        <h2>Opgaver: {props.task}</h2>
+                    </div>
+                    {props.text}
+                    <Carbon.Link:Link link={props.link} additionalClass="reg-button">{props.label}</Carbon.Link:Link>
+                </div>
+            </div>
+        </section>
+    `
+}

@@ -1,0 +1,9 @@
+prototype(Stoj.Site:Content.GalleryModal) < prototype(Neos.Neos:ContentComponent) {
+
+    renderer = afx`
+    <div class="gallery-modal" id="gallery-modal" onclick="this.style.display='none'">
+      <span class="close">&times;</span>
+      <img id="modal-image" style="max-width:100%"/>
+    </div>
+    `
+}

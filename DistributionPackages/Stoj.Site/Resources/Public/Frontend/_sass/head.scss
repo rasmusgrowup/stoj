@@ -95,6 +95,25 @@ body {
     }
 }
 
+/* Enable for slow scrolling
+.main {
+    overflow: hidden;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.scroll-container {
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+}*/
+
 @import "../../../Private/Styles/scss/Header";
 @import "../../../Private/Styles/scss/Subheader";
+@import "../../../Private/Styles/scss/Projects";
 @import "../node_modules/bulma/bulma";

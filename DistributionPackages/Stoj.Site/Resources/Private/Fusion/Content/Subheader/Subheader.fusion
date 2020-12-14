@@ -96,7 +96,6 @@ prototype(Stoj.Site:Content.Subheader) < prototype(Neos.Neos:ContentComponent) {
                     <h2></h2>
                     <p class="aos-reveal">Hos Stöj skaber vi fantastiske oplevelser, gennem billeder og video. Mange års erfaring med foto- og videoproduktion gør at vores produkter, har den helt rigtige kant.</p>
                     <p class="aos-reveal">Vi er et lille odenseansk fotostudie, der skyder billeder og film til en lang række danske virksomheder og mediehuse. De vælger os, fordi vi kan tilbyde en esktra dimension til deres billeder, hvilket får budskaberne til at stå ekstra skarpt. Hos os, er der tid og plads til at opdage og udtænke jeres unikke billedunivers. Vi er så heldige, at vi kan nørde helt i bund, når vi skal løse vores kunders opgaver. Det er en af de mange fordele, der hører med til, at være et mindre fotostudie.</p>
-                    <Carbon.Link:Link link="/studiet" additionalClass="stoj-link aos-reveal">Læs mere om vores studie og faciliteter</Carbon.Link:Link>
                 </div>
                <div class="reel-image">
                     <Sitegeist.Lazybones:Image
@@ -108,6 +107,7 @@ prototype(Stoj.Site:Content.Subheader) < prototype(Neos.Neos:ContentComponent) {
                         sizes={props.sizes}
                         alt={props.alternativeText}
                         />
+                        <Carbon.Link:Link link="/studiet" additionalClass="stoj-link aos-reveal">Læs mere om vores studie og faciliteter</Carbon.Link:Link>
                 </div>
             </div>
             <section class="services-section">
@@ -158,7 +158,7 @@ prototype(Stoj.Site:Content.Subheader) < prototype(Neos.Neos:ContentComponent) {
                             <li class="list-btn" data-selector=".cell6">Indretning</li>
                         </ul>
                     </div>-->
-                    <Carbon.Link:Link link={props.link} additionalClass="reg-button aos-reveal">{props.label}</Carbon.Link:Link>
+                    <Carbon.Link:Link link={props.link} additionalClass="stoj-link aos-reveal">{props.label}</Carbon.Link:Link>
                 </div>
                 <div class="services-image-wrapper aos">
                     <div class="carousel">

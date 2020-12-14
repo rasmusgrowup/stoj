@@ -1,24 +1,33 @@
 prototype(Stoj.Site:Content.GalleryItemWide) < prototype(Neos.Neos:ContentComponent) {
-    src = Neos.Fusion:Case {
-        image {
-            condition = ${q(node).property('image') ? true : false}
-            renderer = Neos.Neos:ImageUri {
-                asset = ${q(node).property('image')}
-                maximumWidth = 900
-            }
-        }
-        dummyImage {
-            condition = ${site.context.inBackend}
-            renderer = Neos.Fusion:ResourceUri {
-                path = 'resource://Neos.Neos/Public/Images/dummy-image.svg'
-            }
+lazy = ${q(node).prev().is()}
+
+src = Neos.Fusion:Case {
+    image {
+        condition = ${q(node).property('image') ? true : false}
+        renderer = Sitegeist.Kaleidoscope:AssetImageSource {
+            asset = ${q(node).property('image')}
         }
     }
-    alternativeText = ${q(node).property('alternativeText')}
+    dummyImage {
+        condition = ${site.context.inBackend}
+        renderer = Sitegeist.Kaleidoscope:DummyImageSource
+    }
+}
+alternativeText = ${q(node).property('alternativeText')}
+
+id = ${'gallery-item gallery-item-wide ' + q(node).property('id')}
 
     renderer = afx`
-    <div class="gallery-item gallery-item-wide">
-        <img class="gallery-image" src={props.src} alt={props.alternativeText} />
+    <div class={props.id}>
+        <Sitegeist.Lazybones:Image
+            class="gallery-image"
+            lazy={true}
+            lazyWidth={228}
+            imageSource={props.src}
+            srcset="320w, 400w, 480w, 600w, 640w, 720w, 768w, 800w, 960w, 1024px, 1280w, 1440w, 1600w, 1680w, 1920w, 2560w"
+            sizes={props.sizes}
+            alt={props.alternativeText}
+            />
     </div>
     `
 }

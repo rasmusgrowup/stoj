@@ -1,0 +1,57 @@
+'Stoj.Site:Templates.ProjectLanding':
+  superTypes:
+    'Neos.Neos:Content': true
+    'Stoj.Site:Content.Text': true
+    'Stoj.Site:Content.Headline': true
+    'Stoj.Site:Mixin.Image': true
+  ui:
+    group: 'structure'
+    label: Project Landing Section
+    icon: icon-pager
+    position: 400
+    inlineEditable: true
+    reloadIfChanged: true
+  properties:
+    name:
+      ui:
+        inline:
+          editorOptions:
+            placeholder: 'Projektets navn'
+            autoparagraph: false
+      options:
+        silhouette: text.free
+    customer:
+      ui:
+        inline:
+          editorOptions:
+            placeholder: 'Kundens navn'
+            autoparagraph: false
+      options:
+        silhouette: text.free
+    date:
+      ui:
+        inline:
+          editorOptions:
+            placeholder: 'Dato'
+            autoparagraph: false
+      options:
+        silhouette: text.free
+    task:
+      ui:
+        inline:
+          editorOptions:
+            placeholder: 'Opgaver'
+            autoparagraph: false
+      options:
+        silhouette: text.free
+    label:
+      options:
+        silhouette: text.free
+    link:
+      type: string
+      reloadIfChanged: true
+      ui:
+        label: 'Link target'
+        inspector:
+          group: image
+          editor: Neos.Neos/Inspector/Editors/LinkEditor

@@ -4,9 +4,13 @@
 
 .carousel-cell {
   width: 100%; /* full width */
-  height: 720px; /* height of carousel */
+  height: 520px; /* height of carousel */
   overflow: hidden;
   margin-right: 0;
+
+  @media only screen and (min-width: $break-desk) {
+        height: 720px; /* height of carousel */
+  }
 
   img {
       display: block;

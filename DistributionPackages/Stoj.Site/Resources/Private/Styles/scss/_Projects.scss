@@ -1,0 +1,63 @@
+.project-landing {
+    background-color: white;
+    display: block;
+    padding: 0;
+    position: relative;
+
+    @media only screen and (min-width: $break-desk) {
+        align-items: center;
+        display: flex;
+        height: 100vh;
+        max-height: 920px;
+    }
+
+    .project-landing-image-container {
+        display: block;
+        height: 500px;
+
+        @media only screen and (min-width: $break-desk) {
+            height: 100%;
+            //margin-left: 5em;
+        }
+
+        .project-landing-image {
+            display: block;
+            height: 100%;
+            width: auto;
+        }
+    }
+
+    .project-landing-description {
+        display: block;
+        padding: 2em 1em;
+
+        @media only screen and (min-width: $break-desk) {
+            flex: 1;
+            padding: 2em 3em;
+        }
+
+        h1 {
+            font-size: 1.75em;
+            font-weight: 600;
+            line-height: 1.25;
+        }
+
+        .project-details {
+            padding: 1em 0;
+
+            h2 {
+                //color: #e0b43b;
+                font-weight: 500;
+            }
+        }
+    }
+}
+
+#horizontal-section {
+//  background-color:grey;
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:column;
+    width:100vw;
+    height:100vh;
+}

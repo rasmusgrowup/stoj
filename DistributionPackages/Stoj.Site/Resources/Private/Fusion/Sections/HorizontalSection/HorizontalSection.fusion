@@ -1,0 +1,15 @@
+prototype(Stoj.Site:Sections.HorizontalSection) < prototype(Neos.Neos:ContentCollection) {
+    content = Neos.Neos:ContentCollection {
+        attributes = Neos.Fusion:DataStructure {
+            class = 'horizontal-section'
+            id = 'horizontal-section'
+        }
+    }
+    @process.contentElementWrapping >
+
+    renderer = afx`
+    <div>
+        <ts:render path="content" />
+    </div>
+    `
+}

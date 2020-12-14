@@ -9,6 +9,7 @@ prototype(Stoj.Site:Component.Header) < prototype(Neos.Fusion:Component) {
     logo = Neos.Fusion:ResourceUri {
     path = 'resource://Stoj.Site/Public/Frontend/svg/logo.svg'
     }
+
     in = Neos.Fusion:ResourceUri {
     path = 'resource://Stoj.Site/Public/Frontend/icons/instagram.svg'
     }
@@ -68,6 +69,12 @@ prototype(Stoj.Site:Component.Header) < prototype(Neos.Fusion:Component) {
                 <span></span>
                 <span></span>
             </div>
+        </div>
+        <div class="header-social">
+            <a href="https://instagram.com/halloj_stoj"><img src={props.in} alt=""/></a>
+            <a href="https://instagram.com/halloj_stoj"><img src={props.li} alt=""/></a>
+            <span></span>
+            <p>Følg os her</p>
         </div>
         <div class="contact-btn">
             <a href="mailto:halloj@hallojstoj.dk">
