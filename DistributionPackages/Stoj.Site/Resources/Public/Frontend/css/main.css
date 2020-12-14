@@ -7521,7 +7521,8 @@ h6 {
   background-color: #FCD8E3;
   clip-path: circle(0% at calc(100% - 2em) 3em);
   display: flex;
-  height: 100vh;
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
   position: fixed;
   top: 0;
   left: 0;
@@ -7567,13 +7568,13 @@ h6 {
           top: 0;
           width: 100%; } }
   .menu-body .menu-content {
+    mix-blend-mode: exclusion;
     padding: 1em;
     width: 100%; }
     @media only screen and (min-width: 1025px) {
       .menu-body .menu-content {
         display: block;
         flex: 1;
-        mix-blend-mode: exclusion;
         padding: 1em 8em;
         position: relative;
         max-width: 50%; } }

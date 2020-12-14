@@ -9,7 +9,8 @@
     background-color: $stoj-pink;
     clip-path: circle(0% at calc(100% - 2em) 3em);
     display: flex;
-    height: 100vh;
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
     position: fixed;
     top: 0;
     left: 0;
@@ -67,6 +68,7 @@
     }
 
     .menu-content {
+        mix-blend-mode: exclusion;
         padding: 1em;
         width: 100%;
 
@@ -74,7 +76,6 @@
             display: block;
             flex: 1;
             //height: 100%;
-            mix-blend-mode: exclusion;
             padding: 1em 8em;
             position: relative;
             max-width: 50%;
