@@ -34,7 +34,8 @@
     .reel-container {
         display: block;
         height: 100vh;
-        min-height: -webkit-fill-available;
+        height: -webkit-fill-available;
+        min-height: 568px;
         max-height: 920px;
         //padding-top: 6em;
         position: relative;
