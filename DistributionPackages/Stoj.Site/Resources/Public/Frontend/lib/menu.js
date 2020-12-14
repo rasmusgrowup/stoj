@@ -15,6 +15,10 @@ window.addEventListener('DOMContentLoaded', (event) => {
 		clipPath: 'circle(140% at calc(100% - 2em) 3em)',
 		pointerEvents: 'auto'
 	})
+	tl.from('#exit', {
+		opacity: 0,
+		y: 30,
+	}, "-=1")
 	tl.from('.navigation-item', {
 		stagger: .1,
 		opacity: 0,

@@ -155,7 +155,7 @@ gsap.to(".fadeOut", {
 		end: "bottom top"
 	},
 	opacity: .4,
-	y: -50,
+	//y: -50,
 	//scale: 1.1,
 	duration: 3
 });
@@ -185,13 +185,3 @@ gsap.to(".contact-btn, .header-social", {
 	},
 	opacity: 0
 });
-
-// Entry animations
-//		gsap.from(".reel-text",{
-//				opacity: 0,
-//scale: .9,
-//				duration: 1.5,
-//				delay: 1,
-//				ease: "power2.in"
-//			}
-//		);

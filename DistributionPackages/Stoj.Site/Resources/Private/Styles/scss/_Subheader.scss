@@ -42,9 +42,9 @@
         z-index: 0;
 
         @media only screen and (min-width: 769px) {
-            //height: 100vh;
-            //max-height: 920px;
-            //padding-top: 8em;
+            height: 100vh;
+            min-height: 568px;
+            max-height: 920px;
             margin: 0 auto;
             max-width: calc(100% - 6em);
             max-width: 1440px;

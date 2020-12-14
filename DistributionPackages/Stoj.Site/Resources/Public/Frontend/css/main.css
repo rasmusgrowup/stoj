@@ -7532,7 +7532,8 @@ h6 {
   @media only screen and (min-width: 1025px) {
     .menu-body {
       align-items: center;
-      display: flex; } }
+      display: flex;
+      height: 100vh; } }
   .menu-body .logo {
     display: block;
     left: 1em;
@@ -7546,7 +7547,7 @@ h6 {
       .menu-body .logo {
         left: 3em;
         top: 2em;
-        width: 6em; } }
+        width: 7em; } }
     .menu-body .logo img {
       width: 100%; }
   .menu-body .menu-image {
@@ -7600,17 +7601,18 @@ h6 {
       width: 100%; }
   .menu-body .menu-btn {
     display: block;
-    height: 2.75em;
+    height: 2em;
     mix-blend-mode: exclusion;
     position: absolute;
     right: 1em;
     top: 1em;
-    width: 2.75em; }
+    width: 2em; }
     @media only screen and (min-width: 768px) {
       .menu-body .menu-btn {
+        height: 2.75em;
         right: 3em;
         top: 2em;
-        width: 6em; } }
+        width: 2.75em; } }
     .menu-body .menu-btn span {
       background-color: white;
       display: block;
@@ -7618,7 +7620,11 @@ h6 {
       left: 0;
       position: absolute;
       top: 50%;
-      width: 2.75em; }
+      width: 2em; }
+      @media only screen and (min-width: 768px) {
+        .menu-body .menu-btn span {
+          height: .175em;
+          width: 2.75em; } }
       .menu-body .menu-btn span:first-child {
         transform: rotate(-45deg); }
       .menu-body .menu-btn span:last-child {

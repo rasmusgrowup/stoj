@@ -21,6 +21,7 @@
     @media only screen and (min-width: $break-desk) {
         align-items: center;
         display: flex;
+        height: 100vh;
     }
 
     .logo {
@@ -36,7 +37,7 @@
         @media only screen and (min-width: 768px) {
             left: 3em;
             top: 2em;
-            width: 6em;
+            width: 7em;
         }
 
         img {
@@ -116,17 +117,18 @@
 
     .menu-btn {
         display: block;
-        height: 2.75em;
+        height: 2em;
         mix-blend-mode: exclusion;
         position: absolute;
         right: 1em;
         top: 1em;
-        width: 2.75em;
+        width: 2em;
 
         @media only screen and (min-width: 768px) {
+            height: 2.75em;
             right: 3em;
             top: 2em;
-            width: 6em;
+            width: 2.75em;
         }
 
         span {
@@ -137,7 +139,12 @@
             //margin: .35em 0 0 auto;
             position: absolute;
             top: 50%;
-            width: 2.75em;
+            width: 2em;
+
+            @media only screen and (min-width: 768px) {
+                height: .175em;
+                width: 2.75em;
+            }
 
             &:first-child {
                 transform: rotate(-45deg);
