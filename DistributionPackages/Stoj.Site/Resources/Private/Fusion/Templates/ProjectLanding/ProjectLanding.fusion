@@ -49,7 +49,7 @@ prototype(Stoj.Site:Templates.ProjectLanding) < prototype(Neos.Neos:ContentCompo
 
 renderer = afx`
         <section class="project-landing">
-            <div class="project-landing-image-container">
+            <div class="project-landing-image-container imageOut">
                 <Sitegeist.Lazybones:Image
                     class="project-landing-image"
                     lazy={true}
@@ -62,8 +62,8 @@ renderer = afx`
             </div>
             <div class="project-landing-description">
                 <div class="project-description-wrapper">
-                    <h1>{props.title}</h1>
-                    <div class="project-details">
+                    <h1 class="aos-text">{props.title}</h1>
+                    <div class="project-details aos-text">
                         <h2>Kampagne: {props.name}</h2>
                         <h2>Kunde: {props.customer}</h2>
                         <h2>Dato: {props.date}</h2>

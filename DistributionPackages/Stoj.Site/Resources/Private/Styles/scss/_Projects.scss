@@ -13,22 +13,19 @@
 
     .project-landing-image-container {
         display: block;
-        height: 500px;
 
         @media only screen and (min-width: $break-desk) {
-            height: 100%;
-            //margin-left: 5em;
         }
 
         .project-landing-image {
             display: block;
-            height: 100%;
-            width: auto;
+            width: 100%;
         }
     }
 
     .project-landing-description {
         display: block;
+        mix-blend-mode: exclusion;
         padding: 2em 1em;
 
         @media only screen and (min-width: $break-desk) {
@@ -37,6 +34,7 @@
         }
 
         h1 {
+            color: white;
             font-size: 1.75em;
             font-weight: 600;
             line-height: 1.25;
@@ -46,18 +44,14 @@
             padding: 1em 0;
 
             h2 {
+                color: white;
                 //color: #e0b43b;
                 font-weight: 500;
             }
         }
-    }
-}
 
-#horizontal-section {
-//  background-color:grey;
-    display:flex;
-    flex-wrap:wrap;
-    flex-direction:column;
-    width:100vw;
-    height:100vh;
+        p {
+            color: white;
+        }
+    }
 }

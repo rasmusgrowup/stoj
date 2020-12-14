@@ -158,6 +158,21 @@ window.addEventListener('scroll', function(e) {
 		duration: 3,
 	});
 
+	gsap.to(".imageOut", {
+		scrollTrigger: {
+			trigger: ".reel-container",
+			toggleActions: "play none play reverse",
+			scrub: true,
+			//markers: true,
+			start: "top top",
+			end: "bottom top"
+		},
+		opacity: .4,
+		y: 300,
+		//scale: .6,
+		duration: 3,
+	});
+
 	gsap.to(".overlay-image", {
 		scrollTrigger: {
 			trigger: ".reel-overlay",
