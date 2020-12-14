@@ -7467,7 +7467,10 @@ h6 {
         width: calc(100% - 3em - 380px); } }
   .project-four .project-four-description {
     margin: 0 auto 2em;
-    width: calc(100% - 3em - 380px); }
+    width: 100%; }
+    @media only screen and (min-width: 768px) {
+      .project-four .project-four-description {
+        width: calc(100% - 3em - 380px); } }
     .project-four .project-four-description .description-wrapper {
       max-width: 380px; }
       @media only screen and (min-width: 768px) {
@@ -7531,15 +7534,17 @@ h6 {
       display: flex; } }
   .menu-body .logo {
     display: block;
-    left: 3em;
+    left: 1em;
     mix-blend-mode: exclusion;
     position: absolute;
     overflow: hidden;
-    top: 2em;
+    top: 1em;
     width: 6em;
     z-index: 9; }
     @media only screen and (min-width: 768px) {
       .menu-body .logo {
+        left: 3em;
+        top: 2em;
         width: 6em; } }
     .menu-body .logo img {
       width: 100%; }
@@ -7597,9 +7602,14 @@ h6 {
     height: 2.75em;
     mix-blend-mode: exclusion;
     position: absolute;
-    right: 3em;
-    top: 2em;
+    right: 1em;
+    top: 1em;
     width: 2.75em; }
+    @media only screen and (min-width: 768px) {
+      .menu-body .menu-btn {
+        right: 3em;
+        top: 2em;
+        width: 6em; } }
     .menu-body .menu-btn span {
       background-color: white;
       display: block;

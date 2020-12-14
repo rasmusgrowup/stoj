@@ -31,7 +31,6 @@ prototype(Stoj.Site:Component.Footer) < prototype(Neos.Neos:ContentComponent) {
                         <span>Foto, film & halløj</span>
                     </div>
                     <div class="some-icons">
-                        <a href="#"><img src={props.be} alt=""/></a>
                         <a href="#"><img src={props.in} alt=""/></a>
                         <a href="#"><img src={props.li} alt=""/></a>
                     </div>

@@ -24,15 +24,17 @@
 
     .logo {
         display: block;
-        left: 3em;
+        left: 1em;
         mix-blend-mode: exclusion;
         position: absolute;
         overflow: hidden;
-        top: 2em;
+        top: 1em;
         width: 6em;
         z-index: 9;
 
         @media only screen and (min-width: 768px) {
+            left: 3em;
+            top: 2em;
             width: 6em;
         }
 
@@ -116,9 +118,15 @@
         height: 2.75em;
         mix-blend-mode: exclusion;
         position: absolute;
-        right: 3em;
-        top: 2em;
+        right: 1em;
+        top: 1em;
         width: 2.75em;
+
+        @media only screen and (min-width: 768px) {
+            right: 3em;
+            top: 2em;
+            width: 6em;
+        }
 
         span {
             background-color: white;
