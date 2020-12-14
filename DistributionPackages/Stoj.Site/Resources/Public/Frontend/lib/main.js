@@ -195,3 +195,9 @@ gsap.to(".contact-btn, .header-social", {
 //				ease: "power2.in"
 //			}
 //		);
+
+window.addEventListener('resize', function () {
+	// We execute the same script as before
+	var vh = window.innerHeight * 0.01;
+	document.documentElement.style.setProperty('--vh', vh + 'px');
+});
