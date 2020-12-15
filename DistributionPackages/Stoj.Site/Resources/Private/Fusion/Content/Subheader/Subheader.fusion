@@ -95,7 +95,7 @@ prototype(Stoj.Site:Content.Subheader) < prototype(Neos.Neos:ContentComponent) {
                 <div class="reel-text">
                     <h1 class="aos-reveal">Professionel fotografering og videoproduktion, i hjertet af Odense</h1>
                     <p class="aos-reveal">Hos Stöj skaber vi fantastiske oplevelser, gennem billeder og video. Mange års erfaring med foto- og videoproduktion gør at vores produkter, har den helt rigtige kant.</p>
-                    <p class="aos-reveal" style="column-count:2;column-gap:2em;">Vi er et lille odenseansk fotostudie, der skyder billeder og film til en lang række danske virksomheder og mediehuse. De vælger os, fordi vi kan tilbyde en esktra dimension til deres billeder, hvilket får budskaberne til at stå ekstra skarpt. <br/>Hos os, er der tid og plads til at opdage og udtænke jeres unikke billedunivers. Vi er så heldige, at vi kan nørde helt i bund, når vi skal løse vores kunders opgaver. Det er en af de mange fordele, der hører med til, at være et mindre fotostudie.</p>
+                    <p class="aos-reveal text-columns">Vi er et lille odenseansk fotostudie, der skyder billeder og film til en lang række danske virksomheder og mediehuse. De vælger os, fordi vi kan tilbyde en esktra dimension til deres billeder, hvilket får budskaberne til at stå ekstra skarpt. <br/>Hos os, er der tid og plads til at opdage og udtænke jeres unikke billedunivers. Vi er så heldige, at vi kan nørde helt i bund, når vi skal løse vores kunders opgaver. Det er en af de mange fordele, der hører med til, at være et mindre fotostudie.</p>
                 </div>
                <div class="reel-image">
                     <Sitegeist.Lazybones:Image

@@ -191,6 +191,16 @@
             }
         }
 
+        .text-columns {
+            column-count: 1;
+            //column-gap: 2em;
+
+            @media only screen and (min-width: $break-tablet) {
+                margin-left: 3em;
+                width: 80vw;
+            }
+        }
+
         @media only screen and (min-width: $break-tablet) {
             margin-left: 3em;
             width: 80vw;

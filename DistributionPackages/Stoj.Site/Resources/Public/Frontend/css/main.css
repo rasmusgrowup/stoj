@@ -7171,9 +7171,12 @@ h6 {
   font-family: "MADE", sans-serif; }
 
 .section-headline h2 {
-  font-size: 6em;
+  font-size: 2em;
   font-weight: 600;
   text-align: center; }
+  @media only screen and (min-width: 768px) {
+    .section-headline h2 {
+      font-size: 6em; } }
   .section-headline h2:after {
     animation-timing-function: ease-out;
     background-color: #0F1419;
@@ -7221,12 +7224,13 @@ h6 {
       padding: 8em 5em; } }
 
 .project-one {
-  margin: 8em auto 4em;
+  margin: 2em auto 2em;
   max-width: 980px;
   padding: 0;
   width: 100%; }
   @media only screen and (min-width: 768px) {
     .project-one {
+      margin: 8em auto 4em;
       padding: 0; } }
   .project-one .project-one-image {
     display: block;
@@ -7283,10 +7287,14 @@ h6 {
       width: 100%; }
 
 .project-two {
-  margin: 8em auto 4em;
+  margin: 2em auto 2em;
   max-width: 980px;
   padding: 0;
   width: 100%; }
+  @media only screen and (min-width: 768px) {
+    .project-two {
+      margin: 8em auto 4em;
+      padding: 0; } }
   .project-two .project-two-video {
     display: block;
     margin: 0 auto;
@@ -7348,12 +7356,13 @@ h6 {
       width: 100%; }
 
 .project-three {
-  margin: 8em auto 4em;
+  margin: 2em auto 2em;
   max-width: 980px;
   padding: 0;
   width: 100%; }
   @media only screen and (min-width: 768px) {
     .project-three {
+      margin: 8em auto 4em;
       padding: 0; } }
   .project-three .project-three-image {
     display: block;
@@ -7427,12 +7436,13 @@ h6 {
       width: 100%; }
 
 .project-four {
-  margin: 8em auto 4em;
+  margin: 2em auto 2em;
   max-width: 980px;
   padding: 0;
   width: 100%; }
   @media only screen and (min-width: 768px) {
     .project-four {
+      margin: 8em auto 4em;
       padding: 0; } }
   .project-four .project-four-image {
     display: block;
