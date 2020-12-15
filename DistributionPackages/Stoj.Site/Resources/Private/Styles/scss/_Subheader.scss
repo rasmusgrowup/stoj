@@ -42,11 +42,14 @@
         z-index: 0;
 
         @media only screen and (min-width: 769px) {
-            height: 100vh;
-            min-height: 568px;
-            max-height: 920px;
+            height: 58vh;
             margin: 0 auto;
-            max-width: calc(100% - 6em);
+            width: 100%;
+        }
+
+        @media only screen and (min-width: 1025px) {
+            height: 100vh;
+            margin: 0 auto;
             max-width: 1440px;
             width: 80%;
         }
@@ -196,14 +199,14 @@
             //column-gap: 2em;
 
             @media only screen and (min-width: $break-tablet) {
-                margin-left: 3em;
-                width: 80vw;
+                column-count: 2;
+                column-gap: 2em;
             }
         }
 
         @media only screen and (min-width: $break-tablet) {
-            margin-left: 3em;
-            width: 80vw;
+            margin: 0 auto;
+            width: 94vw;
 
             p {
                 font-size: 3em;
@@ -217,7 +220,6 @@
         }
 
         @media only screen and (min-width: $break-desk) {
-            margin: 0 auto;
             width: 70vw;
         }
     }
@@ -229,6 +231,10 @@
         padding: 2em 0;
         position: relative;
         width: calc(100vw - 2em);
+
+        @media only screen and (min-width: $break-tablet) {
+            width: 94vw;
+        }
 
         @media only screen and (min-width: $break-desk) {
             margin: 0 auto;
@@ -287,12 +293,12 @@
 
 .services-section {
     display: block;
-    margin: 4em auto 0;
+    margin: 4em auto 2em;
     max-width: $max-width;
     width: calc(100% - 2em);
 
     @media only screen and (min-width: $break-desk) {
-        margin: 8em auto 0;
+        margin: 8em auto 4em;
     }
 
     .services-text {
@@ -457,6 +463,10 @@
     }
 
     @media only screen and (min-width: $break-tablet) {
+        width: 94vw;
+    }
+
+    @media only screen and (min-width: $break-desk) {
         width: 70vw;
     }
 }

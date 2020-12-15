@@ -7519,7 +7519,7 @@ h6 {
   /* height of carousel */
   overflow: hidden;
   margin-right: 0; }
-  @media only screen and (min-width: 1025px) {
+  @media only screen and (min-width: 768px) {
     .carousel-cell {
       height: 720px;
       /* height of carousel */ } }

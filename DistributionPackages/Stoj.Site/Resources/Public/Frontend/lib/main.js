@@ -178,15 +178,15 @@ gsap.to(".imageOut", {
 
 gsap.to(".overlay-image", {
 	scrollTrigger: {
-		trigger: ".reel-overlay",
+		trigger: ".overlay-image",
 		toggleActions: "play none play reverse",
 		scrub: true,
 		//markers: true,
-		start: "center center",
+		start: "-50% top",
 		end: "bottom top"
 	},
 	opacity: .4,
-	y: -200,
+	y: -75,
 	//scale: 1.1,
 	duration: 3
 });
