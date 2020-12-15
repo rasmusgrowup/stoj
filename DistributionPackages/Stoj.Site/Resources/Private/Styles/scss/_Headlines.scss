@@ -7,9 +7,10 @@ h1, h2, h3, h4, h5, h6 {
     //color: white;
 
     h2 {
-        display: table;
-        font-size: 1.25em;
+        //display: table;
+        font-size: 6em;
         font-weight: 600;
+        text-align: center;
 
         &:after {
             animation-timing-function: ease-out;

@@ -120,7 +120,7 @@
             mix-blend-mode: exclusion;
             position: absolute;
             top: 50%;
-            transform: translate(-50%,-50%);
+            transform: translate(-50%,-55%);
             width: 90vw;
             z-index: 98;
 
@@ -142,7 +142,7 @@
 
             @media only screen and (min-width: $break-desk) {
                 max-width: 1600px;
-                width: 90vw;
+                width: 100vw;
                 z-index: 98;
 
                 h1 {
@@ -168,7 +168,7 @@
         width: calc(100vw - 2em);
         z-index: 5;
 
-        h2 {
+        h1 {
             color: white;
             font-size: 1.5em;
             font-weight: 400;
@@ -199,8 +199,8 @@
                 font-size: 3em;
 
                 &:nth-child(3) {
-                    font-weight: 400;
-                    font-size: 1.5em;
+                    font-weight: 300;
+                    font-size: 1.4em;
                     //opacity: .6;
                 }
             }
@@ -282,13 +282,17 @@
     width: calc(100% - 2em);
 
     @media only screen and (min-width: $break-desk) {
-        margin: 12em auto 0;
+        margin: 8em auto 0;
     }
 
     .services-text {
         display: block;
         margin-bottom: 2em;
         margin-top: 2em;
+
+        @media only screen and (min-width: $break-desk) {
+            margin-top: 5em;
+        }
 
         h2 {
             color: white;
@@ -306,12 +310,12 @@
 
             &:nth-child(3) {
                 font-size: 1.25em;
-                font-weight: 400;
+                font-weight: 300;
             }
         }
 
         .list-btn {
-            color: $stoj-yellow;
+            color: white;
             display: inline-block;
             font-weight: 500;
             margin: 0 .3em 0 0;
@@ -319,7 +323,7 @@
             //text-decoration: underline;
 
             &:first-child {
-                margin-left: .3em;
+                margin-left: 0;
             }
 
             &:last-child {
@@ -332,7 +336,7 @@
 
             &:after {
                 animation-timing-function: ease-out;
-                background-color: $stoj-yellow;
+                background-color: white;
                 content: '';
                 display: block;
                 height: .1em;
@@ -358,16 +362,16 @@
         }
 
         .active {
-            color: $stoj-yellow;
+            color: $stoj-brun;
 
             &:after {
-                background-color: $stoj-yellow;
+                background-color: $stoj-brun;
                 width: 100%;
             }
         }
 
         a {
-            //color: $stoj-yellow;
+            //color: $stoj-brun;
             //background-color: white;
             //border-radius: .15em;
             display: inline-block;
@@ -392,7 +396,7 @@
                 //color: white !important;
                 font-size: 1em !important;
                 margin-bottom: 0 !important;
-                text-transform: uppercase;
+                //text-transform: uppercase;
             }
         }
 
@@ -415,7 +419,7 @@
         //padding-top: 142%;
         position: relative;
         width: 100%;
-        z-index: 0;
+        z-index: 1;
 
         img {
             bottom: 0;
@@ -488,13 +492,13 @@
 }
 
 .stoj-link {
-    color: $stoj-yellow;
+    color: $stoj-brun;
     display: inline-block;
     font-size: 1.25em;
     font-weight: 600;
     margin-top: 1em;
     margin-bottom: 1em;
-    text-transform: uppercase;
+    //text-transform: uppercase;
 
     &:after {
         animation-timing-function: ease-out;
@@ -508,10 +512,10 @@
     }
 
     p {
-        color: $stoj-yellow !important;
+        color: $stoj-brun !important;
         font-size: 1em !important;
         margin-bottom: 0 !important;
-        text-transform: uppercase;
+        //text-transform: uppercase;
     }
 
     &:hover {

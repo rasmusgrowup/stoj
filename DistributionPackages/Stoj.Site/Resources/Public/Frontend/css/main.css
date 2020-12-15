@@ -7149,8 +7149,8 @@ label.panel-block {
         font-size: 3em;
         font-weight: 700; }
     .main-footer .bottom-bar .some-icons img {
-      height: 1.4em;
-      margin-right: 1.5em;
+      height: 1.75em;
+      margin-right: 1.25em;
       width: auto; }
     .main-footer .bottom-bar .some-icons a:last-child img {
       margin-right: 0; }
@@ -7171,9 +7171,9 @@ h6 {
   font-family: "MADE", sans-serif; }
 
 .section-headline h2 {
-  display: table;
-  font-size: 1.25em;
-  font-weight: 600; }
+  font-size: 6em;
+  font-weight: 600;
+  text-align: center; }
   .section-headline h2:after {
     animation-timing-function: ease-out;
     background-color: #0F1419;
@@ -7261,14 +7261,14 @@ h6 {
     max-width: 380px; }
     .project-one .project-one-description h3 {
       font-weight: 500;
-      font-size: 1.2em;
+      font-size: 1.5em;
       margin-bottom: .25em; }
     .project-one .project-one-description p {
       opacity: .8; }
     .project-one .project-one-description a {
       display: table;
       font-weight: 500;
-      font-size: .9em;
+      font-size: 1em;
       margin-top: 1em; }
       .project-one .project-one-description a:after {
         animation-timing-function: ease-out;
@@ -7323,7 +7323,7 @@ h6 {
     max-width: 1080px; }
     .project-two .project-two-description h3 {
       font-weight: 500;
-      font-size: 1.2em;
+      font-size: 1.5em;
       margin-bottom: .25em;
       max-width: 380px; }
     .project-two .project-two-description p {
@@ -7332,7 +7332,7 @@ h6 {
     .project-two .project-two-description a {
       display: table;
       font-weight: 500;
-      font-size: .9em;
+      font-size: 1em;
       margin-top: 1em;
       max-width: 380px; }
       .project-two .project-two-description a:after {
@@ -7405,14 +7405,14 @@ h6 {
         float: right; } }
     .project-three .project-three-description h3 {
       font-weight: 500;
-      font-size: 1.2em;
+      font-size: 1.5em;
       margin-bottom: .25em; }
     .project-three .project-three-description p {
       opacity: .8; }
     .project-three .project-three-description a {
       display: table;
       font-weight: 500;
-      font-size: .9em;
+      font-size: 1em;
       margin-top: 1em; }
       .project-three .project-three-description a:after {
         animation-timing-function: ease-out;
@@ -7481,14 +7481,14 @@ h6 {
           max-width: 380px; } }
     .project-four .project-four-description h3 {
       font-weight: 500;
-      font-size: 1.2em;
+      font-size: 1.5em;
       margin-bottom: .25em; }
     .project-four .project-four-description p {
       opacity: .8; }
     .project-four .project-four-description a {
       display: table;
       font-weight: 500;
-      font-size: .9em;
+      font-size: 1em;
       margin-top: 1em; }
       .project-four .project-four-description a:after {
         animation-timing-function: ease-out;
@@ -7516,6 +7516,15 @@ h6 {
   .carousel-cell img {
     display: block; }
 
+.flickity-button {
+  z-index: 2;
+  mix-blend-mode: lighten; }
+
+.flickity-prev-next-button {
+  background-color: white !important;
+  height: 2.5em !important;
+  width: 2.5em !important; }
+
 .menu-body {
   align-items: center;
   background-color: #FCD8E3;
@@ -7529,6 +7538,18 @@ h6 {
   width: 100%;
   z-index: 99;
   pointer-events: none; }
+  .menu-body:before {
+    background-image: url(../assets/noise.png);
+    background-repeat: repeat;
+    content: '';
+    height: 100%;
+    left: 0;
+    mix-blend-mode: soft-light;
+    opacity: .25;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    width: 100%; }
   @media only screen and (min-width: 1025px) {
     .menu-body {
       align-items: center;
@@ -7551,7 +7572,8 @@ h6 {
     .menu-body .logo img {
       width: 100%; }
   .menu-body .menu-image {
-    display: none; }
+    display: none;
+    z-index: 1; }
     @media only screen and (min-width: 1025px) {
       .menu-body .menu-image {
         display: block;
@@ -7576,7 +7598,7 @@ h6 {
       .menu-body .menu-content {
         display: block;
         flex: 1;
-        padding: 1em 8em;
+        padding: 1em 4em;
         position: relative;
         max-width: 50%; } }
     .menu-body .menu-content ul li a {
@@ -7631,6 +7653,7 @@ h6 {
         transform: rotate(45deg); }
 
 .gallery {
+  background-color: white;
   margin: 2em auto;
   min-height: 100vh;
   width: calc(2 * 145px + 10px); }

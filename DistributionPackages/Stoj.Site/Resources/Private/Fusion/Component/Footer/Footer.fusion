@@ -22,7 +22,7 @@ prototype(Stoj.Site:Component.Footer) < prototype(Neos.Neos:ContentComponent) {
         <footer class="main-footer">
             <div class="footer-content">
 
-                <div class="bottom-bar">
+                <!--<div class="bottom-bar">
                     <div class="payoff">
                         <img
                         class="logo-svg"
@@ -34,7 +34,7 @@ prototype(Stoj.Site:Component.Footer) < prototype(Neos.Neos:ContentComponent) {
                         <a href="#"><img src={props.in} alt=""/></a>
                         <a href="#"><img src={props.li} alt=""/></a>
                     </div>
-                </div>
+                </div>-->
             </div>
             <!--<div class="copyright">Stöj &copy; {props.year}</div>-->
         </footer>

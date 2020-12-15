@@ -41,7 +41,7 @@ window.addEventListener('scroll', function(e) {
                 trigger: elem,
                 toggleActions: "play none play reverse",
 				//markers: true,
-				scrub: true,
+				//scrub: true,
 				start: '-200 bottom'
             },
 			y: 100,
@@ -63,8 +63,9 @@ window.addEventListener('scroll', function(e) {
 				//markers: true,
 				start: '-300 bottom',
             },
-			y: 100,
-			scaleY: 2,
+			y: 200,
+			scaleY: 1.5,
+			stagger: .1,
 			opacity: 0,
 			duration: 1.25,
 			delay: .5,
@@ -79,9 +80,9 @@ window.addEventListener('scroll', function(e) {
             scrollTrigger: {
                 trigger: elem,
                 toggleActions: "play none play reverse",
-				scrub: true,
+				//scrub: true,
 				//markers: true,
-				start: 'top 90%',
+				start: 'top 98%',
 				end: 'bottom center'
             },
 			opacity: .05,
@@ -188,13 +189,35 @@ window.addEventListener('scroll', function(e) {
 		duration: 3,
 	});
 
-	gsap.to(".contact-btn, .header-social", {
+	gsap.to(".header-fade", {
 		scrollTrigger: {
-			trigger: ".main-footer",
-			start: "-200px bottom",
-			end: "+=100",
+			trigger: ".header-fade",
 			toggleActions: "play none play reverse",
+			scrub: true,
 			//markers: true,
+			start: "top 25%",
+			end: "bottom top"
 		},
-		opacity:0,
+		opacity: .5,
+		y: -50,
+		//scale: 1.1,
+		duration: 3,
 	});
+
+	let parallax = document.querySelectorAll('.parallax');
+
+    parallax.forEach( function( elem ) {
+		gsap.set(".parallax-layer", {y:100, scale:1.15})
+		gsap.to(".parallax-layer", {
+			scrollTrigger: {
+				trigger: ".parallax",
+				toggleActions: "play none play reverse",
+				scrub: true,
+				markers: true,
+				start: "top bottom",
+				end: "bottom top"
+			},
+			y: -100,
+			duration: 3,
+		});
+    });

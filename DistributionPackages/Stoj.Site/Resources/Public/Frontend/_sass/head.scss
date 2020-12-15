@@ -37,6 +37,7 @@
 }
 
 $max-width: 980px;
+$stoj-brun: #f9cc6c;
 $stoj-pink: #FCD8E3;
 $stoj-blue: #2E3EFF;
 $stoj-red: #ff5151;
@@ -62,6 +63,31 @@ body {
 
     p {
         color: $deep-grey;
+    }
+}
+
+.main {
+    background-color: white !important;
+    position: relative;
+    z-index: 0;
+
+    &:before {
+        background-image: url(../assets/noise.png);
+        background-repeat: repeat;
+        content: '';
+        height: 100%;
+        left: 0;
+        mix-blend-mode: soft-light;
+        opacity: .15;
+        pointer-events: none;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index: 1;
+    }
+
+    div {
+        z-index: 1;
     }
 }
 

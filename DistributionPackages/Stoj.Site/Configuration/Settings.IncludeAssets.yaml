@@ -24,13 +24,13 @@ Carbon:
         #    - locomotive-scroll.min.js[inline]
             - main.js
             - menu.js
-            - cursor.js
             - lazysizes.min.js
             - https://player.vimeo.com/api/player.js
             - flickity.min.js
             - flickity.js
             - isotope.min.js
             - isotope.js
+            - cursor.js
 
       ##
       # Sitegeist.Lazybones required lazysizes, we recommend to include lazysizes javascript

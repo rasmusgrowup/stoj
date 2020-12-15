@@ -93,9 +93,9 @@ prototype(Stoj.Site:Content.Subheader) < prototype(Neos.Neos:ContentComponent) {
                     </div>
                 </div>
                 <div class="reel-text">
-                    <h2></h2>
+                    <h1 class="aos-reveal">Professionel fotografering og videoproduktion, i hjertet af Odense</h1>
                     <p class="aos-reveal">Hos Stöj skaber vi fantastiske oplevelser, gennem billeder og video. Mange års erfaring med foto- og videoproduktion gør at vores produkter, har den helt rigtige kant.</p>
-                    <p class="aos-reveal">Vi er et lille odenseansk fotostudie, der skyder billeder og film til en lang række danske virksomheder og mediehuse. De vælger os, fordi vi kan tilbyde en esktra dimension til deres billeder, hvilket får budskaberne til at stå ekstra skarpt. Hos os, er der tid og plads til at opdage og udtænke jeres unikke billedunivers. Vi er så heldige, at vi kan nørde helt i bund, når vi skal løse vores kunders opgaver. Det er en af de mange fordele, der hører med til, at være et mindre fotostudie.</p>
+                    <p class="aos-reveal" style="column-count:2;column-gap:2em;">Vi er et lille odenseansk fotostudie, der skyder billeder og film til en lang række danske virksomheder og mediehuse. De vælger os, fordi vi kan tilbyde en esktra dimension til deres billeder, hvilket får budskaberne til at stå ekstra skarpt. <br/>Hos os, er der tid og plads til at opdage og udtænke jeres unikke billedunivers. Vi er så heldige, at vi kan nørde helt i bund, når vi skal løse vores kunders opgaver. Det er en af de mange fordele, der hører med til, at være et mindre fotostudie.</p>
                 </div>
                <div class="reel-image">
                     <Sitegeist.Lazybones:Image
@@ -112,10 +112,10 @@ prototype(Stoj.Site:Content.Subheader) < prototype(Neos.Neos:ContentComponent) {
             </div>
             <section class="services-section">
                 <div class="services-text" onclick="myFunction(event)" id="navList">
-                    <h2 class="aos-reveal">Vores ydelser</h2>
-                    <p style="color:white;" class="aos-reveal">Vi har en bred erfaring, og har løst mange typer af opgaver indenfor billed- og videoproduktion.</p>
-                    <p style="color:white;" class="aos-reveal">Noget af det vi skyder mest af, er
-                        <span
+                    <h2 class="aos-reveal" style="color:white;"></h2>
+                    <p style="color:white;" class="aos-reveal">Vi har en bred erfaring, og har gennem tiderne løst mange typer af opgaver.</p>
+                    <p style="color:white;" class="aos-reveal">Hos Stöj fotograferer vi ofte billeder, der bruges i magasiner, reklamer og tryksager, men vores fotografier står også flot på hjemmesider og sociale medier. Vi har erfaring med at producere billeder og videoer af boliger, delikatesser, indretning, livsstil, mad og mennesker. Vi glæder os dog altid til, at blive mødt af nye udfordringer.<br/>
+                        <!--<span
                             class="list-btn active cursor-link"
                             data-selector=".cell1">
                             mad,
@@ -146,18 +146,8 @@ prototype(Stoj.Site:Content.Subheader) < prototype(Neos.Neos:ContentComponent) {
                             data-selector=".cell6">
                             indretning
                         </span>
-                        . Vi dog altid frisk på at prøve noget nyt!
+                        . Vi dog altid frisk på at prøve noget nyt!  -->
                     </p>
-                    <!--<div class="services-list">
-                        <ul>
-                            <li class="list-btn" data-selector=".cell1">Mad</li>
-                            <li class="list-btn" data-selector=".cell2">Miljøer</li>
-                            <li class="list-btn" data-selector=".cell3">Produktbilleder</li>
-                            <li class="list-btn" data-selector=".cell4">Personfotografering</li>
-                            <li class="list-btn" data-selector=".cell5">Bolig</li>
-                            <li class="list-btn" data-selector=".cell6">Indretning</li>
-                        </ul>
-                    </div>-->
                     <Carbon.Link:Link link={props.link} additionalClass="stoj-link aos-reveal">{props.label}</Carbon.Link:Link>
                 </div>
                 <div class="services-image-wrapper aos">

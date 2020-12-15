@@ -4,8 +4,8 @@ prototype(Stoj.Site:Content.HeaderHeadline) < prototype(Neos.Neos:ContentCompone
     }
 
     renderer = afx`
-    <header class="section-headline animate-line">
-        <h2>{props.title}</h2>
+    <header class="section-headline aos-text">
+        <h2 class="header-fade">{props.title}</h2>
     </header>
     `
 }

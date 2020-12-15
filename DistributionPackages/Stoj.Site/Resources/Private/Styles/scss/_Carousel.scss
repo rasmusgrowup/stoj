@@ -16,3 +16,14 @@
       display: block;
   }
 }
+
+.flickity-button {
+    z-index: 2;
+    mix-blend-mode: lighten;
+}
+
+.flickity-prev-next-button {
+    background-color: white !important;
+    height: 2.5em !important;
+    width: 2.5em !important;
+}

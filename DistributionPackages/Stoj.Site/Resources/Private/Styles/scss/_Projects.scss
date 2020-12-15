@@ -1,59 +1,182 @@
 .project-landing {
     background-color: white;
     display: block;
-    padding: 0;
+    padding: 8em 1em .5em;
     position: relative;
 
-    @media only screen and (min-width: $break-desk) {
-        align-items: center;
-        display: flex;
-        height: 100vh;
-        max-height: 920px;
+    @media only screen and (min-width: $break-tablet) {
+        margin: 0 auto;
+        max-width: 1440px;
+        padding: 10em 3em;
     }
 
     .project-landing-image-container {
         display: block;
+        width: 100%;
 
-        @media only screen and (min-width: $break-desk) {
+        h1 {
+            color: $almost-black;
+            font-size: clamp(3em, 4.5vw, 90px);
+            font-weight: 600;
+            line-height: 1;
+            margin-bottom: .5em;
         }
+
+        p {
+            font-style: italic;
+            opacity: 6;
+        }
+
+        @media only screen and (min-width: $break-tablet) {
+            display: inline-block;
+            margin-right: 1.5em;
+            width: calc(50% - 1.5em);
+        }
+
 
         .project-landing-image {
             display: block;
+            margin-bottom: 1em;
             width: 100%;
         }
     }
 
     .project-landing-description {
         display: block;
-        //margin-top: -8em;
-        mix-blend-mode: exclusion;
-        padding: 2em 1em;
+        margin-top: 4em;
+        position: relative;
 
-        @media only screen and (min-width: $break-desk) {
-            flex: 1;
-            padding: 2em 3em;
-        }
-
-        h1 {
-            color: white;
-            font-size: 2em;
-            font-weight: 600;
-            line-height: 1;
-            //margin-bottom: 2em;
+        @media only screen and (min-width: $break-tablet) {
+            display: inline-block;
+            float: right;
+            margin-top: 17.5%;
+            margin-left: 1.5em;
+            width: calc(50% - 1.5em);
         }
 
         .project-details {
             padding: 1em 0;
 
             h2 {
-                color: white;
+                color: $almost-black;
+                font-size: 1.5em;
+                font-weight: 400;
+            }
+
+            h3 {
+                color: $almost-black;
                 //color: #e0b43b;
-                font-weight: 500;
+                font-weight: 300;
+            }
+
+            p {
+                color: $almost-black;
+                font-size: 1.25em;
+                font-weight: 400;
+                margin-top: 1em;
+                //opacity: .8;
+            }
+        }
+
+        .project-description-image-wrapper {
+            display: block;
+            margin-top: .5em;
+            padding-top: 92%;
+            position: relative;
+
+            @media only screen and (min-width: $break-tablet) {
+                margin-top: 4em;
+            }
+
+            .project-description-image {
+                bottom: 0;
+                left: 0;
+                height: 100%;
+                object-fit: cover;
+                position: absolute;
+                right: 0;
+                top: 0;
+                width: 100%;
+            }
+        }
+    }
+}
+
+.project-section-two {
+    background-color: white;
+    display: block;
+    padding: .5em 1em 4em;
+    position: relative;
+
+    @media only screen and (min-width: $break-tablet) {
+        margin: 0 auto;
+        max-width: 1440px;
+        padding: 5em 3em;
+    }
+
+    .project-section-two-image-container {
+        display: block;
+        width: 100%;
+
+        @media only screen and (min-width: $break-tablet) {
+            display: inline-block;
+            margin-right: 1.5em;
+            width: calc(64% - 1.5em);
+        }
+
+        @media only screen and (min-width: $break-desk) {
+            margin-right: 1.5em;
+            width: calc(64% - 1.5em);
+        }
+
+        .project-section-two-image {
+            width: 100%;
+        }
+    }
+
+    .project-section-two-images {
+        display: block;
+        padding-top: .5em;
+        width: 100%;
+
+        @media only screen and (min-width: $break-tablet) {
+            display: inline-block;
+            float: right;
+            margin-left: 1.5em;
+            padding-top: 0;
+            width: calc(36% - .5em);
+        }
+
+        @media only screen and (min-width: $break-desk) {
+            margin-left: 1.5em;
+            width: calc(36% - 1.5em);
+        }
+
+        .project-section-two-images-wrapper {
+            display: block;
+            margin-bottom: 1em;
+            padding-top: 130%;
+            position: relative;
+
+            .project-section-two-image-one, .project-section-two-image-two {
+                bottom: 0;
+                left: 0;
+                height: 100%;
+                object-fit: cover;
+                position: absolute;
+                right: 0;
+                top: 0;
+                width: 100%;
             }
         }
 
         p {
-            color: white;
+            margin-bottom: 4em;
         }
     }
+}
+
+.parallax {
+    overflow: hidden;
+    position: relative;
 }
