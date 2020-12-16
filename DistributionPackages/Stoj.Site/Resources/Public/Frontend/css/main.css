@@ -7230,7 +7230,7 @@ h6 {
   width: 100%; }
   @media only screen and (min-width: 768px) {
     .project-one {
-      margin: 8em auto 4em;
+      margin: 4em auto;
       padding: 0; } }
   .project-one .project-one-image {
     display: block;
@@ -7513,16 +7513,14 @@ h6 {
       width: 100%; }
 
 .carousel-cell {
-  width: 100%;
-  /* full width */
-  height: 520px;
-  /* height of carousel */
+  margin-right: 0;
   overflow: hidden;
-  margin-right: 0; }
+  padding-top: 125%;
+  width: 100%;
+  /* full width */ }
   @media only screen and (min-width: 768px) {
     .carousel-cell {
-      height: 720px;
-      /* height of carousel */ } }
+      padding-top: 140%; } }
   .carousel-cell img {
     display: block; }
 
@@ -7545,6 +7543,7 @@ h6 {
   position: fixed;
   top: 0;
   left: 0;
+  visibility: hidden;
   width: 100%;
   z-index: 99;
   pointer-events: none; }

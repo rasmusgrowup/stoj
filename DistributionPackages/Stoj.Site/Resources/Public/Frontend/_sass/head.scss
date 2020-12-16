@@ -53,93 +53,12 @@ $break-desk: 1025px;
 $break-tablet: 768px;
 $break-mobile: 414px;
 
-html {
-    background-color: white !important;
-}
-
-body {
-    background-color: white !important;
-    font-family: "MADE" !important;
-
-    p {
-        color: $deep-grey;
-    }
-}
-
-.main {
-    background-color: white !important;
-    position: relative;
-    z-index: 0;
-
-    &:before {
-        background-image: url(../assets/noise.png);
-        background-repeat: repeat;
-        content: '';
-        height: 100%;
-        left: 0;
-        mix-blend-mode: soft-light;
-        opacity: .15;
-        pointer-events: none;
-        position: absolute;
-        top: 0;
-        width: 100%;
-        z-index: 1;
-    }
-
-    div {
-        z-index: 1;
-    }
-}
-
-@media only screen and (min-width: 1025px) {
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        cursor: none !important;
-
-        &:hover {
-            cursor: none !important;
-        }
-    }
-
-    .custom-cursor {
-        position: fixed;
-        opacity: 0;
-        pointer-events: none;
-        mix-blend-mode: difference;
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        background-color: white;
-        transition: transform 350ms ease;
-        transform: translate(-50%, -50%) scale(.25);
-        z-index: 1000;
-    }
-    .custom-cursor--link {
-        transform: translate(-50%, -50%) scale(1.25);
-    }
-}
-
-/* Enable for slow scrolling
-.main {
-    overflow: hidden;
-    position: fixed;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-}
-
-.scroll-container {
-    position: absolute;
-    overflow: hidden;
-    width: 100%;
-}*/
-
+@import "../../../Private/Styles/scss/General";
+@import "../../../Private/Styles/scss/Animations";
+@import "../../../Private/Styles/scss/Lazy";
 @import "../../../Private/Styles/scss/Header";
 @import "../../../Private/Styles/scss/Subheader";
 @import "../../../Private/Styles/scss/Projects";
+@import "../../../Private/Styles/scss/Cursor";
+@import "../../../Private/Styles/scss/Slow";
 @import "../node_modules/bulma/bulma";

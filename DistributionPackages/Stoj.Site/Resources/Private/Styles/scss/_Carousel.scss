@@ -1,20 +1,17 @@
-.main-carousel {
-
-}
-
 .carousel-cell {
-  width: 100%; /* full width */
-  height: 520px; /* height of carousel */
-  overflow: hidden;
-  margin-right: 0;
+    //height: 520px; /* height of carousel */
+    margin-right: 0;
+    overflow: hidden;
+    padding-top: 125%;
+    width: 100%; /* full width */
 
-  @media only screen and (min-width: $break-tablet) {
-        height: 720px; /* height of carousel */
-  }
+    @media only screen and (min-width: $break-tablet) {
+        padding-top: 140%;
+    }
 
-  img {
-      display: block;
-  }
+    img {
+        display: block;
+    }
 }
 
 .flickity-button {

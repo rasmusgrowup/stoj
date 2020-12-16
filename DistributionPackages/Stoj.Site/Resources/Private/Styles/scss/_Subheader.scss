@@ -1,5 +1,5 @@
 .subheader-body {
-    background-color: $deep-blue;
+    background-color: $deep-grey;
     //min-height: 100vh;
     padding-bottom: 2em;
 
@@ -220,7 +220,8 @@
         }
 
         @media only screen and (min-width: $break-desk) {
-            width: 70vw;
+            //width: 70vw;
+            max-width: $max-width;
         }
     }
 
@@ -238,7 +239,7 @@
 
         @media only screen and (min-width: $break-desk) {
             margin: 0 auto;
-            width: 70vw;
+            //width: 70vw;
         }
 
         img {
@@ -304,11 +305,7 @@
     .services-text {
         display: block;
         margin-bottom: 2em;
-        margin-top: 2em;
-
-        @media only screen and (min-width: $break-desk) {
-            margin-top: 5em;
-        }
+        //margin-top: 2em;
 
         h2 {
             color: white;
@@ -467,7 +464,7 @@
     }
 
     @media only screen and (min-width: $break-desk) {
-        width: 70vw;
+        //width: 70vw;
     }
 }
 

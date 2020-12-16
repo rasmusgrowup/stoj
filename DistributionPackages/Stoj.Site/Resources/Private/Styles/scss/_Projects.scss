@@ -11,7 +11,7 @@
     }
 
     @media only screen and (min-width: $break-desk) {
-        padding: 0 2em 10em;
+        padding: 0 2em 4em;
     }
 
     .project-landing-image-container {
@@ -187,9 +187,4 @@
             margin-bottom: 4em;
         }
     }
-}
-
-.parallax {
-    overflow: hidden;
-    position: relative;
 }

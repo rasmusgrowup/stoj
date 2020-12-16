@@ -1,3 +1,5 @@
+gsap.set(".menu-body", {clipPath: 'circle(0% at calc(100% - 2em) 3em)'})
+
 window.addEventListener('DOMContentLoaded', (event) => {
 	const open = document.querySelector('#open-menu');
 	const menu = document.querySelector('#menu');
@@ -12,6 +14,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
 
 	tl.paused(true);
 	tl.to("#menu", {
+		visibility: 'visible',
 		clipPath: 'circle(140% at calc(100% - 2em) 3em)',
 		pointerEvents: 'auto'
 	})

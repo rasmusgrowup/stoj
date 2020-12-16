@@ -11,6 +11,7 @@ prototype(Stoj.Site:Document.AbstractPage) < prototype(Neos.Neos:Page) {
     bodyTag {
         attributes.class = 'main-body'
         attributes.id = 'scroll-container'
+        attributes.data-barba = 'wrapper'
     }
 
     body = Stoj.Site:Component.DefaultLayout {

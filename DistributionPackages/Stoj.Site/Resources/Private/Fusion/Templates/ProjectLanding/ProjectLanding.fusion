@@ -1,5 +1,7 @@
 prototype(Stoj.Site:Templates.ProjectLanding) < prototype(Neos.Neos:ContentComponent) {
 
+	lazy = ${q(node).prev().is()}
+
     src = Neos.Fusion:Case {
         image {
             condition = ${q(node).property('image') ? true : false}

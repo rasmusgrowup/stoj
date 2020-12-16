@@ -39,6 +39,8 @@ prototype(Stoj.Site:Content.Subheader) < prototype(Neos.Neos:ContentComponent) {
         property = 'text'
     }
 
+    lazy = ${q(node).prev().is()}
+
     src = Neos.Fusion:Case {
         image {
             condition = ${q(node).property('image') ? true : false}
@@ -93,8 +95,8 @@ prototype(Stoj.Site:Content.Subheader) < prototype(Neos.Neos:ContentComponent) {
                     </div>
                 </div>
                 <div class="reel-text">
-                    <h1 class="aos-reveal">Professionel fotografering og videoproduktion, i hjertet af Odense</h1>
-                    <p class="aos-reveal">Hos Stöj skaber vi fantastiske oplevelser, gennem billeder og video. Mange års erfaring med foto- og videoproduktion gør at vores produkter, har den helt rigtige kant.</p>
+                    <h1 class="aos-text">Professionel fotografering og videoproduktion, i hjertet af Odense</h1>
+                    <p class="aos-text">Hos Stöj skaber vi fantastiske oplevelser, gennem billeder og video. Mange års erfaring med foto- og videoproduktion gør at vores produkter, har den helt rigtige kant.</p>
                     <p class="aos-reveal text-columns">Vi er et lille odenseansk fotostudie, der skyder billeder og film til en lang række danske virksomheder og mediehuse. De vælger os, fordi vi kan tilbyde en esktra dimension til deres billeder, hvilket får budskaberne til at stå ekstra skarpt. <br/>Hos os, er der tid og plads til at opdage og udtænke jeres unikke billedunivers. Vi er så heldige, at vi kan nørde helt i bund, når vi skal løse vores kunders opgaver. Det er en af de mange fordele, der hører med til, at være et mindre fotostudie.</p>
                 </div>
                <div class="reel-image">
@@ -107,14 +109,14 @@ prototype(Stoj.Site:Content.Subheader) < prototype(Neos.Neos:ContentComponent) {
                         sizes={props.sizes}
                         alt={props.alternativeText}
                         />
-                        <Carbon.Link:Link link="/studiet" additionalClass="stoj-link aos-reveal">Læs mere om vores studie og faciliteter</Carbon.Link:Link>
+                        <Carbon.Link:Link link="/studiet" additionalClass="stoj-link aos-text">Læs mere om vores studie og faciliteter</Carbon.Link:Link>
                 </div>
             </div>
             <section class="services-section">
                 <div class="services-text" onclick="myFunction(event)" id="navList">
-                    <h2 class="aos-reveal" style="color:white;"></h2>
-                    <p style="color:white;" class="aos-reveal">Vi har en bred erfaring, og har gennem tiderne løst mange typer af opgaver.</p>
-                    <p style="color:white;" class="aos-reveal">Hos Stöj fotograferer vi ofte billeder, der bruges i magasiner, reklamer og tryksager, men vores fotografier står også flot på hjemmesider og sociale medier. Vi har erfaring med at producere billeder og videoer af boliger, delikatesser, indretning, livsstil, mad og mennesker. Vi glæder os dog altid til, at blive mødt af nye udfordringer.<br/>
+                    <h2 class="aos-text" style="color:white;"></h2>
+                    <p style="color:white;" class="aos-text">Vi har en bred erfaring, og har gennem tiderne løst mange typer af opgaver.</p>
+                    <p style="color:white;" class="aos-text">Hos Stöj fotograferer vi ofte billeder, der bruges i magasiner, reklamer og tryksager, men vores fotografier står også flot på hjemmesider og sociale medier. Vi har erfaring med at producere billeder og videoer af boliger, delikatesser, indretning, livsstil, mad og mennesker. Vi glæder os dog altid til, at blive mødt af nye udfordringer.<br/>
                         <!--<span
                             class="list-btn active cursor-link"
                             data-selector=".cell1">
@@ -148,7 +150,7 @@ prototype(Stoj.Site:Content.Subheader) < prototype(Neos.Neos:ContentComponent) {
                         </span>
                         . Vi dog altid frisk på at prøve noget nyt!  -->
                     </p>
-                    <Carbon.Link:Link link={props.link} additionalClass="stoj-link aos-reveal">{props.label}</Carbon.Link:Link>
+                    <Carbon.Link:Link link={props.link} additionalClass="stoj-link aos-text">{props.label}</Carbon.Link:Link>
                 </div>
                 <div class="services-image-wrapper aos">
                     <div class="carousel">

@@ -14,7 +14,7 @@ prototype(Stoj.Site:Document.HomePage) < prototype(Stoj.Site:Document.AbstractPa
         }
 
         renderer = afx`
-            <main class="main">
+            <main class="main" data-barba="container">
                 {props.main}
             </main>
         `

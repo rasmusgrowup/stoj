@@ -16,10 +16,12 @@ Carbon:
           Head:
             - head.css
             - main.css[async rel="preload"]
-            - https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js
-            - https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js
             - flickity.css
           Body:
+            #- https://cdn.jsdelivr.net/npm/@barba/core@2.9.7/dist/barba.umd.min.js
+            - https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js
+            - https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js
+            #- barba.js
             - main.js
             - animations.js
             - menu.js
@@ -30,6 +32,7 @@ Carbon:
             - isotope.min.js
             - isotope.js
             - cursor.js
+            # - slow-scroll.js
 
       ##
       # Sitegeist.Lazybones required lazysizes, we recommend to include lazysizes javascript
