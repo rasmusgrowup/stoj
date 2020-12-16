@@ -64,7 +64,7 @@ prototype(Stoj.Site:Templates.ProjectLanding) < prototype(Neos.Neos:ContentCompo
         <section class="project-landing">
             <div class="project-landing-image-container">
                 <Sitegeist.Lazybones:Image
-                    class="project-landing-image"
+                    class="project-landing-image aos"
                     lazy={true}
                     lazyWidth={414}
                     imageSource={props.src}
@@ -87,7 +87,7 @@ prototype(Stoj.Site:Templates.ProjectLanding) < prototype(Neos.Neos:ContentCompo
                     </div>
                     <div class="project-description-image-wrapper">
                         <Sitegeist.Lazybones:Image
-                            class="project-description-image"
+                            class="project-description-image aos"
                             lazy={true}
                             lazyWidth={414}
                             imageSource={props.src2}

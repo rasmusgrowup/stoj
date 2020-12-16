@@ -58,7 +58,7 @@ prototype(Stoj.Site:Templates.ProjectTwo) < prototype(Neos.Neos:ContentComponent
         <section class="project-section-two">
             <div class="project-section-two-image-container" data-depth='0.20'>
                 <Sitegeist.Lazybones:Image
-                    class="project-section-two-image"
+                    class="project-section-two-image aos"
                     lazy={true}
                     lazyWidth={414}
                     imageSource={props.src}
@@ -71,7 +71,7 @@ prototype(Stoj.Site:Templates.ProjectTwo) < prototype(Neos.Neos:ContentComponent
             <div class="project-section-two-images">
                 <div class="project-section-two-images-wrapper">
                     <Sitegeist.Lazybones:Image
-                        class="project-section-two-image-one"
+                        class="project-section-two-image-one aos"
                         lazy={true}
                         lazyWidth={414}
                         imageSource={props.src2}
@@ -80,10 +80,10 @@ prototype(Stoj.Site:Templates.ProjectTwo) < prototype(Neos.Neos:ContentComponent
                         alt={props.alternativeText2}
                         />
                 </div>
-                <p>{props.captionOne}</p>
+                <p class="aos-text">{props.captionOne}</p>
                 <div class="project-section-two-images-wrapper">
                     <Sitegeist.Lazybones:Image
-                        class="project-section-two-image-two"
+                        class="project-section-two-image-two aos"
                         lazy={true}
                         lazyWidth={414}
                         imageSource={props.src3}
@@ -92,7 +92,7 @@ prototype(Stoj.Site:Templates.ProjectTwo) < prototype(Neos.Neos:ContentComponent
                         alt={props.alternativeText3}
                         />
                 </div>
-                <p>{props.captionTwo}</p>
+                <p class="aos-text">{props.captionTwo}</p>
             </div>
         </section>
     `
