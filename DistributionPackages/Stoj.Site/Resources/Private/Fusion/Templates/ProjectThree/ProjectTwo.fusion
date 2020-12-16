@@ -1,0 +1,101 @@
+prototype(Stoj.Site:Templates.ProjectTwo) < prototype(Neos.Neos:ContentComponent) {
+
+    lazy = ${q(node).prev().is()}
+
+    src = Neos.Fusion:Case {
+        image {
+            condition = ${q(node).property('image') ? true : false}
+            renderer = Sitegeist.Kaleidoscope:AssetImageSource {
+                asset = ${q(node).property('image')}
+            }
+        }
+        dummyImage {
+            condition = ${site.context.inBackend}
+            renderer = Sitegeist.Kaleidoscope:DummyImageSource
+        }
+    }
+    alternativeText = ${q(node).property('alternativeText')}
+
+    src2 = Neos.Fusion:Case {
+        image2 {
+            condition = ${q(node).property('image2') ? true : false}
+            renderer = Sitegeist.Kaleidoscope:AssetImageSource {
+                asset = ${q(node).property('image2')}
+            }
+        }
+        dummyImage {
+            condition = ${site.context.inBackend}
+            renderer = Sitegeist.Kaleidoscope:DummyImageSource
+        }
+    }
+    alternativeText2 = ${q(node).property('alternativeText2')}
+
+    src3 = Neos.Fusion:Case {
+        image3 {
+            condition = ${q(node).property('image3') ? true : false}
+            renderer = Sitegeist.Kaleidoscope:AssetImageSource {
+                asset = ${q(node).property('image3')}
+            }
+        }
+        dummyImage {
+            condition = ${site.context.inBackend}
+            renderer = Sitegeist.Kaleidoscope:DummyImageSource
+        }
+    }
+    alternativeText3 = ${q(node).property('alternativeText3')}
+
+    landingCaption = Neos.Neos:Editable {
+        property = 'landingCaption'
+    }
+
+    captionOne = Neos.Neos:Editable {
+        property = 'captionOne'
+    }
+
+    captionTwo = Neos.Neos:Editable {
+        property = 'captionTwo'
+    }
+
+    renderer = afx`
+        <section class="project-section-two">
+            <div class="project-section-two-image-container" data-depth='0.20'>
+                <Sitegeist.Lazybones:Image
+                    class="project-section-two-image aos"
+                    lazy={true}
+                    lazyWidth={414}
+                    imageSource={props.src}
+                    srcset="320w, 400w, 480w, 600w, 640w, 720w, 768w, 800w, 960w, 1024px, 1280w, 1440w, 1600w, 1680w, 1920w, 2560w"
+                    sizes={props.sizes}
+                    alt={props.alternativeText}
+                    />
+                    <p>{props.landingCaption}</p>
+            </div>
+            <div class="project-section-two-images">
+                <div class="project-section-two-images-wrapper">
+                    <Sitegeist.Lazybones:Image
+                        class="project-section-two-image-one aos"
+                        lazy={true}
+                        lazyWidth={414}
+                        imageSource={props.src2}
+                        srcset="320w, 400w, 480w, 600w, 640w, 720w, 768w, 800w, 960w, 1024px, 1280w, 1440w, 1600w, 1680w, 1920w, 2560w"
+                        sizes={props.sizes}
+                        alt={props.alternativeText2}
+                        />
+                </div>
+                <p class="aos-text">{props.captionOne}</p>
+                <div class="project-section-two-images-wrapper">
+                    <Sitegeist.Lazybones:Image
+                        class="project-section-two-image-two aos"
+                        lazy={true}
+                        lazyWidth={414}
+                        imageSource={props.src3}
+                        srcset="320w, 400w, 480w, 600w, 640w, 720w, 768w, 800w, 960w, 1024px, 1280w, 1440w, 1600w, 1680w, 1920w, 2560w"
+                        sizes={props.sizes}
+                        alt={props.alternativeText3}
+                        />
+                </div>
+                <p class="aos-text">{props.captionTwo}</p>
+            </div>
+        </section>
+    `
+}

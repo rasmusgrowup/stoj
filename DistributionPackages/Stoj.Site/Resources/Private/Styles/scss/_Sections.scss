@@ -24,12 +24,19 @@
 
     @media only screen and (min-width: $break-tablet) {
         margin: 0 auto;
-        padding: 5em 3em;
+        padding: 2em 3em;
     }
 
     @media only screen and (min-width: $break-desk) {
         max-width: 1600px;
+        //margin: 0 auto;
+        //padding: 8em 5em;
+    }
+
+    .text {
+        display: block;
         margin: 0 auto;
-        padding: 8em 5em;
+        max-width: $max-width;
+        text-align: center;
     }
 }

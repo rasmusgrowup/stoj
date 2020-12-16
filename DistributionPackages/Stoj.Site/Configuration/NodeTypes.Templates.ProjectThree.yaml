@@ -1,0 +1,37 @@
+'Stoj.Site:Templates.ProjectThree':
+  superTypes:
+    'Neos.Neos:Content': true
+    'Stoj.Site:Content.Text': true
+    'Stoj.Site:Content.Headline': true
+    'Stoj.Site:Mixin.Image': true
+  ui:
+    group: 'structure'
+    label: Project Section 3
+    icon: icon-pager
+    position: 420
+    inlineEditable: true
+    reloadIfChanged: true
+  properties:
+    image2:
+      ui:
+        label: 'Small image'
+        inspector:
+          group: 'image'
+      options:
+        silhouette: codeq.image.asset
+    landingCaption:
+      ui:
+        inline:
+          editorOptions:
+            placeholder: 'Caption til billedet'
+            autoparagraph: false
+      options:
+        silhouette: codeq.text.free
+    captionOne:
+      ui:
+        inline:
+          editorOptions:
+            placeholder: 'Indsæt tekst her'
+            autoparagraph: false
+      options:
+        silhouette: codeq.text.free
