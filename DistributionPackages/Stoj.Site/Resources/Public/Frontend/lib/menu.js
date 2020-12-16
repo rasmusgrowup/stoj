@@ -14,7 +14,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
 
 	tl.paused(true);
 	tl.to("#menu", {
-		visibility: 'visible',
+		//visibility: 'visible',
 		clipPath: 'circle(140% at calc(100% - 2em) 3em)',
 		pointerEvents: 'auto'
 	})
