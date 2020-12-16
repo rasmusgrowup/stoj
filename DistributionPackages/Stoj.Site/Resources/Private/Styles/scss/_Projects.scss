@@ -59,8 +59,9 @@
 
             h2 {
                 color: $almost-black;
-                font-size: 1.5em;
-                font-weight: 400;
+                font-size: 1.75em;
+                font-weight: 600;
+                margin-bottom: .5em;
             }
 
             h3 {
@@ -71,10 +72,13 @@
 
             p {
                 color: $almost-black;
-                font-size: 1.25em;
+                font-size: 1em;
                 font-weight: 400;
                 margin-top: 1em;
-                //opacity: .8;
+
+                @media only screen and (min-width: $break-desk) {
+                    font-size: 1.25em;
+                }
             }
         }
 
