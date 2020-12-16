@@ -7,6 +7,10 @@
     @media only screen and (min-width: $break-tablet) {
         margin: 0 auto;
         max-width: 1440px;
+        padding: 0 3em 2em;
+    }
+
+    @media only screen and (min-width: $break-desk) {
         padding: 0 3em 10em;
     }
 
@@ -149,7 +153,7 @@
             margin-left: 1.5em;
             padding-top: 0;
             vertical-align: top;
-            width: calc(36% - .5em);
+            width: calc(36% - 1.5em);
         }
 
         @media only screen and (min-width: $break-desk) {
