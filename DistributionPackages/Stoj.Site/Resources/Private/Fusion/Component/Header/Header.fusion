@@ -70,17 +70,19 @@ prototype(Stoj.Site:Component.Header) < prototype(Neos.Fusion:Component) {
                 <span></span>
             </div>
         </div>
-        <div class="header-social">
-            <a href="https://instagram.com/halloj_stoj"><img src={props.in} alt=""/></a>
-            <a href="https://instagram.com/halloj_stoj"><img src={props.li} alt=""/></a>
-            <span></span>
-            <p>Følg os her</p>
-        </div>
-        <div class="contact-btn">
-            <a href="mailto:halloj@hallojstoj.dk">
-                <button type="button" name="button">Sig halløj</button>
-            </a>
-        </div>
+        <header class="bottom-bar" id="header-bottom">
+            <div class="header-social" id="social">
+                <a href="https://instagram.com/halloj_stoj"><img src={props.in} alt=""/></a>
+                <a href="https://instagram.com/halloj_stoj"><img src={props.li} alt=""/></a>
+                <span></span>
+                <p>Følg os her</p>
+            </div>
+            <div class="contact-btn" id="contact">
+                <a href="mailto:halloj@hallojstoj.dk">
+                    <button type="button" name="button">Sig halløj</button>
+                </a>
+            </div>
+        </header>
     `
 
 	@cache {

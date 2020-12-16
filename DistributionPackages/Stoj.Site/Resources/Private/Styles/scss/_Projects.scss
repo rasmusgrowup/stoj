@@ -7,7 +7,7 @@
     @media only screen and (min-width: $break-tablet) {
         margin: 0 auto;
         max-width: 1440px;
-        padding: 10em 3em;
+        padding: 0 3em 10em;
     }
 
     .project-landing-image-container {
@@ -48,9 +48,9 @@
 
         @media only screen and (min-width: $break-tablet) {
             display: inline-block;
-            float: right;
-            margin-top: 17.5%;
+            margin-top: 10%;
             margin-left: 1.5em;
+            vertical-align: top;
             width: calc(50% - 1.5em);
         }
 
@@ -85,7 +85,7 @@
             position: relative;
 
             @media only screen and (min-width: $break-tablet) {
-                margin-top: 4em;
+                margin-top: 2em;
             }
 
             .project-description-image {
@@ -121,6 +121,7 @@
         @media only screen and (min-width: $break-tablet) {
             display: inline-block;
             margin-right: 1.5em;
+            vertical-align: top;
             width: calc(64% - 1.5em);
         }
 
@@ -141,9 +142,9 @@
 
         @media only screen and (min-width: $break-tablet) {
             display: inline-block;
-            float: right;
             margin-left: 1.5em;
             padding-top: 0;
+            vertical-align: top;
             width: calc(36% - .5em);
         }
 
