@@ -7613,7 +7613,7 @@ h6 {
       animation-fill-mode: both;
       display: table;
       color: white;
-      font-size: clamp(3.5em, 5vw, 6em);
+      font-size: clamp(2.5em, 5vw, 6em);
       font-weight: 600;
       line-height: 1;
       margin-bottom: .25em; }
