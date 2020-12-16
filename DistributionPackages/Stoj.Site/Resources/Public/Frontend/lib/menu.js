@@ -1,4 +1,4 @@
-gsap.set(".menu-body", {clipPath: 'circle(0% at calc(100% - 2em) 3em)'})
+//gsap.set(".menu-body", {clipPath: 'circle(0% at calc(100% - 2em) 3em)'})
 
 window.addEventListener('DOMContentLoaded', (event) => {
 	const open = document.querySelector('#open-menu');
