@@ -156,6 +156,8 @@
             z-index: 98;
 
             img {
+                -webkit-backface-visibility: visible;
+                backface-visibility: visible;
                 display: block;
             }
 

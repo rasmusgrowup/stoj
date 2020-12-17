@@ -28,6 +28,8 @@ $eb: "EB Garamond", serif;
     }
 
     .logo {
+        -webkit-backface-visibility: visible;
+        backface-visibility: visible;
         display: block;
         overflow: hidden;
         width: 6em;
@@ -43,6 +45,8 @@ $eb: "EB Garamond", serif;
 
     .menu {
         align-items: center;
+        -webkit-backface-visibility: visible;
+        backface-visibility: visible;
         display: flex;
         overflow: hidden;
 
