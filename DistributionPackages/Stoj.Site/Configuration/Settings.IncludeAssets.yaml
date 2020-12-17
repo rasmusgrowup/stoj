@@ -18,10 +18,10 @@ Carbon:
             - main.css[async rel="preload"]
             - flickity.css
           Body:
-            - https://cdn.jsdelivr.net/npm/@barba/core@2.9.7/dist/barba.umd.min.js
+            #- https://cdn.jsdelivr.net/npm/@barba/core@2.9.7/dist/barba.umd.min.js
             - https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js
             - https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js
-            - barba.js
+            #- barba.js
             - main.js
             - animations.js
             - menu.js
