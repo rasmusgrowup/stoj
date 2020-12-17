@@ -153,12 +153,14 @@
             top: 50%;
             transform: translate(-50%,-55%);
             width: 90vw;
+            will-change: transform;
             z-index: 98;
 
             img {
                 -webkit-backface-visibility: visible;
                 backface-visibility: visible;
                 display: block;
+                will-change: transform;
             }
 
             h1 {
