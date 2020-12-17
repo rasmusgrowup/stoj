@@ -7,6 +7,8 @@ $eb: "EB Garamond", serif;
     justify-content: space-between;
     left: 0;
     mix-blend-mode: exclusion;
+    -webkit-backface-visibility: visible;
+    backface-visibility: visible;
     position: fixed;
     padding: 1em;
     top: 0;
@@ -153,7 +155,8 @@ $eb: "EB Garamond", serif;
     .header-social {
         align-items: center;
         display: flex;
-        mix-blend-mode: exclusion;
+        -webkit-backface-visibility: visible;
+        backface-visibility: visible;
         transform: translateY(0);
 
         a img {
@@ -186,7 +189,8 @@ $eb: "EB Garamond", serif;
     .contact-btn {
         display: block;
         mix-blend-mode: exclusion;
-        transform: translateY(0);
+        -webkit-backface-visibility: visible;
+        backface-visibility: visible;
         z-index: 99999;
 
         a {
