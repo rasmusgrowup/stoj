@@ -219,6 +219,7 @@ $eb: "EB Garamond", serif;
 
 .hide {
     .menu-items, .menu-btn, .logo-svg, .contact-btn, .header-social {
+        mix-blend-mode: exclusion;
         transform: translateY(45px);
         transition: 1s;
         opacity: .25;
@@ -232,6 +233,7 @@ $eb: "EB Garamond", serif;
 
 .show {
     .menu-items, .menu-btn, .logo-svg, .contact-btn, .header-social {
+        mix-blend-mode: exclusion;
         transition: 1s;
         transform: translateY(0);
     }
