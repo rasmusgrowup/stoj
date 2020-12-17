@@ -1,15 +1,7 @@
 prototype(Stoj.Site:Content.Subheader) < prototype(Neos.Neos:ContentComponent) {
 
-    reel = Neos.Fusion:ResourceUri {
-    path = 'resource://Stoj.Site/Public/Frontend/assets/Reel_short.gif'
-    }
-
-    video = Neos.Fusion:ResourceUri {
-    path = 'resource://Stoj.Site/Public/Frontend/assets/reel_219.mov'
-    }
-
-    videoMobile = Neos.Fusion:ResourceUri {
-    path = 'resource://Stoj.Site/Public/Frontend/assets/Reel_high.mov'
+    fallback = Neos.Fusion:ResourceUri {
+    path = 'resource://Stoj.Site/Public/Frontend/assets/reel_frame.jpg'
     }
 
     logo = Neos.Fusion:ResourceUri {
@@ -82,6 +74,9 @@ prototype(Stoj.Site:Content.Subheader) < prototype(Neos.Neos:ContentComponent) {
             <div class="subheader-reel">
                 <div class="reel-container">
                     <div class="video-body">
+                        <!--<div class="fadeOut fall-back-container">
+                            <img class="fall-back-frame" src={props.fallback} alt=""/>
+                        </div>-->
                         <div class="video-container fadeOut" id="desktop-video">
                             <iframe src="https://player.vimeo.com/video/488874518?background=1" width="100%" height="100%"></iframe>
                         </div>

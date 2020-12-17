@@ -1,0 +1,200 @@
+.project-landing {
+    background-color: white;
+    display: block;
+    padding: 4em 1em .5em;
+    position: relative;
+
+    @media only screen and (min-width: $break-tablet) {
+        margin: 0 auto;
+        max-width: 1440px;
+        padding: 0 1em 2em;
+    }
+
+    @media only screen and (min-width: $break-desk) {
+        padding: 0 2em 4em;
+    }
+
+    .project-landing-image-container {
+        display: block;
+        width: 100%;
+
+        h1 {
+            color: $almost-black;
+            font-size: clamp(3em, 4.5vw, 90px);
+            font-weight: 600;
+            line-height: 1;
+            margin-bottom: .5em;
+        }
+
+        p {
+            font-style: italic;
+            opacity: 6;
+        }
+
+        @media only screen and (min-width: $break-tablet) {
+            display: inline-block;
+            margin-right: 1em;
+            width: calc(50% - 1em);
+        }
+
+
+        .project-landing-image {
+            display: block;
+            margin-bottom: 1em;
+            width: 100%;
+        }
+    }
+
+    .project-landing-description {
+        display: block;
+        margin-top: 4em;
+        position: relative;
+
+        @media only screen and (min-width: $break-tablet) {
+            display: inline-block;
+            margin-top: 10%;
+            margin-left: 1em;
+            vertical-align: top;
+            width: calc(50% - 1em);
+        }
+
+        .project-details {
+            padding: 1em 0;
+
+            h2 {
+                color: $almost-black;
+                font-size: 1.75em;
+                font-weight: 600;
+                margin-bottom: .5em;
+            }
+
+            h3 {
+                color: $almost-black;
+                //color: #e0b43b;
+                font-weight: 300;
+            }
+
+            p {
+                color: $almost-black;
+                font-size: 1em;
+                font-weight: 400;
+                margin-top: 1em;
+
+                @media only screen and (min-width: $break-desk) {
+                    font-size: 1.25em;
+                }
+            }
+        }
+
+        .project-description-image-wrapper {
+            display: block;
+            margin-top: .5em;
+            padding-top: 92%;
+            position: relative;
+
+            @media only screen and (min-width: $break-tablet) {
+                margin-top: 2em;
+            }
+
+            .project-description-image {
+                bottom: 0;
+                left: 0;
+                height: 100%;
+                object-fit: cover;
+                position: absolute;
+                right: 0;
+                top: 0;
+                width: 100%;
+            }
+        }
+    }
+}
+
+.project-video-landing {
+    background-color: white;
+    display: block;
+    padding: 10em 1em .5em;
+    position: relative;
+
+    @media only screen and (min-width: $break-tablet) {
+        margin: 0 auto;
+        max-width: 1080px;
+        padding: 6em 1em 2em;
+    }
+
+    @media only screen and (min-width: $break-desk) {
+        padding: 8em 2em 4em;
+    }
+
+    .project-video-video {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 1em;
+        max-width: 1080px;
+        padding-top: 56.25%;
+        position: relative;
+        width: 100%;
+
+        img, iframe {
+            bottom: 0;
+            display: block;
+            height: 100%;
+            left: 0;
+            object-fit: cover;
+            position: absolute;
+            right: 0;
+            top: 0;
+            width: 100%;
+            z-index: 0;
+        }
+
+        .cursor-div {
+            width: 100%;
+            height: 100%;
+            bottom: 0;
+            display: block;
+            left: 0;
+            position: absolute;
+            right: 0;
+            top: 0;
+            z-index: 1;
+            cursor: none;
+        }
+    }
+
+    .project-video-landing-description {
+        display: block;
+        margin: 4em auto 0;
+        position: relative;
+        max-width: 600px;
+
+        @media only screen and (min-width: $break-tablet) {
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        h2 {
+            color: $almost-black;
+            font-size: 1.75em;
+            font-weight: 600;
+            margin-bottom: .5em;
+        }
+
+        h3 {
+            color: $almost-black;
+            //color: #e0b43b;
+            font-weight: 300;
+        }
+
+        p {
+            color: $almost-black;
+            font-size: 1em;
+            font-weight: 400;
+            margin-top: 1em;
+
+            @media only screen and (min-width: $break-desk) {
+                font-size: 1.25em;
+            }
+        }
+    }
+}

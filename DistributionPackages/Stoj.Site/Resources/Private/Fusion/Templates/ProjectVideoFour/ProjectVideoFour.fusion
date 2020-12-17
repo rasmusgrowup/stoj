@@ -1,0 +1,67 @@
+prototype(Stoj.Site:Templates.ProjectVideoFour) < prototype(Neos.Neos:ContentComponent) {
+
+    lazy = ${q(node).prev().is()}
+
+    src = Neos.Fusion:Case {
+        image {
+            condition = ${q(node).property('image') ? true : false}
+            renderer = Sitegeist.Kaleidoscope:AssetImageSource {
+                asset = ${q(node).property('image')}
+            }
+        }
+        dummyImage {
+            condition = ${site.context.inBackend}
+            renderer = Sitegeist.Kaleidoscope:DummyImageSource
+        }
+    }
+    alternativeText = ${q(node).property('alternativeText')}
+
+    src2 = Neos.Fusion:Case {
+        image2 {
+            condition = ${q(node).property('image2') ? true : false}
+            renderer = Sitegeist.Kaleidoscope:AssetImageSource {
+                asset = ${q(node).property('image2')}
+            }
+        }
+        dummyImage {
+            condition = ${site.context.inBackend}
+            renderer = Sitegeist.Kaleidoscope:DummyImageSource
+        }
+    }
+    alternativeText2 = ${q(node).property('alternativeText2')}
+
+    landingCaption = Neos.Neos:Editable {
+        property = 'landingCaption'
+    }
+
+    captionOne = Neos.Neos:Editable {
+        property = 'captionOne'
+    }
+
+    renderer = afx`
+        <section class="project-video-section-four">
+            <div class="project-section-three-image-container">
+                <Sitegeist.Lazybones:Image
+                    class="project-section-three-image aos"
+                    lazy={true}
+                    lazyWidth={414}
+                    imageSource={props.src}
+                    srcset="320w, 400w, 480w, 600w, 640w, 720w, 768w, 800w, 960w, 1024px, 1280w, 1440w, 1600w, 1680w, 1920w, 2560w"
+                    sizes={props.sizes}
+                    alt={props.alternativeText}
+                    />
+            </div>
+            <div class="project-section-three-image-container">
+                <Sitegeist.Lazybones:Image
+                    class="project-section-three-small-image aos"
+                    lazy={true}
+                    lazyWidth={414}
+                    imageSource={props.src2}
+                    srcset="320w, 400w, 480w, 600w, 640w, 720w, 768w, 800w, 960w, 1024px, 1280w, 1440w, 1600w, 1680w, 1920w, 2560w"
+                    sizes={props.sizes}
+                    alt={props.alternativeText}
+                    />
+            </div>
+        </section>
+    `
+}

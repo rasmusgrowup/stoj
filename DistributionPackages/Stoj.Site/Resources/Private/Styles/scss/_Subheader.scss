@@ -62,6 +62,34 @@
             width: 100%;
         }
 
+        .fall-back-container {
+            left: 50%;
+            margin: 0 auto;
+            padding-top: 125%;
+            position: absolute;
+            top: 50%;
+            transform: translate(-50%,-50%);
+            width: 100%;
+            z-index: 0;
+
+            img {
+                bottom: 0;
+                display: block;
+                left: 0;
+                height: 100%;
+                object-fit: cover;
+                position: absolute;
+                right: 0;
+                top: 3px;
+                z-index: 0;
+                width: 99%;
+            }
+
+            @media only screen and (min-width: 450px) {
+                padding-top: 56.61%;
+            }
+        }
+
         .video-container {
             margin: 0 auto;
             padding-top: 125%;
