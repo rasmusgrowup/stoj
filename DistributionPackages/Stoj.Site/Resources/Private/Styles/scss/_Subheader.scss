@@ -449,8 +449,9 @@
 
         @media only screen and (min-width: $break-tablet) {
             display: inline-block;
-            float: left;
+            //float: left;
             margin-right: 3em;
+            vertical-align: top;
             width: calc(44% - 2em);
         }
     }
@@ -484,6 +485,7 @@
 
         @media only screen and (min-width: $break-tablet) {
             display: inline-block;
+            vertical-align: top;
         }
     }
 

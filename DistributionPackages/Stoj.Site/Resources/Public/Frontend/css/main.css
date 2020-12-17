@@ -7176,6 +7176,9 @@ h6 {
   text-align: center; }
   @media only screen and (min-width: 768px) {
     .section-headline h2 {
+      font-size: 4em; } }
+  @media only screen and (min-width: 1025px) {
+    .section-headline h2 {
       font-size: 6em; } }
   .section-headline h2:after {
     animation-timing-function: ease-out;
