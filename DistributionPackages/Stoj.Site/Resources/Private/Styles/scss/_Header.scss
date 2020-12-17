@@ -154,6 +154,7 @@ $eb: "EB Garamond", serif;
         align-items: center;
         display: flex;
         mix-blend-mode: exclusion;
+        transform: translateY(0);
 
         a img {
             width: 1.75em;
@@ -185,6 +186,7 @@ $eb: "EB Garamond", serif;
     .contact-btn {
         display: block;
         mix-blend-mode: exclusion;
+        transform: translateY(0);
         z-index: 99999;
 
         a {
