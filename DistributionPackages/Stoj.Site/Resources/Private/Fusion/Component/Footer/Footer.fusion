@@ -21,22 +21,25 @@ prototype(Stoj.Site:Component.Footer) < prototype(Neos.Neos:ContentComponent) {
     renderer = afx`
         <footer class="main-footer">
             <div class="footer-content">
-
-                <!--<div class="bottom-bar">
-                    <div class="payoff">
-                        <img
-                        class="logo-svg"
-                        src={props.logo}
-                        alt=""/>
-                        <span>Foto, film & halløj</span>
-                    </div>
-                    <div class="some-icons">
-                        <a href="#"><img src={props.in} alt=""/></a>
-                        <a href="#"><img src={props.li} alt=""/></a>
-                    </div>
-                </div>-->
+                <div class="contact-footer">
+                    <a href="mailto:halloj@hallojstoj.dk">Sig halløj</a>
+                </div>
+                <div class="teaser-footer">
+                    Vi er et lille odenseansk fotostudie, der skyder billeder og film til en lang række danske virksomheder og mediehuse. De vælger os, fordi vi kan tilbyde en esktra dimension til deres billeder, hvilket får budskaberne til at stå ekstra skarpt.
+                </div>
+                <div class="address-footer">
+                    Besøg os på addressen <strong>Havnegade 100N, 5000 Odense C</strong>
+                </div>
             </div>
-            <!--<div class="copyright">Stöj &copy; {props.year}</div>-->
+            <div class="footer-bottom">
+                <div class="footer-some-icons">
+                    <a href="#"><img src={props.in} alt=""/></a>
+                    <a href="#"><img src={props.li} alt=""/></a>
+                    <span></span>
+                    Følg vores arbejde her
+                </div>
+                <div class="copyright">Alle rettigheder tilhører Stöj &copy; {props.year}</div>
+            </div>
         </footer>
     `
 

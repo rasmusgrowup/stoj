@@ -86,7 +86,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
 			stagger: .1
 		});
 
-		gsap.from(".some-icons", {
+		gsap.from(".some-iconss", {
 			scrollTrigger: {
 				trigger: ".some-icons",
 				toggleActions: "play none play reverse",

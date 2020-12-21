@@ -1,5 +1,5 @@
 .project-section-two {
-    background-color: white;
+    //background-color: white;
     display: block;
     padding: .5em 1em 4em;
     position: relative;
@@ -78,7 +78,7 @@
 }
 
 .project-section-three, .project-video-section-three, .project-video-section-four {
-    background-color: white;
+    //background-color: white;
     display: block;
     padding: .5em 1em .5em;
     position: relative;
@@ -143,10 +143,18 @@
         padding-top: 110%;
 
         @media only screen and (min-width: $break-tablet) {
-            padding-top: 34.6%;
+            margin-left: 1em;
+            padding-top: 37.6%;
+            width: calc(68% - 1em);
 
             &:last-child {
-                padding-top: 34.6%;
+                padding-top: 37.6%;
+            }
+
+            &:first-child {
+                margin-left: 0;
+                margin-right: 1em;
+                width: calc(32% - 1em);
             }
         }
     }
@@ -158,24 +166,24 @@
 
         @media only screen and (min-width: $break-tablet) {
             margin-left: 1em;
-            padding-top: 34.6%;
-            width: calc(36% - 1em);
+            padding-top: 37.6%;
+            width: calc(32% - 1em);
 
             &:last-child {
-                padding-top: 34.6%;
+                padding-top: 37.6%;
             }
 
             &:first-child {
                 margin-left: 0;
                 margin-right: 1em;
-                width: calc(64% - 1em);
+                width: calc(68% - 1em);
             }
         }
     }
 }
 
 .project-video-section-two {
-    background-color: white;
+    //background-color: white;
     display: block;
     padding: .5em 1em .5em;
     position: relative;
@@ -236,5 +244,45 @@
         right: 0;
         top: 0;
         width: 100%;
+    }
+}
+
+.project-video-section {
+    //background-color: white;
+    display: block;
+    padding: 2em 1em .5em;
+    position: relative;
+
+    @media only screen and (min-width: $break-tablet) {
+        margin: 0 auto;
+        max-width: 1440px;
+        padding: 2em 1em 2em;
+    }
+
+    @media only screen and (min-width: $break-desk) {
+        padding: 4em 2em 4em;
+    }
+
+    .project-video-video {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 1em;
+        max-width: 1440px;
+        padding-top: 56.25%;
+        position: relative;
+        width: 100%;
+
+        iframe {
+            bottom: 0;
+            display: block;
+            height: 100%;
+            left: 0;
+            object-fit: cover;
+            position: absolute;
+            right: 0;
+            top: 0;
+            width: 100%;
+            z-index: 0;
+        }
     }
 }

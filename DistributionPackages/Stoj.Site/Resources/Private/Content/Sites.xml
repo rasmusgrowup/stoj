@@ -70,17 +70,17 @@
        </variant>
       </node>
       <node identifier="c625fd3d-8031-4950-925d-2cc9a3a34a26" nodeName="node-8xgfeqma2a7gq">
-       <variant sortingIndex="750" workspace="live" nodeType="Stoj.Site:Templates.TemplateTwo" version="10" removed="" hidden="" hiddenInIndex="">
+       <variant sortingIndex="750" workspace="live" nodeType="Stoj.Site:Templates.TemplateTwo" version="11" removed="" hidden="" hiddenInIndex="">
         <dimensions>
          <language>da</language>
         </dimensions>
         <accessRoles __type="array"/>
         <creationDateTime __type="object" __classname="DateTime">2020-11-23T13:17:53+01:00</creationDateTime>
-        <lastModificationDateTime __type="object" __classname="DateTime">2020-11-23T13:35:16+01:00</lastModificationDateTime>
-        <lastPublicationDateTime __type="object" __classname="DateTime">2020-11-23T13:35:16+01:00</lastPublicationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2020-12-18T11:21:09+01:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2020-12-18T11:21:09+01:00</lastPublicationDateTime>
         <properties>
          <id __type="string">https://player.vimeo.com/video/482592325?background=1</id>
-         <link __type="string">#</link>
+         <link __type="string">node://f4c433a3-c662-4b45-b712-306055870f82</link>
          <text __type="string">&lt;p&gt;Uanset om vi skal skyde store reklamekampagner, eller lave mindre produktioner, udvikler vi altid en unik billedstil til jeres projekt.&lt;/p&gt;</text>
          <label __type="string">&lt;p&gt;Se vores videoer til tinekhome&lt;/p&gt;</label>
          <title __type="string">Tinekhome</title>
@@ -564,23 +564,23 @@
         <properties/>
        </variant>
        <node identifier="ac8e562e-d5a6-4216-a96a-2b375e43af11" nodeName="node-3m9srq5ktidu7">
-        <variant sortingIndex="100" workspace="live" nodeType="Stoj.Site:Templates.ProjectLanding" version="26" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="100" workspace="live" nodeType="Stoj.Site:Templates.ProjectLanding" version="29" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>da</language>
          </dimensions>
          <accessRoles __type="array"/>
          <creationDateTime __type="object" __classname="DateTime">2020-12-11T14:48:31+01:00</creationDateTime>
-         <lastModificationDateTime __type="object" __classname="DateTime">2020-12-16T09:45:52+01:00</lastModificationDateTime>
-         <lastPublicationDateTime __type="object" __classname="DateTime">2020-12-16T09:45:51+01:00</lastPublicationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2020-12-18T10:55:29+01:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2020-12-18T10:55:29+01:00</lastPublicationDateTime>
          <properties>
           <date __type="string">April 2019</date>
           <name __type="string">Matas Natur</name>
           <task __type="string">Fotounivers, styling &amp;amp; regi</task>
           <text __type="string">&lt;p&gt;Billederne bruges som udsmykning og blikfang i de 2 flotte butikker i København og Århus. Nørgaard Mikkelsen har lavet den visuelle identitet - som oven i købet nu er shortlisted til årets Creative Circle Award!! Vi er stolte af, i samarbejde med Nørgård Mikkelsen, at have udviklet dette billedunivers. Billedestilen blev udviklet ud fra at udtrykket skulle være Sanseligt, naturligt og enklet, billeder med en &quot;grøn tråd&quot; igennem.&lt;/p&gt;</text>
-          <image __type="object" __identifier="cfa83d18-b175-4e9a-bea7-c6a0357042a6" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;cfa83d18-b175-4e9a-bea7-c6a0357042a6&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;Kogle.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;261f693cc41b03e85c8b0d588bdffaaefde643f3&quot;,&quot;hash&quot;:&quot;261f693cc41b03e85c8b0d588bdffaaefde643f3&quot;,&quot;__identity&quot;:&quot;ceca1494-6fe0-41dd-bb8e-cf4ca4e1b90b&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image>
+          <image __type="object" __identifier="17af4006-122b-4182-8050-f8cd0d15c6d9" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;17af4006-122b-4182-8050-f8cd0d15c6d9&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;Matas_natur_plakat_makeup.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;a4de2ca13d336ab4485d7dc69b029e61a8db390a&quot;,&quot;hash&quot;:&quot;a4de2ca13d336ab4485d7dc69b029e61a8db390a&quot;,&quot;__identity&quot;:&quot;69fa9ad3-fcb6-43d5-8d02-daf64021d345&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image>
           <label __type="string"></label>
           <title __type="string">Foto &amp;amp; Visuelt udtryk for Nørgaard Mikkelsen</title>
-          <image2 __type="object" __identifier="f8a34569-4e60-4118-8fd2-5c665b948937" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;f8a34569-4e60-4118-8fd2-5c665b948937&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;hyben1.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;9238e5480e8d7842dfa53487cdbac2fd5bad7a41&quot;,&quot;hash&quot;:&quot;9238e5480e8d7842dfa53487cdbac2fd5bad7a41&quot;,&quot;__identity&quot;:&quot;4bb02899-9332-4d5f-8db7-faf2bfea1772&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image2>
+          <image2 __type="object" __identifier="6504f4c2-8371-4332-a52c-07a22b5c5b28" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;6504f4c2-8371-4332-a52c-07a22b5c5b28&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;Matas_natur_plakat_honning.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;66a3202a6acf27fc5d587c91198f714c2e6369b5&quot;,&quot;hash&quot;:&quot;66a3202a6acf27fc5d587c91198f714c2e6369b5&quot;,&quot;__identity&quot;:&quot;e3c3bf15-4bf0-4a6d-b833-5f62604beef0&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image2>
           <campaign __type="string">Matas Natur</campaign>
           <customer __type="string">Nørregaard Mikkelsen</customer>
           <landingCaption __type="string">Billederne bruges som &lt;strong&gt;udsmykning og blikfang&lt;/strong&gt; i de 2 flotte butikker i København og Århus.</landingCaption>
@@ -588,21 +588,39 @@
         </variant>
        </node>
        <node identifier="0a47c8a9-0751-43fe-b33f-22d22badb6ba" nodeName="node-owhxjcl7krlwb">
-        <variant sortingIndex="150" workspace="live" nodeType="Stoj.Site:Templates.ProjectTwo" version="5" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="150" workspace="live" nodeType="Stoj.Site:Templates.ProjectTwo" version="7" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>da</language>
          </dimensions>
          <accessRoles __type="array"/>
          <creationDateTime __type="object" __classname="DateTime">2020-12-15T16:14:24+01:00</creationDateTime>
-         <lastModificationDateTime __type="object" __classname="DateTime">2020-12-15T16:25:08+01:00</lastModificationDateTime>
-         <lastPublicationDateTime __type="object" __classname="DateTime">2020-12-15T16:25:08+01:00</lastPublicationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2020-12-18T10:42:20+01:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2020-12-18T10:42:19+01:00</lastPublicationDateTime>
          <properties>
           <text __type="string"></text>
           <image __type="object" __identifier="3b7a0220-25c5-43cd-9a4e-1995e511a26e" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;3b7a0220-25c5-43cd-9a4e-1995e511a26e&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;Gran.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;aff9a451e8e620537b5895ee6188652af65bf908&quot;,&quot;hash&quot;:&quot;aff9a451e8e620537b5895ee6188652af65bf908&quot;,&quot;__identity&quot;:&quot;0c34a17e-b413-4a60-b7b3-d13dc4d070dd&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image>
-          <image2 __type="object" __identifier="c55e7cc6-8339-4671-8af6-e76c193cd40c" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;c55e7cc6-8339-4671-8af6-e76c193cd40c&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;Sk\u00e6rmbillede 2020-12-15 kl. 14.41.00.png&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/png&quot;,&quot;sha1&quot;:&quot;cfd173f1098af5783b4cc33836baf676cd150052&quot;,&quot;hash&quot;:&quot;cfd173f1098af5783b4cc33836baf676cd150052&quot;,&quot;__identity&quot;:&quot;a22f538a-8a2f-4722-b7a8-191c89420971&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image2>
-          <image3 __type="object" __identifier="111e8306-69f2-4462-9e4b-e261df937be8" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;111e8306-69f2-4462-9e4b-e261df937be8&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;Hyben-f\u00e6rdig.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;702083103a2fb1d4653f57d64fe1a1e5bfe8fc1a&quot;,&quot;hash&quot;:&quot;702083103a2fb1d4653f57d64fe1a1e5bfe8fc1a&quot;,&quot;__identity&quot;:&quot;ebfeeea6-e2c3-4eab-9d10-78fe84e6a7e7&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image3>
+          <image2 __type="object" __identifier="119614fc-d604-4024-a9c0-41eb4f7c1e63" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;119614fc-d604-4024-a9c0-41eb4f7c1e63&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;butik_2.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;99bd6bc9d3ef96be691bbdddaff64ffa5f8f7da8&quot;,&quot;hash&quot;:&quot;99bd6bc9d3ef96be691bbdddaff64ffa5f8f7da8&quot;,&quot;__identity&quot;:&quot;aaebfbc2-1785-4360-8202-af1fd827ceef&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image2>
+          <image3 __type="object" __identifier="744f000f-fde0-48d3-bb21-841cffce3c71" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;744f000f-fde0-48d3-bb21-841cffce3c71&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;butik_1.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;e7862914e412532ec625c05252e986c1f2943b3b&quot;,&quot;hash&quot;:&quot;e7862914e412532ec625c05252e986c1f2943b3b&quot;,&quot;__identity&quot;:&quot;4127c244-eb9c-4344-ae26-190358847a22&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image3>
           <captionOne __type="string">Billederne bruges som &lt;strong&gt;udsmykning og blikfang&lt;/strong&gt; i de 2 flotte butikker i København og Århus.</captionOne>
           <captionTwo __type="string">Noget af det vi elsker mest her i huset er at lave et &lt;strong&gt;helt specielt look&lt;/strong&gt; på de billeder og film vi laver, et look der passer til lige specielt den kunde og som binder deres visuelle udtryk sammen.</captionTwo>
+          <landingCaption __type="string"></landingCaption>
+         </properties>
+        </variant>
+       </node>
+       <node identifier="4985fc62-383a-4844-911a-bff41c8e886a" nodeName="node-wnr0892yajo81">
+        <variant sortingIndex="200" workspace="live" nodeType="Stoj.Site:Templates.ProjectThree" version="6" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>da</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2020-12-18T10:42:51+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2020-12-18T10:50:29+01:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2020-12-18T10:50:29+01:00</lastPublicationDateTime>
+         <properties>
+          <text __type="string"></text>
+          <image __type="object" __identifier="60d398c3-0e64-4edf-bde7-bd19f5526a1b" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;60d398c3-0e64-4edf-bde7-bd19f5526a1b&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;Plakat_honning.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;c8202df9bb2ede1972b5df83498b97cb4ab5de2d&quot;,&quot;hash&quot;:&quot;c8202df9bb2ede1972b5df83498b97cb4ab5de2d&quot;,&quot;__identity&quot;:&quot;5123691d-ce87-44c1-b014-7d9d551d88f0&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image>
+          <image2 __type="object" __identifier="fd51dd0a-0dee-4930-bc61-d560779219f0" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;fd51dd0a-0dee-4930-bc61-d560779219f0&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;Matas-natur-honey-honning.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;613c6da49842154b370a8eb983d514abe6fb4762&quot;,&quot;hash&quot;:&quot;613c6da49842154b370a8eb983d514abe6fb4762&quot;,&quot;__identity&quot;:&quot;de2d061a-6f5a-438b-9b17-feb2dbd7283e&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image2>
+          <captionOne __type="string"></captionOne>
           <landingCaption __type="string"></landingCaption>
          </properties>
         </variant>
@@ -851,6 +869,150 @@
           <landingCaption __type="string"></landingCaption>
          </properties>
         </variant>
+       </node>
+      </node>
+     </node>
+     <node identifier="f4c433a3-c662-4b45-b712-306055870f82" nodeName="node-pr7qae18guog3">
+      <variant sortingIndex="447" workspace="live" nodeType="Stoj.Site:Document.Page" version="4" removed="" hidden="" hiddenInIndex="1">
+       <dimensions>
+        <language>da</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2020-12-18T11:16:34+01:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2020-12-18T11:16:49+01:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2020-12-18T11:16:49+01:00</lastPublicationDateTime>
+       <properties>
+        <title __type="string">Tinekhome</title>
+        <uriPathSegment __type="string">tinekhome</uriPathSegment>
+       </properties>
+      </variant>
+      <node identifier="96bbd448-2fc1-5492-80ab-b1291229d4f3" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>da</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2020-12-18T11:16:34+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2020-12-18T11:16:49+01:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2020-12-18T11:16:49+01:00</lastPublicationDateTime>
+        <properties/>
+       </variant>
+       <node identifier="231bc491-ac8f-4de1-9612-7d901d4d03c2" nodeName="node-0wocrx62uu4hy">
+        <variant sortingIndex="150" workspace="live" nodeType="Stoj.Site:Templates.ProjectVideoTwo" version="6" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>da</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2020-12-18T11:23:34+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2020-12-18T11:24:51+01:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2020-12-18T11:24:51+01:00</lastPublicationDateTime>
+         <properties>
+          <text __type="string"></text>
+          <image __type="object" __identifier="880ffe3a-9c6f-4782-b2a6-7f0d3677296a" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;880ffe3a-9c6f-4782-b2a6-7f0d3677296a&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;Sk\u00e6rmbillede 2020-12-18 kl. 11.22.18.png&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/png&quot;,&quot;sha1&quot;:&quot;f30ccbbf2589711dc336ad88d0e93099474d86ea&quot;,&quot;hash&quot;:&quot;f30ccbbf2589711dc336ad88d0e93099474d86ea&quot;,&quot;__identity&quot;:&quot;39e44aae-fa45-47d8-af7e-b2f9d88a500e&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image>
+          <title __type="string"></title>
+          <image2 __type="object" __identifier="3d9c118f-d7c1-4b76-be63-5df11dbc7b7d" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;3d9c118f-d7c1-4b76-be63-5df11dbc7b7d&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;Sk\u00e6rmbillede 2020-12-18 kl. 11.22.46.png&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/png&quot;,&quot;sha1&quot;:&quot;9cdd31ed2da1d48c1131622531eccd97442fc449&quot;,&quot;hash&quot;:&quot;9cdd31ed2da1d48c1131622531eccd97442fc449&quot;,&quot;__identity&quot;:&quot;fabc39a2-58d9-4159-8d81-2fa20701602b&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image2>
+          <captionOne __type="string">De vælger os, fordi vi kan tilbyde en &lt;strong&gt;esktra dimension&lt;/strong&gt; til deres billeder, hvilket får budskaberne til at stå ekstra skarpt.</captionOne>
+         </properties>
+        </variant>
+       </node>
+       <node identifier="ee7020bb-526c-46f1-8b24-5e67f8723e2f" nodeName="node-1ymes4m0x5mlt">
+        <variant sortingIndex="300" workspace="live" nodeType="Stoj.Site:Templates.ProjectVideoTwo" version="5" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>da</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2020-12-18T11:36:30+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2020-12-18T11:38:01+01:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2020-12-18T11:38:01+01:00</lastPublicationDateTime>
+         <properties>
+          <text __type="string"></text>
+          <image __type="object" __identifier="437e896a-5cc3-4d00-bbf2-7ffd5b81efc8" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;437e896a-5cc3-4d00-bbf2-7ffd5b81efc8&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;Sk\u00e6rmbillede 2020-12-18 kl. 11.34.20.png&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/png&quot;,&quot;sha1&quot;:&quot;affc1ee9b12e39d68b764b1b74ef6e07500960c8&quot;,&quot;hash&quot;:&quot;affc1ee9b12e39d68b764b1b74ef6e07500960c8&quot;,&quot;__identity&quot;:&quot;3446aa9f-1b9b-4157-8bdf-e98b59b47122&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image>
+          <image2 __type="object" __identifier="be97e4e0-3677-4c22-85ac-6d423ea8682c" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;be97e4e0-3677-4c22-85ac-6d423ea8682c&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;Sk\u00e6rmbillede 2020-12-18 kl. 11.34.51.png&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/png&quot;,&quot;sha1&quot;:&quot;ac82d9b13595a8b3c6baefd9d1e0b8a6822b0d51&quot;,&quot;hash&quot;:&quot;ac82d9b13595a8b3c6baefd9d1e0b8a6822b0d51&quot;,&quot;__identity&quot;:&quot;755a6cfa-fddc-409d-813b-a6ec316e5700&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image2>
+          <captionOne __type="string">Billedestilen blev udviklet ud fra at udtrykket skulle være Sanseligt, naturligt og enklet, billeder med en &quot;grøn tråd&quot; igennem.</captionOne>
+         </properties>
+        </variant>
+       </node>
+       <node identifier="8204b523-239e-4229-85b1-33230e8d1486" nodeName="node-2ol18ly89es03">
+        <variant sortingIndex="250" workspace="live" nodeType="Stoj.Site:Templates.ProjectVideoThree" version="4" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>da</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2020-12-18T11:35:22+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2020-12-18T11:36:13+01:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2020-12-18T11:36:12+01:00</lastPublicationDateTime>
+         <properties>
+          <text __type="string"></text>
+          <image __type="object" __identifier="080c7182-e252-46d2-b56a-d502473ae683" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;080c7182-e252-46d2-b56a-d502473ae683&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;Sk\u00e6rmbillede 2020-12-18 kl. 11.34.33.png&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/png&quot;,&quot;sha1&quot;:&quot;bff4ac30f05e28c59934513a391f4128cbe9e0a7&quot;,&quot;hash&quot;:&quot;bff4ac30f05e28c59934513a391f4128cbe9e0a7&quot;,&quot;__identity&quot;:&quot;921a9eb1-64d0-4e0f-9814-0951cfcf5cd8&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image>
+          <image2 __type="object" __identifier="c27476ee-194b-420a-aaa2-d4ec6d521474" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;c27476ee-194b-420a-aaa2-d4ec6d521474&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;Sk\u00e6rmbillede 2020-12-18 kl. 11.35.11.png&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/png&quot;,&quot;sha1&quot;:&quot;2928c61232ce899f2f64683dbb2d9efc7a69eec4&quot;,&quot;hash&quot;:&quot;2928c61232ce899f2f64683dbb2d9efc7a69eec4&quot;,&quot;__identity&quot;:&quot;79ea8fbc-e96f-4271-8bbd-c98f1f2e1e23&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image2>
+          <captionOne __type="string"></captionOne>
+          <landingCaption __type="string"></landingCaption>
+         </properties>
+        </variant>
+       </node>
+       <node identifier="c0da2dcb-5681-4e12-bfe9-9be162666090" nodeName="node-2q2iugo38qoxw">
+        <variant sortingIndex="100" workspace="live" nodeType="Stoj.Site:Templates.ProjectVideoLanding" version="3" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>da</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2020-12-18T11:16:57+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2020-12-18T11:20:44+01:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2020-12-18T11:20:43+01:00</lastPublicationDateTime>
+         <properties>
+          <id __type="string">https://player.vimeo.com/video/458916119?title=0&amp;byline=0&amp;portrait=0</id>
+          <date __type="string"></date>
+          <name __type="string">Tinekhome produktvideoer</name>
+          <task __type="string"></task>
+          <text __type="string">&lt;p&gt;Vi er et lille odenseansk fotostudie, der skyder billeder og film til en lang række danske virksomheder og mediehuse. De vælger os, fordi vi kan tilbyde en esktra dimension til deres billeder, hvilket får budskaberne til at stå ekstra skarpt.&lt;/p&gt;</text>
+          <label __type="string"></label>
+          <title __type="string">Miljøfilm &amp;amp; videounivers for Tinekhome</title>
+          <campaign __type="string">Tinekhome videoserier 2020</campaign>
+          <customer __type="string">Tinekhome</customer>
+          <landingCaption __type="string"></landingCaption>
+         </properties>
+        </variant>
+       </node>
+       <node identifier="f6892644-52d3-4a7f-a92d-444a4181fc07" nodeName="node-jf895hrkj9v4f">
+        <variant sortingIndex="200" workspace="live" nodeType="Stoj.Site:Templates.ProjectVideoVideo" version="4" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>da</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2020-12-18T11:29:53+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2020-12-18T11:30:28+01:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2020-12-18T11:30:28+01:00</lastPublicationDateTime>
+         <properties>
+          <id __type="string">https://player.vimeo.com/video/424717783?title=0&amp;byline=0&amp;portrait=0</id>
+          <text __type="string"></text>
+         </properties>
+        </variant>
+       </node>
+       <node identifier="e476f6b5-35db-42a0-be98-5d3385068dd8" nodeName="node-npe7wpqdo5igr">
+        <variant sortingIndex="275" workspace="live" nodeType="Stoj.Site:Collection.Section" version="4" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>da</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2020-12-18T11:33:31+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2020-12-18T11:38:44+01:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2020-12-18T11:38:43+01:00</lastPublicationDateTime>
+         <properties/>
+        </variant>
+        <node identifier="832d4db9-cbeb-496b-995a-41c9ed5281dd" nodeName="node-rjb2l5ozv8sd5">
+         <variant sortingIndex="300" workspace="live" nodeType="Stoj.Site:Content.Text" version="2" removed="" hidden="" hiddenInIndex="">
+          <dimensions>
+           <language>da</language>
+          </dimensions>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2020-12-18T11:33:31+01:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2020-12-18T11:33:34+01:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2020-12-18T11:33:34+01:00</lastPublicationDateTime>
+          <properties>
+           <text __type="string">&lt;p&gt;Billederne bruges som udsmykning og blikfang i de 2 flotte butikker i København og Århus. Nørgaard Mikkelsen har lavet den visuelle identitet - som oven i købet nu er shortlisted til årets Creative Circle Award!! Vi er stolte af, i samarbejde med Nørgård Mikkelsen, at have udviklet dette billedunivers. Billedestilen blev udviklet ud fra at udtrykket skulle være Sanseligt, naturligt og enklet, billeder med en &quot;grøn tråd&quot; igennem.&lt;/p&gt;</text>
+          </properties>
+         </variant>
+        </node>
        </node>
       </node>
      </node>

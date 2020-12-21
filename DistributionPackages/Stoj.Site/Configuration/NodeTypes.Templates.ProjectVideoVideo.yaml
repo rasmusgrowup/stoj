@@ -1,0 +1,20 @@
+'Stoj.Site:Templates.ProjectVideoVideo':
+  superTypes:
+    'Neos.Neos:Content': true
+    'Stoj.Site:Content.Text': true
+    'Stoj.Site:Content.Headline': true
+    'Stoj.Site:Mixin.Image': true
+  ui:
+    group: 'structure'
+    label: Project Video Section
+    icon: icon-pager
+    position: 435
+    inlineEditable: true
+    reloadIfChanged: true
+  properties:
+    id:
+      type: string
+      ui:
+        label: 'Indsæt Vimeo ID'
+        inspector:
+          group: 'image'

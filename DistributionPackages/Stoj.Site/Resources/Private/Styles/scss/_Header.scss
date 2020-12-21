@@ -9,6 +9,7 @@ $eb: "EB Garamond", serif;
     mix-blend-mode: exclusion;
     -webkit-backface-visibility: visible;
     backface-visibility: visible;
+    pointer-events: none;
     position: fixed;
     padding: 1em;
     top: 0;
@@ -33,6 +34,7 @@ $eb: "EB Garamond", serif;
         backface-visibility: visible;
         display: block;
         overflow: hidden;
+        pointer-events: auto;
         width: 6em;
         will-change: transform;
 
@@ -51,6 +53,7 @@ $eb: "EB Garamond", serif;
         backface-visibility: visible;
         display: flex;
         overflow: hidden;
+        pointer-events: auto;
         will-change: transform;
 
         .menu-items {

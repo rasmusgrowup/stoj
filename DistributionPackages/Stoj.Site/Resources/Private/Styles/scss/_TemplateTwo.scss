@@ -63,34 +63,5 @@
             max-width: 380px;
             opacity: .8;
         }
-
-        a {
-            display: table;
-            font-weight: 500;
-            font-size: 1em;
-            margin-top: 1em;
-            max-width: 380px;
-
-            &:after {
-                animation-timing-function: ease-out;
-                background-color: $deep-grey;
-                content: '';
-                display: block;
-                height: .1em;
-                transition: .3s;
-                transition-delay: .1s;
-                width: 0;
-            }
-
-            &:hover p {
-                //color: $stoj-yellow;
-            }
-        }
-
-        a:hover {
-            &:after {
-                width: 100%;
-            }
-        }
     }
 }

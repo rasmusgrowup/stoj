@@ -278,6 +278,47 @@
             width: 100%;
         }
     }
+
+    .stoj-link {
+        color: $stoj-brun;
+        display: inline-block;
+        font-size: 1.25em;
+        font-weight: 600;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        //text-transform: uppercase;
+
+        &:after {
+            animation-timing-function: ease-out;
+            background-color: $stoj-brun;
+            content: '';
+            display: block;
+            height: .1em;
+            transition: .3s;
+            transition-delay: .1s;
+            width: 100%;
+        }
+
+        p {
+            color: $stoj-brun;
+            font-size: 1em;
+            margin-bottom: 0;
+            //text-transform: uppercase;
+        }
+
+        &:hover {
+            color: white !important;
+
+            p {
+                color: white !important;
+            }
+
+            &:after {
+                background-color: white;
+                width: 0%;
+            }
+        }
+    }
 }
 
 .subheader-content {
@@ -359,104 +400,53 @@
             }
         }
 
-        .list-btn {
-            color: white;
-            display: inline-block;
-            font-weight: 500;
-            margin: 0 .3em 0 0;
-            //opacity: .8;
-            //text-decoration: underline;
-
-            &:first-child {
-                margin-left: 0;
-            }
-
-            &:last-child {
-                margin-right: 0;
-            }
-
-            &:hover {
-                //cursor: pointer;
-            }
-
-            &:after {
-                animation-timing-function: ease-out;
-                background-color: white;
-                content: '';
-                display: block;
-                height: .1em;
-                transition: .3s;
-                transition-delay: .1s;
-                width: 0;
-            }
-
-            &:hover {
-                //cursor: pointer;
-                &:after {
-                    //width: 100%;
-                }
-            }
-        }
-
-        .not-a-service {
-            margin-right: .3em;
-        }
-
-        .not-a-service.active::after {
-            width: 0 !important;
-        }
-
-        .active {
-            color: $stoj-brun;
-
-            &:after {
-                background-color: $stoj-brun;
-                width: 100%;
-            }
-        }
-
-        a {
-            //color: $stoj-brun;
-            //background-color: white;
-            //border-radius: .15em;
-            display: inline-block;
-            margin-top: 1em;
-            //padding: .5em 1.5em;
-            //transition: .1s;
-            //transition-timing-function: ease-out;
-            //transition-delay: .1s;
-
-            &:after {
-                animation-timing-function: ease-out;
-                background-color: white;
-                content: '';
-                display: block;
-                height: .1em;
-                transition: .3s;
-                transition-delay: .1s;
-                width: 0;
-            }
-
-            p {
-                //color: white !important;
-                font-size: 1em !important;
-                margin-bottom: 0 !important;
-                //text-transform: uppercase;
-            }
-        }
-
-        a:hover {
-            &:after {
-                width: 100%;
-            }
-        }
-
         @media only screen and (min-width: $break-tablet) {
             display: inline-block;
             //float: left;
             margin-right: 3em;
             vertical-align: top;
             width: calc(44% - 2em);
+        }
+    }
+
+    .stoj-link {
+        color: $stoj-brun;
+        display: inline-block;
+        font-size: 1.25em;
+        font-weight: 600;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        //text-transform: uppercase;
+
+        &:after {
+            animation-timing-function: ease-out;
+            background-color: $stoj-brun;
+            content: '';
+            display: block;
+            height: .1em;
+            transition: .3s;
+            transition-delay: .1s;
+            width: 100%;
+        }
+
+        p {
+            color: $stoj-brun;
+            font-size: 1em;
+            margin-bottom: 0;
+            //text-transform: uppercase;
+        }
+
+        &:hover {
+            color: white !important;
+
+            p {
+                color: white !important;
+            }
+
+            &:after {
+                background-color: white;
+                width: 0%;
+            }
         }
     }
 
@@ -538,46 +528,6 @@
             opacity: 1;
             transition: .2s;
             //text-shadow: 0px 0px 15px rgba(255, 255, 255, .5);
-        }
-    }
-}
-
-.stoj-link {
-    color: $stoj-brun;
-    display: inline-block;
-    font-size: 1.25em;
-    font-weight: 600;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    //text-transform: uppercase;
-
-    &:after {
-        animation-timing-function: ease-out;
-        background-color: white;
-        content: '';
-        display: block;
-        height: .1em;
-        transition: .3s;
-        transition-delay: .1s;
-        width: 0;
-    }
-
-    p {
-        color: $stoj-brun !important;
-        font-size: 1em !important;
-        margin-bottom: 0 !important;
-        //text-transform: uppercase;
-    }
-
-    &:hover {
-        color: white !important;
-
-        p {
-            color: white !important;
-        }
-
-        &:after {
-            width: 100%;
         }
     }
 }

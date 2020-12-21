@@ -112,38 +112,6 @@ prototype(Stoj.Site:Content.Subheader) < prototype(Neos.Neos:ContentComponent) {
                     <h2 class="aos-text" style="color:white;"></h2>
                     <p style="color:white;" class="aos-text">Vi har en bred erfaring, og har gennem tiderne løst mange typer af opgaver.</p>
                     <p style="color:white;" class="aos-text">Hos Stöj fotograferer vi ofte billeder, der bruges i magasiner, reklamer og tryksager, men vores fotografier står også flot på hjemmesider og sociale medier. Vi har erfaring med at producere billeder og videoer af boliger, delikatesser, indretning, livsstil, mad og mennesker. Vi glæder os dog altid til, at blive mødt af nye udfordringer.<br/>
-                        <!--<span
-                            class="list-btn active cursor-link"
-                            data-selector=".cell1">
-                            mad,
-                        </span>
-                        <span
-                            class="list-btn span-list cursor-link"
-                            data-selector=".cell2">
-                            miljøer,
-                        </span>
-                        <span
-                            class="list-btn span-list cursor-link"
-                            data-selector=".cell3">
-                            produkter,
-                        </span>
-                        <span
-                            class="list-btn span-list cursor-link"
-                            data-selector=".cell4">
-                            mennesker,
-                        </span>
-                        <span
-                            class="list-btn span-list cursor-link"
-                            data-selector=".cell5">
-                            boliger
-                        </span>
-                        <span class="not-a-service" style="color:white;font-weight:400;">og</span>
-                        <span
-                            class="list-btn span-list cursor-link"
-                            data-selector=".cell6">
-                            indretning
-                        </span>
-                        . Vi dog altid frisk på at prøve noget nyt!  -->
                     </p>
                     <Carbon.Link:Link link={props.link} additionalClass="stoj-link aos-text">{props.label}</Carbon.Link:Link>
                 </div>
