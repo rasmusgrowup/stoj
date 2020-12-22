@@ -86,19 +86,19 @@ window.addEventListener('DOMContentLoaded', (event) => {
 			stagger: .1
 		});
 
-		gsap.from(".some-iconss", {
+		gsap.to(".bottom-bar", {
 			scrollTrigger: {
-				trigger: ".some-icons",
+				trigger: ".main-footer",
 				toggleActions: "play none play reverse",
-				scrub: 2,
+				//scrub: true,
 				//markers: true,
-				start: "-110px bottom",
-				end: "top bottom"
+				start: "top center",
+				//end: "top bottom"
 			},
-			y: 100,
-			duration: 1.5,
+			opacity: 0,
+			duration: 0.5,
 			delay: 1,
-			//ease: "power3.in"
+			ease: "power3.in"
 		})
 
 		gsap.to(".fadeOut", {

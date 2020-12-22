@@ -31,8 +31,8 @@ Carbon:
             - flickity.js
             - isotope.min.js
             - isotope.js
-            - cursor.js
-            # - slow-scroll.js
+          #  - cursor.js
+          #  - slow-scroll.js
 
       ##
       # Sitegeist.Lazybones required lazysizes, we recommend to include lazysizes javascript

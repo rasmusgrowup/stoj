@@ -7,11 +7,15 @@ prototype(Stoj.Site:Component.Footer) < prototype(Neos.Neos:ContentComponent) {
     }
 
     in = Neos.Fusion:ResourceUri {
-    path = 'resource://Stoj.Site/Public/Frontend/icons/instagram.svg'
+    path = 'resource://Stoj.Site/Public/Frontend/icons/instagram-3.svg'
     }
 
     li = Neos.Fusion:ResourceUri {
     path = 'resource://Stoj.Site/Public/Frontend/icons/linkedin.svg'
+    }
+
+    vi = Neos.Fusion:ResourceUri {
+    path = 'resource://Stoj.Site/Public/Frontend/icons/vimeo.svg'
     }
 
     logo = Neos.Fusion:ResourceUri {
@@ -28,17 +32,18 @@ prototype(Stoj.Site:Component.Footer) < prototype(Neos.Neos:ContentComponent) {
                     Vi er et lille odenseansk fotostudie, der skyder billeder og film til en lang række danske virksomheder og mediehuse. De vælger os, fordi vi kan tilbyde en esktra dimension til deres billeder, hvilket får budskaberne til at stå ekstra skarpt.
                 </div>
                 <div class="address-footer">
-                    Besøg os på addressen <strong>Havnegade 100N, 5000 Odense C</strong>
+                    Besøg os på addressen <strong>Havnegade 100N, 5000 Odense C</strong> <small><a href="https://www.google.com/maps/place/Havnegade+100,+5000+Odense/@55.4266147,10.3882408,17z/data=!3m1!4b1!4m5!3m4!1s0x464ce0188c3e4d3d:0x480e1a3ec5cd8695!8m2!3d55.4265079!4d10.3905032" target="_blank">(åben kort)</a></small>
                 </div>
             </div>
             <div class="footer-bottom">
                 <div class="footer-some-icons">
-                    <a href="#"><img src={props.in} alt=""/></a>
-                    <a href="#"><img src={props.li} alt=""/></a>
+                    <a class="cursor-link" href="#"><img src={props.in} alt=""/></a>
+                    <a class="cursor-link" href="#"><img src={props.vi} alt=""/></a>
+                    <a class="cursor-link" href="#"><img src={props.li} alt=""/></a>
                     <span></span>
                     Følg vores arbejde her
                 </div>
-                <div class="copyright">Alle rettigheder tilhører Stöj &copy; {props.year}</div>
+                <div class="copyright">Alle immaterielle rettigheder tilhører Stöj &copy; {props.year}</div>
             </div>
         </footer>
     `

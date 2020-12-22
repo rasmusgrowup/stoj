@@ -6,7 +6,7 @@ $almost-black: #090A0D;
     padding: 3em 1em;
     position: relative;
     text-align: center;
-    z-index: 0;
+    z-index: 1;
 
     &:before {
         background-image: url(../assets/noise.png);
@@ -20,7 +20,7 @@ $almost-black: #090A0D;
         position: absolute;
         top: 0;
         width: 100%;
-        z-index: 1;
+        z-index: 0;
     }
 
     @media only screen and (min-width: $break-tablet) {
@@ -105,11 +105,19 @@ $almost-black: #090A0D;
             strong {
                 color: $almost-black;
             }
+
+            small {
+                a {
+                    color: #ff5151;
+                    font-size: 1em;
+                }
+            }
         }
     }
 
     .footer-bottom {
         display: block;
+        z-index: 1;
 
         @media only screen and (min-width: $break-tablet) {
             align-items: flex-end;
@@ -137,7 +145,7 @@ $almost-black: #090A0D;
                     width: 1.75em;
                 }
 
-                &:first-child {
+                &:first-child, &:nth-child(2) {
                     margin-right: 1em;
                 }
             }

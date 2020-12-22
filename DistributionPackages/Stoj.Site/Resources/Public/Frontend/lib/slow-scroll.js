@@ -52,3 +52,17 @@ function updateScroller() {
 
   requestId = scroller.scrollRequest > 0 ? requestAnimationFrame(updateScroller) : null;
 }
+
+function onScroll() {
+  scroller.scrollRequest++;
+  if (!requestId) {
+    requestId = requestAnimationFrame(updateScroller);
+  }
+}
+
+function onResize() {
+  scroller.resizeRequest++;
+  if (!requestId) {
+    requestId = requestAnimationFrame(updateScroller);
+  }
+}

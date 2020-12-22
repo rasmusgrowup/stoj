@@ -7118,7 +7118,7 @@ label.panel-block {
   padding: 3em 1em;
   position: relative;
   text-align: center;
-  z-index: 0; }
+  z-index: 1; }
   .main-footer:before {
     background-image: url(../assets/noise.png);
     background-repeat: repeat;
@@ -7131,7 +7131,7 @@ label.panel-block {
     position: absolute;
     top: 0;
     width: 100%;
-    z-index: 1; }
+    z-index: 0; }
   @media only screen and (min-width: 768px) {
     .main-footer {
       padding: 2.5em 1em; } }
@@ -7192,8 +7192,12 @@ label.panel-block {
         margin-bottom: 4em; } }
     .main-footer .footer-content .address-footer strong {
       color: #090A0D; }
+    .main-footer .footer-content .address-footer small a {
+      color: #ff5151;
+      font-size: 1em; }
   .main-footer .footer-bottom {
-    display: block; }
+    display: block;
+    z-index: 1; }
     @media only screen and (min-width: 768px) {
       .main-footer .footer-bottom {
         align-items: flex-end;
@@ -7215,7 +7219,7 @@ label.panel-block {
           .main-footer .footer-bottom .footer-some-icons a {
             height: 1.75em;
             width: 1.75em; } }
-        .main-footer .footer-bottom .footer-some-icons a:first-child {
+        .main-footer .footer-bottom .footer-some-icons a:first-child, .main-footer .footer-bottom .footer-some-icons a:nth-child(2) {
           margin-right: 1em; }
       .main-footer .footer-bottom .footer-some-icons span {
         background-color: white;

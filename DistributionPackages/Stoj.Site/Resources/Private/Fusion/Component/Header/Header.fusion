@@ -11,11 +11,15 @@ prototype(Stoj.Site:Component.Header) < prototype(Neos.Fusion:Component) {
     }
 
     in = Neos.Fusion:ResourceUri {
-    path = 'resource://Stoj.Site/Public/Frontend/icons/instagram.svg'
+    path = 'resource://Stoj.Site/Public/Frontend/icons/instagram-3.svg'
     }
 
     li = Neos.Fusion:ResourceUri {
     path = 'resource://Stoj.Site/Public/Frontend/icons/linkedin.svg'
+    }
+
+    vi = Neos.Fusion:ResourceUri {
+    path = 'resource://Stoj.Site/Public/Frontend/icons/vimeo.svg'
     }
 
     menuImage = Neos.Fusion:ResourceUri {
@@ -73,6 +77,7 @@ prototype(Stoj.Site:Component.Header) < prototype(Neos.Fusion:Component) {
         <header class="bottom-bar" id="header-bottom">
             <div class="header-social" id="social">
                 <a href="https://instagram.com/halloj_stoj"><img src={props.in} alt=""/></a>
+                <a href="https://instagram.com/halloj_stoj"><img src={props.vi} alt=""/></a>
                 <a href="https://instagram.com/halloj_stoj"><img src={props.li} alt=""/></a>
                 <span></span>
                 <p>Følg os her</p>
