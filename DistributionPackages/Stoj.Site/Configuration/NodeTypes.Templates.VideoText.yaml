@@ -1,0 +1,53 @@
+'Stoj.Site:Templates.VideoText':
+  superTypes:
+    'Neos.Neos:Content': true
+    'Stoj.Site:Content.Tekst': true
+    'Stoj.Site:Content.Titel': true
+    'Stoj.Site:Mixin.Image': true
+    'Neos.NodeTypes.BaseMixins:ImageCaptionMixin': true
+  ui:
+    label: Video m. tekst
+    icon: icon-file-text
+    position: 530
+    inlineEditable: true
+    reloadIfChanged: true
+    inspector:
+      groups:
+        layout:
+          label: 'Layout'
+          icon: cog
+        link:
+          label: 'Link'
+          icon: external-link-alt
+  properties:
+    id:
+      type: string
+      ui:
+        label: 'Indsæt Vimeo ID'
+        inspector:
+          group: 'image'
+    label:
+      ui:
+        inlineEditable: true
+      options:
+        silhouette: text.free
+    link:
+      type: string
+      ui:
+        label: 'Link target'
+        inspector:
+          group: link
+          editor: Neos.Neos/Inspector/Editors/LinkEditor
+    float:
+      type: string
+      ui:
+        label: 'Float left or right'
+        inspector:
+          group: 'layout'
+          editor: 'Neos.Neos/Inspector/Editors/SelectBoxEditor'
+          editorOptions:
+            values:
+              'float-left':
+                label: 'left'
+              'float-right':
+                label: 'right'

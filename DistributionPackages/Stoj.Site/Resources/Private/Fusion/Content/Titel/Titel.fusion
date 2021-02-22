@@ -1,0 +1,9 @@
+prototype(Stoj.Site:Content.Titel) < prototype(Neos.Neos:ContentComponent) {
+    titel = Neos.Neos:Editable {
+        property = 'titel'
+    }
+
+    renderer = afx`
+        <div class="titel --standard">{props.titel}</div>
+    `
+}

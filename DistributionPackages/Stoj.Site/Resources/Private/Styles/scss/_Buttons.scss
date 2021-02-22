@@ -1,5 +1,3 @@
-$deep-blue: #0F1419;
-
 .button-group {
     text-align: center;
 }
@@ -21,7 +19,7 @@ $deep-blue: #0F1419;
     }
 
     .is-checked {
-        background-color: $deep-blue;
+        background-color: $stoj-dark;
         color: white;
     }
 }

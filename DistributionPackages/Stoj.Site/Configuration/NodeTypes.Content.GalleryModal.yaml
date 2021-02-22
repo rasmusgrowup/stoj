@@ -1,7 +1,0 @@
-'Stoj.Site:Content.GalleryModal':
-  superTypes:
-    'Neos.Neos:Content': true
-  ui:
-    label: Gallery Modal
-    icon: icon-picture
-    position: 310

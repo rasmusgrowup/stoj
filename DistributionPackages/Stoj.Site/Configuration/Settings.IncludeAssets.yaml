@@ -1,7 +1,7 @@
 
 Carbon:
   IncludeAssets:
-    GoogleFonts: 'Crimson+Text:wght@400;600;700&display=swap'
+    GoogleFonts: 'Barlow+Condensed:ital,wght@0,400;0,700;1,700&family=Barlow:ital,wght@0,400;0,700;1,400;1,700&display=swap'
     Packages:
       aa_Theme:
         Path:
@@ -15,22 +15,23 @@ Carbon:
         General:
           Head:
             - head.css
-            - main.css[async rel="preload"]
-            - flickity.css
+            - main.css
           Body:
             #- https://cdn.jsdelivr.net/npm/@barba/core@2.9.7/dist/barba.umd.min.js
-            - https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js
-            - https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js
+            - https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js
+            - https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/ScrollTrigger.min.js
             #- barba.js
             - main.js
             - animations.js
-            - menu.js
+            - gallery.js
+            #- menu.js
             - lazysizes.min.js
             - https://player.vimeo.com/api/player.js
-            - flickity.min.js
-            - flickity.js
-            - isotope.min.js
-            - isotope.js
+            #- flickity.min.js
+            #- flickity.js
+            #- isotope.min.js
+          #  - packery.min.js
+          #  - isotope.js
           #  - cursor.js
           #  - slow-scroll.js
 

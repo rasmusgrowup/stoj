@@ -2,12 +2,9 @@
 'Stoj.Site:Content.Text':
   superTypes:
     'Neos.Neos:Content': true
+    'Stoj.Site:Mixin.Tekst': true
   ui:
-    label: Text
+    label: Tekst
     icon: icon-file-text
     position: 200
     inlineEditable: true
-  properties:
-    text:
-      options:
-        silhouette: codeq.text.free

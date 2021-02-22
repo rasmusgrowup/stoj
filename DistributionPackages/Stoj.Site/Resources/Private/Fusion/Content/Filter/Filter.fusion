@@ -1,6 +1,22 @@
 prototype(Stoj.Site:Content.Filter) < prototype(Neos.Neos:ContentComponent) {
 
+    chevron = Neos.Fusion:ResourceUri {
+    path = 'resource://Stoj.Site/Public/Frontend/icons/chevron.svg'
+    }
+
     renderer = afx`
+    <div class="filter-header" id="open-button"><p>Filtrér galleriet</p><img src={props.chevron} alt="" /></div>
+    <div class="filter-group">
+        <div class="filter-body" id="filter-list">
+            <button class="filter__btn active" onclick="filterSelection('alle')">Alle</button>
+            <button class="filter__btn" onclick="filterSelection('bolig')">Bolig</button>
+            <button class="filter__btn" onclick="filterSelection('kommerciel')">Kommerciel</button>
+            <button class="filter__btn" onclick="filterSelection('livsstil')">Livsstil</button>
+            <button class="filter__btn" onclick="filterSelection('mad')">Mad</button>
+            <button class="filter__btn" onclick="filterSelection('mennesker')">Mennesker</button>
+        </div>
+    </div>
+    <!--
     <div class="button-group filter-button-group">
         <button class="is-checked cursor-link" data-filter="*">Alle</button>
         <button class="cursor-link" data-filter=".bolig">Bolig</button>
@@ -9,6 +25,6 @@ prototype(Stoj.Site:Content.Filter) < prototype(Neos.Neos:ContentComponent) {
         <button class="cursor-link" data-filter=".mad">Mad</button>
         <button class="cursor-link" data-filter=".mennesker">Mennesker</button>
         <button class="cursor-link" data-filter=".video">Video</button>
-    </div>
+    </div>-->
     `
 }

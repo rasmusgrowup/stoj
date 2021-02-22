@@ -7,3 +7,11 @@
     label: Gallery Item
     icon: icon-picture
     position: 310
+  properties:
+    alternativeText:
+      type: string
+      ui:
+        label: 'Alternativ billed-tekst'
+        reloadIfChanged: true
+        inspector:
+          group: 'image'

@@ -1,4 +1,5 @@
-//.parallax {
-//    overflow: hidden;
-//    position: relative;
-//}
+.line-animated {
+    &:after {
+        width: 100%!important;
+    }
+}

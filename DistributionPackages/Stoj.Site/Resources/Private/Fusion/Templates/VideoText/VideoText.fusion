@@ -1,0 +1,62 @@
+prototype(Stoj.Site:Templates.VideoText) < prototype(Neos.Neos:ContentComponent) {
+
+    label = Neos.Neos:Editable {
+        property = 'label'
+    }
+
+    link = ${q(node).property('link')}
+
+    vimeoID = Neos.Neos:Editable {
+        property = 'id'
+    }
+
+    renderAsVideo = ${site.context.inBackend ? false : true}
+
+    dummyImage = Neos.Fusion:ResourceUri {
+    path = 'resource://Stoj.Site/Public/Frontend/assets/VideoDummy.jpg'
+    }
+
+    altSmall = ${q(node).property('alternativeTextSmall')}
+
+    smallImage = ${q(node).property('smallImage') ? '--small-image' : ''}
+
+    hasCaption = ${q(node).property('hasCaption')}
+    caption = Neos.Neos:Editable {
+        property = 'caption'
+    }
+
+    float = ${q(node).property('float')}
+
+    renderer = afx`
+        <section class={"video-with-text " + (props.float)}>
+            <div class="video-with-text-inner">
+                <Stoj.Site:Content.Titel/>
+                <Stoj.Site:Content.Tekst/>
+                <Carbon.Link:Link
+                    link={props.link}
+                    additionalClass="line-link">
+                    {props.label}
+                </Carbon.Link:Link>
+            </div>
+            <div class="video-frame">
+                <iframe
+                    src={props.vimeoID}
+                    frameborder="0"
+                    allow="autoplay; fullscreen"
+                    allowfullscreen
+                    style="position:absolute;top:0;left:0;width:100%;height:100%;"
+                    @if.render={props.renderAsVideo}
+                    >
+                </iframe>
+                <img
+                    @if.render={!props.renderAsVideo}
+                    src={props.dummyImage} alt=""
+                    style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;"
+                />
+            </div>
+            <figcaption @if.has={props.hasCaption && props.caption}>
+                {props.caption}
+            </figcaption>
+        </section>
+    `
+}

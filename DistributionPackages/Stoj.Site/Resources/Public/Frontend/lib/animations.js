@@ -1,181 +1,95 @@
+gsap.registerPlugin(ScrollTrigger);
+
 gsap.set(".aos", {opacity:0});
 gsap.set(".aos-text", {opacity:.5});
-gsap.set(".reel-overlay", {opacity:0, transform:'translate(-50%,-50%)'});
+//gsap.set(".reel-overlay", {opacity:0});
+//gsap.set(".video-body", {opacity:0});
 
 window.addEventListener('DOMContentLoaded', (event) => {
-	// Animate on scroll
-		let animateIn = document.querySelectorAll('.aos');
+	ScrollTrigger.batch(".line-link, .para p strong", {
+		toggleClass:"line-animated",
+		start: '50 bottom',
+		onEnter: batch => gsap.to(batch, {
+			stagger: 2
+		}),
+	})
 
-	    animateIn.forEach( function( elem ) {
-	        gsap.to(elem, {
-	            scrollTrigger: {
-	                trigger: elem,
-	                toggleActions: "play none play reverse",
-					//markers: true,
-					//scrub: true,
-					start: '-200 bottom'
-	            },
-				y: 0,
-				//scale: .9,
-				opacity: 1,
-				duration: 1,
-				delay: .5,
-				ease: "power3.out"
-	        })
-	    })
-
-		let animateText = document.querySelectorAll('.aos-text');
-
-	    animateText.forEach( function( elem ) {
-	        gsap.to(elem, {
-	            scrollTrigger: {
-	                trigger: elem,
-	                toggleActions: "play none play reverse",
-					//markers: true,
-					start: '50 bottom',
-	            },
-				//y: 0,
-				//scaleY: 1,
-				//stagger: .1,
-				opacity: 1,
-				duration: 1,
-				delay: .25,
-				ease: "power3.out"
-	        })
-	    });
-
-		let reveal = document.querySelectorAll('.aos-reveal');
-
-	    reveal.forEach( function( elem ) {
-	        gsap.from(elem, {
-	            scrollTrigger: {
-	                trigger: elem,
-	                toggleActions: "play none play reverse",
-					//scrub: true,
-					//markers: true,
-					start: 'top 98%',
-					end: 'bottom center'
-	            },
-				opacity: .05,
-				//scale: .9,
-				duration: 1.25,
-	        })
-	    });
-
-		gsap.to(".reel-overlay",{
-				transform:'translate(-50%,-60%)',
-				//scaleY: 1.25,
-				opacity: 1,
-				duration: 1.5,
-				delay: 1.8,
-				ease: "power3.out"
-			});
-
-		gsap.from(".video-body",{
-				y: 150,
-				scaleY: 1.25,
-				opacity: 0,
-				duration: 1.5,
-				delay: 2,
-				ease: "power3.out"
-			});
-
-		gsap.from(".gallery-image", {
-			opacity: 0,
+	ScrollTrigger.batch(".gallery-image", {
+		start: '50 bottom',
+		onEnter: batch => gsap.to(batch, {
+			autoAlpha: 1,
 			duration: .75,
 			stagger: .1
-		});
+		}),
+	})
 
-		gsap.to(".bottom-bar", {
-			scrollTrigger: {
-				trigger: ".main-footer",
-				toggleActions: "play none play reverse",
-				//scrub: true,
-				//markers: true,
-				start: "top center",
-				//end: "top bottom"
-			},
-			opacity: 0,
-			duration: 0.5,
+	gsap.to('.filter-header', {
+		scrollTrigger: {
+			trigger: '.gallery-container',
+			start: 'top top',
+			end: 'bottom 40%',
+			//markers: true,
+			scrub: true,
+			pin: '.filter-header',
+		}
+	})
+
+	gsap.to('.filter-group', {
+		scrollTrigger: {
+			trigger: '.gallery-container',
+			start: 'top top',
+			end: 'bottom 40%',
+			//markers: true,
+			scrub: true,
+			pin: '.filter-group',
+		}
+	})
+
+	gsap.from(".gallery-image", {
+		opacity: 0,
+		duration: .75,
+		stagger: .1
+	});
+
+	gsap.from(".reel-overlay",{
+			y: 75,
+			autoAlpha: 0,
+			duration: 1.5,
 			delay: 1,
-			ease: "power3.in"
-		})
-
-		gsap.to(".fadeOut", {
-			scrollTrigger: {
-				trigger: ".reel-container",
-				toggleActions: "play none play reverse",
-				scrub: true,
-				//markers: true,
-				start: "top top",
-				end: "bottom top"
-			},
-			//opacity: .4,
-			//y: -50,
-			//scale: 1.1,
-			duration: 3,
+			ease: "power3.out"
 		});
 
-		gsap.to(".imageOut", {
-			scrollTrigger: {
-				trigger: ".reel-container",
-				toggleActions: "play none play reverse",
-				scrub: true,
-				//markers: true,
-				start: "top top",
-				end: "bottom top"
-			},
-			opacity: 0,
-			y: 300,
-			//scale: .6,
-			duration: 3,
+	gsap.from(".video-body",{
+			y: 75,
+			autoAlpha: 0,
+			duration: 1.5,
+			delay: .5,
+			ease: "power3.out"
 		});
 
-		gsap.to(".overlay-image", {
-			scrollTrigger: {
-				trigger: ".overlay-image",
-				toggleActions: "play none play reverse",
-				scrub: true,
-				//markers: true,
-				start: "-50% top",
-				end: "bottom top"
-			},
-			//opacity: .4,
-			y: -75,
-			//scale: 1.1,
-			duration: 3,
+	gsap.from(".play--symbol",{
+			autoAlpha: 0,
+			duration: 1.5,
+			delay: 1.5,
+			ease: "power3.out"
 		});
-
-		gsap.to(".header-fade", {
-			scrollTrigger: {
-				trigger: ".header-fade",
-				toggleActions: "play none play reverse",
-				scrub: true,
-				//markers: true,
-				start: "top 25%",
-				end: "bottom top"
-			},
-			opacity: .5,
-			y: -50,
-			//scale: 1.1,
-			duration: 3,
-		});
-
-		let parallax = document.querySelectorAll('.parallax');
-
-	    parallax.forEach( function( elem ) {
-			gsap.set(".parallax-layer", {y:50, scale:1.15})
-			gsap.to(".parallax-layer", {
-				scrollTrigger: {
-					trigger: ".parallax",
-					toggleActions: "play none play reverse",
-					scrub: true,
-					//markers: true,
-					start: "top bottom",
-					end: "bottom top"
-				},
-				y: "-=100",
-				duration: 3,
-			});
-	    });
 });
+
+const x = window.matchMedia("(max-width: 415px)");
+
+x.addListener(handleDeviceChange);
+
+function handleDeviceChange(e) {
+	if (e.matches) { // If media query matches
+		var open = document.querySelector('#open-button');
+
+		open.addEventListener('click', function() {
+			var filter = document.getElementById('filter-list');
+			filter.classList.toggle("show-filter");
+			open.classList.toggle("filter-is-showing");
+		});
+	}
+	else {}
+}
+
+handleDeviceChange(x)

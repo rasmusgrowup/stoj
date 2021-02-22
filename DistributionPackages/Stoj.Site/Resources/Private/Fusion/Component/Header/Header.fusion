@@ -2,12 +2,24 @@ prototype(Stoj.Site:Component.Header) < prototype(Neos.Fusion:Component) {
     homeLink = Neos.Neos:NodeUri {
         node = ${site}
     }
+
+    menu = Stoj.Site:Component.Navigation {
+        startingPoint=${site}
+        entryLevel = 1
+        maximumLevels = 0
+    }
+
     menuItems = Neos.Neos:MenuItems {
         startingPoint = ${site}
-        maximumLevels = 2
+        maximumLevels = 0
     }
+
     logo = Neos.Fusion:ResourceUri {
     path = 'resource://Stoj.Site/Public/Frontend/svg/logo.svg'
+    }
+
+    menuImage = Neos.Fusion:ResourceUri {
+    path = 'resource://Stoj.Site/Public/Frontend/assets/fastelavn3.jpg'
     }
 
     in = Neos.Fusion:ResourceUri {
@@ -22,21 +34,6 @@ prototype(Stoj.Site:Component.Header) < prototype(Neos.Fusion:Component) {
     path = 'resource://Stoj.Site/Public/Frontend/icons/vimeo.svg'
     }
 
-    menuImage = Neos.Fusion:ResourceUri {
-    path = 'resource://Stoj.Site/Public/Frontend/assets/fastelavn3.jpg'
-    }
-
-    ##
-    # If you want to use a default rendering for a menu, you can just use:
-    ##
-    # <Neos.Neos:Menu
-    #     startingPoint={site}
-    #     attributes.class="navigation"
-    #     normal.attributes.class="navigation-item"
-    #     active.attributes.class="navigation-item navigation-item--state-active"
-    #     current.attributes.class="navigation-item navigation-item--state-current"
-    #     />
-    ##
 
     renderer = afx`
         <header class="main-header" id="menu">
@@ -46,47 +43,17 @@ prototype(Stoj.Site:Component.Header) < prototype(Neos.Fusion:Component) {
                 src={props.logo}
                 alt=""/>
             </a>
-            <div class="menu">
-<!--         <div class="menu-items">
-                    <Stoj.Site:Component.Header.MenuItemsRenderer items={props.menuItems} />
-                </div> -->
-                <div class="menu-btn cursor-link" id="open-menu">
-                        <span></span>
-                        <span></span>
-                </div>
+            <Stoj.Site:Component.Header.MenuItemsRenderer items={props.menuItems} />
+            <div class="social-links">
+                <a class="cursor-link" href="#"><img src={props.in} alt=""/></a>
+                <a class="cursor-link" href="#"><img src={props.vi} alt=""/></a>
+                <a class="cursor-link" href="#"><img src={props.li} alt=""/></a>
             </div>
-        </header>
-        <div class="menu-body" id="menu">
-            <a class="logo" href={props.homeLink}>
-                <img
-                class="logo-svg"
-                src={props.logo}
-                alt=""/>
-            </a>
-            <div class="menu-image">
-                <img src={props.menuImage} alt=""/>
+            <div class="kontakt--cta">
+                <a href="#">Kontakt os</a>
             </div>
-            <div class="menu-content">
-                <Stoj.Site:Component.Header.MenuItemsRenderer items={props.menuItems} />
-            </div>
-            <div class="menu-btn cursor-link" id="exit">
-                <span></span>
-                <span></span>
-            </div>
-        </div>
-        <header class="bottom-bar" id="header-bottom">
-            <div class="header-social" id="social">
-                <a href="https://instagram.com/halloj_stoj"><img src={props.in} alt=""/></a>
-                <a href="https://instagram.com/halloj_stoj"><img src={props.vi} alt=""/></a>
-                <a href="https://instagram.com/halloj_stoj"><img src={props.li} alt=""/></a>
-                <span></span>
-                <p>Følg os her</p>
-            </div>
-            <div class="contact-btn" id="contact">
-                <a href="mailto:halloj@hallojstoj.dk">
-                    <button type="button" name="button">Sig halløj</button>
-                </a>
-            </div>
+            <div class="gradient --top"></div>
+            <div class="gradient --bottom"></div>
         </header>
     `
 

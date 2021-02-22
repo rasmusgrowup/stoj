@@ -1,0 +1,142 @@
+.images-with-text {
+    margin: 5rem auto;
+    //visibility:hidden;
+    max-width: $max-width;
+    overflow:auto;
+    padding: 0 1.5rem;
+    position: relative;
+    width: 100%;
+
+    @media only screen and (min-width: $break-tablet) {
+        margin: 8rem auto;
+        padding: 0 3rem;
+    }
+
+    @media only screen and (min-width: $break-desk) {
+        margin: 10rem auto;
+        padding: 0 5rem;
+    }
+}
+
+.big-figure {
+    display: block;
+    width: 70%;
+
+    @media only screen and (min-width: $break-tablet) {
+        display: inline-block;
+        float: left;
+        width: 50%;
+    }
+}
+
+.small-figure {
+    float: right;
+    margin-top: -7.5rem;
+    position: relative;
+    width: 50%;
+    z-index: 1;
+
+    @media only screen and (min-width: $break-tablet) {
+        width: 55%;
+        margin-top: -10rem;
+    }
+
+    @media only screen and (min-width: $break-desk) {
+        margin-top: -20rem;
+    }
+}
+
+.--small-image {
+    float: right;
+    margin-left: -3rem;
+    margin-top: -7.5rem;
+    width: 45%;
+
+    @media only screen and (min-width: $break-tablet) {
+        float: left;
+        margin-left: -3rem;
+        margin-top: 0;
+        width: 35%;
+    }
+
+    @media only screen and (min-width: $break-desk) {
+        margin-left: -3rem;
+        margin-top: 3rem;
+        width: 30%;
+    }
+}
+
+figcaption {
+    font-size: .6em;
+    width: 70%;
+}
+
+.images-with-text-inner {
+    display: block;
+    margin-bottom: 2.5rem;
+
+    @media only screen and (min-width: $break-tablet) {
+        display: inline-block;
+        margin-left: 1rem;
+        margin-top: 1rem;
+        width: calc(50% - 1rem);
+    }
+
+    @media only screen and (min-width: $break-desk) {
+        margin-left: 3rem;
+        margin-top: 1.5rem;
+        max-width: 415px;
+        width: calc(50% - 3rem);
+    }
+
+    .titel {
+        margin-bottom: .5rem;
+    }
+
+    .tekst {
+        margin-bottom: 1.5rem;
+    }
+}
+
+.--two {
+    .big-figure {
+        display: inline-block;
+        width: 38%;
+        float: left;
+
+        @media only screen and (min-width: $break-tablet) {
+            width: 50%;
+        }
+
+        @media only screen and (min-width: $break-desk) {
+            width: 20%;
+        }
+    }
+
+    .large-figure {
+        display: inline-block;
+        width: 60%;
+        float: right;
+
+        @media only screen and (min-width: $break-tablet) {
+            width: 27%;
+            float: left;
+            margin-left: .5rem;
+        }
+
+        @media only screen and (min-width: $break-desk) {
+            width: 40%;
+        }
+    }
+
+    .images-with-text-inner {
+        @media only screen and (min-width: $break-desk) {
+            width: calc(39% - 3rem);
+        }
+    }
+
+    figcaption {
+        font-size: .6em;
+        width: 100%;
+    }
+}

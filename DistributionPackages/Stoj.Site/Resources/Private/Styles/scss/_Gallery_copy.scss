@@ -1,0 +1,129 @@
+.gallery {
+    //background-color: white;
+    //box-sizing: content-box;
+    margin: 0 auto;
+    min-height: 100vh;
+    padding: 2em 0;
+    width: 300px;
+
+    @media only screen and (min-width: 321px) {
+        width: 355px;
+    }
+
+    @media only screen and (min-width: 376px) {
+        width: 394px;
+    }
+
+    @media only screen and (min-width: 415px) {
+        padding-left: 0;
+        width: 748px;
+    }
+
+    @media only screen and (min-width: 769px) {
+        width: 1004px;
+    }
+
+    @media only screen and (min-width: 1362px) {
+        width: 1342px;
+    }
+
+    @media only screen and (min-width: 1810px) {
+        width: 1790px;
+    }
+
+
+    .gallery-item, .gallery-item-tall {
+        background-color: grey;
+        //border-radius: 6px;
+        display: inline-block;
+        margin-bottom: 10px;
+        position: relative;
+        height: 400px;
+        width: 300px;
+
+        @media only screen and (min-width: 321px) {
+            height: 472px;
+            width: 355px;
+        }
+
+        @media only screen and (min-width: 376px) {
+            height: 524px;
+            width: 394px;
+        }
+
+        @media only screen and (min-width: 415px) {
+            height: 321px;
+            width: 242px;
+        }
+
+        @media only screen and (min-width: 769px) {
+            height: 436px;
+            width: 328px;
+        }
+
+        @media only screen and (min-width: 1362px) {
+            height: 585px;
+            width: 440px;
+        }
+
+        .gallery-image {
+            //border-radius: 6px;
+            display: block;
+            height: 100%;
+            object-fit: cover;
+            width: 100%;
+        }
+    }
+
+    .gallery-item-wide {
+        height: 200px;
+        width: 300px;
+
+        @media only screen and (min-width: 321px) {
+            height: 234px;
+            width: 355px;
+        }
+
+        @media only screen and (min-width: 376px) {
+            height: 260px;
+            width: 394px;
+        }
+
+        @media only screen and (min-width: 415px) {
+            height: 159px;
+            width: 242px;
+        }
+
+        @media only screen and (min-width: 769px) {
+            height: 216px;
+            width: 328px;
+        }
+
+        @media only screen and (min-width: 1362px) {
+            height: 290px;
+            width: 440px;
+        }
+    }
+}
+
+.gallery-modal {
+    background-color: white;
+    bottom: 0;
+    clip-path: circle(0);
+    display: block;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 9;
+
+    .modal-image {
+        display: block;
+        left: 50%;
+        position: absolute;
+        top: 50%;
+        transform: translate(-50%,-50%);
+    }
+}

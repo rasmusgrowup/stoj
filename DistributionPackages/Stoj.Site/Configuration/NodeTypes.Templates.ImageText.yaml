@@ -1,0 +1,52 @@
+
+'Stoj.Site:Templates.ImageText':
+  superTypes:
+    'Neos.Neos:Content': true
+    'Stoj.Site:Content.Tekst': true
+    'Stoj.Site:Content.Titel': true
+    'Neos.NodeTypes.BaseMixins:ImageMixin': true
+    'Neos.NodeTypes.BaseMixins:ImageCaptionMixin': true
+  ui:
+    label: Billeder m. tekst
+    icon: icon-file-text
+    position: 500
+    inlineEditable: true
+    reloadIfChanged: true
+    inspector:
+      groups:
+        link:
+          label: 'Link'
+          icon: external-link-alt
+  properties:
+    imageSmall:
+      type: Neos\Media\Domain\Model\ImageInterface
+      ui:
+        label: 'Small image'
+        inspector:
+          group: 'image'
+    smallImage:
+      type: boolean
+      ui:
+        label: 'Make the image small'
+        inspector:
+          group: 'image'
+          reloadIfChanged: true
+    alternativeTextSmall:
+      type: string
+      ui:
+        label: 'Alternative Text Small Image'
+        reloadIfChanged: true
+        inspector:
+          group: 'image'
+    label:
+      ui:
+        inlineEditable: true
+      options:
+        silhouette: text.free
+    link:
+      type: string
+      ui:
+        label: 'Link target'
+        inspector:
+          group: link
+          editor: Neos.Neos/Inspector/Editors/LinkEditor

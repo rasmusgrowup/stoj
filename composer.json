@@ -1,5 +1,5 @@
 {
-    "name": "Stöj",
+    "name": "stoj/stoj",
     "description": "World Class Photography",
     "config": {
         "vendor-dir": "Packages/Libraries",

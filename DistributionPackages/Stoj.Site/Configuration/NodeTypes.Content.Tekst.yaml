@@ -1,0 +1,10 @@
+
+'Stoj.Site:Content.Tekst':
+  superTypes:
+    'Neos.Neos:Content': true
+    'Stoj.Site:Mixin.Tekst': true
+  ui:
+    label: Tekst
+    icon: icon-file-text
+    position: 200
+    inlineEditable: true

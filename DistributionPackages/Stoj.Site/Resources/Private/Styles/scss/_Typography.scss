@@ -1,0 +1,102 @@
+body {
+    color: $stoj-sand;
+    font-size: 16px !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: $stoj-sand;
+    font-family: 'Barlow Condensed', sans-serif !important;
+    font-weight: 700;
+    line-height: 1 !important;
+}
+
+h2 {
+    font-size: 1.25em !important;
+    font-weight: 800 !important;
+
+    @media only screen and (min-width: $break-tablet) {
+        font-size: 1.4em !important;
+    }
+
+    @media only screen and (min-width: $break-desk) {
+        font-size: 1.5em !important;
+    }
+}
+
+p {
+    color: $stoj-sand !important;
+    font-family: 'Barlow', sans-serif !important;
+    font-size: 1em;
+    line-height: 1.15 !important;
+
+    @media only screen and (min-width: $break-tablet) {
+        font-size: 1.2em;
+    }
+
+    strong {
+        color: $stoj-sand !important;
+    }
+
+    small {
+        font-size: .8em !important;
+
+        a {
+            color: $stoj-red !important;
+
+            &:hover {
+                color: $stoj-sand !important;
+            }
+        }
+    }
+}
+
+a {
+    display: inline-block;
+    color: $stoj-sand !important;
+    font-family: 'Barlow Condensed', sans-serif !important;
+    font-weight: 700;
+    line-height: 1 !important;
+
+    &:hover {
+        color: $stoj-red !important;
+    }
+}
+
+.line-link {
+    position: relative;
+    font-family: 'Barlow Condensed', sans-serif !important;
+    font-weight: 800!important;
+    line-height: 1 !important;
+    text-transform: uppercase;
+
+    &:after {
+        background-color: $stoj-red;
+        bottom: -.2rem;
+        display: block;
+        content: '';
+        left: 0;
+        height: .5rem;
+        position: absolute;
+        transition: $transition;
+        width: 0;
+        z-index: -1;
+    }
+
+    &:hover {
+        color: $stoj-sand !important;
+
+        &:after {
+            background-color: $stoj-red;
+            bottom: -.2rem;
+            display: block;
+            content: '';
+            left: 0;
+            height: .5rem;
+            position: absolute;
+            transition: $transition;
+            transition-delay: 0s !important;
+            width: 0!important;
+            z-index: -1;
+        }
+    }
+}

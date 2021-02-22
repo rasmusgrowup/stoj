@@ -1,0 +1,28 @@
+prototype(Stoj.Site:Content.ShoutHeader) < prototype(Neos.Neos:ContentComponent) {
+
+    paragraph = Neos.Neos:Editable {
+        property = 'paragraph'
+    }
+
+    label = Neos.Neos:Editable {
+        property = 'label'
+    }
+
+    link = ${q(node).property('link')}
+
+renderer = afx`
+    <section class="shout --header">
+        <div class="shout-inner">
+            <Stoj.Site:Content.Titel/>
+            <div class="para">
+                {props.paragraph}
+            </div>
+            <Carbon.Link:Link
+                link={props.link}
+                additionalClass="line-link">
+                {props.label}
+            </Carbon.Link:Link>
+        </div>
+    </section>
+`
+}

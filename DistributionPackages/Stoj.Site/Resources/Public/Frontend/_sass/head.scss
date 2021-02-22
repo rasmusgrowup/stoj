@@ -1,57 +1,15 @@
 @charset "utf-8";
 
-@font-face {
-    font-family: "MADE";
-    font-weight: 300;
-    font-style: normal;
-    src: url('../fonts/MADE-Light.otf') format("opentype");
-}
-
-
-@font-face {
-    font-family: "MADE";
-    font-weight: 400;
-    font-style: normal;
-    src: url('../fonts/MADE-Regular.otf') format("opentype");
-}
-
-@font-face {
-    font-family: "MADE";
-    font-weight: 500;
-    font-style: normal;
-    src: url('../fonts/MADE-Medium.otf') format("opentype");
-}
-
-@font-face {
-    font-family: "MADE";
-    font-weight: 600;
-    font-style: normal;
-    src: url('../fonts/MADE-Bold.otf') format("opentype");
-}
-
-@font-face {
-    font-family: "MADE";
-    font-weight: 700;
-    font-style: normal;
-    src: url('../fonts/MADE-Black.otf') format("opentype");
-}
-
-$max-width: 980px;
-$stoj-brun: #f9cc6c;
-$stoj-pink: #FCD8E3;
-$stoj-blue: #2E3EFF;
-$stoj-red: #ff5151;
-$stoj-green: #32D5AF;
-$stoj-turt: #69ffc8;
-$stoj-yellow: #f1d339;
-$deep-blue: #0F1419;
-$deep-grey: #101219;
-$almost-black: #090A0D;
-$family-sans-serif: "MADE", sans-serif;
-$eb: "EB Garamond", serif;
+$stoj-pink: #E5879F;
+$stoj-dark: #101219;
+$stoj-red: #E0325F;
+$stoj-sand: #EFEDE5;
 $break-desk: 1025px;
-$break-tablet: 768px;
-$break-mobile: 414px;
+$break-tablet: 769px;
+$break-height: 720px;
+$break-mobile: 415px;
+$max-width: 1080px;
+$transition: all 500ms cubic-bezier(0.215, 0.610, 0.355, 1.000) .5s;
 
 @import "../../../Private/Styles/scss/General";
 @import "../../../Private/Styles/scss/Animations";
@@ -59,6 +17,5 @@ $break-mobile: 414px;
 @import "../../../Private/Styles/scss/Header";
 @import "../../../Private/Styles/scss/Subheader";
 @import "../../../Private/Styles/scss/ProjectsLanding";
-//@import "../../../Private/Styles/scss/Cursor";
-//@import "../../../Private/Styles/scss/Slow";
+@import "../../../Private/Styles/scss/Typography";
 @import "../node_modules/bulma/bulma";

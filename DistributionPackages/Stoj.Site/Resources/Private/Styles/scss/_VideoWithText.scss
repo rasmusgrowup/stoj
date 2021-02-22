@@ -1,0 +1,70 @@
+.video-with-text {
+    margin: 5rem auto;
+    //visibility:hidden;
+    max-width: $max-width;
+    overflow:auto;
+    padding: 0 1.5rem;
+    position: relative;
+    width: 100%;
+
+    @media only screen and (min-width: $break-tablet) {
+        margin: 8rem auto;
+        padding: 0 3rem;
+    }
+
+    @media only screen and (min-width: $break-desk) {
+        margin: 10rem auto;
+        padding: 0 5rem;
+    }
+
+    .video-frame {
+        margin-bottom: .5rem;
+        position: relative;
+        padding-top: 56.25%;
+
+        @media only screen and (min-width: $break-desk) {
+            float: right;
+            padding-top: 30.25%;
+            width: calc(55% - 1rem);
+        }
+    }
+
+    figcaption {
+        @media only screen and (min-width: $break-desk) {
+            float: right;
+            width: calc(55% - 1rem);
+        }
+    }
+}
+
+figcaption {
+    font-size: .6em;
+    width: 70%;
+}
+
+.video-with-text-inner {
+    display: block;
+    margin-bottom: 2.5rem;
+
+    @media only screen and (min-width: $break-tablet) {
+        display: inline-block;
+        //margin-left: 1rem;
+        margin-top: 1rem;
+        width: calc(60% - 1rem);
+    }
+
+    @media only screen and (min-width: $break-desk) {
+        //margin-left: 3rem;
+        margin-top: 1.5rem;
+        max-width: 415px;
+        width: calc(45% - 3rem);
+    }
+
+    .titel {
+        margin-bottom: .5rem;
+    }
+
+    .tekst {
+        margin-bottom: 1.5rem;
+    }
+}

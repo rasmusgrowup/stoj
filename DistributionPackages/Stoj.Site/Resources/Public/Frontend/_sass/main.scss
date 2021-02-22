@@ -6,33 +6,32 @@
 // Just uncomment the following block to see the result.
 
 // Update the sans-serif font family
-$max-width: 980px;
-$stoj-pink: #FCD8E3;
-$stoj-blue: #2E3EFF;
-$stoj-red: #ff4f67;
-$stoj-green: #32D5AF;
-$stoj-turt: #69ffc8;
-$stoj-yellow: #f1d339;
-$family-sans-serif: "MADE", sans-serif;
-$eb: "EB Garamond", serif;
-$almost-black: #090A0D;
-$break-desk: 1025px;
+$stoj-pink: #E5879F;
+$stoj-dark: #101219;
+$stoj-red: #E0325F;
+$stoj-sand: #EFEDE5;
+$break-desk: 1024px;
 $break-tablet: 768px;
+$break-height: 720px;
 $break-mobile: 414px;
 $clamp: clamp(2.5em, 5vw, 6em);
+$max-width: 1080px;
+$transition: all 500ms cubic-bezier(0.215, 0.610, 0.355, 1.000) .3s;
 
 @import "../node_modules/bulma/bulma";
 
 @import "../../../Private/Styles/scss/Footer";
 @import "../../../Private/Styles/scss/Headlines";
 @import "../../../Private/Styles/scss/Sections";
-@import "../../../Private/Styles/scss/TemplateOne";
-@import "../../../Private/Styles/scss/TemplateTwo";
-@import "../../../Private/Styles/scss/TemplateThree";
-@import "../../../Private/Styles/scss/TemplateFour";
-@import "../../../Private/Styles/scss/Carousel";
-@import "../../../Private/Styles/scss/Menu";
 @import "../../../Private/Styles/scss/Gallery";
-@import "../../../Private/Styles/scss/Projects";
-@import "../../../Private/Styles/scss/ProjectsVideo";
+//@import "../../../Private/Styles/scss/TemplateOne";
+//@import "../../../Private/Styles/scss/TemplateTwo";
+//@import "../../../Private/Styles/scss/TemplateThree";
+//@import "../../../Private/Styles/scss/TemplateFour";
+//@import "../../../Private/Styles/scss/Carousel";
+//@import "../../../Private/Styles/scss/Menu";
+//@import "../../../Private/Styles/scss/Projects";
+//@import "../../../Private/Styles/scss/ProjectsVideo";
+@import "../../../Private/Styles/scss/ImagesWithText";
+@import "../../../Private/Styles/scss/VideoWithText";
 @import "../../../Private/Styles/scss/Buttons"

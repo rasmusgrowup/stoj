@@ -1,7 +1,7 @@
 prototype(Stoj.Site:Collection.Gallery) < prototype(Neos.Neos:ContentCollection) {
     content = Neos.Neos:ContentCollection {
         attributes = Neos.Fusion:DataStructure {
-            class = 'gallery'
+            class = 'gallery-container'
         }
     }
     @process.contentElementWrapping >

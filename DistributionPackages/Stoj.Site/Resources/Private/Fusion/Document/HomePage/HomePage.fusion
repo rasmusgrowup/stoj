@@ -8,13 +8,13 @@ prototype(Stoj.Site:Document.HomePage) < prototype(Stoj.Site:Document.AbstractPa
             nodePath = 'main'
             attributes = Neos.Fusion:Attributes {
                 class = Neos.Fusion:DataStructure {
-                        class = 'scroll-container'
+                        class = 'frontpage'
                 }
             }
         }
 
         renderer = afx`
-            <main class="main" data-barba="container">
+            <main class="main">
                 {props.main}
             </main>
         `

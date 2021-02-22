@@ -1,0 +1,9 @@
+prototype(Stoj.Site:Content.Tekst) < prototype(Neos.Neos:ContentComponent) {
+    tekst = Neos.Neos:Editable {
+        property = 'tekst'
+    }
+
+    renderer = afx`
+        <div class="tekst --standard">{props.tekst}</div>
+    `
+}

@@ -6,7 +6,7 @@
 	  stagger: 3,
 	  masonry: {
 	    columnWidth: '.gallery-item',
-		horizontalOrder: true,
+		//horizontalOrder: true,
 		gutter: 10
 	  }
 	});

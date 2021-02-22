@@ -1,0 +1,45 @@
+prototype(Stoj.Site:Templates.ImageText) < prototype(Neos.Neos:ContentComponent) {
+
+    label = Neos.Neos:Editable {
+        property = 'label'
+    }
+
+    link = ${q(node).property('link')}
+
+    srcSmall = Neos.Fusion:Case {
+        asset {
+            condition = ${q(node).property('imageSmall')}
+            renderer = Neos.Neos:ImageUri {
+                asset = ${q(node).property('imageSmall')}
+            }
+        }
+        dummy {
+            condition = ${node.context.inBackend}
+            renderer = Neos.Fusion:ResourceUri {
+                path = 'resource://Neos.Neos/Public/Images/dummy-image.svg'
+            }
+        }
+    }
+
+    altSmall = ${q(node).property('alternativeTextSmall')}
+
+    smallImage = ${q(node).property('smallImage') ? '--small-image' : ''}
+
+    renderer = afx`
+        <section class="images-with-text">
+            <div class="images-with-text-inner">
+                <Stoj.Site:Content.Titel/>
+                <Stoj.Site:Content.Tekst/>
+                <Carbon.Link:Link
+                    link={props.link}
+                    additionalClass="line-link">
+                    {props.label}
+                </Carbon.Link:Link>
+            </div>
+            <Stoj.Site:Content.Figure class="big-figure"/>
+            <figure class={"small-figure " + (props.smallImage)}>
+                <img src={props.srcSmall} alt={props.altSmall} />
+            </figure>
+        </section>
+    `
+}

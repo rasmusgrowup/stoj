@@ -19,7 +19,7 @@
         width: 100%;
 
         h1 {
-            color: $almost-black;
+            color: $stoj-sand;
             font-size: clamp(3em, 4.5vw, 90px);
             font-weight: 600;
             line-height: 1;
@@ -62,7 +62,7 @@
             padding: 1em 0;
 
             h2 {
-                color: $almost-black;
+                color: $stoj-sand;
                 font-size: 3em;
                 font-weight: 600;
                 line-height: 1;
@@ -74,13 +74,13 @@
             }
 
             h3 {
-                color: $almost-black;
+                color: $stoj-sand;
                 //color: #e0b43b;
                 font-weight: 300;
             }
 
             p {
-                color: $almost-black;
+                color: $stoj-sand;
                 font-size: 1em;
                 font-weight: 400;
                 margin-top: 1em;
@@ -166,20 +166,20 @@
         }
 
         h2 {
-            color: $almost-black;
+            color: $stoj-sand;
             font-size: 1.75em;
             font-weight: 600;
             margin-bottom: .5em;
         }
 
         h3 {
-            color: $almost-black;
+            color: $stoj-sand;
             //color: #e0b43b;
             font-weight: 300;
         }
 
         p {
-            color: $almost-black;
+            color: $stoj-sand;
             font-size: 1em;
             font-weight: 400;
             margin-top: 1em;
