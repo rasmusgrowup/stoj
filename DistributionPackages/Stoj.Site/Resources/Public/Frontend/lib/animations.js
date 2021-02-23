@@ -88,6 +88,14 @@ function handleDeviceChange(e) {
 			filter.classList.toggle("show-filter");
 			open.classList.toggle("filter-is-showing");
 		});
+
+		var close = document.querySelector('#filter-list');
+
+		close.addEventListener('click', function() {
+			var filter = document.getElementById('filter-list');
+			filter.classList.remove("show-filter");
+			open.classList.remove("filter-is-showing");
+		});
 	}
 	else {}
 }

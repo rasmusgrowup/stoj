@@ -25,6 +25,7 @@
 .filter-group {
     left: 0;
     padding-left: 1rem;
+    pointer-events: auto;
     position: absolute;
     top: 3rem;
     z-index: 98;
@@ -42,6 +43,7 @@
 .filter-header {
     align-items: center;
     display: flex;
+    pointer-events: auto;
     position: absolute;
     top: 3rem;
     z-index: 99;
@@ -184,4 +186,8 @@
     display: block;
     transition: $transition;
     visibility: visible;
+}
+
+.pin-spacer {
+    pointer-events: none;
 }
