@@ -7473,7 +7473,7 @@ label.panel-block {
       width: 30%; } }
 
 figcaption {
-  font-size: .6em;
+  font-size: .5em;
   font-weight: 400;
   width: 70%; }
   @media only screen and (min-width: 768px) {
@@ -7559,14 +7559,6 @@ figcaption {
     .video-with-text figcaption {
       float: right;
       width: calc(55% - 1rem); } }
-
-figcaption {
-  font-size: .6em;
-  font-weight: 400;
-  width: 70%; }
-  @media only screen and (min-width: 768px) {
-    figcaption {
-      font-size: .75em; } }
 
 .video-with-text-inner {
   display: block;
