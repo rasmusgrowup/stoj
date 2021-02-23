@@ -4,7 +4,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: $stoj-sand;
+    color: $stoj-sand !important;
     font-family: 'Barlow Condensed', sans-serif !important;
     font-weight: 700;
     line-height: 1 !important;
@@ -15,11 +15,11 @@ h2 {
     font-weight: 800 !important;
 
     @media only screen and (min-width: $break-tablet) {
-        font-size: 1.4em !important;
+        font-size: 1.5em !important;
     }
 
     @media only screen and (min-width: $break-desk) {
-        font-size: 1.5em !important;
+        font-size: 1.75em !important;
     }
 }
 
@@ -27,10 +27,10 @@ p {
     color: $stoj-sand !important;
     font-family: 'Barlow', sans-serif !important;
     font-size: 1em;
-    line-height: 1.15 !important;
+    line-height: 1.2 !important;
 
     @media only screen and (min-width: $break-tablet) {
-        font-size: 1.2em;
+        font-size: 1.1em;
     }
 
     strong {
@@ -98,5 +98,9 @@ a {
             width: 0!important;
             z-index: -1;
         }
+    }
+
+    p {
+        font-family: 'Barlow Condensed', sans-serif !important;
     }
 }

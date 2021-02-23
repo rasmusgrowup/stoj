@@ -1,4 +1,4 @@
-.video-with-text {
+.images-contact {
     margin: 5rem auto;
     //visibility:hidden;
     max-width: $max-width;
@@ -16,48 +16,27 @@
         margin: 10rem auto;
         padding: 0 5rem;
     }
-
-    .video-frame {
-        margin-bottom: .5rem;
-        position: relative;
-        padding-top: 56.25%;
-
-        @media only screen and (min-width: $break-desk) {
-            float: right;
-            padding-top: 30.25%;
-            width: calc(55% - 1rem);
-        }
-    }
-
-    figcaption {
-        @media only screen and (min-width: $break-desk) {
-            float: right;
-            width: calc(55% - 1rem);
-        }
-    }
 }
 
-figcaption {
-    font-size: .75em;
-    width: 70%;
-}
-
-.video-with-text-inner {
+.images-contact-inner {
     display: block;
     margin-bottom: 2.5rem;
 
     @media only screen and (min-width: $break-tablet) {
         display: inline-block;
         //margin-left: 1rem;
+        margin-bottom: 1rem;
         margin-top: 1rem;
-        width: calc(60% - 1rem);
+        width: 100%;
     }
 
     @media only screen and (min-width: $break-desk) {
-        //margin-left: 3rem;
+        display: block;
+        float: right;
+        margin-left: 2rem;
         margin-top: 1.5rem;
         max-width: 415px;
-        width: calc(45% - 3rem);
+        width: calc(42.6% - 3rem);
     }
 
     .titel {
@@ -67,4 +46,36 @@ figcaption {
     .tekst {
         margin-bottom: 1.5rem;
     }
+}
+
+.medarbejder {
+    display: inline-block;
+    width: calc(50% - .25rem);
+
+    @media only screen and (min-width: $break-tablet) {
+        vertical-align: top;
+    }
+
+    @media only screen and (min-width: $break-desk) {
+        width: calc(33.3% - 3rem);
+    }
+}
+
+.medarbejder-info {
+    margin-top: .5rem;
+    max-width: 90%;
+
+    p {
+        font-size: 1em !important;
+        margin-top: .5rem;
+        margin-bottom: .25rem;
+
+        &:last-child {
+            margin-top: 0;
+        }
+    }
+}
+
+.--venstre {
+    margin-right: .5rem;
 }

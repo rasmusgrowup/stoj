@@ -7207,10 +7207,10 @@ label.panel-block {
     margin-bottom: 1rem; }
     @media only screen and (min-width: 768px) {
       .shout-inner h1 {
-        font-size: 1.4em; } }
+        font-size: 1.5em; } }
     @media only screen and (min-width: 1024px) {
       .shout-inner h1 {
-        font-size: 1.5em; } }
+        font-size: 1.75em; } }
   .shout-inner h2 {
     font-size: 1.25em;
     font-weight: 400 !important;
@@ -7473,7 +7473,7 @@ label.panel-block {
       width: 30%; } }
 
 figcaption {
-  font-size: .6em;
+  font-size: .75em;
   width: 70%; }
 
 .images-with-text-inner {
@@ -7525,7 +7525,7 @@ figcaption {
     width: calc(39% - 3rem); } }
 
 .--two figcaption {
-  font-size: .6em;
+  font-size: .75em;
   width: 100%; }
 
 .video-with-text {
@@ -7558,7 +7558,7 @@ figcaption {
       width: calc(55% - 1rem); } }
 
 figcaption {
-  font-size: .6em;
+  font-size: .75em;
   width: 70%; }
 
 .video-with-text-inner {
@@ -7578,6 +7578,67 @@ figcaption {
     margin-bottom: .5rem; }
   .video-with-text-inner .tekst {
     margin-bottom: 1.5rem; }
+
+.images-contact {
+  margin: 5rem auto;
+  max-width: 1080px;
+  overflow: auto;
+  padding: 0 1rem;
+  position: relative;
+  width: 100%; }
+  @media only screen and (min-width: 768px) {
+    .images-contact {
+      margin: 8rem auto;
+      padding: 0 3rem; } }
+  @media only screen and (min-width: 1024px) {
+    .images-contact {
+      margin: 10rem auto;
+      padding: 0 5rem; } }
+
+.images-contact-inner {
+  display: block;
+  margin-bottom: 2.5rem; }
+  @media only screen and (min-width: 768px) {
+    .images-contact-inner {
+      display: inline-block;
+      margin-bottom: 1rem;
+      margin-top: 1rem;
+      width: 100%; } }
+  @media only screen and (min-width: 1024px) {
+    .images-contact-inner {
+      display: block;
+      float: right;
+      margin-left: 2rem;
+      margin-top: 1.5rem;
+      max-width: 415px;
+      width: calc(42.6% - 3rem); } }
+  .images-contact-inner .titel {
+    margin-bottom: .5rem; }
+  .images-contact-inner .tekst {
+    margin-bottom: 1.5rem; }
+
+.medarbejder {
+  display: inline-block;
+  width: calc(50% - .25rem); }
+  @media only screen and (min-width: 768px) {
+    .medarbejder {
+      vertical-align: top; } }
+  @media only screen and (min-width: 1024px) {
+    .medarbejder {
+      width: calc(33.3% - 3rem); } }
+
+.medarbejder-info {
+  margin-top: .5rem;
+  max-width: 90%; }
+  .medarbejder-info p {
+    font-size: 1em !important;
+    margin-top: .5rem;
+    margin-bottom: .25rem; }
+    .medarbejder-info p:last-child {
+      margin-top: 0; }
+
+.--venstre {
+  margin-right: .5rem; }
 
 .button-group {
   text-align: center; }
