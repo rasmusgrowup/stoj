@@ -240,6 +240,101 @@
        <lastPublicationDateTime __type="object" __classname="DateTime">2020-11-24T13:55:58+01:00</lastPublicationDateTime>
        <properties/>
       </variant>
+      <node identifier="f25ce3ee-f11a-4375-b5c9-d6aebadf5bac" nodeName="node-2n0q6cqmrgw1y">
+       <variant sortingIndex="200" workspace="live" nodeType="Stoj.Site:Content.ShoutHeader" version="8" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>da</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2021-02-22T17:06:25+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2021-02-22T17:06:42+01:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2021-02-22T17:06:41+01:00</lastPublicationDateTime>
+        <properties>
+         <titel __type="string">&lt;h2&gt;Hvad laver vi?&lt;/h2&gt;</titel>
+         <paragraph __type="string">&lt;p&gt;Vi skyder &lt;strong&gt;video&lt;/strong&gt; og &lt;strong&gt;billeder&lt;/strong&gt; for nogen af landets største mediehuse og virksomheder.&lt;/p&gt;</paragraph>
+        </properties>
+       </variant>
+      </node>
+      <node identifier="15d9c2a2-e727-461a-82aa-563b4cbc1f11" nodeName="node-2r87pdgvdl054">
+       <variant sortingIndex="250" workspace="live" nodeType="Stoj.Site:Templates.ImageTextContact" version="10" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>da</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2021-02-23T10:06:51+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2021-02-23T10:20:17+01:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2021-02-23T10:20:17+01:00</lastPublicationDateTime>
+        <properties>
+         <image __type="object" __identifier="367f1ef2-1fda-44dc-89ad-8dd41fa12cc7" __classname="Neos\Media\Domain\Model\ImageVariant" __encoding="json">{&quot;__identity&quot;:&quot;367f1ef2-1fda-44dc-89ad-8dd41fa12cc7&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\ImageVariant&quot;,&quot;originalAsset&quot;:{&quot;__identity&quot;:&quot;82b95091-d678-4b64-aef9-02cf28698063&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;Sk\u00e6rmbillede 2020-09-14 kl. 15.45.41.png&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/png&quot;,&quot;sha1&quot;:&quot;6de15519aa283cc20ccc362fdeaae3d6a6a89937&quot;,&quot;hash&quot;:&quot;6de15519aa283cc20ccc362fdeaae3d6a6a89937&quot;,&quot;__identity&quot;:&quot;f7c2a43c-4c0d-45ea-86e8-7ce5a25a69f2&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]},&quot;adjustments&quot;:[{&quot;aspectRatio&quot;:null,&quot;height&quot;:564,&quot;position&quot;:10,&quot;width&quot;:403,&quot;x&quot;:63,&quot;y&quot;:122,&quot;__identity&quot;:&quot;65112f9b-3e0a-49bc-9f49-fbd90f9e3bc9&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Adjustment\\CropImageAdjustment&quot;}]}</image>
+         <tekst __type="string">&lt;p&gt;STÖJ består af to klassisk uddannede fotografer, Nick Degn og Martin Kruse, der tilsammen har mere end 30 års erfaring med fotografering og videoproduktion. Vi har et tæt samarbejde med vores kunder, og leverer billeder og video til bl.a. Nørgaard Mikkelsen, LEGO, Royal Unibrew, og en række mindre design bureauer. STÖJ består desuden af vores samarbejdspartnere, der inkluderer make-up- og indretningsstylister, model-bureauer, billedbehandlere m.m.&lt;/p&gt;</tekst>
+         <titel __type="string">&lt;h2&gt;Hvem er vi?&lt;/h2&gt;</titel>
+         <caption __type="string"></caption>
+         <imageSmall __type="object" __identifier="f036694e-234c-4387-90ba-9877753e2325" __classname="Neos\Media\Domain\Model\ImageVariant" __encoding="json">{&quot;__identity&quot;:&quot;f036694e-234c-4387-90ba-9877753e2325&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\ImageVariant&quot;,&quot;originalAsset&quot;:{&quot;__identity&quot;:&quot;ec5c6f7d-5662-4962-a259-2edb56b9a59a&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;Sk\u00e6rmbillede 2020-09-14 kl. 15.45.50.png&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/png&quot;,&quot;sha1&quot;:&quot;f9b054ec67e7109b714acb47f7c6329058275b45&quot;,&quot;hash&quot;:&quot;f9b054ec67e7109b714acb47f7c6329058275b45&quot;,&quot;__identity&quot;:&quot;e848f1b3-2be9-4bf8-9e05-7d2e89625550&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]},&quot;adjustments&quot;:[{&quot;aspectRatio&quot;:null,&quot;height&quot;:584,&quot;position&quot;:10,&quot;width&quot;:417,&quot;x&quot;:11,&quot;y&quot;:128,&quot;__identity&quot;:&quot;3f0091ee-5583-4960-990a-db6fa3ecd172&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Adjustment\\CropImageAdjustment&quot;}]}</imageSmall>
+         <infoHoejre __type="string">&lt;h2&gt;Martin Kruse&lt;/h2&gt;&lt;p&gt;Fotograf &amp;amp; konceptudvikling&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;mailto:martin@hallojstoj.dk&quot;&gt;martin@hallojstoj.dk&lt;/a&gt;&lt;/p&gt;</infoHoejre>
+         <infoVenstre __type="string">&lt;h2&gt;Nick Degn&lt;/h2&gt;&lt;p&gt;Fotografering &amp;amp; video-produktion&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;mailto:nick@hallojstoj.dk&quot;&gt;nick@hallojstoj.dk&lt;/a&gt;&lt;/p&gt;</infoVenstre>
+        </properties>
+       </variant>
+      </node>
+      <node identifier="db853342-7481-4e28-8053-2dc356fce9f3" nodeName="node-bfxbtwes0oqw2">
+       <variant sortingIndex="100" workspace="live" nodeType="Stoj.Site:Content.ShoutHeader" version="13" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>da</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2021-02-22T16:51:18+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2021-02-22T17:05:07+01:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2021-02-22T17:05:07+01:00</lastPublicationDateTime>
+        <properties>
+         <titel __type="string">&lt;h1&gt;Foto- og videoproduktion i Odense centrum&lt;/h1&gt;</titel>
+         <paragraph __type="string">&lt;p&gt;Vi er et velanset &lt;strong&gt;video&lt;/strong&gt;- og &lt;strong&gt;fotostudie&lt;/strong&gt;, med erfaring i &lt;strong&gt;kommerciel&lt;/strong&gt; foto- og videoproduktion. Vi er placeret centralt i &lt;strong&gt;Odense&lt;/strong&gt;, med perfekt lysindfald i lokalerne og masser af faciliteter.&lt;/p&gt;</paragraph>
+         <topMargin __type="boolean">1</topMargin>
+        </properties>
+       </variant>
+      </node>
+      <node identifier="69294e1c-f8d7-4bf7-8280-e7e2e1358e87" nodeName="node-ex285jk4jdckp">
+       <variant sortingIndex="300" workspace="live" nodeType="Stoj.Site:Templates.ImageText" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>da</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2021-02-22T17:07:05+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2021-02-22T17:07:07+01:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2021-02-22T17:07:07+01:00</lastPublicationDateTime>
+        <properties>
+         <link __type="string">node://07673564-3c56-47cb-8860-cd37d9a54fb2</link>
+         <image __type="object" __identifier="773135ef-4ba1-4611-b7ed-8a4646a4100f" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;773135ef-4ba1-4611-b7ed-8a4646a4100f&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;Overordnet-Session-20200092.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;24558019b7b4fa5582254b4708ccd2f4248ae0d7&quot;,&quot;hash&quot;:&quot;24558019b7b4fa5582254b4708ccd2f4248ae0d7&quot;,&quot;__identity&quot;:&quot;f45cdf6b-3843-4a36-a96b-39082c98633b&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image>
+         <label __type="string">Se vores galleri</label>
+         <tekst __type="string">&lt;p&gt;Hos Stöj gør vi os altid umage med at skabe et spændende billede-univers til vores kunder. Vores billeder og video har deres helt eget udtryk, som vi har arbejdet på at finpudse i mange år. Udtrykket passer godt til magasiner, reklamer og POS-materialer, men passer også strålende til hjemmesider, sociale-medier og andet. Et unikt billed-univers kan være den forskel, der skal til, for at jeres kunder husker jer.&lt;/p&gt;</tekst>
+         <titel __type="string">&lt;h2&gt;Unikke billeduniverser&lt;/h2&gt;</titel>
+         <title __type="string">Unikke billeduniverser</title>
+         <caption __type="string">&lt;p&gt;Her på billederne ses en serie af fotografier, vores dygtige junior fotograf har lavet til en af vores kunder. Der er arbejdet med at skabe et helt unikt billed-univers - den blå baggrund, den lyserøde pedestal, hundes positur og belysning. @julie_erhorn 2020&lt;/p&gt;</caption>
+         <hasCaption __type="boolean">1</hasCaption>
+         <imageSmall __type="object" __identifier="2e935611-8303-4f82-ac53-47df1d57ae89" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;2e935611-8303-4f82-ac53-47df1d57ae89&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;Overordnet-Session-20200034.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;772890dc10b7fa7ea72f8cd2bab29a64a7a96408&quot;,&quot;hash&quot;:&quot;772890dc10b7fa7ea72f8cd2bab29a64a7a96408&quot;,&quot;__identity&quot;:&quot;41f4a8c3-0ca5-4636-b010-28040019ce8b&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</imageSmall>
+         <smallImage __type="boolean"></smallImage>
+        </properties>
+       </variant>
+      </node>
+      <node identifier="c5b0d2db-6580-425f-baa1-d130f085170d" nodeName="node-wjvsz27y84uct">
+       <variant sortingIndex="150" workspace="live" nodeType="Stoj.Site:Templates.ImageText" version="11" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>da</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2021-02-22T17:00:51+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2021-02-22T17:06:01+01:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2021-02-22T17:06:01+01:00</lastPublicationDateTime>
+        <properties>
+         <link __type="string">node://bdc79675-5598-4644-a21a-6628fd623f54</link>
+         <image __type="object" __identifier="74c2269a-9db4-430f-9637-e6a2d7ccb103" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;74c2269a-9db4-430f-9637-e6a2d7ccb103&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;Sk\u00e6rmbillede 2020-09-14 kl. 15.45.07.png&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/png&quot;,&quot;sha1&quot;:&quot;3760e0e0f958334ad92ebddd8cdd369a108a318e&quot;,&quot;hash&quot;:&quot;3760e0e0f958334ad92ebddd8cdd369a108a318e&quot;,&quot;__identity&quot;:&quot;da29124d-8455-4c95-8a6d-319ec5c3bb0f&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image>
+         <label __type="string">Gå til vores portfolio</label>
+         <tekst __type="string">&lt;p&gt;Vores lyse og lækre studie-lokaler er placeret i hjertet af Odense, på Havnegade 100N. Det er her vi til dagligt producerer billederne til vores kunder. Kommer i uanmeldt en dag, vil i finde kaffe på kanden, forskellige setups, &amp;nbsp;hvor vi fotograferer miljøer eller pack-shots, og musik på anlægget. Hos os er der en afslappet stemning, så de kreative tanker kan få frit spil, og de rigtige stemninger, kan indfanges på billederne.&lt;/p&gt;</tekst>
+         <titel __type="string">&lt;h2&gt;Om vores lokaler&lt;/h2&gt;</titel>
+         <caption __type="string">&lt;p&gt;Når lyset falder helt rigtigt (og det gør den heldigvis det meste af året), opstår der magi i studiet @stöj&lt;/p&gt;</caption>
+         <hasCaption __type="boolean">1</hasCaption>
+         <imageSmall __type="object" __identifier="091327c7-2237-4cc0-aae1-55f4912d88eb" __classname="Neos\Media\Domain\Model\ImageVariant" __encoding="json">{&quot;__identity&quot;:&quot;091327c7-2237-4cc0-aae1-55f4912d88eb&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\ImageVariant&quot;,&quot;originalAsset&quot;:{&quot;__identity&quot;:&quot;d2a087a1-58f6-4f5e-9034-4a734237eb03&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;Sk\u00e6rmbillede 2020-09-14 kl. 15.44.58.png&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/png&quot;,&quot;sha1&quot;:&quot;e1cb04fcd743fe9071253b41efa68abc38b15d56&quot;,&quot;hash&quot;:&quot;e1cb04fcd743fe9071253b41efa68abc38b15d56&quot;,&quot;__identity&quot;:&quot;0851ed09-22b7-4e7b-8227-889478b90a82&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]},&quot;adjustments&quot;:[{&quot;aspectRatio&quot;:null,&quot;height&quot;:483,&quot;position&quot;:10,&quot;width&quot;:604,&quot;x&quot;:0,&quot;y&quot;:305,&quot;__identity&quot;:&quot;cc5c1f3e-e412-4c18-8bd9-a246414df590&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Adjustment\\CropImageAdjustment&quot;}]}</imageSmall>
+        </properties>
+       </variant>
+      </node>
      </node>
     </node>
     <node identifier="bdc79675-5598-4644-a21a-6628fd623f54" nodeName="node-d3w7pi0i70vt6">
