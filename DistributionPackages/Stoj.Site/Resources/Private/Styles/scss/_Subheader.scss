@@ -4,8 +4,7 @@
     position: relative;
 
     @media only screen and (min-width: $break-tablet) {
-        height: 100vh;
-        height: -webkit-fill-available;
+        height: 100%;
         max-height: 920px;
         min-height: $break-height;
     }
