@@ -72,7 +72,11 @@
             font-weight: 700;
             text-transform: uppercase;
 
-            @media only screen and (min-width: 376px) {
+            @media only screen and (min-width: 375px) {
+                font-size: 1.35rem;
+            }
+
+            @media only screen and (min-width: $break-tablet) {
                 font-size: 1.5rem;
             }
 
@@ -109,8 +113,18 @@
         }
 
         img {
-            height: 1.5rem;
-            width: 1.5rem;
+            height: 1.2rem;
+            width: 1.2rem;
+
+            @media only screen and (min-width: 375px) {
+                height: 1.35rem;
+                width: 1.35rem;
+            }
+
+            @media only screen and (min-width: $break-tablet) {
+                height: 1.5rem;
+                width: 1.5rem;
+            }
         }
     }
 }
@@ -129,9 +143,17 @@
     a {
         color: $stoj-sand;
         font-family: 'Barlow Condensed', sans-serif;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         font-weight: 700;
         text-transform: uppercase;
+
+        @media only screen and (min-width: 375px) {
+            font-size: 1.35rem;
+        }
+
+        @media only screen and (min-width: $break-tablet) {
+            font-size: 1.5rem;
+        }
 
         &:hover {
             color: $stoj-red;
@@ -141,11 +163,15 @@
 
 .gradient {
     display: block;
-    height: 7.5rem;
+    height: 10rem;
     left: 0;
     position: absolute;
     width: 100%;
     z-index: 0;
+
+    @media only screen and (min-width: $break-tablet) {
+        height: 8rem;
+    }
 }
 
 .--top {

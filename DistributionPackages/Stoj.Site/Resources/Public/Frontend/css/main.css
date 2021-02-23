@@ -7120,7 +7120,7 @@ label.panel-block {
     margin: 0 auto;
     max-width: 540px;
     width: calc(100% - 4rem); }
-    @media only screen and (min-width: 375px) {
+    @media only screen and (min-width: 768px) {
       .main-footer .contact-footer, .main-footer .teaser-footer, .main-footer .address-footer {
         width: calc(100% - 6rem); } }
   .main-footer .contact-footer {
@@ -7148,15 +7148,17 @@ label.panel-block {
   bottom: 6rem;
   color: #EFEDE5;
   font-size: .8em;
-  left: 50%;
+  left: 2rem;
   position: absolute;
-  transform: translateX(-50%);
+  transform: translateX(0);
   z-index: 99;
   width: fit-content; }
   @media only screen and (min-width: 768px) {
     .copyright {
+      bottom: 2rem;
       font-size: .9em;
-      bottom: 2rem; } }
+      left: 50%;
+      transform: translateX(-50%); } }
 
 .section-headline h2 {
   font-size: 2em;
@@ -7223,7 +7225,7 @@ label.panel-block {
     font-size: 1em !important; }
 
 .--top-margin {
-  margin-top: 5rem; }
+  margin-top: 7.5rem; }
   @media only screen and (min-width: 768px) {
     .--top-margin {
       margin-top: 8rem; } }
