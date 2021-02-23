@@ -49,9 +49,13 @@
     z-index: 99;
 
     @media only screen and (min-width: $break-tablet) {
-        left: 3rem;
+        left: 2rem;
         top: 9rem;
         z-index: 98;
+    }
+
+    @media only screen and (min-width: $break-desk) {
+        left: 3rem;
     }
 
     @media only screen and (min-width: $break-desk) {
@@ -99,11 +103,15 @@
     @media only screen and (min-width: $break-tablet) {
         background-color: transparent;
         height: auto;
-        left: 3rem;
+        left: 2rem;
         top: 2rem;
         padding: 0;
         visibility: visible;
         transition: none;
+    }
+
+    @media only screen and (min-width: $break-desk) {
+        left: 3rem;
     }
 
     button {

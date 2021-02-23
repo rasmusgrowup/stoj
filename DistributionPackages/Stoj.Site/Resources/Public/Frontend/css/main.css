@@ -7309,9 +7309,12 @@ label.panel-block {
   z-index: 99; }
   @media only screen and (min-width: 768px) {
     .filter-header {
-      left: 3rem;
+      left: 2rem;
       top: 9rem;
       z-index: 98; } }
+  @media only screen and (min-width: 1024px) {
+    .filter-header {
+      left: 3rem; } }
   @media only screen and (min-width: 1024px) {
     .filter-header {
       top: 10rem; } }
@@ -7350,11 +7353,14 @@ label.panel-block {
     .filter-body {
       background-color: transparent;
       height: auto;
-      left: 3rem;
+      left: 2rem;
       top: 2rem;
       padding: 0;
       visibility: visible;
       transition: none; } }
+  @media only screen and (min-width: 1024px) {
+    .filter-body {
+      left: 3rem; } }
   .filter-body button {
     background-color: transparent;
     border: none;
