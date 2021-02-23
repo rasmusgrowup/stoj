@@ -51,6 +51,18 @@
     }
 }
 
+.--top-margin {
+    margin-top: 5rem;
+
+    @media only screen and (min-width: $break-tablet) {
+        margin-top: 8rem;
+    }
+
+    @media only screen and (min-width: $break-desk) {
+        margin-top: 12rem;
+    }
+}
+
 .para {
     margin-bottom: 2rem;
     position: relative;

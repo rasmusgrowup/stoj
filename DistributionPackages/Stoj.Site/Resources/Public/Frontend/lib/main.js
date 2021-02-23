@@ -13,3 +13,10 @@ window.myFunction = function (event) {
 document.querySelectorAll('.frontpage').forEach(function (item) {
   document.getElementById("menu").classList.add("on-frontpage");
 });
+
+// We listen to the resize event
+window.addEventListener('resize', function () {
+  // We execute the same script as before
+  var vh = window.innerHeight * 0.01;
+  document.documentElement.style.setProperty('--vh', vh + 'px');
+});

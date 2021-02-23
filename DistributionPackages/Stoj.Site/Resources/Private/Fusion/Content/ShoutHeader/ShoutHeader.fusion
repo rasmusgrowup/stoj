@@ -10,8 +10,10 @@ prototype(Stoj.Site:Content.ShoutHeader) < prototype(Neos.Neos:ContentComponent)
 
     link = ${q(node).property('link')}
 
+    topMargin = ${q(node).property('topMargin') ? '--top-margin' : ''}
+
 renderer = afx`
-    <section class="shout --header">
+    <section class={"shout --header " + (props.topMargin)}>
         <div class="shout-inner">
             <Stoj.Site:Content.Titel/>
             <div class="para">

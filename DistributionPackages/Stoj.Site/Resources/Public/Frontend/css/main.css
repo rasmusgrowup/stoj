@@ -7222,6 +7222,15 @@ label.panel-block {
   .shout-inner .line-link p {
     font-size: 1em !important; }
 
+.--top-margin {
+  margin-top: 5rem; }
+  @media only screen and (min-width: 768px) {
+    .--top-margin {
+      margin-top: 8rem; } }
+  @media only screen and (min-width: 1024px) {
+    .--top-margin {
+      margin-top: 12rem; } }
+
 .para {
   margin-bottom: 2rem;
   position: relative; }

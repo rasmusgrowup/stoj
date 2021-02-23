@@ -66,3 +66,10 @@
         inspector:
           group: link
           editor: Neos.Neos/Inspector/Editors/LinkEditor
+    topMargin:
+      type: boolean
+      ui:
+        label: 'Tilføj top margin'
+        inspector:
+          group: 'link'
+          reloadIfChanged: true
