@@ -140,11 +140,6 @@ figcaption {
     }
 
     figcaption {
-        font-size: .6em;
         width: 100%;
-
-        @media only screen and (min-width: $break-tablet) {
-            font-size: .75em;
-        }
     }
 }
