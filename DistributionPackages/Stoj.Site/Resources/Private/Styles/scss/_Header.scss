@@ -90,7 +90,7 @@
 }
 
 .social-links {
-    bottom: 1em;
+    bottom: 2em;
     display: flex;
     left: 1em;
     pointer-events: auto;
@@ -98,7 +98,6 @@
     z-index: 1;
 
     @media only screen and (min-width: $break-mobile) {
-        bottom: 2em;
         left: 3em;
     }
 
@@ -117,14 +116,13 @@
 }
 
 .kontakt--cta {
-    bottom: 1em;
+    bottom: 2em;
     right: 1em;
     pointer-events: auto;
     position: absolute;
     z-index: 1;
 
     @media only screen and (min-width: $break-mobile) {
-        bottom: 2em;
         right: 3em;
     }
 
