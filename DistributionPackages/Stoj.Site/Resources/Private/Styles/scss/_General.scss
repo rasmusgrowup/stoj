@@ -21,6 +21,10 @@ main {
     padding: 0 1em;
 
     @media only screen and (min-width: $break-mobile) {
+        padding: 0 2em;
+    }
+
+    @media only screen and (min-width: $break-desk) {
         padding: 0 3em;
     }
 }

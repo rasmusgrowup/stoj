@@ -19,6 +19,12 @@
     @media only screen and (min-width: $break-mobile) {
         margin: 0 auto;
         //max-width: 1600px;
+        padding: 2em;
+    }
+
+    @media only screen and (min-width: $break-desk) {
+        margin: 0 auto;
+        //max-width: 1600px;
         padding: 2em 3em;
     }
 
