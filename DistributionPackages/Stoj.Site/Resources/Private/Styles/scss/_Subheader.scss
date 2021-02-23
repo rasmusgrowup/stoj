@@ -14,7 +14,6 @@
     margin: 6rem auto 0;
     position: relative;
     transform: translate(0);
-    width: calc(100% - 2rem);
     width: 100%;
 
     @media only screen and (min-width: $break-mobile) {
@@ -42,7 +41,7 @@
 .video-body {
     margin: 0 auto;
     visibility:hidden;
-    width: calc(100% - 3rem);
+    width: calc(100% - 2rem);
 
     @media only screen and (min-width: $break-mobile) {
         width: calc(100% - 6rem);
@@ -89,7 +88,7 @@
 .play--symbol {
     align-items: center;
     display: flex;
-    margin-left: 1.5rem;
+    margin-left: 1rem;
     margin-top: 1rem;
     visibility:hidden;
 

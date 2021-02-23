@@ -7194,7 +7194,7 @@ label.panel-block {
 .shout-inner {
   margin: 0 auto;
   max-width: 1080px;
-  padding: 0 1.5rem;
+  padding: 0 1rem;
   width: 100%; }
   @media only screen and (min-width: 768px) {
     .shout-inner {
@@ -7420,7 +7420,7 @@ label.panel-block {
   margin: 5rem auto;
   max-width: 1080px;
   overflow: auto;
-  padding: 0 1.5rem;
+  padding: 0 1rem;
   position: relative;
   width: 100%; }
   @media only screen and (min-width: 768px) {
@@ -7532,7 +7532,7 @@ figcaption {
   margin: 5rem auto;
   max-width: 1080px;
   overflow: auto;
-  padding: 0 1.5rem;
+  padding: 0 1rem;
   position: relative;
   width: 100%; }
   @media only screen and (min-width: 768px) {
