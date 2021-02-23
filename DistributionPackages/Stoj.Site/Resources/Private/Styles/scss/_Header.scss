@@ -4,7 +4,7 @@
     backface-visibility: visible;
     display: flex;
     height: 100vh;
-    height: calc(var(--vh, 1vh) * 100);
+    height: -webkit-fill-available;
     justify-content: space-between;
     left: 0;
     //mix-blend-mode: exclusion;
