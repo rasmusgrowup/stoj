@@ -4,9 +4,12 @@
     position: relative;
 
     @media only screen and (min-width: $break-tablet) {
-        height: 100vh;
         max-height: 920px;
         min-height: $break-height;
+    }
+
+    @media only screen and (min-width: $break-desk) {
+        height: 100vh;
     }
 }
 
@@ -22,13 +25,17 @@
 
     @media only screen and (min-width: $break-tablet) {
         left: 50%;
-        margin: 0;
+        margin: 5rem 0 0;
         max-width: $max-width;
         position: absolute;
         top: 50%;
         transform: translate(-50%, -50%);
         width: calc(100% - 6rem);
         width: 100%;
+    }
+
+    @media only screen and (min-width: $break-desk) {
+        margin: 0;
     }
 
     @media only screen and (max-height: $break-height) and (min-width: $break-desk) {
