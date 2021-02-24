@@ -491,45 +491,368 @@
          <lastPublicationDateTime __type="object" __classname="DateTime">2021-02-24T13:43:30+01:00</lastPublicationDateTime>
          <properties/>
         </variant>
-        <node identifier="43a6d3c8-2df4-4f58-956b-42ca003c9250" nodeName="node-3dunfbxefs3y7">
-         <variant sortingIndex="300" workspace="live" nodeType="Stoj.Site:Content.GalleryItem" version="4" removed="" hidden="" hiddenInIndex="">
+        <node identifier="be828454-bf7f-4cf8-a314-5b30c4561537" nodeName="node-4lxrg9cpsjyvc">
+         <variant sortingIndex="826" workspace="live" nodeType="Stoj.Site:Content.GalleryItem" version="7" removed="" hidden="" hiddenInIndex="">
           <dimensions>
            <language>da</language>
           </dimensions>
           <accessRoles __type="array"/>
-          <creationDateTime __type="object" __classname="DateTime">2021-02-24T13:53:54+01:00</creationDateTime>
-          <lastModificationDateTime __type="object" __classname="DateTime">2021-02-24T13:54:13+01:00</lastModificationDateTime>
-          <lastPublicationDateTime __type="object" __classname="DateTime">2021-02-24T13:54:13+01:00</lastPublicationDateTime>
+          <creationDateTime __type="object" __classname="DateTime">2021-02-24T15:12:19+01:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2021-02-24T15:35:38+01:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2021-02-24T15:35:37+01:00</lastPublicationDateTime>
           <properties>
-           <image __type="object" __identifier="6dd406d0-8f03-4796-83d4-a9b2c1c88fde" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;6dd406d0-8f03-4796-83d4-a9b2c1c88fde&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;vv-119.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;277c44310b2557c6e809f4ebfaef286cec73db94&quot;,&quot;hash&quot;:&quot;277c44310b2557c6e809f4ebfaef286cec73db94&quot;,&quot;__identity&quot;:&quot;7d9b0c21-daa3-49ee-a976-cf7553260b99&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image>
+           <id __type="string">mennesker</id>
+           <image __type="object" __identifier="c98cdede-dac0-47a0-800f-3aa69b8eb868" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;c98cdede-dac0-47a0-800f-3aa69b8eb868&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;Overordnet-Session3288.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;994c7970be324e397b4da9499a9f4acf44c6fa02&quot;,&quot;hash&quot;:&quot;994c7970be324e397b4da9499a9f4acf44c6fa02&quot;,&quot;__identity&quot;:&quot;54d385a7-5cc6-4c50-b7f0-c71d48b3b1fd&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image>
+           <alternativeText __type="string">Portræt fotograferet af Stöj</alternativeText>
+          </properties>
+         </variant>
+        </node>
+        <node identifier="53d42d3e-f219-4002-a861-1a2224c2c569" nodeName="node-58osg127nj1xi">
+         <variant sortingIndex="750" workspace="live" nodeType="Stoj.Site:Content.GalleryItem" version="5" removed="" hidden="" hiddenInIndex="">
+          <dimensions>
+           <language>da</language>
+          </dimensions>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2021-02-24T14:42:28+01:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2021-02-24T14:43:22+01:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2021-02-24T14:43:22+01:00</lastPublicationDateTime>
+          <properties>
+           <id __type="string">mad</id>
+           <image __type="object" __identifier="549cd175-1242-4bd3-b45f-9d6df87510f1" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;549cd175-1242-4bd3-b45f-9d6df87510f1&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;moerk_granola_1-1.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;a491420815a037e06b46595f2824870af61009b6&quot;,&quot;hash&quot;:&quot;a491420815a037e06b46595f2824870af61009b6&quot;,&quot;__identity&quot;:&quot;be6526f6-69cb-4409-ac73-02077e3aa4f4&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image>
+           <alternativeText __type="string">Chokolade-müsli fra Løgismose, fotograferet af Stöj</alternativeText>
+          </properties>
+         </variant>
+        </node>
+        <node identifier="9dd9c140-5782-42be-bf96-8684d263f1b6" nodeName="node-6owd89ppynbyf">
+         <variant sortingIndex="863" workspace="live" nodeType="Stoj.Site:Content.GalleryItem" version="7" removed="" hidden="" hiddenInIndex="">
+          <dimensions>
+           <language>da</language>
+          </dimensions>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2021-02-24T15:08:42+01:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2021-02-24T15:35:38+01:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2021-02-24T15:35:37+01:00</lastPublicationDateTime>
+          <properties>
+           <id __type="string">mennesker</id>
+           <image __type="object" __identifier="e107f82c-7da6-40e3-8376-79ad4f336ee2" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;e107f82c-7da6-40e3-8376-79ad4f336ee2&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;Overordnet-Session9703.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;102b5a2b21fa5e8424ccefe489ef720e52f64442&quot;,&quot;hash&quot;:&quot;102b5a2b21fa5e8424ccefe489ef720e52f64442&quot;,&quot;__identity&quot;:&quot;7eeb3ec5-26a0-431d-9c87-b28a0d04d0c6&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image>
+           <alternativeText __type="string">Portræt fotograferet af Stöj</alternativeText>
           </properties>
          </variant>
         </node>
         <node identifier="1f26f860-c323-4507-96ff-2911f91b92d1" nodeName="node-75e34raolv4j5">
-         <variant sortingIndex="400" workspace="live" nodeType="Stoj.Site:Content.GalleryItem" version="3" removed="" hidden="" hiddenInIndex="">
+         <variant sortingIndex="400" workspace="live" nodeType="Stoj.Site:Content.GalleryItem" version="6" removed="" hidden="" hiddenInIndex="">
           <dimensions>
            <language>da</language>
           </dimensions>
           <accessRoles __type="array"/>
           <creationDateTime __type="object" __classname="DateTime">2021-02-24T13:54:51+01:00</creationDateTime>
-          <lastModificationDateTime __type="object" __classname="DateTime">2021-02-24T13:55:01+01:00</lastModificationDateTime>
-          <lastPublicationDateTime __type="object" __classname="DateTime">2021-02-24T13:55:00+01:00</lastPublicationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2021-02-24T15:27:17+01:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2021-02-24T15:27:17+01:00</lastPublicationDateTime>
           <properties>
-           <image __type="object" __identifier="65258e74-073e-411a-920a-2d93ee7c5491" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;65258e74-073e-411a-920a-2d93ee7c5491&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;Sk\u00e6rmbillede-2020-11-14-kl.-19.40.01.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;ce1bea2bb35df13a9eca11888530cb6f77b17e30&quot;,&quot;hash&quot;:&quot;ce1bea2bb35df13a9eca11888530cb6f77b17e30&quot;,&quot;__identity&quot;:&quot;796eb312-3830-4c67-b9f1-37bff640612e&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image>
+           <id __type="string">dyr</id>
+           <image __type="object" __identifier="5ea86445-b348-478d-bf0f-29e2d08b6315" __classname="Neos\Media\Domain\Model\ImageVariant" __encoding="json">{&quot;__identity&quot;:&quot;5ea86445-b348-478d-bf0f-29e2d08b6315&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\ImageVariant&quot;,&quot;originalAsset&quot;:{&quot;__identity&quot;:&quot;773135ef-4ba1-4611-b7ed-8a4646a4100f&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;Overordnet-Session-20200092.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;24558019b7b4fa5582254b4708ccd2f4248ae0d7&quot;,&quot;hash&quot;:&quot;24558019b7b4fa5582254b4708ccd2f4248ae0d7&quot;,&quot;__identity&quot;:&quot;f45cdf6b-3843-4a36-a96b-39082c98633b&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]},&quot;adjustments&quot;:[{&quot;aspectRatio&quot;:null,&quot;height&quot;:1350,&quot;position&quot;:10,&quot;width&quot;:900,&quot;x&quot;:0,&quot;y&quot;:20,&quot;__identity&quot;:&quot;0a524441-b825-4aa2-b2c5-7971d6ae6e4e&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Adjustment\\CropImageAdjustment&quot;}]}</image>
+           <alternativeText __type="string">Puddel fotograferet af Julie Erhorn for Stöj</alternativeText>
+          </properties>
+         </variant>
+        </node>
+        <node identifier="8af56bf5-c7b9-4886-81d2-107659771e55" nodeName="node-8atwv73h3yrhm">
+         <variant sortingIndex="938" workspace="live" nodeType="Stoj.Site:Content.GalleryItem" version="5" removed="" hidden="" hiddenInIndex="">
+          <dimensions>
+           <language>da</language>
+          </dimensions>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2021-02-24T15:42:52+01:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2021-02-24T15:46:05+01:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2021-02-24T15:46:05+01:00</lastPublicationDateTime>
+          <properties>
+           <id __type="string">kommerciel</id>
+           <image __type="object" __identifier="35f3d4ea-365b-4803-8e67-d05ac91dc437" __classname="Neos\Media\Domain\Model\ImageVariant" __encoding="json">{&quot;__identity&quot;:&quot;35f3d4ea-365b-4803-8e67-d05ac91dc437&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\ImageVariant&quot;,&quot;originalAsset&quot;:{&quot;__identity&quot;:&quot;467b6732-6d7d-4303-9b0c-862b9daec090&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;mymoments_mil3-copy.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;2afd952529360ec380551af78652945ec6c9b8a1&quot;,&quot;hash&quot;:&quot;2afd952529360ec380551af78652945ec6c9b8a1&quot;,&quot;__identity&quot;:&quot;9cb5bd1e-549a-4507-a721-b2d7a0ff65ea&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]},&quot;adjustments&quot;:[{&quot;aspectRatio&quot;:null,&quot;height&quot;:1125,&quot;position&quot;:10,&quot;width&quot;:900,&quot;x&quot;:0,&quot;y&quot;:60,&quot;__identity&quot;:&quot;4ffdd5fb-4d5e-4793-8804-5bd6b485d5a3&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Adjustment\\CropImageAdjustment&quot;}]}</image>
+           <alternativeText __type="string">Fotograferet af Stöj</alternativeText>
+          </properties>
+         </variant>
+        </node>
+        <node identifier="4b7b137e-950d-4efd-815c-d397a04c07cb" nodeName="node-dm4s40lqk6k6x">
+         <variant sortingIndex="550" workspace="live" nodeType="Stoj.Site:Content.GalleryItem" version="4" removed="" hidden="" hiddenInIndex="">
+          <dimensions>
+           <language>da</language>
+          </dimensions>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2021-02-24T14:08:35+01:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2021-02-24T14:13:16+01:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2021-02-24T14:13:16+01:00</lastPublicationDateTime>
+          <properties>
+           <id __type="string">livsstil</id>
+           <image __type="object" __identifier="f3222e20-aeb4-4ad3-8766-67cc32abc617" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;f3222e20-aeb4-4ad3-8766-67cc32abc617&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;02_11_18_isabellas_3a.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;6d62b8122252693baa1bfec6ffc3fb0350c34266&quot;,&quot;hash&quot;:&quot;6d62b8122252693baa1bfec6ffc3fb0350c34266&quot;,&quot;__identity&quot;:&quot;bf7f665c-167d-42d7-b506-d1e9cdec49c2&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image>
+           <alternativeText __type="string">Rum stylet af Pernille Albers og fotograferet af Stöj</alternativeText>
+          </properties>
+         </variant>
+        </node>
+        <node identifier="e07c814c-edcb-4780-ba18-c05bb42418ac" nodeName="node-gicmvqjfmm1nh">
+         <variant sortingIndex="832" workspace="live" nodeType="Stoj.Site:Content.GalleryItem" version="8" removed="" hidden="" hiddenInIndex="">
+          <dimensions>
+           <language>da</language>
+          </dimensions>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2021-02-24T15:15:24+01:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2021-02-24T15:38:32+01:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2021-02-24T15:38:31+01:00</lastPublicationDateTime>
+          <properties>
+           <image __type="object" __identifier="b6599c20-49ec-4499-a4a3-bea963175d58" __classname="Neos\Media\Domain\Model\ImageVariant" __encoding="json">{&quot;__identity&quot;:&quot;b6599c20-49ec-4499-a4a3-bea963175d58&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\ImageVariant&quot;,&quot;originalAsset&quot;:{&quot;__identity&quot;:&quot;326443ca-878a-433f-a071-d6e3307ccbdd&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;22_1$0_1824800_13_11_18.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;9a6ce06f31be4129f35385197422bd58ef8a997e&quot;,&quot;hash&quot;:&quot;9a6ce06f31be4129f35385197422bd58ef8a997e&quot;,&quot;__identity&quot;:&quot;17ef020e-6aa0-44a1-b852-ff3e3982cd1b&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]},&quot;adjustments&quot;:[{&quot;aspectRatio&quot;:null,&quot;height&quot;:643,&quot;position&quot;:10,&quot;width&quot;:804,&quot;x&quot;:36,&quot;y&quot;:0,&quot;__identity&quot;:&quot;4672bdb9-3e27-4fa5-8b5b-428c0fd38932&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Adjustment\\CropImageAdjustment&quot;}]}</image>
+          </properties>
+         </variant>
+        </node>
+        <node identifier="e56bd9bc-dfcb-4962-8151-458f0d1f78c1" nodeName="node-hb7al7297hyho">
+         <variant sortingIndex="888" workspace="live" nodeType="Stoj.Site:Content.GalleryItem" version="10" removed="" hidden="" hiddenInIndex="">
+          <dimensions>
+           <language>da</language>
+          </dimensions>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2021-02-24T15:10:43+01:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2021-02-24T15:41:35+01:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2021-02-24T15:41:35+01:00</lastPublicationDateTime>
+          <properties>
+           <id __type="string">mennesker</id>
+           <image __type="object" __identifier="029b650c-807b-4db8-8e1a-22090c7c4d64" __classname="Neos\Media\Domain\Model\ImageVariant" __encoding="json">{&quot;__identity&quot;:&quot;029b650c-807b-4db8-8e1a-22090c7c4d64&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\ImageVariant&quot;,&quot;originalAsset&quot;:{&quot;__identity&quot;:&quot;306cd783-552d-4ee2-a983-7fd4ddb0559a&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;Kopi-af-Overordnet-Session9635.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;d73b73569c1194b6ae75bb79a291cd7e335d1c42&quot;,&quot;hash&quot;:&quot;d73b73569c1194b6ae75bb79a291cd7e335d1c42&quot;,&quot;__identity&quot;:&quot;022eaea4-4cad-4c6c-9f35-52faf73043e4&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]},&quot;adjustments&quot;:[{&quot;aspectRatio&quot;:null,&quot;height&quot;:728,&quot;position&quot;:10,&quot;width&quot;:900,&quot;x&quot;:0,&quot;y&quot;:380,&quot;__identity&quot;:&quot;5946c747-d9e9-4ddf-b4e8-f08dce579419&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Adjustment\\CropImageAdjustment&quot;}]}</image>
+           <alternativeText __type="string">Fotograferet af Stöj</alternativeText>
+          </properties>
+         </variant>
+        </node>
+        <node identifier="13967766-4559-48d5-b106-67292bfe910c" nodeName="node-its86ngc25c0p">
+         <variant sortingIndex="988" workspace="live" nodeType="Stoj.Site:Content.GalleryItem" version="6" removed="" hidden="" hiddenInIndex="">
+          <dimensions>
+           <language>da</language>
+          </dimensions>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2021-02-24T15:46:10+01:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2021-02-24T15:48:42+01:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2021-02-24T15:48:42+01:00</lastPublicationDateTime>
+          <properties>
+           <id __type="string">kommerciel</id>
+           <image __type="object" __identifier="8bbb7e65-6b01-416f-bc84-5df4a638c718" __classname="Neos\Media\Domain\Model\ImageVariant" __encoding="json">{&quot;__identity&quot;:&quot;8bbb7e65-6b01-416f-bc84-5df4a638c718&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\ImageVariant&quot;,&quot;originalAsset&quot;:{&quot;__identity&quot;:&quot;06d6f7d6-7afd-4034-985f-420472abd7fa&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;oles-chokolade_julekatalog_ubeska\u030aret_A3_52.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;73f5d90b911881cbf3babf9b0441036a18fbb707&quot;,&quot;hash&quot;:&quot;73f5d90b911881cbf3babf9b0441036a18fbb707&quot;,&quot;__identity&quot;:&quot;471e0c83-3aea-4666-8545-6c99f0e43290&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]},&quot;adjustments&quot;:[{&quot;aspectRatio&quot;:null,&quot;height&quot;:601,&quot;position&quot;:10,&quot;width&quot;:751,&quot;x&quot;:0,&quot;y&quot;:0,&quot;__identity&quot;:&quot;26863a0f-31d4-4166-9a15-1e7a7d012c9a&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Adjustment\\CropImageAdjustment&quot;}]}</image>
+           <alternativeText __type="string">Matas glycerin creme, fotograferet af Stöj</alternativeText>
+          </properties>
+         </variant>
+        </node>
+        <node identifier="b1dcf83a-2db8-4a80-9c88-52187d603982" nodeName="node-joq0ardgq71di">
+         <variant sortingIndex="575" workspace="live" nodeType="Stoj.Site:Content.GalleryItem" version="4" removed="" hidden="" hiddenInIndex="">
+          <dimensions>
+           <language>da</language>
+          </dimensions>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2021-02-24T14:46:51+01:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2021-02-24T14:47:46+01:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2021-02-24T14:47:46+01:00</lastPublicationDateTime>
+          <properties>
+           <id __type="string">livsstil</id>
+           <image __type="object" __identifier="5941eea0-d42a-458a-ab4f-5ada9c06c9d3" __classname="Neos\Media\Domain\Model\ImageVariant" __encoding="json">{&quot;__identity&quot;:&quot;5941eea0-d42a-458a-ab4f-5ada9c06c9d3&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\ImageVariant&quot;,&quot;originalAsset&quot;:{&quot;__identity&quot;:&quot;ebe19ee8-fdb3-4da2-be24-1a86e823d50e&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;Kopi-af-femina_lamper3.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;79b6f77b31d3198bbf29a3a319259b7fd71f7269&quot;,&quot;hash&quot;:&quot;79b6f77b31d3198bbf29a3a319259b7fd71f7269&quot;,&quot;__identity&quot;:&quot;7f0281ad-3f67-4c84-b1ac-2cf1327e68d1&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]},&quot;adjustments&quot;:[{&quot;aspectRatio&quot;:null,&quot;height&quot;:900,&quot;position&quot;:10,&quot;width&quot;:900,&quot;x&quot;:0,&quot;y&quot;:293,&quot;__identity&quot;:&quot;52157c06-4539-44f1-8efb-59f18cfcfa51&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Adjustment\\CropImageAdjustment&quot;}]}</image>
+           <alternativeText __type="string">Værelse stylet af Pernille Albers, fotograferet af Stöj</alternativeText>
+          </properties>
+         </variant>
+        </node>
+        <node identifier="bfbddedf-e445-4b8d-8869-3535ef5c1d36" nodeName="node-k8p7rdtb3c65i">
+         <variant sortingIndex="800" workspace="live" nodeType="Stoj.Site:Content.GalleryItem" version="7" removed="" hidden="" hiddenInIndex="">
+          <dimensions>
+           <language>da</language>
+          </dimensions>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2021-02-24T14:54:22+01:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2021-02-24T14:58:25+01:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2021-02-24T14:58:25+01:00</lastPublicationDateTime>
+          <properties>
+           <id __type="string">mad</id>
+           <image __type="object" __identifier="baab5bd0-2982-4cf1-9296-bf9bd392ff2d" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;baab5bd0-2982-4cf1-9296-bf9bd392ff2d&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;Kopi-af-\u00f8sters_r\u00f8dvinsedike.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;986da06b16cd4ee7ca40e77c8c0db38aaebbcee5&quot;,&quot;hash&quot;:&quot;986da06b16cd4ee7ca40e77c8c0db38aaebbcee5&quot;,&quot;__identity&quot;:&quot;ca4778da-662b-4eed-8555-d240f28b5e59&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image>
+           <alternativeText __type="string">Øster fra Løgismose, fotograferet af Stöj</alternativeText>
           </properties>
          </variant>
         </node>
         <node identifier="88dc66ad-e0f0-48fa-862f-155656ae9986" nodeName="node-klqylu7ijz29i">
-         <variant sortingIndex="450" workspace="live" nodeType="Stoj.Site:Content.GalleryItem" version="4" removed="" hidden="" hiddenInIndex="">
+         <variant sortingIndex="450" workspace="live" nodeType="Stoj.Site:Content.GalleryItem" version="5" removed="" hidden="" hiddenInIndex="">
           <dimensions>
            <language>da</language>
           </dimensions>
           <accessRoles __type="array"/>
           <creationDateTime __type="object" __classname="DateTime">2021-02-24T13:55:05+01:00</creationDateTime>
-          <lastModificationDateTime __type="object" __classname="DateTime">2021-02-24T13:55:13+01:00</lastModificationDateTime>
-          <lastPublicationDateTime __type="object" __classname="DateTime">2021-02-24T13:55:12+01:00</lastPublicationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2021-02-24T14:15:33+01:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2021-02-24T14:15:33+01:00</lastPublicationDateTime>
           <properties>
            <image __type="object" __identifier="78f402ff-8b14-4971-91a4-cebfad6cd464" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;78f402ff-8b14-4971-91a4-cebfad6cd464&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;vv-106-1.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;2d5465cc719b21efb0075bf2fbbc5058a69730bf&quot;,&quot;hash&quot;:&quot;2d5465cc719b21efb0075bf2fbbc5058a69730bf&quot;,&quot;__identity&quot;:&quot;027618a2-00ba-441c-8ebe-c75656dbee06&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image>
+           <alternativeText __type="string">Bord stylet af Pernille Albers og fotograferet af Stöj</alternativeText>
+          </properties>
+         </variant>
+        </node>
+        <node identifier="caf0cdd3-2e16-4403-b798-ba6d2abe79ff" nodeName="node-l8nzx46mw52ri">
+         <variant sortingIndex="700" workspace="live" nodeType="Stoj.Site:Content.GalleryItem" version="12" removed="" hidden="" hiddenInIndex="">
+          <dimensions>
+           <language>da</language>
+          </dimensions>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2021-02-24T14:35:06+01:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2021-02-24T15:20:41+01:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2021-02-24T14:40:06+01:00</lastPublicationDateTime>
+          <properties>
+           <id __type="string">mad</id>
+           <image __type="object" __identifier="ce72b865-15f6-4467-87ff-d2af4c6885f2" __classname="Neos\Media\Domain\Model\ImageVariant" __encoding="json">{&quot;__identity&quot;:&quot;ce72b865-15f6-4467-87ff-d2af4c6885f2&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\ImageVariant&quot;,&quot;originalAsset&quot;:{&quot;__identity&quot;:&quot;c3a134d7-e447-4383-ab2d-0c813eb7a0be&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;10_02_206258.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;98dd013e0ede6bc8e18fef46d97fa32cd8f8c19a&quot;,&quot;hash&quot;:&quot;98dd013e0ede6bc8e18fef46d97fa32cd8f8c19a&quot;,&quot;__identity&quot;:&quot;582a0f89-0df2-46b2-802c-3e0cf32e213a&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]},&quot;adjustments&quot;:[{&quot;aspectRatio&quot;:null,&quot;height&quot;:705,&quot;position&quot;:10,&quot;width&quot;:881,&quot;x&quot;:3,&quot;y&quot;:295,&quot;__identity&quot;:&quot;d2fd8b6f-7a19-47f3-8da0-1b3c211c0eb4&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Adjustment\\CropImageAdjustment&quot;}]}</image>
+           <alternativeText __type="string">Kammerjunkere og koldskål fra Løgismose, fotograferet af Stöj</alternativeText>
+          </properties>
+         </variant>
+        </node>
+        <node identifier="4247b5fd-6c0e-4696-acb7-21f835e10791" nodeName="node-ldnct4uizvh6y">
+         <variant sortingIndex="432" workspace="live" nodeType="Stoj.Site:Content.GalleryItem" version="6" removed="" hidden="" hiddenInIndex="">
+          <dimensions>
+           <language>da</language>
+          </dimensions>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2021-02-24T14:23:12+01:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2021-02-24T14:25:50+01:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2021-02-24T14:25:50+01:00</lastPublicationDateTime>
+          <properties>
+           <id __type="string">livsstil</id>
+           <image __type="object" __identifier="c41f6dd3-36cc-40b9-9fa3-543ff0602d32" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;c41f6dd3-36cc-40b9-9fa3-543ff0602d32&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;07_01_1927816.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;118d7e79846655b691c1638511d6bd6b8f4d5b21&quot;,&quot;hash&quot;:&quot;118d7e79846655b691c1638511d6bd6b8f4d5b21&quot;,&quot;__identity&quot;:&quot;2272c37c-08e1-4532-a942-8ca1e6ebe975&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image>
+           <alternativeText __type="string">Rum stylet af Pernille Albers og fotograferet af Stöj</alternativeText>
+          </properties>
+         </variant>
+        </node>
+        <node identifier="58dba748-0602-41b6-9662-a6c2d62091e8" nodeName="node-levhqicg6kez0">
+         <variant sortingIndex="441" workspace="live" nodeType="Stoj.Site:Content.GalleryItem" version="5" removed="" hidden="" hiddenInIndex="">
+          <dimensions>
+           <language>da</language>
+          </dimensions>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2021-02-24T14:27:44+01:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2021-02-24T14:29:56+01:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2021-02-24T14:29:56+01:00</lastPublicationDateTime>
+          <properties>
+           <id __type="string">livsstil</id>
+           <image __type="object" __identifier="a684a64a-e3db-44aa-aa74-a31b1a440082" __classname="Neos\Media\Domain\Model\ImageVariant" __encoding="json">{&quot;__identity&quot;:&quot;a684a64a-e3db-44aa-aa74-a31b1a440082&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\ImageVariant&quot;,&quot;originalAsset&quot;:{&quot;__identity&quot;:&quot;889cdae8-72dc-414a-9264-632d3f8e3a0b&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;07_01_1927807.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;82b6f8ba577789c96fe0d49876dd5f62df7ac524&quot;,&quot;hash&quot;:&quot;82b6f8ba577789c96fe0d49876dd5f62df7ac524&quot;,&quot;__identity&quot;:&quot;d3e66de7-8dc8-49ec-9e68-d2f8f2de60a3&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]},&quot;adjustments&quot;:[{&quot;aspectRatio&quot;:null,&quot;height&quot;:901,&quot;position&quot;:10,&quot;width&quot;:900,&quot;x&quot;:0,&quot;y&quot;:79,&quot;__identity&quot;:&quot;892ab0cc-7428-4f82-a9bd-e3dbbfda2cc5&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Adjustment\\CropImageAdjustment&quot;}]}</image>
+           <alternativeText __type="string">Rum indrettet af Pernille Albers og fotograferet af Stöj</alternativeText>
+          </properties>
+         </variant>
+        </node>
+        <node identifier="bffa3afd-39a5-4ce1-9438-925c7cf533c0" nodeName="node-o6vixj2xwlyqr">
+         <variant sortingIndex="500" workspace="live" nodeType="Stoj.Site:Content.GalleryItem" version="5" removed="" hidden="" hiddenInIndex="">
+          <dimensions>
+           <language>da</language>
+          </dimensions>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2021-02-24T14:32:21+01:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2021-02-24T14:34:06+01:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2021-02-24T14:34:06+01:00</lastPublicationDateTime>
+          <properties>
+           <id __type="string">livsstil</id>
+           <image __type="object" __identifier="7294f8a6-8b47-4806-9da1-f69617a19f52" __classname="Neos\Media\Domain\Model\ImageVariant" __encoding="json">{&quot;__identity&quot;:&quot;7294f8a6-8b47-4806-9da1-f69617a19f52&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\ImageVariant&quot;,&quot;originalAsset&quot;:{&quot;__identity&quot;:&quot;f9a6f73c-4b59-407c-b2ee-3a32b7b50a7b&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;12_12_daybed_femina1.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;4723ea181748c4c66a6655ea11262d783083fbcc&quot;,&quot;hash&quot;:&quot;4723ea181748c4c66a6655ea11262d783083fbcc&quot;,&quot;__identity&quot;:&quot;85d2915b-da96-445b-9dc8-09616c01d3fa&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]},&quot;adjustments&quot;:[{&quot;aspectRatio&quot;:null,&quot;height&quot;:1111,&quot;position&quot;:10,&quot;width&quot;:794,&quot;x&quot;:0,&quot;y&quot;:0,&quot;__identity&quot;:&quot;0b4fbdec-1888-4617-a6ba-a6321e128604&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Adjustment\\CropImageAdjustment&quot;}]}</image>
+           <alternativeText __type="string">Rum stylet af Pernille Albers, fotograferet af Stöj til Femina</alternativeText>
+          </properties>
+         </variant>
+        </node>
+        <node identifier="6d695eb3-c18c-404a-b691-6321c25cfe96" nodeName="node-ootk5zqru2xhy">
+         <variant sortingIndex="413" workspace="live" nodeType="Stoj.Site:Content.GalleryItem" version="8" removed="" hidden="" hiddenInIndex="">
+          <dimensions>
+           <language>da</language>
+          </dimensions>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2021-02-24T14:20:59+01:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2021-02-24T15:27:17+01:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2021-02-24T15:27:17+01:00</lastPublicationDateTime>
+          <properties>
+           <id __type="string">dyr</id>
+           <image __type="object" __identifier="c0ed406d-ff1e-495a-840f-775144652deb" __classname="Neos\Media\Domain\Model\ImageVariant" __encoding="json">{&quot;__identity&quot;:&quot;c0ed406d-ff1e-495a-840f-775144652deb&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\ImageVariant&quot;,&quot;originalAsset&quot;:{&quot;__identity&quot;:&quot;f0d80669-7d8e-4b73-97b9-2c573ea9e37d&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;Overordnet-Session4065.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;8f6a7ba4280a8c569497abf86b1bad148d6bbc06&quot;,&quot;hash&quot;:&quot;8f6a7ba4280a8c569497abf86b1bad148d6bbc06&quot;,&quot;__identity&quot;:&quot;85e23b36-c87a-4a32-ab13-5188c29e41b8&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]},&quot;adjustments&quot;:[{&quot;aspectRatio&quot;:null,&quot;height&quot;:1263,&quot;position&quot;:10,&quot;width&quot;:842,&quot;x&quot;:58,&quot;y&quot;:0,&quot;__identity&quot;:&quot;c60b65fe-8edb-42c4-8449-8335d9557710&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Adjustment\\CropImageAdjustment&quot;}]}</image>
+           <alternativeText __type="string">Hund fotograferet af Julie Erhorn for Stöj</alternativeText>
+          </properties>
+         </variant>
+        </node>
+        <node identifier="edf54c77-bbcb-4069-a480-5cb3913c34f4" nodeName="node-os6zqcsvd7ik7">
+         <variant sortingIndex="775" workspace="live" nodeType="Stoj.Site:Content.GalleryItem" version="6" removed="" hidden="" hiddenInIndex="">
+          <dimensions>
+           <language>da</language>
+          </dimensions>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2021-02-24T14:50:12+01:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2021-02-24T14:51:41+01:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2021-02-24T14:51:41+01:00</lastPublicationDateTime>
+          <properties>
+           <id __type="string">mad</id>
+           <image __type="object" __identifier="3f439995-e2e9-4a1a-b6be-39596a569a35" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;3f439995-e2e9-4a1a-b6be-39596a569a35&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;L\u00f8gismose_30.04.2020_17.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;0e2af0ebe0e21e9a160a5275cf0d03a52e974b2e&quot;,&quot;hash&quot;:&quot;0e2af0ebe0e21e9a160a5275cf0d03a52e974b2e&quot;,&quot;__identity&quot;:&quot;de2b8063-b85c-4e55-87d3-2d33f4ddd89d&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image>
+           <alternativeText __type="string">Sky yoghurt med blæåbær og müsli af Løgismose, fotograferet af Stöj</alternativeText>
+          </properties>
+         </variant>
+        </node>
+        <node identifier="7c44ac4c-8461-44ad-ad99-da12f10084d4" nodeName="node-qcmzem7sppdz0">
+         <variant sortingIndex="582" workspace="live" nodeType="Stoj.Site:Content.GalleryItem" version="9" removed="" hidden="" hiddenInIndex="">
+          <dimensions>
+           <language>da</language>
+          </dimensions>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2021-02-24T15:16:45+01:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2021-02-24T15:25:13+01:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2021-02-24T15:25:13+01:00</lastPublicationDateTime>
+          <properties>
+           <id __type="string">mennesker</id>
+           <image __type="object" __identifier="7974d72c-bce5-4117-8369-ca1eefa5ac11" __classname="Neos\Media\Domain\Model\ImageVariant" __encoding="json">{&quot;__identity&quot;:&quot;7974d72c-bce5-4117-8369-ca1eefa5ac11&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\ImageVariant&quot;,&quot;originalAsset&quot;:{&quot;__identity&quot;:&quot;bef10e64-536a-470c-af5e-bcd44c14f76a&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;0010.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;41d7db6a4d24db1d8b0d5db79cbd5de9862593db&quot;,&quot;hash&quot;:&quot;41d7db6a4d24db1d8b0d5db79cbd5de9862593db&quot;,&quot;__identity&quot;:&quot;237543c1-45b7-4ce4-920f-61a5f37777ce&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]},&quot;adjustments&quot;:[{&quot;aspectRatio&quot;:null,&quot;height&quot;:1137,&quot;position&quot;:10,&quot;width&quot;:812,&quot;x&quot;:72,&quot;y&quot;:12,&quot;__identity&quot;:&quot;8f678205-670a-42a3-85ac-c8a694729948&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Adjustment\\CropImageAdjustment&quot;}]}</image>
+           <alternativeText __type="string">Model ved hest, fotograferet af Stöj</alternativeText>
+          </properties>
+         </variant>
+        </node>
+        <node identifier="0cfcd7f3-c139-4a61-a8f5-af54f18f3150" nodeName="node-v464tnapemuva">
+         <variant sortingIndex="1088" workspace="live" nodeType="Stoj.Site:Content.GalleryItem" version="7" removed="" hidden="" hiddenInIndex="">
+          <dimensions>
+           <language>da</language>
+          </dimensions>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2021-02-24T15:51:44+01:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2021-02-24T15:54:19+01:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2021-02-24T15:54:19+01:00</lastPublicationDateTime>
+          <properties>
+           <id __type="string">kommerciel</id>
+           <image __type="object" __identifier="bf27a80d-0d74-4fe2-bf36-6becaf5a95ec" __classname="Neos\Media\Domain\Model\ImageVariant" __encoding="json">{&quot;__identity&quot;:&quot;bf27a80d-0d74-4fe2-bf36-6becaf5a95ec&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\ImageVariant&quot;,&quot;originalAsset&quot;:{&quot;__identity&quot;:&quot;1ea5b3a3-2c18-4d41-ade8-7e015900105c&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;honning-copy.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;8ffa179274a61316c051873b363e38a60c832dac&quot;,&quot;hash&quot;:&quot;8ffa179274a61316c051873b363e38a60c832dac&quot;,&quot;__identity&quot;:&quot;bd524340-9493-4573-9ce9-3d3c01ece295&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]},&quot;adjustments&quot;:[{&quot;aspectRatio&quot;:null,&quot;height&quot;:1212,&quot;position&quot;:10,&quot;width&quot;:866,&quot;x&quot;:29,&quot;y&quot;:69,&quot;__identity&quot;:&quot;5735d1cc-a692-4a70-9c73-c5e2a2732db3&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Adjustment\\CropImageAdjustment&quot;}]}</image>
+           <alternativeText __type="string">Kogle fotograferet af Stöj</alternativeText>
+          </properties>
+         </variant>
+        </node>
+        <node identifier="b15428cc-350f-4998-ab0e-a8a1b7fb3274" nodeName="node-vscsp8eglvky6">
+         <variant sortingIndex="585" workspace="live" nodeType="Stoj.Site:Content.GalleryItem" version="6" removed="" hidden="" hiddenInIndex="">
+          <dimensions>
+           <language>da</language>
+          </dimensions>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2021-02-24T15:24:32+01:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2021-02-24T15:34:24+01:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2021-02-24T15:34:24+01:00</lastPublicationDateTime>
+          <properties>
+           <id __type="string">livsstil</id>
+           <image __type="object" __identifier="96a61621-6555-4d9e-9246-57c7d2ff30ff" __classname="Neos\Media\Domain\Model\ImageVariant" __encoding="json">{&quot;__identity&quot;:&quot;96a61621-6555-4d9e-9246-57c7d2ff30ff&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\ImageVariant&quot;,&quot;originalAsset&quot;:{&quot;__identity&quot;:&quot;3c686c82-b79a-4c64-b672-2519ff841280&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;Overordnet-Session8372.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;08a2ce777b730e8d18e2fe588105fc17d5b2024a&quot;,&quot;hash&quot;:&quot;08a2ce777b730e8d18e2fe588105fc17d5b2024a&quot;,&quot;__identity&quot;:&quot;198d8b06-0933-4018-85c4-fc0ffe0f6ea8&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]},&quot;adjustments&quot;:[{&quot;aspectRatio&quot;:null,&quot;height&quot;:643,&quot;position&quot;:10,&quot;width&quot;:900,&quot;x&quot;:0,&quot;y&quot;:0,&quot;__identity&quot;:&quot;d3962382-4a78-4c91-bcec-a1a0a7dbe7c1&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Adjustment\\CropImageAdjustment&quot;}]}</image>
+           <alternativeText __type="string">Kvinder ligger på gulvet, og kigger på plader, styler af Julie Settergren, fotograferet af Stöj</alternativeText>
+          </properties>
+         </variant>
+        </node>
+        <node identifier="0bd501b9-7137-4235-949a-3fa130631c33" nodeName="node-ylnesuim0j480">
+         <variant sortingIndex="1038" workspace="live" nodeType="Stoj.Site:Content.GalleryItem" version="4" removed="" hidden="" hiddenInIndex="">
+          <dimensions>
+           <language>da</language>
+          </dimensions>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2021-02-24T15:49:05+01:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2021-02-24T15:50:20+01:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2021-02-24T15:50:20+01:00</lastPublicationDateTime>
+          <properties>
+           <id __type="string">kommerciel</id>
+           <image __type="object" __identifier="0b66388b-f0de-4907-acf3-2cc34452bbe7" __classname="Neos\Media\Domain\Model\ImageVariant" __encoding="json">{&quot;__identity&quot;:&quot;0b66388b-f0de-4907-acf3-2cc34452bbe7&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\ImageVariant&quot;,&quot;originalAsset&quot;:{&quot;__identity&quot;:&quot;3c716c72-027d-4543-b0f0-3783da99768c&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;Kopi-af-laebestift3a.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;19b0908571b137d0ab730678c5dd09472af02164&quot;,&quot;hash&quot;:&quot;19b0908571b137d0ab730678c5dd09472af02164&quot;,&quot;__identity&quot;:&quot;0ee73119-00b9-4c3f-b12b-7f3a33e3472a&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]},&quot;adjustments&quot;:[{&quot;aspectRatio&quot;:null,&quot;height&quot;:720,&quot;position&quot;:10,&quot;width&quot;:900,&quot;x&quot;:0,&quot;y&quot;:188,&quot;__identity&quot;:&quot;58c3ee64-5ddd-4aa5-afdf-023322ac4719&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Adjustment\\CropImageAdjustment&quot;}]}</image>
+           <alternativeText __type="string">Læbestift fotograferet af Stöj</alternativeText>
+          </properties>
+         </variant>
+        </node>
+        <node identifier="88defe4f-38a5-4fc1-b87a-df6abfd5b1fe" nodeName="node-yno10kajeultx">
+         <variant sortingIndex="813" workspace="live" nodeType="Stoj.Site:Content.GalleryItem" version="14" removed="" hidden="" hiddenInIndex="">
+          <dimensions>
+           <language>da</language>
+          </dimensions>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2021-02-24T14:56:43+01:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2021-02-24T15:04:10+01:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2021-02-24T15:04:10+01:00</lastPublicationDateTime>
+          <properties>
+           <id __type="string">mad</id>
+           <image __type="object" __identifier="c14eb4ef-1c44-485c-b887-249dc2f1a784" __classname="Neos\Media\Domain\Model\ImageVariant" __encoding="json">{&quot;__identity&quot;:&quot;c14eb4ef-1c44-485c-b887-249dc2f1a784&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\ImageVariant&quot;,&quot;originalAsset&quot;:{&quot;__identity&quot;:&quot;841aad8d-6d13-4ef2-b530-98c5e9c22613&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;L\u00f8gismose_30.04.2020_12.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;db00acf84119516bed238105151f83371ca67a35&quot;,&quot;hash&quot;:&quot;db00acf84119516bed238105151f83371ca67a35&quot;,&quot;__identity&quot;:&quot;219162cc-c698-4960-aa87-e20c7d761c95&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]},&quot;adjustments&quot;:[{&quot;aspectRatio&quot;:null,&quot;height&quot;:782,&quot;position&quot;:10,&quot;width&quot;:753,&quot;x&quot;:87,&quot;y&quot;:51,&quot;__identity&quot;:&quot;3fa80c3d-d0be-4d38-a21a-fd5b1b54f80f&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Adjustment\\CropImageAdjustment&quot;}]}</image>
+           <alternativeText __type="string">Hummus fra Løgismose, fotograferet af Stöj</alternativeText>
           </properties>
          </variant>
         </node>
@@ -545,45 +868,369 @@
          <lastPublicationDateTime __type="object" __classname="DateTime">2021-02-24T13:43:30+01:00</lastPublicationDateTime>
          <properties/>
         </variant>
+        <node identifier="43a6d3c8-2df4-4f58-956b-42ca003c9250" nodeName="node-3dunfbxefs3y7">
+         <variant sortingIndex="125" workspace="live" nodeType="Stoj.Site:Content.GalleryItem" version="7" removed="" hidden="" hiddenInIndex="">
+          <dimensions>
+           <language>da</language>
+          </dimensions>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2021-02-24T13:53:54+01:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2021-02-24T14:31:09+01:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2021-02-24T14:31:09+01:00</lastPublicationDateTime>
+          <properties>
+           <id __type="string">livsstil</id>
+           <image __type="object" __identifier="38adb4e9-e7bd-40fe-adbc-bfc1e8deb73c" __classname="Neos\Media\Domain\Model\ImageVariant" __encoding="json">{&quot;__identity&quot;:&quot;38adb4e9-e7bd-40fe-adbc-bfc1e8deb73c&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\ImageVariant&quot;,&quot;originalAsset&quot;:{&quot;__identity&quot;:&quot;6dd406d0-8f03-4796-83d4-a9b2c1c88fde&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;vv-119.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;277c44310b2557c6e809f4ebfaef286cec73db94&quot;,&quot;hash&quot;:&quot;277c44310b2557c6e809f4ebfaef286cec73db94&quot;,&quot;__identity&quot;:&quot;7d9b0c21-daa3-49ee-a976-cf7553260b99&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]},&quot;adjustments&quot;:[{&quot;aspectRatio&quot;:null,&quot;height&quot;:901,&quot;position&quot;:10,&quot;width&quot;:900,&quot;x&quot;:0,&quot;y&quot;:273,&quot;__identity&quot;:&quot;bf8302a8-8f2e-4e78-90fe-b74fb0e1edfe&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Adjustment\\CropImageAdjustment&quot;}]}</image>
+           <alternativeText __type="string">Bord stylet af Pernille Albers og fotograferet af Stöj</alternativeText>
+          </properties>
+         </variant>
+        </node>
+        <node identifier="af604b8c-3e43-4b4c-9acf-171179e71d29" nodeName="node-3sijglbmm1b4a">
+         <variant sortingIndex="675" workspace="live" nodeType="Stoj.Site:Content.GalleryItem" version="4" removed="" hidden="" hiddenInIndex="">
+          <dimensions>
+           <language>da</language>
+          </dimensions>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2021-02-24T15:44:59+01:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2021-02-24T15:46:05+01:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2021-02-24T15:46:05+01:00</lastPublicationDateTime>
+          <properties>
+           <id __type="string">kommerciel</id>
+           <image __type="object" __identifier="b4d62535-403d-48d9-830a-787669469b63" __classname="Neos\Media\Domain\Model\ImageVariant" __encoding="json">{&quot;__identity&quot;:&quot;b4d62535-403d-48d9-830a-787669469b63&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\ImageVariant&quot;,&quot;originalAsset&quot;:{&quot;__identity&quot;:&quot;49e9e2d9-0e52-41eb-a9aa-556398828dcc&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;Dubler-status.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;05783bbf130c28e79d25126e1858ddb4c89d38a8&quot;,&quot;hash&quot;:&quot;05783bbf130c28e79d25126e1858ddb4c89d38a8&quot;,&quot;__identity&quot;:&quot;74decdd0-d054-42c0-a470-38466c0eed7f&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]},&quot;adjustments&quot;:[{&quot;aspectRatio&quot;:null,&quot;height&quot;:720,&quot;position&quot;:10,&quot;width&quot;:900,&quot;x&quot;:0,&quot;y&quot;:21,&quot;__identity&quot;:&quot;6ed23619-14b8-4859-bb02-4d8d4017defa&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Adjustment\\CropImageAdjustment&quot;}]}</image>
+           <alternativeText __type="string">Volume Lashes fotograferet af Stöj</alternativeText>
+          </properties>
+         </variant>
+        </node>
+        <node identifier="8899fd1f-0b94-40d8-9396-0e682a7f62e0" nodeName="node-46zlke7hm1i1a">
+         <variant sortingIndex="650" workspace="live" nodeType="Stoj.Site:Content.GalleryItem" version="8" removed="" hidden="" hiddenInIndex="">
+          <dimensions>
+           <language>da</language>
+          </dimensions>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2021-02-24T15:10:09+01:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2021-02-24T15:35:38+01:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2021-02-24T15:35:37+01:00</lastPublicationDateTime>
+          <properties>
+           <id __type="string">mennesker</id>
+           <image __type="object" __identifier="6f2893ab-56ed-4d34-be00-8d16e026caa3" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;6f2893ab-56ed-4d34-be00-8d16e026caa3&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;Overordnet-Session9362.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;f1e3e0b6e379dd39cbd0fe95a605d2500d45a886&quot;,&quot;hash&quot;:&quot;f1e3e0b6e379dd39cbd0fe95a605d2500d45a886&quot;,&quot;__identity&quot;:&quot;f71dbcc2-c601-45b9-85ce-0c847a744179&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image>
+           <alternativeText __type="string">Portræt fotograferet af Stöj</alternativeText>
+          </properties>
+         </variant>
+        </node>
+        <node identifier="b5fe85b4-7b78-4310-8051-05a24f9407d7" nodeName="node-5bu2flst3xfjb">
+         <variant sortingIndex="750" workspace="live" nodeType="Stoj.Site:Content.GalleryItem" version="6" removed="" hidden="" hiddenInIndex="">
+          <dimensions>
+           <language>da</language>
+          </dimensions>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2021-02-24T15:50:24+01:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2021-02-24T15:53:30+01:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2021-02-24T15:53:29+01:00</lastPublicationDateTime>
+          <properties>
+           <id __type="string">kommerciel</id>
+           <image __type="object" __identifier="d09844b1-171b-4b6a-ab43-03d700f7cf82" __classname="Neos\Media\Domain\Model\ImageVariant" __encoding="json">{&quot;__identity&quot;:&quot;d09844b1-171b-4b6a-ab43-03d700f7cf82&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\ImageVariant&quot;,&quot;originalAsset&quot;:{&quot;__identity&quot;:&quot;780bc8b5-d045-44cb-9da5-b77b0f5020ca&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;Kopi-af-1431_s3_duft_lancome1.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;3a28eec7a9023c1e2834a6e8cd8f31364e985675&quot;,&quot;hash&quot;:&quot;3a28eec7a9023c1e2834a6e8cd8f31364e985675&quot;,&quot;__identity&quot;:&quot;07a509b1-4bf8-417b-a561-ded90f7f4e0d&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]},&quot;adjustments&quot;:[{&quot;aspectRatio&quot;:null,&quot;height&quot;:1096,&quot;position&quot;:10,&quot;width&quot;:783,&quot;x&quot;:49,&quot;y&quot;:0,&quot;__identity&quot;:&quot;a12aeb37-92a9-4893-b9f2-da16d579429b&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Adjustment\\CropImageAdjustment&quot;}]}</image>
+           <alternativeText __type="string">Neglelak fotograferet af Stöj</alternativeText>
+          </properties>
+         </variant>
+        </node>
         <node identifier="2f64132b-ae84-4dfb-8473-ae2db2a8c118" nodeName="node-5k11ch6wy0epw">
-         <variant sortingIndex="100" workspace="live" nodeType="Stoj.Site:Content.GalleryItem" version="3" removed="" hidden="" hiddenInIndex="">
+         <variant sortingIndex="100" workspace="live" nodeType="Stoj.Site:Content.GalleryItem" version="8" removed="" hidden="" hiddenInIndex="">
           <dimensions>
            <language>da</language>
           </dimensions>
           <accessRoles __type="array"/>
           <creationDateTime __type="object" __classname="DateTime">2021-02-24T13:55:17+01:00</creationDateTime>
-          <lastModificationDateTime __type="object" __classname="DateTime">2021-02-24T13:55:54+01:00</lastModificationDateTime>
-          <lastPublicationDateTime __type="object" __classname="DateTime">2021-02-24T13:55:54+01:00</lastPublicationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2021-02-24T15:27:17+01:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2021-02-24T15:27:17+01:00</lastPublicationDateTime>
           <properties>
-           <image __type="object" __identifier="e0078c79-34c9-48a8-b235-201fd610fcf8" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;e0078c79-34c9-48a8-b235-201fd610fcf8&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;vaersgo_1832_s5_a-skud.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;871530371842b665a448dfc21de73cf0095c656e&quot;,&quot;hash&quot;:&quot;871530371842b665a448dfc21de73cf0095c656e&quot;,&quot;__identity&quot;:&quot;a5e19cd2-401b-4e48-ad06-74f7d14f159d&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image>
+           <id __type="string">dyr</id>
+           <image __type="object" __identifier="37199882-198c-46e3-b616-e97fd1caafe0" __classname="Neos\Media\Domain\Model\ImageVariant" __encoding="json">{&quot;__identity&quot;:&quot;37199882-198c-46e3-b616-e97fd1caafe0&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\ImageVariant&quot;,&quot;originalAsset&quot;:{&quot;__identity&quot;:&quot;65258e74-073e-411a-920a-2d93ee7c5491&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;Sk\u00e6rmbillede-2020-11-14-kl.-19.40.01.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;ce1bea2bb35df13a9eca11888530cb6f77b17e30&quot;,&quot;hash&quot;:&quot;ce1bea2bb35df13a9eca11888530cb6f77b17e30&quot;,&quot;__identity&quot;:&quot;796eb312-3830-4c67-b9f1-37bff640612e&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]},&quot;adjustments&quot;:[{&quot;aspectRatio&quot;:null,&quot;height&quot;:1258,&quot;position&quot;:10,&quot;width&quot;:839,&quot;x&quot;:0,&quot;y&quot;:18,&quot;__identity&quot;:&quot;3ba6fcca-55b3-4333-a361-e43f98f3905b&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Adjustment\\CropImageAdjustment&quot;}]}</image>
+           <alternativeText __type="string">Hest fotograferet af Stöj for Helgstrand</alternativeText>
+          </properties>
+         </variant>
+        </node>
+        <node identifier="e54c3aa9-f330-44d3-9f8c-ac4d1ed20388" nodeName="node-80l763v4z5i2p">
+         <variant sortingIndex="638" workspace="live" nodeType="Stoj.Site:Content.GalleryItem" version="10" removed="" hidden="" hiddenInIndex="">
+          <dimensions>
+           <language>da</language>
+          </dimensions>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2021-02-24T15:00:12+01:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2021-02-24T15:38:49+01:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2021-02-24T15:38:49+01:00</lastPublicationDateTime>
+          <properties>
+           <id __type="string">mennesker</id>
+           <image __type="object" __identifier="e8d2abb0-b827-415e-ab7f-579adab7ec9d" __classname="Neos\Media\Domain\Model\ImageVariant" __encoding="json">{&quot;__identity&quot;:&quot;e8d2abb0-b827-415e-ab7f-579adab7ec9d&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\ImageVariant&quot;,&quot;originalAsset&quot;:{&quot;__identity&quot;:&quot;39eb8061-0079-43b9-ad56-7fec490fdb7d&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;Overordnet-Session9271.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;d46ecbc8d6539277468de3d9799e5705eaf4378b&quot;,&quot;hash&quot;:&quot;d46ecbc8d6539277468de3d9799e5705eaf4378b&quot;,&quot;__identity&quot;:&quot;22de7b3b-7f2b-4ac8-84e9-1033012b9ecf&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]},&quot;adjustments&quot;:[{&quot;aspectRatio&quot;:null,&quot;height&quot;:720,&quot;position&quot;:10,&quot;width&quot;:900,&quot;x&quot;:0,&quot;y&quot;:327,&quot;__identity&quot;:&quot;f55873e5-856a-4030-9291-2dc5fe6c1218&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Adjustment\\CropImageAdjustment&quot;}]}</image>
+           <alternativeText __type="string">Portræt fotograferet af Stöj</alternativeText>
+          </properties>
+         </variant>
+        </node>
+        <node identifier="8a0d9ad5-51ce-4ae9-9ff1-5ede9c53a9fb" nodeName="node-9kb9hogno84f0">
+         <variant sortingIndex="146" workspace="live" nodeType="Stoj.Site:Content.GalleryItem" version="9" removed="" hidden="" hiddenInIndex="">
+          <dimensions>
+           <language>da</language>
+          </dimensions>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2021-02-24T15:18:06+01:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2021-02-24T15:25:38+01:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2021-02-24T15:25:38+01:00</lastPublicationDateTime>
+          <properties>
+           <id __type="string">livsstil</id>
+           <image __type="object" __identifier="5da39d18-3119-400a-b6eb-64f415711b00" __classname="Neos\Media\Domain\Model\ImageVariant" __encoding="json">{&quot;__identity&quot;:&quot;5da39d18-3119-400a-b6eb-64f415711b00&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\ImageVariant&quot;,&quot;originalAsset&quot;:{&quot;__identity&quot;:&quot;fb38421b-30f4-4951-8f7e-a45eec328725&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;Overordnet-Session8483.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;1a7a2e97fae3652a48e5c27ced7e887d2dca3a2f&quot;,&quot;hash&quot;:&quot;1a7a2e97fae3652a48e5c27ced7e887d2dca3a2f&quot;,&quot;__identity&quot;:&quot;de50404b-0e72-4c22-897c-049ee4af2a77&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]},&quot;adjustments&quot;:[{&quot;aspectRatio&quot;:null,&quot;height&quot;:643,&quot;position&quot;:10,&quot;width&quot;:900,&quot;x&quot;:0,&quot;y&quot;:0,&quot;__identity&quot;:&quot;52399c7f-fb1b-4a3c-bcb3-e67fedb60adc&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Adjustment\\CropImageAdjustment&quot;}]}</image>
+           <alternativeText __type="string">Kvinde i stue med hovedtelefoner, miljø stylet af Julie Settergren, fotograferet af Stöj</alternativeText>
+          </properties>
+         </variant>
+        </node>
+        <node identifier="d145b268-c5fb-4753-a165-0c07abd8474a" nodeName="node-9uk542xgqctdu">
+         <variant sortingIndex="132" workspace="live" nodeType="Stoj.Site:Content.GalleryItem" version="4" removed="" hidden="" hiddenInIndex="">
+          <dimensions>
+           <language>da</language>
+          </dimensions>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2021-02-24T14:31:15+01:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2021-02-24T14:31:56+01:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2021-02-24T14:31:56+01:00</lastPublicationDateTime>
+          <properties>
+           <id __type="string">livsstil</id>
+           <image __type="object" __identifier="74ab2c49-290a-4cf5-b74c-2d574db66826" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;74ab2c49-290a-4cf5-b74c-2d574db66826&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;12_12_daybed_femina3.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;90ae3ab88958e2bbe5ba348560a9abd1c8001ae4&quot;,&quot;hash&quot;:&quot;90ae3ab88958e2bbe5ba348560a9abd1c8001ae4&quot;,&quot;__identity&quot;:&quot;db3a140a-dbbc-4baf-9d01-94e23ce3e2b1&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image>
+           <alternativeText __type="string">Stylet af Pernille Albers for Femina og fotograferet af Stöj</alternativeText>
+          </properties>
+         </variant>
+        </node>
+        <node identifier="ba6a550a-556d-4c03-a75e-6906444877b6" nodeName="node-cfc5gsfx50kz2">
+         <variant sortingIndex="538" workspace="live" nodeType="Stoj.Site:Content.GalleryItem" version="5" removed="" hidden="" hiddenInIndex="">
+          <dimensions>
+           <language>da</language>
+          </dimensions>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2021-02-24T14:52:40+01:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2021-02-24T14:59:34+01:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2021-02-24T14:59:34+01:00</lastPublicationDateTime>
+          <properties>
+           <id __type="string">mad</id>
+           <image __type="object" __identifier="8e505739-26a9-4479-a516-a74cc4fea103" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;8e505739-26a9-4479-a516-a74cc4fea103&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;20171207_075514309_iOS.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;ebdf08f2bb31ac33b769e8e0352b02204c717dcc&quot;,&quot;hash&quot;:&quot;ebdf08f2bb31ac33b769e8e0352b02204c717dcc&quot;,&quot;__identity&quot;:&quot;726c9d69-21f1-4739-916a-1ecb63ff711b&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image>
+           <alternativeText __type="string">Chili fra Løgismose, fotograferet af Stöj</alternativeText>
+          </properties>
+         </variant>
+        </node>
+        <node identifier="1be1a3d5-1e70-48b1-ad56-1adbe7c64f29" nodeName="node-djcfw6fg1jext">
+         <variant sortingIndex="700" workspace="live" nodeType="Stoj.Site:Content.GalleryItem" version="5" removed="" hidden="" hiddenInIndex="">
+          <dimensions>
+           <language>da</language>
+          </dimensions>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2021-02-24T15:43:54+01:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2021-02-24T15:46:05+01:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2021-02-24T15:46:05+01:00</lastPublicationDateTime>
+          <properties>
+           <id __type="string">kommerciel</id>
+           <image __type="object" __identifier="ff2b369b-90a1-46ee-8917-ba72068db427" __classname="Neos\Media\Domain\Model\ImageVariant" __encoding="json">{&quot;__identity&quot;:&quot;ff2b369b-90a1-46ee-8917-ba72068db427&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\ImageVariant&quot;,&quot;originalAsset&quot;:{&quot;__identity&quot;:&quot;6989b9d3-f364-428e-877b-fcaf5675aeb5&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;mymoments_mil1-4.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;5ad5286c37d2bce9b03cbc20dac1787bff725044&quot;,&quot;hash&quot;:&quot;5ad5286c37d2bce9b03cbc20dac1787bff725044&quot;,&quot;__identity&quot;:&quot;887b80a4-66e0-417d-932c-55d06dc8983d&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]},&quot;adjustments&quot;:[{&quot;aspectRatio&quot;:null,&quot;height&quot;:1125,&quot;position&quot;:10,&quot;width&quot;:900,&quot;x&quot;:0,&quot;y&quot;:0,&quot;__identity&quot;:&quot;6ca2bf5b-b31a-4bd3-842a-6e754676ed57&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Adjustment\\CropImageAdjustment&quot;}]}</image>
+           <alternativeText __type="string">Fotograferet af Stöj</alternativeText>
+          </properties>
+         </variant>
+        </node>
+        <node identifier="1db6558b-9181-4b96-b8f7-9cd118fb7c73" nodeName="node-dsvwshc38tb8t">
+         <variant sortingIndex="197" workspace="live" nodeType="Stoj.Site:Content.GalleryItem" version="9" removed="" hidden="" hiddenInIndex="">
+          <dimensions>
+           <language>da</language>
+          </dimensions>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2021-02-24T15:14:23+01:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2021-02-24T15:25:13+01:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2021-02-24T15:25:13+01:00</lastPublicationDateTime>
+          <properties>
+           <id __type="string">mennesker</id>
+           <image __type="object" __identifier="c84c95c7-87f1-49b6-9b4c-981db205d374" __classname="Neos\Media\Domain\Model\ImageVariant" __encoding="json">{&quot;__identity&quot;:&quot;c84c95c7-87f1-49b6-9b4c-981db205d374&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\ImageVariant&quot;,&quot;originalAsset&quot;:{&quot;__identity&quot;:&quot;2fe90a5a-5cfb-413e-99ff-976565070dd6&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;Helgstrand_2.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;c00b3c012d6a3738adbad10e7b64093c0f601956&quot;,&quot;hash&quot;:&quot;c00b3c012d6a3738adbad10e7b64093c0f601956&quot;,&quot;__identity&quot;:&quot;83645535-0de5-43c6-a426-609595426823&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]},&quot;adjustments&quot;:[{&quot;aspectRatio&quot;:null,&quot;height&quot;:1260,&quot;position&quot;:10,&quot;width&quot;:900,&quot;x&quot;:0,&quot;y&quot;:89,&quot;__identity&quot;:&quot;37963486-6bdf-4676-9168-516fec48cd01&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Adjustment\\CropImageAdjustment&quot;}]}</image>
+           <alternativeText __type="string">Model foran hest, fotograferet af Stöj</alternativeText>
+          </properties>
+         </variant>
+        </node>
+        <node identifier="3e93f114-ea83-4c50-b7ad-420ce1a1c7bc" nodeName="node-e4jlivz4cpkkw">
+         <variant sortingIndex="475" workspace="live" nodeType="Stoj.Site:Content.GalleryItem" version="6" removed="" hidden="" hiddenInIndex="">
+          <dimensions>
+           <language>da</language>
+          </dimensions>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2021-02-24T14:43:41+01:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2021-02-24T14:53:47+01:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2021-02-24T14:53:47+01:00</lastPublicationDateTime>
+          <properties>
+           <id __type="string">mad</id>
+           <image __type="object" __identifier="08feca8b-abbc-4db4-bc70-638326cc6f77" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;08feca8b-abbc-4db4-bc70-638326cc6f77&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;32415-copy.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;7e88a8df8c623d39fc3711f339c3994200a9bf59&quot;,&quot;hash&quot;:&quot;7e88a8df8c623d39fc3711f339c3994200a9bf59&quot;,&quot;__identity&quot;:&quot;90362888-d1dc-4e0b-b3e7-b754de385038&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image>
+           <alternativeText __type="string">Hummerbisque fra Løgismose, fotograferet af Stöj</alternativeText>
+          </properties>
+         </variant>
+        </node>
+        <node identifier="e5996d43-b8a0-4a2a-8167-f1b4d14e5178" nodeName="node-gpo5erygthugl">
+         <variant sortingIndex="113" workspace="live" nodeType="Stoj.Site:Content.GalleryItem" version="9" removed="" hidden="" hiddenInIndex="">
+          <dimensions>
+           <language>da</language>
+          </dimensions>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2021-02-24T14:16:27+01:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2021-02-24T15:28:47+01:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2021-02-24T15:28:47+01:00</lastPublicationDateTime>
+          <properties>
+           <id __type="string">mennesker</id>
+           <image __type="object" __identifier="5f99e250-fdbb-49fb-988c-049b6a5d54db" __classname="Neos\Media\Domain\Model\ImageVariant" __encoding="json">{&quot;__identity&quot;:&quot;5f99e250-fdbb-49fb-988c-049b6a5d54db&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\ImageVariant&quot;,&quot;originalAsset&quot;:{&quot;__identity&quot;:&quot;daf9dda1-ffb0-479e-ab0b-22774bf6d7ac&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;Overordnet-Session0341.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;314e30c67c52b4358108af95522a2eaabcf9e186&quot;,&quot;hash&quot;:&quot;314e30c67c52b4358108af95522a2eaabcf9e186&quot;,&quot;__identity&quot;:&quot;057a89d8-bff7-434c-b0f2-ed2fb4e03f33&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]},&quot;adjustments&quot;:[{&quot;aspectRatio&quot;:null,&quot;height&quot;:601,&quot;position&quot;:10,&quot;width&quot;:887,&quot;x&quot;:0,&quot;y&quot;:0,&quot;__identity&quot;:&quot;c39e5a7d-74a5-45a2-816a-bcbfb8eee647&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Adjustment\\CropImageAdjustment&quot;}]}</image>
+           <alternativeText __type="string">Kvindelig model på hest fotograferet af Stöj for Helgstrand</alternativeText>
+          </properties>
+         </variant>
+        </node>
+        <node identifier="767291a7-7beb-4c30-9960-2152b040d2f7" nodeName="node-hjx5sqyzccruw">
+         <variant sortingIndex="122" workspace="live" nodeType="Stoj.Site:Content.GalleryItem" version="4" removed="" hidden="" hiddenInIndex="">
+          <dimensions>
+           <language>da</language>
+          </dimensions>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2021-02-24T14:28:57+01:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2021-02-24T14:29:29+01:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2021-02-24T14:29:29+01:00</lastPublicationDateTime>
+          <properties>
+           <id __type="string">livsstil</id>
+           <image __type="object" __identifier="11872a0d-4de5-495c-b300-b077943faa25" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;11872a0d-4de5-495c-b300-b077943faa25&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;07_01_1927831.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;3c2f27823140e24781533b615532ef8eac68b5dc&quot;,&quot;hash&quot;:&quot;3c2f27823140e24781533b615532ef8eac68b5dc&quot;,&quot;__identity&quot;:&quot;487e44e7-beb5-44ec-9cd1-88a706298b31&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image>
+           <alternativeText __type="string">Rum indrettet af Pernille Albers og fotograferet af Stöj</alternativeText>
           </properties>
          </variant>
         </node>
         <node identifier="837e4ea5-378d-4839-a885-666e2c245c57" nodeName="node-hobpjuc0s910m">
-         <variant sortingIndex="50" workspace="live" nodeType="Stoj.Site:Content.GalleryItem" version="4" removed="" hidden="" hiddenInIndex="">
+         <variant sortingIndex="50" workspace="live" nodeType="Stoj.Site:Content.GalleryItem" version="7" removed="" hidden="" hiddenInIndex="">
           <dimensions>
            <language>da</language>
           </dimensions>
           <accessRoles __type="array"/>
           <creationDateTime __type="object" __classname="DateTime">2021-02-24T14:01:35+01:00</creationDateTime>
-          <lastModificationDateTime __type="object" __classname="DateTime">2021-02-24T14:01:58+01:00</lastModificationDateTime>
-          <lastPublicationDateTime __type="object" __classname="DateTime">2021-02-24T14:01:57+01:00</lastPublicationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2021-02-24T15:27:17+01:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2021-02-24T15:27:17+01:00</lastPublicationDateTime>
           <properties>
-           <image __type="object" __identifier="35aee20e-3d2f-4c78-8036-fc3be8b69fdb" __classname="Neos\Media\Domain\Model\ImageVariant" __encoding="json">{&quot;__identity&quot;:&quot;35aee20e-3d2f-4c78-8036-fc3be8b69fdb&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\ImageVariant&quot;,&quot;originalAsset&quot;:{&quot;__identity&quot;:&quot;0ab19181-8ad4-4c0f-9eab-d235a9f0ed85&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;pandekager_helt_ny_lidt_sirup.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;e6c149d8bf159f2ed07ff6f5f38161f8818d9820&quot;,&quot;hash&quot;:&quot;e6c149d8bf159f2ed07ff6f5f38161f8818d9820&quot;,&quot;__identity&quot;:&quot;72a4cc60-f75e-46ec-aa3e-48c0f47dfacc&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]},&quot;adjustments&quot;:[{&quot;aspectRatio&quot;:null,&quot;height&quot;:720,&quot;position&quot;:10,&quot;width&quot;:900,&quot;x&quot;:0,&quot;y&quot;:345,&quot;__identity&quot;:&quot;c7cd722e-680b-49c5-a0e4-7dfec0bfc440&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Adjustment\\CropImageAdjustment&quot;}]}</image>
+           <id __type="string">dyr</id>
+           <image __type="object" __identifier="7aba7a26-103b-4b71-92c4-7b5f1e6d2ad9" __classname="Neos\Media\Domain\Model\ImageVariant" __encoding="json">{&quot;__identity&quot;:&quot;7aba7a26-103b-4b71-92c4-7b5f1e6d2ad9&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\ImageVariant&quot;,&quot;originalAsset&quot;:{&quot;__identity&quot;:&quot;2e935611-8303-4f82-ac53-47df1d57ae89&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;Overordnet-Session-20200034.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;772890dc10b7fa7ea72f8cd2bab29a64a7a96408&quot;,&quot;hash&quot;:&quot;772890dc10b7fa7ea72f8cd2bab29a64a7a96408&quot;,&quot;__identity&quot;:&quot;41f4a8c3-0ca5-4636-b010-28040019ce8b&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]},&quot;adjustments&quot;:[{&quot;aspectRatio&quot;:null,&quot;height&quot;:714,&quot;position&quot;:10,&quot;width&quot;:893,&quot;x&quot;:4,&quot;y&quot;:0,&quot;__identity&quot;:&quot;434796e2-0429-40e2-9945-83a8e9fc7f6d&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Adjustment\\CropImageAdjustment&quot;}]}</image>
+           <alternativeText __type="string">Puddel fotograferet af Julie Erhorn for Stöj</alternativeText>
+          </properties>
+         </variant>
+        </node>
+        <node identifier="4d842e45-4457-4acf-8e76-05325666f6e4" nodeName="node-ixn3uwodldpi6">
+         <variant sortingIndex="607" workspace="live" nodeType="Stoj.Site:Content.GalleryItem" version="8" removed="" hidden="" hiddenInIndex="">
+          <dimensions>
+           <language>da</language>
+          </dimensions>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2021-02-24T15:12:47+01:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2021-02-24T15:39:21+01:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2021-02-24T15:39:21+01:00</lastPublicationDateTime>
+          <properties>
+           <id __type="string">mennesker</id>
+           <image __type="object" __identifier="8e05c4d3-b54b-4600-a739-e4ddb0af317a" __classname="Neos\Media\Domain\Model\ImageVariant" __encoding="json">{&quot;__identity&quot;:&quot;8e05c4d3-b54b-4600-a739-e4ddb0af317a&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\ImageVariant&quot;,&quot;originalAsset&quot;:{&quot;__identity&quot;:&quot;a474340f-172d-4fd6-8dfa-3b857e6bd5e6&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;005.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;da91ad6dbd760f1ecacf8759b86e546cc9fc68ce&quot;,&quot;hash&quot;:&quot;da91ad6dbd760f1ecacf8759b86e546cc9fc68ce&quot;,&quot;__identity&quot;:&quot;51662a6a-2052-4d4d-9199-6167ae3eaf3f&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]},&quot;adjustments&quot;:[{&quot;aspectRatio&quot;:null,&quot;height&quot;:633,&quot;position&quot;:10,&quot;width&quot;:791,&quot;x&quot;:57,&quot;y&quot;:0,&quot;__identity&quot;:&quot;a0ad2ca1-3490-4fec-a18c-7163a375297c&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Adjustment\\CropImageAdjustment&quot;}]}</image>
+           <alternativeText __type="string">Mand fotograferet af Stöj</alternativeText>
           </properties>
          </variant>
         </node>
         <node identifier="78fe2baa-a72c-4986-afff-e41556e56d9b" nodeName="node-mwmcueinxazpx">
-         <variant sortingIndex="150" workspace="live" nodeType="Stoj.Site:Content.GalleryItem" version="4" removed="" hidden="" hiddenInIndex="">
+         <variant sortingIndex="350" workspace="live" nodeType="Stoj.Site:Content.GalleryItem" version="6" removed="" hidden="" hiddenInIndex="">
           <dimensions>
            <language>da</language>
           </dimensions>
           <accessRoles __type="array"/>
           <creationDateTime __type="object" __classname="DateTime">2021-02-24T13:55:47+01:00</creationDateTime>
-          <lastModificationDateTime __type="object" __classname="DateTime">2021-02-24T13:55:54+01:00</lastModificationDateTime>
-          <lastPublicationDateTime __type="object" __classname="DateTime">2021-02-24T13:55:54+01:00</lastPublicationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2021-02-24T15:21:26+01:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2021-02-24T14:35:00+01:00</lastPublicationDateTime>
           <properties>
+           <id __type="string">mad</id>
            <image __type="object" __identifier="83c0785d-3fb8-45d5-b5dc-55ccba353362" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;83c0785d-3fb8-45d5-b5dc-55ccba353362&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;rustik_mysli_1.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;10573103d36a993c34684a30ca5b075b6a6f0d79&quot;,&quot;hash&quot;:&quot;10573103d36a993c34684a30ca5b075b6a6f0d79&quot;,&quot;__identity&quot;:&quot;b99135a8-a329-4178-bb32-48eb93b91112&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image>
+           <alternativeText __type="string">Müsli fra Løgismose, fotograferet af Stöj</alternativeText>
+          </properties>
+         </variant>
+        </node>
+        <node identifier="90f499ad-149f-4702-b644-a702568bdb81" nodeName="node-nnly1fav13meg">
+         <variant sortingIndex="144" workspace="live" nodeType="Stoj.Site:Content.GalleryItem" version="8" removed="" hidden="" hiddenInIndex="">
+          <dimensions>
+           <language>da</language>
+          </dimensions>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2021-02-24T14:45:06+01:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2021-02-24T14:48:50+01:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2021-02-24T14:48:50+01:00</lastPublicationDateTime>
+          <properties>
+           <id __type="string">livsstil</id>
+           <image __type="object" __identifier="32152746-67aa-4815-8ebf-790e93d019f2" __classname="Neos\Media\Domain\Model\ImageVariant" __encoding="json">{&quot;__identity&quot;:&quot;32152746-67aa-4815-8ebf-790e93d019f2&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\ImageVariant&quot;,&quot;originalAsset&quot;:{&quot;__identity&quot;:&quot;461bf0a7-a52c-4a43-a736-f574beac1f66&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;17.01.19_isabella_entre1.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;c6a2802ce5363641328004db46a675f9cc689816&quot;,&quot;hash&quot;:&quot;c6a2802ce5363641328004db46a675f9cc689816&quot;,&quot;__identity&quot;:&quot;a52b8cca-c54b-4275-a3d3-a46e99248c56&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]},&quot;adjustments&quot;:[{&quot;aspectRatio&quot;:null,&quot;height&quot;:1175,&quot;position&quot;:10,&quot;width&quot;:900,&quot;x&quot;:0,&quot;y&quot;:13,&quot;__identity&quot;:&quot;52ac282b-f8e8-4531-b1ea-310614f928d0&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Adjustment\\CropImageAdjustment&quot;}]}</image>
+           <alternativeText __type="string">Rum stylet af Pernille Albers, fotograferet af Stöj</alternativeText>
+          </properties>
+         </variant>
+        </node>
+        <node identifier="5a13f03f-c7bc-4805-8227-dfae611d9343" nodeName="node-oj9240axio3v6">
+         <variant sortingIndex="119" workspace="live" nodeType="Stoj.Site:Content.GalleryItem" version="4" removed="" hidden="" hiddenInIndex="">
+          <dimensions>
+           <language>da</language>
+          </dimensions>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2021-02-24T14:26:10+01:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2021-02-24T14:27:22+01:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2021-02-24T14:27:22+01:00</lastPublicationDateTime>
+          <properties>
+           <image __type="object" __identifier="bcea0e9f-2a3e-478f-8844-ed9a56698528" __classname="Neos\Media\Domain\Model\ImageVariant" __encoding="json">{&quot;__identity&quot;:&quot;bcea0e9f-2a3e-478f-8844-ed9a56698528&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\ImageVariant&quot;,&quot;originalAsset&quot;:{&quot;__identity&quot;:&quot;f094a85e-59dc-4cc7-a0cb-9c5830800bde&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;15_11_18_lime7.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;b7019ef2436c66bda6786c7749cd28b38dcfd6dd&quot;,&quot;hash&quot;:&quot;b7019ef2436c66bda6786c7749cd28b38dcfd6dd&quot;,&quot;__identity&quot;:&quot;02b1009e-efcf-4895-8dd9-00f80079ead8&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]},&quot;adjustments&quot;:[{&quot;aspectRatio&quot;:null,&quot;height&quot;:900,&quot;position&quot;:10,&quot;width&quot;:900,&quot;x&quot;:0,&quot;y&quot;:74,&quot;__identity&quot;:&quot;4605d743-881c-44d9-b375-d4610794b410&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Adjustment\\CropImageAdjustment&quot;}]}</image>
+          </properties>
+         </variant>
+        </node>
+        <node identifier="b23faf50-5266-44b9-ba19-2aec7fa8d01c" nodeName="node-rbszbbtc1ugox">
+         <variant sortingIndex="800" workspace="live" nodeType="Stoj.Site:Content.GalleryItem" version="4" removed="" hidden="" hiddenInIndex="">
+          <dimensions>
+           <language>da</language>
+          </dimensions>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2021-02-24T15:52:51+01:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2021-02-24T15:53:30+01:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2021-02-24T15:53:29+01:00</lastPublicationDateTime>
+          <properties>
+           <id __type="string">kommerciel</id>
+           <image __type="object" __identifier="0f6ce821-5511-47d8-a95d-cbf1fe488f80" __classname="Neos\Media\Domain\Model\ImageVariant" __encoding="json">{&quot;__identity&quot;:&quot;0f6ce821-5511-47d8-a95d-cbf1fe488f80&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\ImageVariant&quot;,&quot;originalAsset&quot;:{&quot;__identity&quot;:&quot;ce9b9336-57b4-46b7-990e-fc6e9f8c8a67&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;Kopi-af-kogle.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;efaa550fbb44d92373f8d92bca3638858143b35f&quot;,&quot;hash&quot;:&quot;efaa550fbb44d92373f8d92bca3638858143b35f&quot;,&quot;__identity&quot;:&quot;c45b9f59-8f76-4857-a195-cb1f0750ce1f&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]},&quot;adjustments&quot;:[{&quot;aspectRatio&quot;:null,&quot;height&quot;:712,&quot;position&quot;:10,&quot;width&quot;:890,&quot;x&quot;:6,&quot;y&quot;:165,&quot;__identity&quot;:&quot;d12a387e-68df-4583-9edd-a93a057f202e&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Adjustment\\CropImageAdjustment&quot;}]}</image>
+           <alternativeText __type="string">Kogle fotograferet af Stöj</alternativeText>
+          </properties>
+         </variant>
+        </node>
+        <node identifier="af6a8a3b-23a7-4d30-bde6-c1cd220a3c9e" nodeName="node-t0c41vgy3aqlw">
+         <variant sortingIndex="613" workspace="live" nodeType="Stoj.Site:Content.GalleryItem" version="5" removed="" hidden="" hiddenInIndex="">
+          <dimensions>
+           <language>da</language>
+          </dimensions>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2021-02-24T15:31:25+01:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2021-02-24T15:35:38+01:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2021-02-24T15:35:37+01:00</lastPublicationDateTime>
+          <properties>
+           <id __type="string">mennesker</id>
+           <image __type="object" __identifier="e0351b00-6525-45a3-9425-485cfcb532b8" __classname="Neos\Media\Domain\Model\ImageVariant" __encoding="json">{&quot;__identity&quot;:&quot;e0351b00-6525-45a3-9425-485cfcb532b8&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\ImageVariant&quot;,&quot;originalAsset&quot;:{&quot;__identity&quot;:&quot;9eeb7fd8-b621-456d-8e3c-c72f9d756ac3&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;003.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;5f0342d9aa94f96ae75fc3eb42e9b5b82694af6e&quot;,&quot;hash&quot;:&quot;5f0342d9aa94f96ae75fc3eb42e9b5b82694af6e&quot;,&quot;__identity&quot;:&quot;c2721e1c-79fc-44af-a19b-552d5278e909&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]},&quot;adjustments&quot;:[{&quot;aspectRatio&quot;:null,&quot;height&quot;:1350,&quot;position&quot;:10,&quot;width&quot;:900,&quot;x&quot;:0,&quot;y&quot;:10,&quot;__identity&quot;:&quot;39a493c8-37f2-419d-89aa-548ae511f4b5&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Adjustment\\CropImageAdjustment&quot;}]}</image>
+           <alternativeText __type="string">Mand med skæg og solbriller, fotograferet af Stöj</alternativeText>
+          </properties>
+         </variant>
+        </node>
+        <node identifier="9d853f62-d4c0-43c1-a42b-3f4b4b28a46b" nodeName="node-vfvl9r2i8khtn">
+         <variant sortingIndex="138" workspace="live" nodeType="Stoj.Site:Content.GalleryItem" version="5" removed="" hidden="" hiddenInIndex="">
+          <dimensions>
+           <language>da</language>
+          </dimensions>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2021-02-24T14:13:33+01:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2021-02-24T14:15:53+01:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2021-02-24T14:15:53+01:00</lastPublicationDateTime>
+          <properties>
+           <id __type="string">livsstil</id>
+           <image __type="object" __identifier="0679f300-64af-4dd6-b3a4-f6c53bdcc356" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;0679f300-64af-4dd6-b3a4-f6c53bdcc356&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;02_11_18_isabellas_2a.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;9c7ed7d6177c312a6f247e27fdea6b228dc52205&quot;,&quot;hash&quot;:&quot;9c7ed7d6177c312a6f247e27fdea6b228dc52205&quot;,&quot;__identity&quot;:&quot;7233703a-f879-48da-a742-52a06bcba796&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image>
+           <alternativeText __type="string">Rum stylet af Pernille Albers og fotograferet af Stöj</alternativeText>
+          </properties>
+         </variant>
+        </node>
+        <node identifier="f0c16c69-46d4-4165-8ea3-f5585365954e" nodeName="node-vy5x3ran1r3yz">
+         <variant sortingIndex="600" workspace="live" nodeType="Stoj.Site:Content.GalleryItem" version="7" removed="" hidden="" hiddenInIndex="">
+          <dimensions>
+           <language>da</language>
+          </dimensions>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2021-02-24T14:40:13+01:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2021-02-24T14:50:06+01:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2021-02-24T14:50:06+01:00</lastPublicationDateTime>
+          <properties>
+           <id __type="string">mad</id>
+           <image __type="object" __identifier="bdc3a591-8b89-4514-aa3b-52232e87947d" __classname="Neos\Media\Domain\Model\ImageVariant" __encoding="json">{&quot;__identity&quot;:&quot;bdc3a591-8b89-4514-aa3b-52232e87947d&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\ImageVariant&quot;,&quot;originalAsset&quot;:{&quot;__identity&quot;:&quot;5e81b709-afed-41e3-8d82-1ed10d81bb31&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;Oeko-rugbr\u00f8d-m-chokolade.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;04e043e5b344a1f0fe370403023968dba6d5c827&quot;,&quot;hash&quot;:&quot;04e043e5b344a1f0fe370403023968dba6d5c827&quot;,&quot;__identity&quot;:&quot;3754d828-82e2-4338-829a-70c04cac09be&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]},&quot;adjustments&quot;:[{&quot;aspectRatio&quot;:null,&quot;height&quot;:882,&quot;position&quot;:10,&quot;width&quot;:900,&quot;x&quot;:0,&quot;y&quot;:0,&quot;__identity&quot;:&quot;aa2ecadb-1935-49d7-b897-144a884bf3e6&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Adjustment\\CropImageAdjustment&quot;}]}</image>
+           <alternativeText __type="string">Rugstykker med chokolade fra Løgismose, fotograferet af Stöj</alternativeText>
           </properties>
          </variant>
         </node>

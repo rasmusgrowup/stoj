@@ -19,8 +19,8 @@
           reloadIfChanged: true
           editorOptions:
             values:
-              'bolig':
-                label: 'Bolig'
+              'dyr':
+                label: 'Dyr'
               'kommerciel':
                 label: 'Kommerciel'
               'livsstil':

@@ -9,7 +9,7 @@ prototype(Stoj.Site:Content.Filter) < prototype(Neos.Neos:ContentComponent) {
     <div class="filter-group">
         <div class="filter-body" id="filter-list">
             <button class="filter__btn active" onclick="filterSelection('alle')">Alle</button>
-            <button class="filter__btn" onclick="filterSelection('bolig')">Bolig</button>
+            <button class="filter__btn" onclick="filterSelection('dyr')">Dyr</button>
             <button class="filter__btn" onclick="filterSelection('kommerciel')">Kommerciel</button>
             <button class="filter__btn" onclick="filterSelection('livsstil')">Livsstil</button>
             <button class="filter__btn" onclick="filterSelection('mad')">Mad</button>
