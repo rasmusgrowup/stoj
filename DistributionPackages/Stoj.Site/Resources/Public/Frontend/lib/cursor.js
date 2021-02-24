@@ -1,44 +1,56 @@
 window.addEventListener('DOMContentLoaded', (event) => {
-	// Custom curser
-	  var cursor = document.querySelector(".custom-cursor");
-	  var links = document.querySelectorAll("a, .cursor-link, button");
-	  var initCursor = false;
 
-	  for (var i = 0; i < links.length; i++) {
-	    var selfLink = links[i];
+	const x = window.matchMedia("(min-width: 1025px)");
 
-	    selfLink.addEventListener("mouseover", function() {
-	      cursor.classList.add("custom-cursor--link");
-	    });
-	    selfLink.addEventListener("mouseout", function() {
-	      cursor.classList.remove("custom-cursor--link");
-	    });
-	  }
+	x.addListener(handleDeviceChange);
 
-	  window.onmousemove = function(e) {
-	    var mouseX = e.clientX;
-	    var mouseY = e.clientY;
+	function handleDeviceChange(e) {
+		if (e.matches) { // If media query matches
+			// Custom curser
+			  var cursor = document.querySelector(".cursor");
+			  var links = document.querySelectorAll("a, .cursor-link, button");
+			  var initCursor = false;
 
-	    if (!initCursor) {
-	      // cursor.style.opacity = 1;
-	      gsap.to(cursor, 0.3, {
-	        opacity: 1
-	      });
-	      initCursor = true;
-	    }
+			  for (var i = 0; i < links.length; i++) {
+				var selfLink = links[i];
 
-	    gsap.to(cursor, 0, {
-	      top: mouseY + "px",
-	      left: mouseX + "px"
-	    });
-	  };
+				selfLink.addEventListener("mouseover", function() {
+				  cursor.classList.add("--expand");
+				});
+				selfLink.addEventListener("mouseout", function() {
+				  cursor.classList.remove("--expand");
+				});
+			  }
 
-	  window.onmouseout = function(e) {
-	    gsap.to(cursor, 0.3, {
-	      opacity: 0
-	    });
-	    initCursor = false;
-	  };
+			  window.onmousemove = function(e) {
+				var mouseX = e.clientX;
+				var mouseY = e.clientY;
 
-	//Custom cursor end
+				if (!initCursor) {
+				  // cursor.style.opacity = 1;
+				  gsap.to(cursor, 0.3, {
+					opacity: 1
+				  });
+				  initCursor = true;
+				}
+
+				gsap.to(cursor, 0, {
+				  top: mouseY + "px",
+				  left: mouseX + "px"
+				});
+			  };
+
+			  window.onmouseout = function(e) {
+				gsap.to(cursor, 0.3, {
+				  opacity: 0
+				});
+				initCursor = false;
+			  };
+
+			//Custom cursor end
+		}
+		else {}
+	}
+
+	handleDeviceChange(x)
 });

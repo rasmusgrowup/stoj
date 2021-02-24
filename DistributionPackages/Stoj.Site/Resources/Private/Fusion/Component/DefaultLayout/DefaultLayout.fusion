@@ -3,8 +3,8 @@ prototype(Stoj.Site:Component.DefaultLayout) < prototype(Neos.Fusion:Component) 
 
     renderer = afx`
         <Stoj.Site:Component.Header />
-        <div class="custom-cursor"></div>
         {props.content}
+        <div class="cursor"></div>
         <Stoj.Site:Component.Footer />
     `
 }

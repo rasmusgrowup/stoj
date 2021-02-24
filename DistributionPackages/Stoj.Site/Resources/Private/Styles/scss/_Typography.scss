@@ -67,7 +67,7 @@ a {
         display: block;
         content: '';
         left: 0;
-        height: .5rem;
+        height: .2rem;
         position: absolute;
         transition: $transition;
         width: 0;
@@ -83,7 +83,7 @@ a {
             display: block;
             content: '';
             left: 0;
-            height: .5rem;
+            height: .2rem;
             position: absolute;
             transition: $transition;
             transition-delay: 0s !important;

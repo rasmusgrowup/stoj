@@ -7139,6 +7139,8 @@ label.panel-block {
       @media only screen and (min-width: 768px) {
         .main-footer .contact-footer a {
           font-size: 10rem; } }
+      .main-footer .contact-footer a:after {
+        height: .075em; }
   .main-footer .teaser-footer {
     margin-bottom: 1rem; }
     .main-footer .teaser-footer p a {
@@ -7258,30 +7260,51 @@ label.panel-block {
       display: block;
       content: '';
       left: 0;
-      height: .5rem;
+      height: .2em;
       position: absolute;
       transition: all 500ms cubic-bezier(0.215, 0.61, 0.355, 1) 0.3s;
       width: 0;
       z-index: -1; }
-      @media only screen and (min-width: 768px) {
-        .para p strong::after {
-          bottom: .1rem; } }
 
+/*.gallery-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: .5rem;
+    grid-row-gap: .5rem;
+    margin: 0 auto 5rem;
+    padding: 10rem 0 0;
+    width: 100%;
+
+    @media only screen and (min-width: $break-tablet) {
+        column-gap: .75rem;
+        grid-row-gap: .75rem;
+        margin: 0 0 8rem auto;
+        padding: 8rem 0 0;
+        width: 86%;
+    }
+
+    @media only screen and (min-width: $break-desk) {
+        //grid-template-columns: 1fr 1fr 1fr;
+        //column-gap: 1.5rem;
+        //grid-row-gap: 1.5rem;
+        margin: 0 0 10rem auto;
+        padding: 10rem 0 0;
+    }
+}*/
 .gallery-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  columns: 2 auto;
   column-gap: .5rem;
   margin: 0 auto 5rem;
   padding: 10rem 0 0;
   width: 100%; }
   @media only screen and (min-width: 768px) {
     .gallery-container {
+      column-gap: .75rem;
       margin: 0 0 8rem auto;
       padding: 8rem 0 0;
       width: 86%; } }
   @media only screen and (min-width: 1024px) {
     .gallery-container {
-      grid-template-columns: 1fr 1fr 1fr;
       margin: 0 0 10rem auto;
       padding: 10rem 0 0; } }
 
@@ -7413,10 +7436,13 @@ label.panel-block {
 
 .gallery-item {
   display: none;
+  margin-bottom: .5rem;
   position: relative;
   transition: all 500ms cubic-bezier(0.215, 0.61, 0.355, 1) 0.3s;
   visibility: hidden; }
   .gallery-item .gallery-image {
+    height: 100%;
+    object-fit: cover;
     visibility: hidden; }
 
 .show {

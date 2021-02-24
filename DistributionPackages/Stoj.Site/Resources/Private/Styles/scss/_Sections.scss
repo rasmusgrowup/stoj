@@ -94,15 +94,11 @@
             display: block;
             content: '';
             left: 0;
-            height: .5rem;
+            height: .2em;
             position: absolute;
             transition: $transition;
             width: 0;
             z-index: -1;
-
-            @media only screen and (min-width: $break-tablet) {
-                bottom: .1rem;
-            }
         }
     }
 }

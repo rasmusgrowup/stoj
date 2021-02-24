@@ -32,7 +32,7 @@ Carbon:
             #- isotope.min.js
           #  - packery.min.js
           #  - isotope.js
-          #  - cursor.js
+            - cursor.js
           #  - slow-scroll.js
 
       ##

@@ -50,7 +50,7 @@ prototype(Stoj.Site:Component.Header) < prototype(Neos.Fusion:Component) {
                 <a class="cursor-link" href="#"><img src={props.li} alt=""/></a>
             </div>
             <div class="kontakt--cta">
-                <a href="#">Kontakt os</a>
+                <a href="mailto:">Kontakt os</a>
             </div>
             <div class="gradient --top"></div>
             <div class="gradient --bottom"></div>

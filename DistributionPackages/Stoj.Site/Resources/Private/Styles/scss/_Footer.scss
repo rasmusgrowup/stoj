@@ -33,6 +33,10 @@
             @media only screen and (min-width: $break-tablet) {
                 font-size: 10rem;
             }
+
+            &:after {
+                height: .075em;
+            }
         }
     }
 

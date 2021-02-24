@@ -25,9 +25,10 @@ prototype(Stoj.Site:Content.Subheader) < prototype(Neos.Neos:ContentComponent) {
                 <div class="reel-overlay">
                     <img class="overlay-image" src={props.logo} alt=""/>
                 </div>
-                <div class="play--symbol">
-                    <img src="" src={props.play} alt="" />
-                    <a>Afspil vores 2020 reel</a>
+                <div class="play--symbol cursor-link cursor-hover">
+                    <a><img src="" src={props.play} alt="" />
+                    Afspil vores 2021 reel
+                    </a>
                 </div>
             </div>
         </section>

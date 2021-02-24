@@ -1,4 +1,36 @@
-@media only screen and (min-width: 1025px) {
+@media only screen and (min-width: $break-desk) {
+    body, iframe {
+        cursor: none;
+    }
+
+    a:hover {
+        cursor: none;
+    }
+
+    iframe {
+        pointer-events: none;
+    }
+
+    .cursor {
+        background-color: $stoj-sand;
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        mix-blend-mode: difference;
+        pointer-events: none;
+        position: fixed;
+        transition: transform 250ms ease;
+        transform: translate(-50%, -50%) scale(.22);
+        z-index: 100;
+        will-change: transform;
+    }
+
+    .--expand {
+        transform: translate(-50%, -50%) scale(1);
+    }
+}
+
+/*@media only screen and (min-width: $break-desk) {
     * {
         margin: 0;
         padding: 0;
@@ -26,7 +58,7 @@
     .custom-cursor--link {
         transform: translate(-50%, -50%) scale(1.25);
     }
-}
+}*/
 
 /*.cursor-div {
     width: 100%;
