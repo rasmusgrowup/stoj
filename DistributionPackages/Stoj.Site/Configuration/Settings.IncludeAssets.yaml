@@ -20,6 +20,8 @@ Carbon:
             #- https://cdn.jsdelivr.net/npm/@barba/core@2.9.7/dist/barba.umd.min.js
             - https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js
             - https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/ScrollTrigger.min.js
+          #  - https://unpkg.com/colcade@0/colcade.js
+          #  - colcade.js
             #- barba.js
             - main.js
             - animations.js

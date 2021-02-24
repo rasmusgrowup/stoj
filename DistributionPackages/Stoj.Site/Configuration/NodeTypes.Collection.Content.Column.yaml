@@ -1,0 +1,6 @@
+##
+# A collection of contents that can be placed in a column
+#
+'Stoj.Site:Collection.Content.Column':
+  superTypes:
+    'Neos.Neos:ContentCollection': true

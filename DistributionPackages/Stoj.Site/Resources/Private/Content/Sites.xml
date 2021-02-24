@@ -457,160 +457,136 @@
        <lastPublicationDateTime __type="object" __classname="DateTime">2020-12-17T10:54:29+01:00</lastPublicationDateTime>
        <properties/>
       </variant>
-      <node identifier="11cb194c-4667-4006-92ac-4fb18a231a70" nodeName="node-r1drkubskqx78">
-       <variant sortingIndex="100" workspace="live" nodeType="Stoj.Site:Collection.Gallery" version="2" removed="" hidden="" hiddenInIndex="">
+      <node identifier="4803e47d-e7d0-4f38-ba7a-f7df7e9e265a" nodeName="node-e9suj7ldae2u4">
+       <variant sortingIndex="75" workspace="live" nodeType="Stoj.Site:Content.Filter" version="4" removed="" hidden="" hiddenInIndex="">
         <dimensions>
          <language>da</language>
         </dimensions>
         <accessRoles __type="array"/>
-        <creationDateTime __type="object" __classname="DateTime">2021-02-22T11:27:19+01:00</creationDateTime>
-        <lastModificationDateTime __type="object" __classname="DateTime">2021-02-22T11:27:22+01:00</lastModificationDateTime>
-        <lastPublicationDateTime __type="object" __classname="DateTime">2021-02-22T11:27:22+01:00</lastPublicationDateTime>
+        <creationDateTime __type="object" __classname="DateTime">2021-02-24T13:43:49+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2021-02-24T13:44:58+01:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2021-02-24T13:44:58+01:00</lastPublicationDateTime>
         <properties/>
        </variant>
-       <node identifier="55227087-e4f5-44a3-bcb2-6756654f555d" nodeName="node-02910ynymf4xl">
-        <variant sortingIndex="307" workspace="live" nodeType="Stoj.Site:Content.GalleryItem" version="4" removed="" hidden="" hiddenInIndex="">
+      </node>
+      <node identifier="235d5c0c-8c58-4fbf-a7c8-03229b35176b" nodeName="node-iq1u0rtwaiw4b">
+       <variant sortingIndex="150" workspace="live" nodeType="Stoj.Site:Content.Gallery" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>da</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2021-02-24T13:41:16+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2021-02-24T13:43:30+01:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2021-02-24T13:43:30+01:00</lastPublicationDateTime>
+        <properties/>
+       </variant>
+       <node identifier="45f514de-7f62-a45a-95c1-8846171c688a" nodeName="column0">
+        <variant sortingIndex="100" workspace="live" nodeType="Stoj.Site:Collection.Content.Column" version="2" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>da</language>
          </dimensions>
          <accessRoles __type="array"/>
-         <creationDateTime __type="object" __classname="DateTime">2021-02-22T11:49:02+01:00</creationDateTime>
-         <lastModificationDateTime __type="object" __classname="DateTime">2021-02-23T14:36:53+01:00</lastModificationDateTime>
-         <lastPublicationDateTime __type="object" __classname="DateTime">2021-02-23T14:36:52+01:00</lastPublicationDateTime>
-         <properties>
-          <image __type="object" __identifier="78f402ff-8b14-4971-91a4-cebfad6cd464" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;78f402ff-8b14-4971-91a4-cebfad6cd464&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;vv-106-1.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;2d5465cc719b21efb0075bf2fbbc5058a69730bf&quot;,&quot;hash&quot;:&quot;2d5465cc719b21efb0075bf2fbbc5058a69730bf&quot;,&quot;__identity&quot;:&quot;027618a2-00ba-441c-8ebe-c75656dbee06&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image>
-         </properties>
-        </variant>
-       </node>
-       <node identifier="dfdfea27-3af2-4fbb-b56a-01e5c3bf73cf" nodeName="node-2lsknloif0hcp">
-        <variant sortingIndex="250" workspace="live" nodeType="Stoj.Site:Content.GalleryItem" version="5" removed="" hidden="" hiddenInIndex="">
-         <dimensions>
-          <language>da</language>
-         </dimensions>
-         <accessRoles __type="array"/>
-         <creationDateTime __type="object" __classname="DateTime">2021-02-22T11:48:32+01:00</creationDateTime>
-         <lastModificationDateTime __type="object" __classname="DateTime">2021-02-23T14:36:53+01:00</lastModificationDateTime>
-         <lastPublicationDateTime __type="object" __classname="DateTime">2021-02-23T14:36:52+01:00</lastPublicationDateTime>
-         <properties>
-          <id __type="string">kommerciel</id>
-          <image __type="object" __identifier="6dd406d0-8f03-4796-83d4-a9b2c1c88fde" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;6dd406d0-8f03-4796-83d4-a9b2c1c88fde&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;vv-119.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;277c44310b2557c6e809f4ebfaef286cec73db94&quot;,&quot;hash&quot;:&quot;277c44310b2557c6e809f4ebfaef286cec73db94&quot;,&quot;__identity&quot;:&quot;7d9b0c21-daa3-49ee-a976-cf7553260b99&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image>
-         </properties>
-        </variant>
-       </node>
-       <node identifier="d388609f-2f45-4f51-a1bc-9e1740bc2395" nodeName="node-3jthd18ypoze5">
-        <variant sortingIndex="304" workspace="live" nodeType="Stoj.Site:Content.GalleryItem" version="5" removed="" hidden="" hiddenInIndex="">
-         <dimensions>
-          <language>da</language>
-         </dimensions>
-         <accessRoles __type="array"/>
-         <creationDateTime __type="object" __classname="DateTime">2021-02-22T11:49:02+01:00</creationDateTime>
-         <lastModificationDateTime __type="object" __classname="DateTime">2021-02-23T14:37:22+01:00</lastModificationDateTime>
-         <lastPublicationDateTime __type="object" __classname="DateTime">2021-02-23T14:37:22+01:00</lastPublicationDateTime>
-         <properties>
-          <id __type="string">livsstil</id>
-          <image __type="object" __identifier="0b1998a2-97af-4076-af48-d09a77a07a41" __classname="Neos\Media\Domain\Model\ImageVariant" __encoding="json">{&quot;__identity&quot;:&quot;0b1998a2-97af-4076-af48-d09a77a07a41&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\ImageVariant&quot;,&quot;originalAsset&quot;:{&quot;__identity&quot;:&quot;e0078c79-34c9-48a8-b235-201fd610fcf8&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;vaersgo_1832_s5_a-skud.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;871530371842b665a448dfc21de73cf0095c656e&quot;,&quot;hash&quot;:&quot;871530371842b665a448dfc21de73cf0095c656e&quot;,&quot;__identity&quot;:&quot;a5e19cd2-401b-4e48-ad06-74f7d14f159d&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]},&quot;adjustments&quot;:[{&quot;aspectRatio&quot;:null,&quot;height&quot;:720,&quot;position&quot;:10,&quot;width&quot;:900,&quot;x&quot;:0,&quot;y&quot;:480,&quot;__identity&quot;:&quot;f0fcd79b-c91f-4adb-8941-3011e250cef7&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Adjustment\\CropImageAdjustment&quot;}]}</image>
-         </properties>
-        </variant>
-       </node>
-       <node identifier="f658adbf-31e5-4a86-86fb-39fa63ab6403" nodeName="node-9054h6m0lcdoq">
-        <variant sortingIndex="100" workspace="live" nodeType="Stoj.Site:Content.GalleryItem" version="4" removed="" hidden="" hiddenInIndex="">
-         <dimensions>
-          <language>da</language>
-         </dimensions>
-         <accessRoles __type="array"/>
-         <creationDateTime __type="object" __classname="DateTime">2021-02-22T11:31:16+01:00</creationDateTime>
-         <lastModificationDateTime __type="object" __classname="DateTime">2021-02-22T15:28:04+01:00</lastModificationDateTime>
-         <lastPublicationDateTime __type="object" __classname="DateTime">2021-02-22T15:28:04+01:00</lastPublicationDateTime>
-         <properties>
-          <id __type="string">bolig</id>
-          <image __type="object" __identifier="78f402ff-8b14-4971-91a4-cebfad6cd464" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;78f402ff-8b14-4971-91a4-cebfad6cd464&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;vv-106-1.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;2d5465cc719b21efb0075bf2fbbc5058a69730bf&quot;,&quot;hash&quot;:&quot;2d5465cc719b21efb0075bf2fbbc5058a69730bf&quot;,&quot;__identity&quot;:&quot;027618a2-00ba-441c-8ebe-c75656dbee06&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image>
-         </properties>
-        </variant>
-       </node>
-       <node identifier="4e0ba24a-8a8e-43f3-8c84-7cee226fbd47" nodeName="node-aklon6zs2y5te">
-        <variant sortingIndex="200" workspace="live" nodeType="Stoj.Site:Content.GalleryItem" version="5" removed="" hidden="" hiddenInIndex="">
-         <dimensions>
-          <language>da</language>
-         </dimensions>
-         <accessRoles __type="array"/>
-         <creationDateTime __type="object" __classname="DateTime">2021-02-22T11:32:36+01:00</creationDateTime>
-         <lastModificationDateTime __type="object" __classname="DateTime">2021-02-22T15:32:21+01:00</lastModificationDateTime>
-         <lastPublicationDateTime __type="object" __classname="DateTime">2021-02-22T15:32:21+01:00</lastPublicationDateTime>
-         <properties>
-          <id __type="string">mad</id>
-          <image __type="object" __identifier="e0078c79-34c9-48a8-b235-201fd610fcf8" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;e0078c79-34c9-48a8-b235-201fd610fcf8&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;vaersgo_1832_s5_a-skud.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;871530371842b665a448dfc21de73cf0095c656e&quot;,&quot;hash&quot;:&quot;871530371842b665a448dfc21de73cf0095c656e&quot;,&quot;__identity&quot;:&quot;a5e19cd2-401b-4e48-ad06-74f7d14f159d&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image>
-         </properties>
-        </variant>
-       </node>
-       <node identifier="53690ed1-e40f-4cb9-9829-a60aa969ecc5" nodeName="node-aucomcdj06i4q">
-        <variant sortingIndex="313" workspace="live" nodeType="Stoj.Site:Content.GalleryItem" version="6" removed="" hidden="" hiddenInIndex="">
-         <dimensions>
-          <language>da</language>
-         </dimensions>
-         <accessRoles __type="array"/>
-         <creationDateTime __type="object" __classname="DateTime">2021-02-22T11:48:32+01:00</creationDateTime>
-         <lastModificationDateTime __type="object" __classname="DateTime">2021-02-23T14:36:53+01:00</lastModificationDateTime>
-         <lastPublicationDateTime __type="object" __classname="DateTime">2021-02-23T14:36:52+01:00</lastPublicationDateTime>
-         <properties>
-          <id __type="string">livsstil</id>
-          <image __type="object" __identifier="78f402ff-8b14-4971-91a4-cebfad6cd464" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;78f402ff-8b14-4971-91a4-cebfad6cd464&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;vv-106-1.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;2d5465cc719b21efb0075bf2fbbc5058a69730bf&quot;,&quot;hash&quot;:&quot;2d5465cc719b21efb0075bf2fbbc5058a69730bf&quot;,&quot;__identity&quot;:&quot;027618a2-00ba-441c-8ebe-c75656dbee06&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image>
-         </properties>
-        </variant>
-       </node>
-       <node identifier="bf64a90c-9add-4242-ab7f-d5662248287e" nodeName="node-ebvohrefsx3xl">
-        <variant sortingIndex="50" workspace="live" nodeType="Stoj.Site:Content.Filter" version="3" removed="" hidden="" hiddenInIndex="">
-         <dimensions>
-          <language>da</language>
-         </dimensions>
-         <accessRoles __type="array"/>
-         <creationDateTime __type="object" __classname="DateTime">2021-02-22T11:54:52+01:00</creationDateTime>
-         <lastModificationDateTime __type="object" __classname="DateTime">2021-02-22T11:54:58+01:00</lastModificationDateTime>
-         <lastPublicationDateTime __type="object" __classname="DateTime">2021-02-22T11:54:58+01:00</lastPublicationDateTime>
+         <creationDateTime __type="object" __classname="DateTime">2021-02-24T13:41:16+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2021-02-24T13:43:30+01:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2021-02-24T13:43:30+01:00</lastPublicationDateTime>
          <properties/>
         </variant>
+        <node identifier="43a6d3c8-2df4-4f58-956b-42ca003c9250" nodeName="node-3dunfbxefs3y7">
+         <variant sortingIndex="300" workspace="live" nodeType="Stoj.Site:Content.GalleryItem" version="4" removed="" hidden="" hiddenInIndex="">
+          <dimensions>
+           <language>da</language>
+          </dimensions>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2021-02-24T13:53:54+01:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2021-02-24T13:54:13+01:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2021-02-24T13:54:13+01:00</lastPublicationDateTime>
+          <properties>
+           <image __type="object" __identifier="6dd406d0-8f03-4796-83d4-a9b2c1c88fde" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;6dd406d0-8f03-4796-83d4-a9b2c1c88fde&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;vv-119.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;277c44310b2557c6e809f4ebfaef286cec73db94&quot;,&quot;hash&quot;:&quot;277c44310b2557c6e809f4ebfaef286cec73db94&quot;,&quot;__identity&quot;:&quot;7d9b0c21-daa3-49ee-a976-cf7553260b99&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image>
+          </properties>
+         </variant>
+        </node>
+        <node identifier="1f26f860-c323-4507-96ff-2911f91b92d1" nodeName="node-75e34raolv4j5">
+         <variant sortingIndex="400" workspace="live" nodeType="Stoj.Site:Content.GalleryItem" version="3" removed="" hidden="" hiddenInIndex="">
+          <dimensions>
+           <language>da</language>
+          </dimensions>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2021-02-24T13:54:51+01:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2021-02-24T13:55:01+01:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2021-02-24T13:55:00+01:00</lastPublicationDateTime>
+          <properties>
+           <image __type="object" __identifier="65258e74-073e-411a-920a-2d93ee7c5491" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;65258e74-073e-411a-920a-2d93ee7c5491&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;Sk\u00e6rmbillede-2020-11-14-kl.-19.40.01.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;ce1bea2bb35df13a9eca11888530cb6f77b17e30&quot;,&quot;hash&quot;:&quot;ce1bea2bb35df13a9eca11888530cb6f77b17e30&quot;,&quot;__identity&quot;:&quot;796eb312-3830-4c67-b9f1-37bff640612e&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image>
+          </properties>
+         </variant>
+        </node>
+        <node identifier="88dc66ad-e0f0-48fa-862f-155656ae9986" nodeName="node-klqylu7ijz29i">
+         <variant sortingIndex="450" workspace="live" nodeType="Stoj.Site:Content.GalleryItem" version="4" removed="" hidden="" hiddenInIndex="">
+          <dimensions>
+           <language>da</language>
+          </dimensions>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2021-02-24T13:55:05+01:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2021-02-24T13:55:13+01:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2021-02-24T13:55:12+01:00</lastPublicationDateTime>
+          <properties>
+           <image __type="object" __identifier="78f402ff-8b14-4971-91a4-cebfad6cd464" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;78f402ff-8b14-4971-91a4-cebfad6cd464&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;vv-106-1.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;2d5465cc719b21efb0075bf2fbbc5058a69730bf&quot;,&quot;hash&quot;:&quot;2d5465cc719b21efb0075bf2fbbc5058a69730bf&quot;,&quot;__identity&quot;:&quot;027618a2-00ba-441c-8ebe-c75656dbee06&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image>
+          </properties>
+         </variant>
+        </node>
        </node>
-       <node identifier="31cfcf5b-5ab5-4a21-a21c-c86ea6c7de3c" nodeName="node-hrobnb0d6a5g1">
-        <variant sortingIndex="350" workspace="live" nodeType="Stoj.Site:Content.GalleryItem" version="3" removed="" hidden="" hiddenInIndex="">
+       <node identifier="c6ad2dcf-596f-fd11-90c0-b44c815aaa8e" nodeName="column1">
+        <variant sortingIndex="200" workspace="live" nodeType="Stoj.Site:Collection.Content.Column" version="2" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>da</language>
          </dimensions>
          <accessRoles __type="array"/>
-         <creationDateTime __type="object" __classname="DateTime">2021-02-22T11:49:02+01:00</creationDateTime>
-         <lastModificationDateTime __type="object" __classname="DateTime">2021-02-22T11:49:05+01:00</lastModificationDateTime>
-         <lastPublicationDateTime __type="object" __classname="DateTime">2021-02-22T11:49:05+01:00</lastPublicationDateTime>
-         <properties>
-          <image __type="object" __identifier="e0078c79-34c9-48a8-b235-201fd610fcf8" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;e0078c79-34c9-48a8-b235-201fd610fcf8&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;vaersgo_1832_s5_a-skud.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;871530371842b665a448dfc21de73cf0095c656e&quot;,&quot;hash&quot;:&quot;871530371842b665a448dfc21de73cf0095c656e&quot;,&quot;__identity&quot;:&quot;a5e19cd2-401b-4e48-ad06-74f7d14f159d&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image>
-         </properties>
+         <creationDateTime __type="object" __classname="DateTime">2021-02-24T13:41:16+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2021-02-24T13:43:30+01:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2021-02-24T13:43:30+01:00</lastPublicationDateTime>
+         <properties/>
         </variant>
-       </node>
-       <node identifier="449ad36b-b192-4031-90b3-4161703b5832" nodeName="node-t5d8q1xj3p8wg">
-        <variant sortingIndex="150" workspace="live" nodeType="Stoj.Site:Content.GalleryItem" version="5" removed="" hidden="" hiddenInIndex="">
-         <dimensions>
-          <language>da</language>
-         </dimensions>
-         <accessRoles __type="array"/>
-         <creationDateTime __type="object" __classname="DateTime">2021-02-22T11:32:24+01:00</creationDateTime>
-         <lastModificationDateTime __type="object" __classname="DateTime">2021-02-23T14:27:49+01:00</lastModificationDateTime>
-         <lastPublicationDateTime __type="object" __classname="DateTime">2021-02-23T14:27:49+01:00</lastPublicationDateTime>
-         <properties>
-          <image __type="object" __identifier="9cef5830-80ff-497b-a09e-91fd994bd6bc" __classname="Neos\Media\Domain\Model\ImageVariant" __encoding="json">{&quot;__identity&quot;:&quot;9cef5830-80ff-497b-a09e-91fd994bd6bc&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\ImageVariant&quot;,&quot;originalAsset&quot;:{&quot;__identity&quot;:&quot;6dd406d0-8f03-4796-83d4-a9b2c1c88fde&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;vv-119.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;277c44310b2557c6e809f4ebfaef286cec73db94&quot;,&quot;hash&quot;:&quot;277c44310b2557c6e809f4ebfaef286cec73db94&quot;,&quot;__identity&quot;:&quot;7d9b0c21-daa3-49ee-a976-cf7553260b99&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]},&quot;adjustments&quot;:[{&quot;aspectRatio&quot;:null,&quot;height&quot;:720,&quot;position&quot;:10,&quot;width&quot;:900,&quot;x&quot;:0,&quot;y&quot;:434,&quot;__identity&quot;:&quot;cb9ab758-ee14-4300-8f94-5ef8f404eef5&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Adjustment\\CropImageAdjustment&quot;}]}</image>
-         </properties>
-        </variant>
-       </node>
-       <node identifier="d852421f-45df-4854-94f2-1ab9109d26a3" nodeName="node-z69a7x1v9pt5o">
-        <variant sortingIndex="225" workspace="live" nodeType="Stoj.Site:Content.GalleryItem" version="6" removed="" hidden="" hiddenInIndex="">
-         <dimensions>
-          <language>da</language>
-         </dimensions>
-         <accessRoles __type="array"/>
-         <creationDateTime __type="object" __classname="DateTime">2021-02-22T11:48:33+01:00</creationDateTime>
-         <lastModificationDateTime __type="object" __classname="DateTime">2021-02-23T14:38:15+01:00</lastModificationDateTime>
-         <lastPublicationDateTime __type="object" __classname="DateTime">2021-02-23T14:38:14+01:00</lastPublicationDateTime>
-         <properties>
-          <id __type="string">kommerciel</id>
-          <image __type="object" __identifier="23690c64-ff92-4658-aaa9-9ede39556ce5" __classname="Neos\Media\Domain\Model\ImageVariant" __encoding="json">{&quot;__identity&quot;:&quot;23690c64-ff92-4658-aaa9-9ede39556ce5&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\ImageVariant&quot;,&quot;originalAsset&quot;:{&quot;__identity&quot;:&quot;e0078c79-34c9-48a8-b235-201fd610fcf8&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;vaersgo_1832_s5_a-skud.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;871530371842b665a448dfc21de73cf0095c656e&quot;,&quot;hash&quot;:&quot;871530371842b665a448dfc21de73cf0095c656e&quot;,&quot;__identity&quot;:&quot;a5e19cd2-401b-4e48-ad06-74f7d14f159d&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]},&quot;adjustments&quot;:[{&quot;aspectRatio&quot;:null,&quot;height&quot;:720,&quot;position&quot;:10,&quot;width&quot;:900,&quot;x&quot;:0,&quot;y&quot;:101,&quot;__identity&quot;:&quot;3d0a74c5-eb08-4257-a33c-ce433b73a1b5&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Adjustment\\CropImageAdjustment&quot;}]}</image>
-         </properties>
-        </variant>
+        <node identifier="2f64132b-ae84-4dfb-8473-ae2db2a8c118" nodeName="node-5k11ch6wy0epw">
+         <variant sortingIndex="100" workspace="live" nodeType="Stoj.Site:Content.GalleryItem" version="3" removed="" hidden="" hiddenInIndex="">
+          <dimensions>
+           <language>da</language>
+          </dimensions>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2021-02-24T13:55:17+01:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2021-02-24T13:55:54+01:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2021-02-24T13:55:54+01:00</lastPublicationDateTime>
+          <properties>
+           <image __type="object" __identifier="e0078c79-34c9-48a8-b235-201fd610fcf8" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;e0078c79-34c9-48a8-b235-201fd610fcf8&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;vaersgo_1832_s5_a-skud.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;871530371842b665a448dfc21de73cf0095c656e&quot;,&quot;hash&quot;:&quot;871530371842b665a448dfc21de73cf0095c656e&quot;,&quot;__identity&quot;:&quot;a5e19cd2-401b-4e48-ad06-74f7d14f159d&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image>
+          </properties>
+         </variant>
+        </node>
+        <node identifier="837e4ea5-378d-4839-a885-666e2c245c57" nodeName="node-hobpjuc0s910m">
+         <variant sortingIndex="50" workspace="live" nodeType="Stoj.Site:Content.GalleryItem" version="4" removed="" hidden="" hiddenInIndex="">
+          <dimensions>
+           <language>da</language>
+          </dimensions>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2021-02-24T14:01:35+01:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2021-02-24T14:01:58+01:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2021-02-24T14:01:57+01:00</lastPublicationDateTime>
+          <properties>
+           <image __type="object" __identifier="35aee20e-3d2f-4c78-8036-fc3be8b69fdb" __classname="Neos\Media\Domain\Model\ImageVariant" __encoding="json">{&quot;__identity&quot;:&quot;35aee20e-3d2f-4c78-8036-fc3be8b69fdb&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\ImageVariant&quot;,&quot;originalAsset&quot;:{&quot;__identity&quot;:&quot;0ab19181-8ad4-4c0f-9eab-d235a9f0ed85&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;pandekager_helt_ny_lidt_sirup.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;e6c149d8bf159f2ed07ff6f5f38161f8818d9820&quot;,&quot;hash&quot;:&quot;e6c149d8bf159f2ed07ff6f5f38161f8818d9820&quot;,&quot;__identity&quot;:&quot;72a4cc60-f75e-46ec-aa3e-48c0f47dfacc&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]},&quot;adjustments&quot;:[{&quot;aspectRatio&quot;:null,&quot;height&quot;:720,&quot;position&quot;:10,&quot;width&quot;:900,&quot;x&quot;:0,&quot;y&quot;:345,&quot;__identity&quot;:&quot;c7cd722e-680b-49c5-a0e4-7dfec0bfc440&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Adjustment\\CropImageAdjustment&quot;}]}</image>
+          </properties>
+         </variant>
+        </node>
+        <node identifier="78fe2baa-a72c-4986-afff-e41556e56d9b" nodeName="node-mwmcueinxazpx">
+         <variant sortingIndex="150" workspace="live" nodeType="Stoj.Site:Content.GalleryItem" version="4" removed="" hidden="" hiddenInIndex="">
+          <dimensions>
+           <language>da</language>
+          </dimensions>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2021-02-24T13:55:47+01:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2021-02-24T13:55:54+01:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2021-02-24T13:55:54+01:00</lastPublicationDateTime>
+          <properties>
+           <image __type="object" __identifier="83c0785d-3fb8-45d5-b5dc-55ccba353362" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;83c0785d-3fb8-45d5-b5dc-55ccba353362&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;rustik_mysli_1.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;10573103d36a993c34684a30ca5b075b6a6f0d79&quot;,&quot;hash&quot;:&quot;10573103d36a993c34684a30ca5b075b6a6f0d79&quot;,&quot;__identity&quot;:&quot;b99135a8-a329-4178-bb32-48eb93b91112&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image>
+          </properties>
+         </variant>
+        </node>
        </node>
       </node>
      </node>
