@@ -34,8 +34,12 @@
                 font-size: 10rem;
             }
 
-            &:after {
+            &:before {
                 height: .075em;
+            }
+
+            &:after {
+                display: none;
             }
         }
     }
@@ -46,6 +50,10 @@
         p {
             a {
                 text-transform: none !important;
+
+                &:after {
+                    display: none;
+                }
             }
         }
     }

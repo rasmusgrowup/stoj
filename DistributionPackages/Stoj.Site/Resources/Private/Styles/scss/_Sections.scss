@@ -21,7 +21,7 @@
 
     h1 {
         font-size: 1.25em;
-        font-weight: 400 !important;
+        font-weight: 400;
         margin-bottom: 1rem;
 
         @media only screen and (min-width: $break-tablet) {
@@ -35,7 +35,7 @@
 
     h2 {
         font-size: 1.25em;
-        font-weight: 400 !important;
+        font-weight: 400;
         margin-bottom: .5rem;
 
         @media only screen and (min-width: $break-tablet) {
@@ -48,7 +48,7 @@
     }
 
     .line-link p {
-        font-size: 1em !important;
+        font-size: 1em;
     }
 }
 
@@ -70,17 +70,17 @@
 
     p {
         display: inline-block;
-        font-family: 'Barlow Condensed', sans-serif !important;
-        font-size: 1.85rem;
-        font-weight: 700 !important;
+        font-family: $family-secondary;
+        font-size: 1.85rem !important;
+        font-weight: 700;
         line-height: 1.1 !important;
 
         @media only screen and (min-width: $break-tablet) {
-            font-size: 2.5em;
+            font-size: 2.5em !important;
         }
 
         @media only screen and (min-width: $break-desk) {
-            font-size: 3.5em;
+            font-size: 3.5em !important;
         }
 
         strong {

@@ -1,9 +1,6 @@
 @charset "utf-8";
 
-// Customization
-
-// You can easily customize Bulma with your own variables.
-// Just uncomment the following block to see the result.
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,400;1,400;0,700;1,700&family=Barlow:ital,wght@0,300;0,400;1,300;1,400&display=swap');
 
 // Update the sans-serif font family
 $stoj-pink: #E5879F;
@@ -17,22 +14,16 @@ $break-mobile: 414px;
 $clamp: clamp(2.5em, 5vw, 6em);
 $max-width: 1080px;
 $transition: all 500ms cubic-bezier(0.215, 0.610, 0.355, 1.000) .3s;
-
-@import "../node_modules/bulma/bulma";
+$family-sans-serif: "Barlow", sans-serif;
+$family-secondary: "Barlow Condensed", sans-serif;
+$link: $stoj-sand;
+$h2-size: 1.5em;
 
 @import "../../../Private/Styles/scss/Footer";
 @import "../../../Private/Styles/scss/Headlines";
 @import "../../../Private/Styles/scss/Sections";
 @import "../../../Private/Styles/scss/Gallery";
-//@import "../../../Private/Styles/scss/TemplateOne";
-//@import "../../../Private/Styles/scss/TemplateTwo";
-//@import "../../../Private/Styles/scss/TemplateThree";
-//@import "../../../Private/Styles/scss/TemplateFour";
-//@import "../../../Private/Styles/scss/Carousel";
-//@import "../../../Private/Styles/scss/Menu";
-//@import "../../../Private/Styles/scss/Projects";
-//@import "../../../Private/Styles/scss/ProjectsVideo";
 @import "../../../Private/Styles/scss/ImagesWithText";
 @import "../../../Private/Styles/scss/VideoWithText";
 @import "../../../Private/Styles/scss/ImagesContact";
-@import "../../../Private/Styles/scss/Buttons"
+@import "../../../Private/Styles/scss/Buttons";
