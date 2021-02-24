@@ -13,7 +13,7 @@ prototype(Stoj.Site:Document.AbstractPage) < prototype(Neos.Neos:Page) {
                 <meta name="msapplication-config" content="_Resources/Static/Packages/Stoj.Site/Frontend/favicons/browserconfig.xml" />
                 <meta name="theme-color" content="#ffffff" />
                 <link rel="preconnect" href="https://fonts.gstatic.com" />
-                <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,700;1,700&family=Barlow:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet" />
+                <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,400;1,400;0,700;1,700&family=Barlow:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet" />
             `
         }
     }

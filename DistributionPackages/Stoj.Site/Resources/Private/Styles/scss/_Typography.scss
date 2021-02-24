@@ -22,7 +22,7 @@ h2 {
 p {
     color: $stoj-sand !important;
     font-family: 'Barlow', sans-serif !important;
-    font-size: 1em !important;
+    font-size: 1em;
     font-weight: 400 !important;
     line-height: 1.2 !important;
 
@@ -58,7 +58,7 @@ a {
 .line-link {
     position: relative;
     font-family: 'Barlow Condensed', sans-serif !important;
-    font-weight: 700!important;
+    font-weight: 800!important;
     line-height: 1 !important;
     text-transform: uppercase;
 

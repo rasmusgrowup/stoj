@@ -7206,6 +7206,7 @@ label.panel-block {
       padding: 0 5rem; } }
   .shout-inner h1 {
     font-size: 1.25em;
+    font-weight: 400 !important;
     margin-bottom: 1rem; }
     @media only screen and (min-width: 768px) {
       .shout-inner h1 {
@@ -7242,7 +7243,7 @@ label.panel-block {
     display: inline-block;
     font-family: 'Barlow Condensed', sans-serif !important;
     font-size: 1.85rem;
-    font-weight: 800;
+    font-weight: 700 !important;
     line-height: 1.1 !important; }
     @media only screen and (min-width: 768px) {
       .para p {
