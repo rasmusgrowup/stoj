@@ -7254,7 +7254,7 @@ label.panel-block {
       display: inline-block;
       position: relative;
       transition: all 500ms cubic-bezier(0.215, 0.61, 0.355, 1) 0.3s; }
-    .para p strong::after {
+    .para p strong::before {
       background-color: #E0325F;
       bottom: 0;
       display: block;
