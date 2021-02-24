@@ -27,7 +27,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
 		scrollTrigger: {
 			trigger: '.gallery-container',
 			start: 'top top',
-			end: 'bottom 40%',
+			end: 'bottom center',
 			//markers: true,
 			scrub: true,
 			pin: '.filter-header',
@@ -38,7 +38,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
 		scrollTrigger: {
 			trigger: '.gallery-container',
 			start: 'top top',
-			end: 'bottom 40%',
+			end: 'bottom center',
 			//markers: true,
 			scrub: true,
 			pin: '.filter-group',
