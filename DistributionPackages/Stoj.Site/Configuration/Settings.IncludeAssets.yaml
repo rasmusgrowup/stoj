@@ -1,7 +1,7 @@
 
 Carbon:
   IncludeAssets:
-    GoogleFonts: 'Barlow+Condensed:ital,wght@0,400;0,700;1,700&family=Barlow:ital,wght@0,400;0,700;1,400;1,700&display=swap'
+    ResourceHints:
     Packages:
       aa_Theme:
         Path:
