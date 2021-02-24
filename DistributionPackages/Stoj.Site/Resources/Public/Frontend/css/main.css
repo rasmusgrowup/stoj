@@ -29,6 +29,8 @@
         height: .075em; }
       .main-footer .contact-footer a:after {
         display: none; }
+  .main-footer .address-footer p {
+    font-family: "Barlow Condensed", sans-serif; }
   .main-footer .teaser-footer {
     margin-bottom: 1rem; }
     .main-footer .teaser-footer p a {
