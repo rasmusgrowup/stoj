@@ -1,0 +1,71 @@
+
+'Stoj.Site:Templates.ImageTextThree':
+  superTypes:
+    'Neos.Neos:Content': true
+    'Stoj.Site:Content.Tekst': true
+    'Stoj.Site:Content.Titel': true
+    'Neos.NodeTypes.BaseMixins:ImageMixin': true
+    'Neos.NodeTypes.BaseMixins:ImageCaptionMixin': true
+  ui:
+    label: Billeder m. tekst v.3
+    icon: icon-file-text
+    position: 550
+    inlineEditable: true
+    reloadIfChanged: true
+    inspector:
+      groups:
+        link:
+          label: 'Link'
+          icon: external-link-alt
+  properties:
+    label:
+      ui:
+        inlineEditable: true
+      options:
+        silhouette: text.free
+    link:
+      type: string
+      ui:
+        label: 'Link target'
+        inspector:
+          group: link
+          editor: Neos.Neos/Inspector/Editors/LinkEditor
+    paragraph:
+      ui:
+        inline:
+          editorOptions:
+            placeholder: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam ...'
+            autoparagraph: true
+            linking:
+              anchor: true
+              title: true
+              relNofollow: true
+              targetBlank: true
+            formatting:
+              strong: true
+              em: true
+              u: true
+              sub: true
+              sup: true
+              del: true
+              p: true
+              h1: true
+              h2: true
+              h3: true
+              h4: true
+              h5: true
+              h6: true
+              pre: true
+              underline: true
+              strikethrough: true
+              removeFormat: true
+              left: true
+              right: true
+              center: true
+              justify: true
+              table: true
+              ol: true
+              ul: true
+              a: true
+      options:
+        silhouette: text.free

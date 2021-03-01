@@ -1,0 +1,30 @@
+prototype(Stoj.Site:Templates.ImageTextThree) < prototype(Neos.Neos:ContentComponent) {
+
+    label = Neos.Neos:Editable {
+        property = 'label'
+    }
+
+    paragraph = Neos.Neos:Editable {
+        property = 'paragraph'
+    }
+
+    link = ${q(node).property('link')}
+
+    renderer = afx`
+        <section class="images-with-text --three">
+            <div class="images-with-text-inner">
+                <Stoj.Site:Content.Titel/>
+                <div class="para">
+                    {props.paragraph}
+                </div>
+                <Stoj.Site:Content.Tekst/>
+                <Carbon.Link:Link
+                    link={props.link}
+                    additionalClass="line-link">
+                    {props.label}
+                </Carbon.Link:Link>
+            </div>
+            <Stoj.Site:Content.Figure class="big-figure"/>
+        </section>
+    `
+}
