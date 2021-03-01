@@ -34,14 +34,14 @@ window.addEventListener('DOMContentLoaded', (event) => {
 		}
 	})
 
-	gsap.to('.filter-group', {
+	gsap.to('.filter-navigation', {
 		scrollTrigger: {
 			trigger: '.gallery-container',
 			start: 'top top',
 			end: 'bottom center',
 			//markers: true,
 			scrub: true,
-			pin: '.filter-group',
+			pin: '.filter-navigation',
 		}
 	})
 

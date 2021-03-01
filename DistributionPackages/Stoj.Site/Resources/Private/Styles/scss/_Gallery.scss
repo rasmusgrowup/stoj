@@ -115,7 +115,7 @@
     }
 }
 
-.filter-body {
+.filter-navigation {
     align-items: flex-start;
     background-color: $stoj-dark;
     display: flex;
@@ -125,17 +125,17 @@
     left: 0;
     visibility: hidden;
     padding-left: 1rem;
+    pointer-events: auto;
     position: absolute;
-    top: -110vh;
     transition: $transition;
     width: 100%;
-    z-index: -1;
+    z-index: 1;
 
     @media only screen and (min-width: $break-tablet) {
         background-color: transparent;
         height: auto;
         left: 2rem;
-        top: 2rem;
+        top: 12rem;
         padding: 0;
         visibility: visible;
         transition: none;
@@ -145,57 +145,34 @@
         left: 3rem;
     }
 
-    button {
-        background-color: transparent;
-        border: none;
-        color: $stoj-sand;
+    ul {
         display: block;
-        font-family: $family-secondary;
-        font-size: 3em;
-        font-weight: 700;
-        text-transform: uppercase;
-        padding: 0;
-        position: relative;
 
-        @media only screen and (min-width: $break-tablet) {
-            font-size: 1.5rem;
+        li {
+            display: block;
+            margin-left: 0;
+
+            a {
+                color: $stoj-sand;
+                font-family: $family-secondary;
+                font-size: 3rem;
+                font-weight: 700;
+                text-transform: uppercase;
+
+                @media only screen and (min-width: $break-tablet) {
+                    font-size: 2rem;
+                }
+            }
         }
-
-        &:hover {
-            color: $stoj-red;
-            cursor: pointer;
-        }
-    }
-
-    button:focus {outline:0;}
-
-    .active::after {
-        background-color: $stoj-red;
-        bottom: .25rem;
-        display: block;
-        content: '';
-        left: 0;
-        height: .5rem;
-        position: absolute;
-        transition: $transition;
-        width: 100%;
-        z-index: -1;
-
-        @media only screen and (min-width: $break-tablet) {
-            bottom: 0;
-        }
-    }
-
-    &:after {
-        width: 0;
-        transition: $transition;
     }
 }
 
 .show-filter {
     visibility: visible;
-    top: -3rem;
-    transition: $transition;
+    .filter-inner {
+        //visibility: visible;
+        transition: $transition;
+    }
 }
 
 .filter-is-showing {

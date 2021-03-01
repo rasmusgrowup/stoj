@@ -49,7 +49,7 @@
   width: fit-content; }
   @media only screen and (min-width: 768px) {
     .copyright {
-      bottom: 2rem;
+      bottom: 1rem;
       font-size: .9em;
       left: 50%;
       transform: translateX(-50%); } }
@@ -253,7 +253,7 @@
       .filter-header img {
         display: none; } }
 
-.filter-body {
+.filter-navigation {
   align-items: flex-start;
   background-color: #101219;
   display: flex;
@@ -263,64 +263,42 @@
   left: 0;
   visibility: hidden;
   padding-left: 1rem;
+  pointer-events: auto;
   position: absolute;
-  top: -110vh;
   transition: all 500ms cubic-bezier(0.215, 0.61, 0.355, 1) 0.3s;
   width: 100%;
-  z-index: -1; }
+  z-index: 1; }
   @media only screen and (min-width: 768px) {
-    .filter-body {
+    .filter-navigation {
       background-color: transparent;
       height: auto;
       left: 2rem;
-      top: 2rem;
+      top: 12rem;
       padding: 0;
       visibility: visible;
       transition: none; } }
   @media only screen and (min-width: 1024px) {
-    .filter-body {
+    .filter-navigation {
       left: 3rem; } }
-  .filter-body button {
-    background-color: transparent;
-    border: none;
-    color: #EFEDE5;
-    display: block;
-    font-family: "Barlow Condensed", sans-serif;
-    font-size: 3em;
-    font-weight: 700;
-    text-transform: uppercase;
-    padding: 0;
-    position: relative; }
-    @media only screen and (min-width: 768px) {
-      .filter-body button {
-        font-size: 1.5rem; } }
-    .filter-body button:hover {
-      color: #E0325F;
-      cursor: pointer; }
-  .filter-body button:focus {
-    outline: 0; }
-  .filter-body .active::after {
-    background-color: #E0325F;
-    bottom: .25rem;
-    display: block;
-    content: '';
-    left: 0;
-    height: .5rem;
-    position: absolute;
-    transition: all 500ms cubic-bezier(0.215, 0.61, 0.355, 1) 0.3s;
-    width: 100%;
-    z-index: -1; }
-    @media only screen and (min-width: 768px) {
-      .filter-body .active::after {
-        bottom: 0; } }
-  .filter-body:after {
-    width: 0;
-    transition: all 500ms cubic-bezier(0.215, 0.61, 0.355, 1) 0.3s; }
+  .filter-navigation ul {
+    display: block; }
+    .filter-navigation ul li {
+      display: block;
+      margin-left: 0; }
+      .filter-navigation ul li a {
+        color: #EFEDE5;
+        font-family: "Barlow Condensed", sans-serif;
+        font-size: 3rem;
+        font-weight: 700;
+        text-transform: uppercase; }
+        @media only screen and (min-width: 768px) {
+          .filter-navigation ul li a {
+            font-size: 2rem; } }
 
 .show-filter {
-  visibility: visible;
-  top: -3rem;
-  transition: all 500ms cubic-bezier(0.215, 0.61, 0.355, 1) 0.3s; }
+  visibility: visible; }
+  .show-filter .filter-inner {
+    transition: all 500ms cubic-bezier(0.215, 0.61, 0.355, 1) 0.3s; }
 
 .filter-is-showing img {
   transform: rotate(180deg); }
