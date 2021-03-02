@@ -36,19 +36,9 @@ playVideo.addEventListener("click", function() {
 });
 
 playVideo.addEventListener("touchend", function() {
-	timesClicked++;
-
-	if (timesClicked%2==0) {
-		idPlayer.pause().then(function() {
-		});
-		idPlayer.requestFullscreen().then(function() {
-			// the player entered fullscreen
-		});
-	} else {
 		idPlayer.play().then(function() {
 		});
 		idPlayer.requestFullscreen().then(function() {
 			// the player entered fullscreen
 		});
-	}
 });
