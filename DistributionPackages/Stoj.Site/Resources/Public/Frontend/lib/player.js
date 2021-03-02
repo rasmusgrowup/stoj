@@ -36,6 +36,18 @@ playVideo.addEventListener("click", function() {
 });
 
 playVideo.addEventListener("touchstart", function() {
+		preventDefault();
+
+		idPlayer.pause().then(function() {
+		});
+		idPlayer.requestFullscreen().then(function() {
+			// the player entered fullscreen
+		});
+});
+
+playVideo.addEventListener("touchstart", function() {
+		preventDefault();
+
 		idPlayer.pause().then(function() {
 		});
 		idPlayer.requestFullscreen().then(function() {
