@@ -7,12 +7,6 @@
         //cursor: none;
     }
 
-    .video-frame, .video-frame-project, .video-container {
-        iframe {
-            pointer-events: none;
-        }
-    }
-
     .cursor {
         background-color: $stoj-sand;
         width: 90px;
@@ -29,6 +23,12 @@
 
     .--expand {
         transform: translate(-50%, -50%) scale(1);
+    }
+}
+
+.video-frame, .video-frame-project, .video-container {
+    iframe {
+        pointer-events: none;
     }
 }
 
