@@ -1,4 +1,4 @@
-'Stoj.Site:Templates.VideoText':
+'Stoj.Site:Templates.VideoTextProject':
   superTypes:
     'Neos.Neos:Content': true
     'Stoj.Site:Content.Tekst': true
@@ -6,7 +6,7 @@
     'Stoj.Site:Mixin.Image': true
     'Neos.NodeTypes.BaseMixins:ImageCaptionMixin': true
   ui:
-    label: Video m. tekst (autoplay)
+    label: Video m. tekst (play/pause)
     icon: icon-file-text
     position: 530
     inlineEditable: true

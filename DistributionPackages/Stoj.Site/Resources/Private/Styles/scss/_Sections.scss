@@ -4,6 +4,22 @@
     width: 100%;
 }
 
+.main-section {
+    margin: 0 auto;
+    //visibility:hidden;
+    max-width: $max-width;
+    padding: 0 1rem;
+    width: 100%;
+
+    @media only screen and (min-width: $break-tablet) {
+        padding: 0 3rem;
+    }
+
+    @media only screen and (min-width: $break-desk) {
+        padding: 0 5rem;
+    }
+}
+
 .shout-inner {
     margin: 0 auto;
     //visibility:hidden;
@@ -101,5 +117,22 @@
             width: 0;
             z-index: -1;
         }
+    }
+}
+
+.next-project {
+    margin: 2rem auto;
+    //visibility:hidden;
+    max-width: $max-width;
+    padding: 0 1rem;
+    width: 100%;
+
+    @media only screen and (min-width: $break-tablet) {
+        padding: 0 3rem;
+        text-align: center;
+    }
+
+    @media only screen and (min-width: $break-desk) {
+        padding: 0 5rem;
     }
 }

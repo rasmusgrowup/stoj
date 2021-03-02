@@ -2,12 +2,25 @@
   superTypes:
     'Neos.Neos:Content': true
   ui:
-    label: i18n
+    label: Galleri wrapper
     icon: 'icon-columns'
     group: 'structure'
     position: 400
+    inspector:
+      groups:
+        galleri:
+          label: 'Galleri'
+          icon: external-link-alt
   childNodes:
     column0:
       type: 'Stoj.Site:Collection.Content.Column'
     column1:
       type: 'Stoj.Site:Collection.Content.Column'
+  properties:
+    centerGallery:
+      type: boolean
+      ui:
+        label: 'Centrér galleriet'
+        inspector:
+          group: 'galleri'
+          reloadIfChanged: true

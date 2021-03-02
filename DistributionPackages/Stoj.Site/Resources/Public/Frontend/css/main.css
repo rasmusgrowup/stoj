@@ -85,6 +85,18 @@
   position: relative;
   width: 100%; }
 
+.main-section {
+  margin: 0 auto;
+  max-width: 1080px;
+  padding: 0 1rem;
+  width: 100%; }
+  @media only screen and (min-width: 768px) {
+    .main-section {
+      padding: 0 3rem; } }
+  @media only screen and (min-width: 1024px) {
+    .main-section {
+      padding: 0 5rem; } }
+
 .shout-inner {
   margin: 0 auto;
   max-width: 1080px;
@@ -159,6 +171,19 @@
       width: 0;
       z-index: -1; }
 
+.next-project {
+  margin: 2rem auto;
+  max-width: 1080px;
+  padding: 0 1rem;
+  width: 100%; }
+  @media only screen and (min-width: 768px) {
+    .next-project {
+      padding: 0 3rem;
+      text-align: center; } }
+  @media only screen and (min-width: 1024px) {
+    .next-project {
+      padding: 0 5rem; } }
+
 .gallery-container {
   display: flex;
   justify-content: space-between;
@@ -174,6 +199,18 @@
     .gallery-container {
       margin: 0 0 10rem auto;
       padding: 10rem 0 0; } }
+
+.--center-gallery {
+  margin: 0 auto;
+  max-width: 1080px;
+  padding: 0 1rem;
+  width: 100%; }
+  @media only screen and (min-width: 768px) {
+    .--center-gallery {
+      padding: 0 3rem; } }
+  @media only screen and (min-width: 1024px) {
+    .--center-gallery {
+      padding: 0 5rem; } }
 
 .gallery-col {
   display: inline-block;
@@ -481,10 +518,32 @@ figcaption {
         float: right;
         padding-top: 30.25%;
         width: calc(55% - 1rem); } }
+    .video-with-text .video-frame #video-thumb:after {
+      background-color: black;
+      content: '';
+      height: 100%;
+      left: 0;
+      position: absolute;
+      top: 0;
+      opacity: .25;
+      width: 100%; }
+    .video-with-text .video-frame .video-symbol {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%); }
   @media only screen and (min-width: 1024px) {
     .video-with-text figcaption {
       float: right;
       width: calc(55% - 1rem); } }
+
+.video-frame-project {
+  margin: 2rem auto;
+  max-width: 1080px;
+  overflow: auto;
+  padding-top: 56.25%;
+  position: relative;
+  width: 100%; }
 
 .video-with-text-inner {
   display: block;

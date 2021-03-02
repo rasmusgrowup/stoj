@@ -17,6 +17,22 @@
     }
 }
 
+.--center-gallery {
+    margin: 0 auto;
+    //visibility:hidden;
+    max-width: $max-width;
+    padding: 0 1rem;
+    width: 100%;
+
+    @media only screen and (min-width: $break-tablet) {
+        padding: 0 3rem;
+    }
+
+    @media only screen and (min-width: $break-desk) {
+        padding: 0 5rem;
+    }
+}
+
 .gallery-col {
     display: inline-block;
     vertical-align: top;

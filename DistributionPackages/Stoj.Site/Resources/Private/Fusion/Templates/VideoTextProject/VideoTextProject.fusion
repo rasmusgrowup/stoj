@@ -1,4 +1,4 @@
-prototype(Stoj.Site:Templates.VideoText) < prototype(Neos.Neos:ContentComponent) {
+prototype(Stoj.Site:Templates.VideoTextProject) < prototype(Neos.Neos:ContentComponent) {
 
     label = Neos.Neos:Editable {
         property = 'label'
@@ -43,31 +43,25 @@ prototype(Stoj.Site:Templates.VideoText) < prototype(Neos.Neos:ContentComponent)
     autoPlay = ${q(node).property('autoPlay') ? 'vimeo-video' : ''}
 
     renderer = afx`
-        <section class={"video-with-text " + (props.float)}>
-            <div class="video-with-text-inner">
-                <Stoj.Site:Content.Titel/>
-                <Stoj.Site:Content.Tekst/>
-                <Carbon.Link:Link
-                    link={props.link}
-                    additionalClass="line-link">
-                    {props.label}
-                </Carbon.Link:Link>
-            </div>
-            <div class="video-frame">
-                <iframe
-                    id={props.autoPlay}
-                    src={props.vimeoID}
-                    frameborder="0"
-                    allow="autoplay; fullscreen"
-                    allowfullscreen
-                    style="position:absolute;top:0;left:0;width:100%;height:100%;"
-                    @if.render={props.renderAsVideo}
-                    >
-                </iframe>
-            </div>
-            <figcaption @if.has={props.hasCaption && props.caption}>
-                {props.caption}
-            </figcaption>
-        </section>
+        <div class="video-frame-project video-is-paused">
+            <iframe
+                id={props.autoPlay}
+                src={props.vimeoID}
+                frameborder="0"
+                allow="autoplay; fullscreen"
+                allowfullscreen
+                style="position:absolute;top:0;left:0;width:100%;height:100%;"
+                @if.render={props.renderAsVideo}
+                >
+            </iframe>
+            <img
+                src={props.src} id="video-thumb" alt=""
+                style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;"
+            />
+            <!--<img class="video-symbol" src={props.play} alt="play symbol" />-->
+        </div>
+        <figcaption @if.has={props.hasCaption && props.caption}>
+            {props.caption}
+        </figcaption>
     `
 }

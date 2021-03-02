@@ -8,7 +8,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
 		if (e.matches) { // If media query matches
 			// Custom curser
 			  var cursor = document.querySelector(".cursor");
-			  var links = document.querySelectorAll("a, .cursor-link, button");
+			  var links = document.querySelectorAll("a, .cursor-link, .video-frame-project, button");
 			  var initCursor = false;
 
 			  for (var i = 0; i < links.length; i++) {

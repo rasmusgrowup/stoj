@@ -7,8 +7,10 @@
         //cursor: none;
     }
 
-    iframe {
-        pointer-events: none;
+    .video-frame, .video-frame-project, .video-container {
+        iframe {
+            pointer-events: none;
+        }
     }
 
     .cursor {
@@ -28,6 +30,18 @@
     .--expand {
         transform: translate(-50%, -50%) scale(1);
     }
+}
+
+.video-is-paused:hover {
+    //cursor:  pointer;
+    cursor: url("../svg/triangel.svg") 7 8,auto;
+    //mix-blend-mode: difference;
+}
+
+.video-is-playing:hover {
+    //cursor: pointer;
+    cursor: url("../svg/pause.svg") 7 8, auto;
+    //mix-blend-mode: difference;
 }
 
 /*@media only screen and (min-width: $break-desk) {

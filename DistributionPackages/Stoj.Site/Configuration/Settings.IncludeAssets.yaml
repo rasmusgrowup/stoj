@@ -24,11 +24,12 @@ Carbon:
           #  - colcade.js
             #- barba.js
             - main.js
-            - animations.js
-            - gallery.js
             #- menu.js
             - lazysizes.min.js
             - https://player.vimeo.com/api/player.js
+            - player.js
+            - animations.js
+            - gallery.js
             #- flickity.min.js
             #- flickity.js
             #- isotope.min.js

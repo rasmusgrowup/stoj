@@ -59,20 +59,24 @@ window.addEventListener('DOMContentLoaded', (event) => {
 			ease: "power3.out"
 		});
 
-	gsap.from(".video-body",{
-			y: 75,
-			autoAlpha: 0,
-			duration: 2,
-			delay: 2,
-			ease: "power3.out"
-		});
+	var player = new Vimeo.Player('subheader-video');
 
-	gsap.from(".play--symbol",{
-			autoAlpha: 0,
-			duration: 1.5,
-			delay: 2.5,
-			ease: "power3.out"
-		});
+	player.ready().then(function() {
+		gsap.from(".video-body",{
+				y: 75,
+				autoAlpha: 0,
+				duration: 2,
+				delay: 2,
+				ease: "power3.out"
+			});
+
+		gsap.from(".play--symbol",{
+				autoAlpha: 0,
+				duration: 1.5,
+				delay: 2.5,
+				ease: "power3.out"
+			});
+	});
 });
 
 const x = window.matchMedia("(max-width: 415px)");

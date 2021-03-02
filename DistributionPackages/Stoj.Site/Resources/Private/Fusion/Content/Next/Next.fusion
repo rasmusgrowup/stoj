@@ -1,0 +1,17 @@
+prototype(Stoj.Site:Content.Next) < prototype(Neos.Neos:ContentComponent) {
+    label = Neos.Neos:Editable {
+        property = 'label'
+    }
+
+    link = ${q(node).property('link')}
+
+renderer = afx`
+        <div class="next-project">
+            <Carbon.Link:Link
+                link={props.link}
+                additionalClass="line-link">
+                {props.label}
+            </Carbon.Link:Link>
+        </div>
+`
+}
