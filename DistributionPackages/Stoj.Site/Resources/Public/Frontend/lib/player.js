@@ -34,3 +34,11 @@ playVideo.addEventListener("click", function() {
 playVideo.addEventListener("click", function() {
 	thumbVideo.style.display = "none";
 });
+
+playVideo.addEventListener("touchend", function() {
+		idPlayer.pause().then(function() {
+		});
+		idPlayer.requestFullscreen().then(function() {
+			// the player entered fullscreen
+		});
+});
