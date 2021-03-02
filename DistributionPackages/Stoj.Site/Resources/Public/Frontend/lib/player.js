@@ -15,12 +15,18 @@ playVideo.addEventListener("click", function() {
 		// the video was played
 		playVideo.classList.add("video-is-paused");
 		playVideo.classList.remove("video-is-playing");
+	});
+		idPlayer.setMuted(true).then(function(muted) {
+    // muted was turned on
 		});
     } else {
 		idPlayer.play().then(function() {
 		// the video was played
 		playVideo.classList.add("video-is-playing");
 		playVideo.classList.remove("video-is-paused");
+		});
+		idPlayer.setMuted(false).then(function(muted) {
+    // muted was turned on
 		});
     }
 });
@@ -29,20 +35,10 @@ playVideo.addEventListener("click", function() {
 	thumbVideo.style.display = "none";
 });
 
-playVideo.addEventListener("touchend", function() {
-	timesClicked++;
-
-	if (timesClicked%2==0) {
+playVideo.addEventListener("touchstart", function() {
 		idPlayer.pause().then(function() {
-		});
-		idPlayer.exitFullscreen().then(function() {
-	// the player exits fullscreen
-		});
-    } else {
-		idPlayer.play().then(function() {
 		});
 		idPlayer.requestFullscreen().then(function() {
 			// the player entered fullscreen
 		});
-    }
 })
