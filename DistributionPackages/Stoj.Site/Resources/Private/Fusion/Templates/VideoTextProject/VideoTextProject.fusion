@@ -43,7 +43,7 @@ prototype(Stoj.Site:Templates.VideoTextProject) < prototype(Neos.Neos:ContentCom
     autoPlay = ${q(node).property('autoPlay') ? 'vimeo-video' : ''}
 
     renderer = afx`
-        <div class="video-frame-project video-is-paused">
+        <div class="video-frame-project">
             <iframe
                 id={props.autoPlay}
                 src={props.vimeoID}
@@ -58,7 +58,7 @@ prototype(Stoj.Site:Templates.VideoTextProject) < prototype(Neos.Neos:ContentCom
                 src={props.src} id="video-thumb" alt=""
                 style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;"
             />
-            <!--<img class="video-symbol" src={props.play} alt="play symbol" />-->
+            <img class="video-symbol" src={props.play} alt="play symbol" />
         </div>
         <figcaption @if.has={props.hasCaption && props.caption}>
             {props.caption}

@@ -38,13 +38,6 @@
             opacity: .25;
             width: 100%;
         }
-
-        .video-symbol {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%,-50%);
-        }
     }
 
     figcaption {
@@ -63,6 +56,21 @@
     padding-top: 56.25%;
     position: relative;
     width: 100%;
+
+    .video-symbol {
+        //display: block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 4rem;
+    }
+}
+
+.video-is-playing {
+    .video-symbol {
+        display: none;
+    }
 }
 
 .video-with-text-inner {

@@ -32,10 +32,14 @@
     }
 }
 
-.video-is-paused:hover {
+.video-frame-project:hover {
     //cursor:  pointer;
     cursor: url("../svg/triangel.svg") 7 8,auto;
     //mix-blend-mode: difference;
+
+    .video-symbol {
+        display: none;
+    }
 }
 
 .video-is-playing:hover {
