@@ -349,7 +349,7 @@
   pointer-events: none; }
 
 .images-with-text {
-  margin: 5rem auto;
+  margin: 4rem auto;
   max-width: 1240px;
   padding: 0 1rem;
   position: relative;
@@ -502,7 +502,7 @@ figcaption {
       width: 100%; } }
 
 .video-with-text {
-  margin: 5rem auto;
+  margin: 4rem auto;
   max-width: 1240px;
   padding: 0 1rem;
   position: relative;
