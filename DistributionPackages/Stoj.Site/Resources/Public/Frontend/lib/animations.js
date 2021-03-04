@@ -25,7 +25,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
 			y: 0,
 			autoAlpha: 1,
 			scaleY: 1,
-			duration: 1,
+			duration: .6,
 		}),
 	})
 
