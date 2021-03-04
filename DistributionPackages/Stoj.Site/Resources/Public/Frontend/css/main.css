@@ -146,7 +146,7 @@
   .para p {
     display: inline-block;
     font-family: "Barlow Condensed", sans-serif;
-    font-size: 1.85rem !important;
+    font-size: 1.75rem !important;
     font-weight: 700;
     line-height: 1.1 !important; }
     @media only screen and (min-width: 768px) {
