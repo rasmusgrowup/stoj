@@ -1,5 +1,4 @@
 gsap.registerPlugin(ScrollTrigger);
-//gsap.set(".images-with-text-inner, .video-with-text-inner", {y:50, scaleY: 1.25,});
 
 window.addEventListener('DOMContentLoaded', (event) => {
 	ScrollTrigger.batch(".line-link, .para p strong", {

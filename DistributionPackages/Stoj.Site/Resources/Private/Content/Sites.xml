@@ -22,14 +22,14 @@
       <properties/>
      </variant>
      <node identifier="40fad26d-b297-4c15-af29-07e79456c189" nodeName="node-35wrj6wqwwbji">
-      <variant sortingIndex="338" workspace="live" nodeType="Stoj.Site:Templates.VideoText" version="13" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="338" workspace="live" nodeType="Stoj.Site:Templates.VideoText" version="14" removed="" hidden="" hiddenInIndex="">
        <dimensions>
         <language>da</language>
        </dimensions>
        <accessRoles __type="array"/>
        <creationDateTime __type="object" __classname="DateTime">2021-02-22T10:56:37+01:00</creationDateTime>
-       <lastModificationDateTime __type="object" __classname="DateTime">2021-03-03T14:10:45+01:00</lastModificationDateTime>
-       <lastPublicationDateTime __type="object" __classname="DateTime">2021-03-03T14:10:45+01:00</lastPublicationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2021-03-04T15:53:27+01:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2021-03-04T15:53:27+01:00</lastPublicationDateTime>
        <properties>
         <id __type="string">https://player.vimeo.com/video/482592325?background=1</id>
         <link __type="string">node://17de705d-bbab-4bf0-95b0-bc15ab0876cb</link>
@@ -37,7 +37,7 @@
         <tekst __type="string">&lt;p&gt;Vi har et længere varende samarbejde med Tinekhome om at producere en række videoer, med deres produkter i fokus. Videoerne bruges til præsentationer af produkterne på messer, i deres web-shop og deres sociale medier.&lt;/p&gt;</tekst>
         <titel __type="string">&lt;h2&gt;Tine k home&lt;/h2&gt;</titel>
         <caption __type="string">&lt;p&gt;Videoen viser et uddrag, af den færdige video. Videoerne er produceret over en længere periode, med ca. 3-4 uger imellem. @stöj&lt;/p&gt;</caption>
-        <hasCaption __type="boolean">1</hasCaption>
+        <hasCaption __type="boolean"></hasCaption>
        </properties>
       </variant>
      </node>
@@ -111,14 +111,14 @@
       </variant>
      </node>
      <node identifier="f1da75c4-b7a3-4851-9f5f-1877c02fa40d" nodeName="node-ibg5h9cj40sjj">
-      <variant sortingIndex="347" workspace="live" nodeType="Stoj.Site:Templates.ImageText" version="19" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="347" workspace="live" nodeType="Stoj.Site:Templates.ImageText" version="21" removed="" hidden="" hiddenInIndex="">
        <dimensions>
         <language>da</language>
        </dimensions>
        <accessRoles __type="array"/>
        <creationDateTime __type="object" __classname="DateTime">2021-02-18T13:36:47+01:00</creationDateTime>
-       <lastModificationDateTime __type="object" __classname="DateTime">2021-03-01T10:31:35+01:00</lastModificationDateTime>
-       <lastPublicationDateTime __type="object" __classname="DateTime">2021-03-01T10:31:35+01:00</lastPublicationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2021-03-04T15:54:04+01:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2021-03-04T15:54:04+01:00</lastPublicationDateTime>
        <properties>
         <link __type="string">node://626a3832-61c8-4283-8639-6c3382f4a663</link>
         <image __type="object" __identifier="773135ef-4ba1-4611-b7ed-8a4646a4100f" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;773135ef-4ba1-4611-b7ed-8a4646a4100f&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;Overordnet-Session-20200092.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;24558019b7b4fa5582254b4708ccd2f4248ae0d7&quot;,&quot;hash&quot;:&quot;24558019b7b4fa5582254b4708ccd2f4248ae0d7&quot;,&quot;__identity&quot;:&quot;f45cdf6b-3843-4a36-a96b-39082c98633b&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image>
@@ -126,7 +126,7 @@
         <tekst __type="string">&lt;p&gt;Hos Stöj gør vi os altid umage med at skabe et spændende billede-univers til jer. Vores billeder og video har deres helt eget udtryk, som vi har arbejdet på at finpudse i mange år. Udtrykket passer godt til magasiner, reklamer og POS-materialer, men passer også strålende til hjemmesider, sociale-medier og andet. Et unikt billed-univers kan være den forskel, der skal til, for at jeres kunder husker jer.&lt;/p&gt;</tekst>
         <titel __type="string">&lt;h2&gt;Unikke billeduniverser&lt;/h2&gt;</titel>
         <title __type="string">Unikke billeduniverser</title>
-        <caption __type="string">&lt;p&gt;Her på billederne ses en serie af fotografier, vores dygtige junior fotograf har lavet til en af vores kunder. Der er arbejdet med at skabe et helt unikt billed-univers - den blå baggrund, den lyserøde pedestal, hundes positur og belysning. @julie_erhorn 2020&lt;/p&gt;</caption>
+        <caption __type="string">&lt;p&gt;Her på billederne ses en serie af fotografier, vores dygtige junior fotograf har lavet til en af vores kunder @julie_erhorn 2020&lt;/p&gt;</caption>
         <hasCaption __type="boolean">1</hasCaption>
         <imageSmall __type="object" __identifier="2e935611-8303-4f82-ac53-47df1d57ae89" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;2e935611-8303-4f82-ac53-47df1d57ae89&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;Overordnet-Session-20200034.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;772890dc10b7fa7ea72f8cd2bab29a64a7a96408&quot;,&quot;hash&quot;:&quot;772890dc10b7fa7ea72f8cd2bab29a64a7a96408&quot;,&quot;__identity&quot;:&quot;41f4a8c3-0ca5-4636-b010-28040019ce8b&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</imageSmall>
         <smallImage __type="boolean"></smallImage>
@@ -149,14 +149,14 @@
       </variant>
      </node>
      <node identifier="ebfde6c2-a89b-4473-a95e-6ff52c787afb" nodeName="node-p42tgxf65kzw9">
-      <variant sortingIndex="400" workspace="live" nodeType="Stoj.Site:Templates.ImageText" version="12" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="400" workspace="live" nodeType="Stoj.Site:Templates.ImageText" version="13" removed="" hidden="" hiddenInIndex="">
        <dimensions>
         <language>da</language>
        </dimensions>
        <accessRoles __type="array"/>
        <creationDateTime __type="object" __classname="DateTime">2021-02-18T15:56:30+01:00</creationDateTime>
-       <lastModificationDateTime __type="object" __classname="DateTime">2021-02-18T16:04:03+01:00</lastModificationDateTime>
-       <lastPublicationDateTime __type="object" __classname="DateTime">2021-02-18T16:04:02+01:00</lastPublicationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2021-03-04T15:53:27+01:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2021-03-04T15:53:27+01:00</lastPublicationDateTime>
        <properties>
         <link __type="string">node://83d51e1b-1253-4922-8089-79afbbeb9120</link>
         <image __type="object" __identifier="f73545ab-55e8-4cc7-b9f0-b2590078d7e2" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;f73545ab-55e8-4cc7-b9f0-b2590078d7e2&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;31964.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;abc503cd2a81c5d695fb1c38acf0d4cb009f8a72&quot;,&quot;hash&quot;:&quot;abc503cd2a81c5d695fb1c38acf0d4cb009f8a72&quot;,&quot;__identity&quot;:&quot;d7360cb0-e8d1-444d-a43a-7705174d7ea3&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image>
@@ -170,14 +170,14 @@
       </variant>
      </node>
      <node identifier="b12c0a66-b880-446c-9bdb-78ff546ffb43" nodeName="node-qwztytqlgyc0h">
-      <variant sortingIndex="313" workspace="live" nodeType="Stoj.Site:Templates.VideoText" version="16" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="313" workspace="live" nodeType="Stoj.Site:Templates.VideoText" version="17" removed="" hidden="" hiddenInIndex="">
        <dimensions>
         <language>da</language>
        </dimensions>
        <accessRoles __type="array"/>
        <creationDateTime __type="object" __classname="DateTime">2021-02-22T10:11:32+01:00</creationDateTime>
-       <lastModificationDateTime __type="object" __classname="DateTime">2021-03-02T13:06:10+01:00</lastModificationDateTime>
-       <lastPublicationDateTime __type="object" __classname="DateTime">2021-03-02T13:06:10+01:00</lastPublicationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2021-03-04T15:53:27+01:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2021-03-04T15:53:27+01:00</lastPublicationDateTime>
        <properties>
         <id __type="string">https://player.vimeo.com/video/481279725?background=1</id>
         <link __type="string">node://659d47c5-9c80-4308-8f33-9258f26c0968</link>
@@ -186,7 +186,7 @@
         <tekst __type="string">&lt;p&gt;Der er kommet mange gode projekter ud af vores samarbejde med LEGO - bl.a. denne behind-the-scenes video til LEGO Builder: The Journey. Videoen er blevet set af millioner af LEGO-kunder, der til dagligt spiller arcade spillet.&lt;/p&gt;</tekst>
         <titel __type="string">&lt;h2&gt;LEGO Builder: The Journey&lt;/h2&gt;</titel>
         <caption __type="string">&lt;p&gt;Her ses et kort uddrag af LEGO Builder: The Journey filmen. Uddraget viser nogle af de scener, vi har været med til at optage. @stöj&lt;/p&gt;</caption>
-        <hasCaption __type="boolean">1</hasCaption>
+        <hasCaption __type="boolean"></hasCaption>
        </properties>
       </variant>
      </node>
