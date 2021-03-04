@@ -22,17 +22,17 @@
       <properties/>
      </variant>
      <node identifier="40fad26d-b297-4c15-af29-07e79456c189" nodeName="node-35wrj6wqwwbji">
-      <variant sortingIndex="338" workspace="live" nodeType="Stoj.Site:Templates.VideoText" version="12" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="338" workspace="live" nodeType="Stoj.Site:Templates.VideoText" version="13" removed="" hidden="" hiddenInIndex="">
        <dimensions>
         <language>da</language>
        </dimensions>
        <accessRoles __type="array"/>
        <creationDateTime __type="object" __classname="DateTime">2021-02-22T10:56:37+01:00</creationDateTime>
-       <lastModificationDateTime __type="object" __classname="DateTime">2021-03-01T10:31:35+01:00</lastModificationDateTime>
-       <lastPublicationDateTime __type="object" __classname="DateTime">2021-03-01T10:31:35+01:00</lastPublicationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2021-03-03T14:10:45+01:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2021-03-03T14:10:45+01:00</lastPublicationDateTime>
        <properties>
         <id __type="string">https://player.vimeo.com/video/482592325?background=1</id>
-        <link __type="string">node://83d51e1b-1253-4922-8089-79afbbeb9120</link>
+        <link __type="string">node://17de705d-bbab-4bf0-95b0-bc15ab0876cb</link>
         <label __type="string">Se den færdige video</label>
         <tekst __type="string">&lt;p&gt;Vi har et længere varende samarbejde med Tinekhome om at producere en række videoer, med deres produkter i fokus. Videoerne bruges til præsentationer af produkterne på messer, i deres web-shop og deres sociale medier.&lt;/p&gt;</tekst>
         <titel __type="string">&lt;h2&gt;Tine k home&lt;/h2&gt;</titel>
@@ -59,16 +59,16 @@
       </variant>
      </node>
      <node identifier="8fb32aa6-99f9-4161-9025-90e25a942be4" nodeName="node-adtmt5psgw1c1">
-      <variant sortingIndex="325" workspace="live" nodeType="Stoj.Site:Templates.ImageTextTwo" version="12" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="325" workspace="live" nodeType="Stoj.Site:Templates.ImageTextTwo" version="13" removed="" hidden="" hiddenInIndex="">
        <dimensions>
         <language>da</language>
        </dimensions>
        <accessRoles __type="array"/>
        <creationDateTime __type="object" __classname="DateTime">2021-02-22T09:33:58+01:00</creationDateTime>
-       <lastModificationDateTime __type="object" __classname="DateTime">2021-03-01T10:31:09+01:00</lastModificationDateTime>
-       <lastPublicationDateTime __type="object" __classname="DateTime">2021-03-01T10:31:09+01:00</lastPublicationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2021-03-03T14:05:53+01:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2021-03-03T14:05:53+01:00</lastPublicationDateTime>
        <properties>
-        <link __type="string">node://83d51e1b-1253-4922-8089-79afbbeb9120</link>
+        <link __type="string">node://c462785b-1e6e-444f-8edc-909c01968efb</link>
         <image __type="object" __identifier="91ccf058-cc61-4e88-9143-602a484a6f4a" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;91ccf058-cc61-4e88-9143-602a484a6f4a&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;Sk\u00e6rmbillede 2020-11-16 kl. 20.42.47.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;003ca433a2937be0ab0e43fab2572a6a6ad4d0bd&quot;,&quot;hash&quot;:&quot;003ca433a2937be0ab0e43fab2572a6a6ad4d0bd&quot;,&quot;__identity&quot;:&quot;3b59fcb8-ec47-4854-a376-29829ba4ca62&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image>
         <label __type="string">se flere billeder fra denne serie</label>
         <tekst __type="string">&lt;p&gt;Vi har produceret disse smukke billeder af floraen i englandskabet ved Tuborg Strandeng. Billederne bruges i en eksklusiv bog, der gives i gave til indflytterne i området.&lt;/p&gt;</tekst>
@@ -254,17 +254,17 @@
        </variant>
       </node>
       <node identifier="15d9c2a2-e727-461a-82aa-563b4cbc1f11" nodeName="node-2r87pdgvdl054">
-       <variant sortingIndex="125" workspace="live" nodeType="Stoj.Site:Templates.ImageTextContact" version="15" removed="" hidden="" hiddenInIndex="">
+       <variant sortingIndex="125" workspace="live" nodeType="Stoj.Site:Templates.ImageTextContact" version="21" removed="" hidden="" hiddenInIndex="">
         <dimensions>
          <language>da</language>
         </dimensions>
         <accessRoles __type="array"/>
         <creationDateTime __type="object" __classname="DateTime">2021-02-23T10:06:51+01:00</creationDateTime>
-        <lastModificationDateTime __type="object" __classname="DateTime">2021-03-01T13:36:19+01:00</lastModificationDateTime>
-        <lastPublicationDateTime __type="object" __classname="DateTime">2021-03-01T13:36:18+01:00</lastPublicationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2021-03-03T13:34:21+01:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2021-03-03T13:34:21+01:00</lastPublicationDateTime>
         <properties>
          <image __type="object" __identifier="367f1ef2-1fda-44dc-89ad-8dd41fa12cc7" __classname="Neos\Media\Domain\Model\ImageVariant" __encoding="json">{&quot;__identity&quot;:&quot;367f1ef2-1fda-44dc-89ad-8dd41fa12cc7&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\ImageVariant&quot;,&quot;originalAsset&quot;:{&quot;__identity&quot;:&quot;82b95091-d678-4b64-aef9-02cf28698063&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;Sk\u00e6rmbillede 2020-09-14 kl. 15.45.41.png&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/png&quot;,&quot;sha1&quot;:&quot;6de15519aa283cc20ccc362fdeaae3d6a6a89937&quot;,&quot;hash&quot;:&quot;6de15519aa283cc20ccc362fdeaae3d6a6a89937&quot;,&quot;__identity&quot;:&quot;f7c2a43c-4c0d-45ea-86e8-7ce5a25a69f2&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]},&quot;adjustments&quot;:[{&quot;aspectRatio&quot;:null,&quot;height&quot;:564,&quot;position&quot;:10,&quot;width&quot;:403,&quot;x&quot;:63,&quot;y&quot;:122,&quot;__identity&quot;:&quot;65112f9b-3e0a-49bc-9f49-fbd90f9e3bc9&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Adjustment\\CropImageAdjustment&quot;}]}</image>
-         <tekst __type="string">&lt;p&gt;Stöj består af to klassisk uddannede fotografer, Nick Degn og Martin Kruse, der tilsammen har mere end 30 års erfaring med fotografering og videoproduktion. Vi har et tæt samarbejde med vores kunder, og leverer billeder og video til bl.a. Nørgaard Mikkelsen, LEGO, Royal Unibrew, og en række mindre design bureauer. STÖJ består desuden af vores samarbejdspartnere, der inkluderer make-up- og indretningsstylister, model-bureauer, billedbehandlere m.m.&lt;/p&gt;</tekst>
+         <tekst __type="string">&lt;p&gt;Stöj består af to klassisk uddannede fotografer, Nick Degn og Martin Kruse, der tilsammen har mere end 30 års erfaring med fotografering og videoproduktion. Vi har et tæt samarbejde med vores kunder, og leverer billeder og video til en lang række reklame og design bureauer, samt B2B.&amp;nbsp;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;Foruden Nick og Martin, består STÖJ desuden af vores samarbejdspartnere, der inkluderer make-up- og indretningsstylister, model-bureauer, madstylister og billedbehandlere m.m.&lt;/p&gt;</tekst>
          <titel __type="string">&lt;h2&gt;Hvem er vi?&lt;/h2&gt;</titel>
          <caption __type="string"></caption>
          <imageSmall __type="object" __identifier="f036694e-234c-4387-90ba-9877753e2325" __classname="Neos\Media\Domain\Model\ImageVariant" __encoding="json">{&quot;__identity&quot;:&quot;f036694e-234c-4387-90ba-9877753e2325&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\ImageVariant&quot;,&quot;originalAsset&quot;:{&quot;__identity&quot;:&quot;ec5c6f7d-5662-4962-a259-2edb56b9a59a&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;Sk\u00e6rmbillede 2020-09-14 kl. 15.45.50.png&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/png&quot;,&quot;sha1&quot;:&quot;f9b054ec67e7109b714acb47f7c6329058275b45&quot;,&quot;hash&quot;:&quot;f9b054ec67e7109b714acb47f7c6329058275b45&quot;,&quot;__identity&quot;:&quot;e848f1b3-2be9-4bf8-9e05-7d2e89625550&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]},&quot;adjustments&quot;:[{&quot;aspectRatio&quot;:null,&quot;height&quot;:584,&quot;position&quot;:10,&quot;width&quot;:417,&quot;x&quot;:11,&quot;y&quot;:128,&quot;__identity&quot;:&quot;3f0091ee-5583-4960-990a-db6fa3ecd172&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Adjustment\\CropImageAdjustment&quot;}]}</imageSmall>
@@ -274,16 +274,16 @@
        </variant>
       </node>
       <node identifier="db853342-7481-4e28-8053-2dc356fce9f3" nodeName="node-bfxbtwes0oqw2">
-       <variant sortingIndex="100" workspace="live" nodeType="Stoj.Site:Content.ShoutHeader" version="17" removed="" hidden="" hiddenInIndex="">
+       <variant sortingIndex="100" workspace="live" nodeType="Stoj.Site:Content.ShoutHeader" version="18" removed="" hidden="" hiddenInIndex="">
         <dimensions>
          <language>da</language>
         </dimensions>
         <accessRoles __type="array"/>
         <creationDateTime __type="object" __classname="DateTime">2021-02-22T16:51:18+01:00</creationDateTime>
-        <lastModificationDateTime __type="object" __classname="DateTime">2021-03-01T12:56:44+01:00</lastModificationDateTime>
-        <lastPublicationDateTime __type="object" __classname="DateTime">2021-03-01T12:56:44+01:00</lastPublicationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2021-03-03T13:17:17+01:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2021-03-03T13:17:17+01:00</lastPublicationDateTime>
         <properties>
-         <titel __type="string">&lt;h2&gt;Foto- og videoproduktion i Odense centrum&lt;/h2&gt;</titel>
+         <titel __type="string">&lt;h2&gt;Kommerciel erfaring&lt;/h2&gt;</titel>
          <paragraph __type="string">&lt;p&gt;Vi er et velanset &lt;strong&gt;video&lt;/strong&gt;- og &lt;strong&gt;fotostudie&lt;/strong&gt;, med mange års erfaring i kommerciel foto- og videoproduktion. Vi er placeret centralt i &lt;strong&gt;Odense&lt;/strong&gt;, med perfekt lysindfald i lokalerne og masser af faciliteter.&lt;/p&gt;</paragraph>
          <topMargin __type="boolean"></topMargin>
         </properties>
@@ -313,20 +313,22 @@
        </variant>
       </node>
       <node identifier="94265ab0-bb5a-4ae4-914a-30ceda70f44f" nodeName="node-w5eqa6rxfc599">
-       <variant sortingIndex="50" workspace="live" nodeType="Stoj.Site:Templates.ImageTextThree" version="35" removed="" hidden="" hiddenInIndex="">
+       <variant sortingIndex="50" workspace="live" nodeType="Stoj.Site:Templates.ImageTextThree" version="39" removed="" hidden="" hiddenInIndex="">
         <dimensions>
          <language>da</language>
         </dimensions>
         <accessRoles __type="array"/>
         <creationDateTime __type="object" __classname="DateTime">2021-03-01T12:41:56+01:00</creationDateTime>
-        <lastModificationDateTime __type="object" __classname="DateTime">2021-03-01T14:27:23+01:00</lastModificationDateTime>
-        <lastPublicationDateTime __type="object" __classname="DateTime">2021-03-01T14:27:22+01:00</lastPublicationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2021-03-03T13:18:44+01:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2021-03-03T13:18:44+01:00</lastPublicationDateTime>
         <properties>
+         <link __type="string">node://626a3832-61c8-4283-8639-6c3382f4a663</link>
          <image __type="object" __identifier="a3b26806-7394-4988-98ee-5cf42c8a20e3" __classname="Neos\Media\Domain\Model\ImageVariant" __encoding="json">{&quot;__identity&quot;:&quot;a3b26806-7394-4988-98ee-5cf42c8a20e3&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\ImageVariant&quot;,&quot;originalAsset&quot;:{&quot;__identity&quot;:&quot;b83fe302-4a7c-4943-8496-c96be94d7259&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;fastelavn3-kopi.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;bd7b5f7f49cc7bc7ff113444e9ed43d42f53b36d&quot;,&quot;hash&quot;:&quot;bd7b5f7f49cc7bc7ff113444e9ed43d42f53b36d&quot;,&quot;__identity&quot;:&quot;28839f16-3abf-4e3a-9377-7fabf1d6ecbb&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]},&quot;adjustments&quot;:[{&quot;aspectRatio&quot;:null,&quot;height&quot;:997,&quot;position&quot;:10,&quot;width&quot;:797,&quot;x&quot;:128,&quot;y&quot;:6,&quot;__identity&quot;:&quot;d4c74b37-a689-42bb-b227-0bda84ab8d6f&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Adjustment\\CropImageAdjustment&quot;}]}</image>
+         <label __type="string">Se vores galleri for inspiration</label>
          <tekst __type="string">&lt;p&gt;I vores lyse og lækre lokaler, knokler vi for at skabe spændende billed- og filmuniverser for vores kunder. Her kan vi skabe kunstige rum til ethvert formål - fra små miljøer til store stuer - og vi har regi, farvede baggrunde og moderne kameraudstyr, som kan bruges til jeres opgaver.&lt;/p&gt;</tekst>
-         <titel __type="string">&lt;h1&gt;Fotostudie placeret i Odense centrum&lt;/h1&gt;</titel>
+         <titel __type="string">&lt;h1&gt;Foto- og videoproduktion i Odense centrum&lt;/h1&gt;</titel>
          <caption __type="string"></caption>
-         <paragraph __type="string">&lt;p&gt;På vores studie, producerer vi foto og film for danske mediehuse, design bureauer og start-ups&lt;/p&gt;</paragraph>
+         <paragraph __type="string">&lt;p&gt;På vores studie, producerer vi &lt;strong&gt;foto&lt;/strong&gt; og &lt;strong&gt;film&lt;/strong&gt; for danske mediehuse, design bureauer og start-ups&lt;/p&gt;</paragraph>
          <alternativeText __type="string">Nick og Martin fra Stöj iført enhjørninge kostumer</alternativeText>
         </properties>
        </variant>
@@ -3354,16 +3356,16 @@
          <properties/>
         </variant>
         <node identifier="e5451168-4ebe-43df-9f59-67bb7a549b02" nodeName="node-4esioamsmrdsq">
-         <variant sortingIndex="225" workspace="live" nodeType="Stoj.Site:Content.Tekst" version="5" removed="" hidden="" hiddenInIndex="">
+         <variant sortingIndex="225" workspace="live" nodeType="Stoj.Site:Content.Tekst" version="7" removed="" hidden="" hiddenInIndex="">
           <dimensions>
            <language>da</language>
           </dimensions>
           <accessRoles __type="array"/>
           <creationDateTime __type="object" __classname="DateTime">2021-03-02T13:41:21+01:00</creationDateTime>
-          <lastModificationDateTime __type="object" __classname="DateTime">2021-03-02T13:42:52+01:00</lastModificationDateTime>
-          <lastPublicationDateTime __type="object" __classname="DateTime">2021-03-02T13:42:51+01:00</lastPublicationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2021-03-03T14:10:22+01:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2021-03-03T14:10:22+01:00</lastPublicationDateTime>
           <properties>
-           <tekst __type="string">&lt;p&gt;I forbindelse med LEGO's udgivelse af deres spilplatform LEGO BUILDER, blev vi bedt om at lave en 'behind the scenes' om tilblivelsen af spillet&lt;/p&gt;</tekst>
+           <tekst __type="string">&lt;h2&gt;Om opgaven&lt;/h2&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;Der er kommet mange gode projekter ud af vores samarbejde med LEGO - bl.a. denne behind-the-scenes video til LEGO Builder: The Journey. Videoen er blevet set af millioner af LEGO-kunder, der til dagligt spiller arcade spillet.&lt;/p&gt;</tekst>
           </properties>
          </variant>
         </node>
@@ -3387,6 +3389,21 @@
           </properties>
          </variant>
         </node>
+        <node identifier="b0183fe0-35c2-4a6e-82af-5b0368e18466" nodeName="node-qsweu7cqvh2cp">
+         <variant sortingIndex="425" workspace="live" nodeType="Stoj.Site:Content.Next" version="4" removed="" hidden="" hiddenInIndex="">
+          <dimensions>
+           <language>da</language>
+          </dimensions>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2021-03-03T14:06:10+01:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2021-03-03T14:06:51+01:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2021-03-03T14:06:51+01:00</lastPublicationDateTime>
+          <properties>
+           <link __type="string">node://c462785b-1e6e-444f-8edc-909c01968efb</link>
+           <label __type="string">Næste projekt: Tuborg Strandeng</label>
+          </properties>
+         </variant>
+        </node>
        </node>
        <node identifier="2e011d1e-9b56-4cf9-b228-f5abbe762942" nodeName="node-y7k90tz228edt">
         <variant sortingIndex="100" workspace="live" nodeType="Stoj.Site:Content.ShoutHeader" version="5" removed="" hidden="" hiddenInIndex="">
@@ -3403,6 +3420,284 @@
           <topMargin __type="boolean">1</topMargin>
          </properties>
         </variant>
+       </node>
+      </node>
+     </node>
+     <node identifier="17de705d-bbab-4bf0-95b0-bc15ab0876cb" nodeName="node-fr5r4pge4zsu5">
+      <variant sortingIndex="763" workspace="live" nodeType="Stoj.Site:Document.Page" version="4" removed="" hidden="" hiddenInIndex="1">
+       <dimensions>
+        <language>da</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2021-03-03T14:07:29+01:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2021-03-03T14:07:40+01:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2021-03-03T14:07:40+01:00</lastPublicationDateTime>
+       <properties>
+        <title __type="string">Tinekhome</title>
+        <uriPathSegment __type="string">tinekhome</uriPathSegment>
+       </properties>
+      </variant>
+      <node identifier="48e2b45a-d2db-4ed6-a31a-8b8073dfe90b" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>da</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2021-03-03T14:07:29+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2021-03-03T14:07:40+01:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2021-03-03T14:07:40+01:00</lastPublicationDateTime>
+        <properties/>
+       </variant>
+       <node identifier="7f0836fc-62ab-462b-ae6a-6fb923b40d52" nodeName="node-q729meytuabxk">
+        <variant sortingIndex="138" workspace="live" nodeType="Stoj.Site:Collection.Section" version="2" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>da</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2021-03-03T14:07:29+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2021-03-03T14:07:40+01:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2021-03-03T14:07:40+01:00</lastPublicationDateTime>
+         <properties/>
+        </variant>
+        <node identifier="6eb2a261-41dc-43bc-8787-fd214e52a77b" nodeName="node-4esioamsmrdsq">
+         <variant sortingIndex="225" workspace="live" nodeType="Stoj.Site:Content.Tekst" version="4" removed="" hidden="" hiddenInIndex="">
+          <dimensions>
+           <language>da</language>
+          </dimensions>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2021-03-03T14:07:29+01:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2021-03-03T14:08:57+01:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2021-03-03T14:08:57+01:00</lastPublicationDateTime>
+          <properties>
+           <tekst __type="string">&lt;h2&gt;Om opgaven&lt;/h2&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;Vi har et længere varende samarbejde med Tinekhome om at producere en række videoer, med deres produkter i fokus. Videoerne bruges til præsentationer af produkterne på messer, i deres web-shop og deres sociale medier.&lt;/p&gt;</tekst>
+          </properties>
+         </variant>
+        </node>
+        <node identifier="061f110d-32bc-441a-ac58-58522256730d" nodeName="node-gxnka7egmw6ru">
+         <variant sortingIndex="325" workspace="live" nodeType="Stoj.Site:Templates.VideoTextProject" version="4" removed="" hidden="" hiddenInIndex="">
+          <dimensions>
+           <language>da</language>
+          </dimensions>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2021-03-03T14:07:29+01:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2021-03-03T15:20:58+01:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2021-03-03T15:20:58+01:00</lastPublicationDateTime>
+          <properties>
+           <id __type="string">https://player.vimeo.com/video/458916119?background=1</id>
+           <float __type="string">float-right</float>
+           <image __type="object" __identifier="d4361e8b-d013-4bb5-b765-7411b1478ff7" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;d4361e8b-d013-4bb5-b765-7411b1478ff7&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;Sk\u00e6rmbillede 2021-03-03 kl. 15.20.46.png&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/png&quot;,&quot;sha1&quot;:&quot;3aa2c5873216491716ac9d82fb6c9a37eefb12f5&quot;,&quot;hash&quot;:&quot;3aa2c5873216491716ac9d82fb6c9a37eefb12f5&quot;,&quot;__identity&quot;:&quot;ef41026d-8194-43e2-b561-26d69b39a6f1&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image>
+           <tekst __type="string">&lt;p&gt;Der er kommet mange gode projekter ud af vores samarbejde med LEGO - bl.a. denne behind-the-scenes video til LEGO Builder: The Journey. Videoen er blevet set af millioner af LEGO-kunder, der til dagligt spiller arcade spillet.&lt;/p&gt;</tekst>
+           <titel __type="string">&lt;h2&gt;LEGO Builder: The Journey&lt;/h2&gt;</titel>
+           <caption __type="string"></caption>
+           <autoPlay __type="boolean">1</autoPlay>
+          </properties>
+         </variant>
+        </node>
+        <node identifier="8f09c6e9-0e79-46c0-9232-d09c15ba06bd" nodeName="node-qsweu7cqvh2cp">
+         <variant sortingIndex="425" workspace="live" nodeType="Stoj.Site:Content.Next" version="2" removed="" hidden="" hiddenInIndex="">
+          <dimensions>
+           <language>da</language>
+          </dimensions>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2021-03-03T14:07:29+01:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2021-03-03T14:07:40+01:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2021-03-03T14:07:40+01:00</lastPublicationDateTime>
+          <properties>
+           <link __type="string">node://c462785b-1e6e-444f-8edc-909c01968efb</link>
+           <label __type="string">Næste projekt: Tuborg Strandeng</label>
+          </properties>
+         </variant>
+        </node>
+       </node>
+       <node identifier="bfd309ae-b9a2-4120-b96a-1402835da150" nodeName="node-y7k90tz228edt">
+        <variant sortingIndex="100" workspace="live" nodeType="Stoj.Site:Content.ShoutHeader" version="4" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>da</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2021-03-03T14:07:29+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2021-03-03T14:08:52+01:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2021-03-03T14:08:51+01:00</lastPublicationDateTime>
+         <properties>
+          <titel __type="string">&lt;h1&gt;Produktvideoer for Tinekhome&lt;/h1&gt;</titel>
+          <paragraph __type="string">&lt;p&gt;Vi har et længere varende samarbejde med Tinekhome om at producere en række videoer, med deres produkter i fokus&lt;/p&gt;</paragraph>
+          <topMargin __type="boolean">1</topMargin>
+         </properties>
+        </variant>
+       </node>
+      </node>
+     </node>
+     <node identifier="c462785b-1e6e-444f-8edc-909c01968efb" nodeName="node-s73yc1df95gv7">
+      <variant sortingIndex="663" workspace="live" nodeType="Stoj.Site:Document.Page" version="4" removed="" hidden="" hiddenInIndex="1">
+       <dimensions>
+        <language>da</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2021-03-03T13:56:25+01:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2021-03-03T13:56:42+01:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2021-03-03T13:56:41+01:00</lastPublicationDateTime>
+       <properties>
+        <title __type="string">Tuborg Strandeng</title>
+        <uriPathSegment __type="string">tuborg-strandeng</uriPathSegment>
+       </properties>
+      </variant>
+      <node identifier="3c4c7585-ff91-4ad6-919f-22f5158d8028" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>da</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2021-03-03T13:56:25+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2021-03-03T13:56:42+01:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2021-03-03T13:56:41+01:00</lastPublicationDateTime>
+        <properties/>
+       </variant>
+       <node identifier="145e170c-c621-47cb-a667-1b717f7214cc" nodeName="node-057s6brjmk5z1">
+        <variant sortingIndex="275" workspace="live" nodeType="Stoj.Site:Content.Next" version="3" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>da</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2021-03-03T13:56:25+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2021-03-03T14:07:16+01:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2021-03-03T14:07:16+01:00</lastPublicationDateTime>
+         <properties>
+          <link __type="string">node://f676459d-ca77-44bc-aeea-44114814c279</link>
+          <label __type="string">Næste projekt: Tinekhome</label>
+         </properties>
+        </variant>
+       </node>
+       <node identifier="085224ec-642a-4a77-8aa8-4db451f6fb57" nodeName="node-t7gv4t0mthmb3">
+        <variant sortingIndex="125" workspace="live" nodeType="Stoj.Site:Templates.ImageTextTwo" version="7" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>da</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2021-03-03T13:59:53+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2021-03-03T14:02:06+01:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2021-03-03T14:02:06+01:00</lastPublicationDateTime>
+         <properties>
+          <link __type="string"></link>
+          <image __type="object" __identifier="91ccf058-cc61-4e88-9143-602a484a6f4a" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;91ccf058-cc61-4e88-9143-602a484a6f4a&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;Sk\u00e6rmbillede 2020-11-16 kl. 20.42.47.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;003ca433a2937be0ab0e43fab2572a6a6ad4d0bd&quot;,&quot;hash&quot;:&quot;003ca433a2937be0ab0e43fab2572a6a6ad4d0bd&quot;,&quot;__identity&quot;:&quot;3b59fcb8-ec47-4854-a376-29829ba4ca62&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image>
+          <label __type="string"></label>
+          <tekst __type="string">&lt;p&gt;Vi har produceret disse smukke billeder af floraen i englandskabet ved Tuborg Strandeng. Billederne bruges i en eksklusiv bog, der gives i gave til indflytterne i området.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;Kunde - Tuborg Strandeng&lt;/p&gt;</tekst>
+          <titel __type="string">&lt;h2&gt;Om opgaven&lt;/h2&gt;</titel>
+          <caption __type="string">&lt;p&gt;På billedet ovenover ses det ‘rå’ billede, som vi afleverede til Tuborg. De kunne herefter bruges i bogen til indflytterne @stöj&lt;/p&gt;</caption>
+          <hasCaption __type="boolean">1</hasCaption>
+          <imageSmall __type="object" __identifier="71111310-e68d-40df-abda-11dd01451b3b" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;71111310-e68d-40df-abda-11dd01451b3b&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;Sk\u00e6rmbillede 2020-11-16 kl. 20.42.56.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;4b10077d9db91857488a56488897acba85b45027&quot;,&quot;hash&quot;:&quot;4b10077d9db91857488a56488897acba85b45027&quot;,&quot;__identity&quot;:&quot;9d94298b-120c-4a0f-9fb4-edea1377e229&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</imageSmall>
+          <smallImage __type="boolean"></smallImage>
+         </properties>
+        </variant>
+       </node>
+       <node identifier="a9d4ed65-4bae-469c-ad60-d0a6aae61382" nodeName="node-uddwa9thhulqr">
+        <variant sortingIndex="100" workspace="live" nodeType="Stoj.Site:Content.ShoutHeader" version="3" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>da</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2021-03-03T13:56:25+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2021-03-03T13:58:19+01:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2021-03-03T13:58:19+01:00</lastPublicationDateTime>
+         <properties>
+          <titel __type="string">&lt;h1&gt;Billedunivers og fotografering for Tuborg Strandeng&lt;/h1&gt;</titel>
+          <paragraph __type="string">&lt;p&gt;Disse skønne og naturlige billeder, findes i en eksklusiv bog, der gives til beboerne i boligerne ved Tuborg Strandeng, så de kan lære deres omgivelser bedre at kende.&lt;/p&gt;</paragraph>
+          <topMargin __type="boolean">1</topMargin>
+         </properties>
+        </variant>
+       </node>
+       <node identifier="90ce7781-56cf-4434-b703-f78ebe0d490c" nodeName="node-wy41e3v2jegn5">
+        <variant sortingIndex="175" workspace="live" nodeType="Stoj.Site:Content.Gallery" version="2" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>da</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2021-03-03T13:56:25+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2021-03-03T13:56:42+01:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2021-03-03T13:56:41+01:00</lastPublicationDateTime>
+         <properties>
+          <centerGallery __type="boolean">1</centerGallery>
+         </properties>
+        </variant>
+        <node identifier="471bd0fc-9052-4a96-b152-bc3ba1db8628" nodeName="column0">
+         <variant sortingIndex="100" workspace="live" nodeType="Stoj.Site:Collection.Content.Column" version="2" removed="" hidden="" hiddenInIndex="">
+          <dimensions>
+           <language>da</language>
+          </dimensions>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2021-03-03T13:56:25+01:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2021-03-03T13:56:42+01:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2021-03-03T13:56:41+01:00</lastPublicationDateTime>
+          <properties/>
+         </variant>
+         <node identifier="cf3eca23-4664-4843-bc35-75a0dffdced9" nodeName="node-264qpz3yjei09">
+          <variant sortingIndex="100" workspace="live" nodeType="Stoj.Site:Content.GalleryItem" version="3" removed="" hidden="" hiddenInIndex="">
+           <dimensions>
+            <language>da</language>
+           </dimensions>
+           <accessRoles __type="array"/>
+           <creationDateTime __type="object" __classname="DateTime">2021-03-03T13:56:25+01:00</creationDateTime>
+           <lastModificationDateTime __type="object" __classname="DateTime">2021-03-03T14:04:54+01:00</lastModificationDateTime>
+           <lastPublicationDateTime __type="object" __classname="DateTime">2021-03-03T14:04:54+01:00</lastPublicationDateTime>
+           <properties>
+            <image __type="object" __identifier="ae3e37d9-90a9-42e8-96cc-4cc9f63b172d" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;ae3e37d9-90a9-42e8-96cc-4cc9f63b172d&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;Lys-1_05.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;b161df57a61d3658b78e834ad0554a1ba28ad2b9&quot;,&quot;hash&quot;:&quot;b161df57a61d3658b78e834ad0554a1ba28ad2b9&quot;,&quot;__identity&quot;:&quot;9f4eed66-b47e-4670-97e3-4de5b89fda99&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image>
+           </properties>
+          </variant>
+         </node>
+         <node identifier="696e089e-559d-4810-89ad-360fb5414ee8" nodeName="node-loybb3vldw4qa">
+          <variant sortingIndex="150" workspace="live" nodeType="Stoj.Site:Content.GalleryItem" version="3" removed="" hidden="" hiddenInIndex="">
+           <dimensions>
+            <language>da</language>
+           </dimensions>
+           <accessRoles __type="array"/>
+           <creationDateTime __type="object" __classname="DateTime">2021-03-03T13:56:25+01:00</creationDateTime>
+           <lastModificationDateTime __type="object" __classname="DateTime">2021-03-03T14:05:16+01:00</lastModificationDateTime>
+           <lastPublicationDateTime __type="object" __classname="DateTime">2021-03-03T14:05:16+01:00</lastPublicationDateTime>
+           <properties>
+            <image __type="object" __identifier="39c6f513-f6d8-4e81-b10a-5ab9628fa6af" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;39c6f513-f6d8-4e81-b10a-5ab9628fa6af&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;Lys-1_04.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;cf11f833a14c4f4e7e316cf62782ec8ff1bcc823&quot;,&quot;hash&quot;:&quot;cf11f833a14c4f4e7e316cf62782ec8ff1bcc823&quot;,&quot;__identity&quot;:&quot;0f24404d-f77a-46a4-98d8-7650b6623135&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image>
+           </properties>
+          </variant>
+         </node>
+        </node>
+        <node identifier="589d6354-0c4d-40c7-a70a-eef0e5106617" nodeName="column1">
+         <variant sortingIndex="200" workspace="live" nodeType="Stoj.Site:Collection.Content.Column" version="2" removed="" hidden="" hiddenInIndex="">
+          <dimensions>
+           <language>da</language>
+          </dimensions>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2021-03-03T13:56:25+01:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2021-03-03T13:56:42+01:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2021-03-03T13:56:41+01:00</lastPublicationDateTime>
+          <properties/>
+         </variant>
+         <node identifier="56cae9d4-3570-45ac-a250-734a494bc2f2" nodeName="node-c5nw4oo8m0gqu">
+          <variant sortingIndex="100" workspace="live" nodeType="Stoj.Site:Content.GalleryItem" version="3" removed="" hidden="" hiddenInIndex="">
+           <dimensions>
+            <language>da</language>
+           </dimensions>
+           <accessRoles __type="array"/>
+           <creationDateTime __type="object" __classname="DateTime">2021-03-03T13:56:25+01:00</creationDateTime>
+           <lastModificationDateTime __type="object" __classname="DateTime">2021-03-03T14:05:08+01:00</lastModificationDateTime>
+           <lastPublicationDateTime __type="object" __classname="DateTime">2021-03-03T14:05:08+01:00</lastPublicationDateTime>
+           <properties>
+            <image __type="object" __identifier="f7e6e1ae-1efc-4a57-aa0d-49b858d9a588" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;f7e6e1ae-1efc-4a57-aa0d-49b858d9a588&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;Lys-1_02.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;c1a7eb1431018c5d1ab2dc1bcc8521a842a56d08&quot;,&quot;hash&quot;:&quot;c1a7eb1431018c5d1ab2dc1bcc8521a842a56d08&quot;,&quot;__identity&quot;:&quot;b08c9cee-eda9-4ec8-a272-45d1d79140d5&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image>
+           </properties>
+          </variant>
+         </node>
+         <node identifier="517d3ed7-293c-4ac1-a0dc-39b5385e7b8c" nodeName="node-y47uxnrgta6kc">
+          <variant sortingIndex="150" workspace="live" nodeType="Stoj.Site:Content.GalleryItem" version="3" removed="" hidden="" hiddenInIndex="">
+           <dimensions>
+            <language>da</language>
+           </dimensions>
+           <accessRoles __type="array"/>
+           <creationDateTime __type="object" __classname="DateTime">2021-03-03T13:56:25+01:00</creationDateTime>
+           <lastModificationDateTime __type="object" __classname="DateTime">2021-03-03T14:05:24+01:00</lastModificationDateTime>
+           <lastPublicationDateTime __type="object" __classname="DateTime">2021-03-03T14:05:24+01:00</lastPublicationDateTime>
+           <properties>
+            <image __type="object" __identifier="bb5e3d75-34bd-4226-9bb2-296689d1c9f8" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;bb5e3d75-34bd-4226-9bb2-296689d1c9f8&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;Lys-1_03.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;04b7c4837c4710908423330111a0e1db99b99db9&quot;,&quot;hash&quot;:&quot;04b7c4837c4710908423330111a0e1db99b99db9&quot;,&quot;__identity&quot;:&quot;d1c943da-6bce-48f0-845a-f6d908ae2c18&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image>
+           </properties>
+          </variant>
+         </node>
+        </node>
        </node>
       </node>
      </node>

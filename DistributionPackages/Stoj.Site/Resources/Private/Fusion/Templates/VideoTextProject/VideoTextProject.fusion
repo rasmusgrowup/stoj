@@ -40,11 +40,16 @@ prototype(Stoj.Site:Templates.VideoTextProject) < prototype(Neos.Neos:ContentCom
         path = 'resource://Stoj.Site/Public/Frontend/svg/play.svg'
     }
 
+    full = Neos.Fusion:ResourceUri {
+        path = 'resource://Stoj.Site/Public/Frontend/svg/full.svg'
+    }
+
     autoPlay = ${q(node).property('autoPlay') ? 'vimeo-video' : ''}
 
     renderer = afx`
         <div class="video-frame-project">
             <iframe
+                class="vimeo-video"
                 id={props.autoPlay}
                 src={props.vimeoID}
                 frameborder="0"
@@ -55,10 +60,11 @@ prototype(Stoj.Site:Templates.VideoTextProject) < prototype(Neos.Neos:ContentCom
                 >
             </iframe>
             <img
-                src={props.src} id="video-thumb" alt=""
+                src={props.src} class="video-thumb" alt=""
                 style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;"
             />
             <img class="video-symbol" src={props.play} alt="play symbol" />
+            <img class="full-symbol" src={props.full} alt="fullscreen symbol" />
         </div>
         <figcaption @if.has={props.hasCaption && props.caption}>
             {props.caption}

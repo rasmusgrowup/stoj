@@ -87,7 +87,7 @@
 
 .main-section {
   margin: 0 auto;
-  max-width: 1080px;
+  max-width: 1240px;
   padding: 0 1rem;
   width: 100%; }
   @media only screen and (min-width: 768px) {
@@ -99,7 +99,7 @@
 
 .shout-inner {
   margin: 0 auto;
-  max-width: 1080px;
+  max-width: 1240px;
   padding: 0 1rem;
   width: 100%; }
   @media only screen and (min-width: 768px) {
@@ -173,7 +173,7 @@
 
 .next-project {
   margin: 2rem auto;
-  max-width: 1080px;
+  max-width: 1240px;
   padding: 0 1rem;
   width: 100%; }
   @media only screen and (min-width: 768px) {
@@ -202,7 +202,7 @@
 
 .--center-gallery {
   margin: 0 auto;
-  max-width: 1080px;
+  max-width: 1240px;
   padding: 0 1rem;
   width: 100%; }
   @media only screen and (min-width: 768px) {
@@ -350,7 +350,7 @@
 
 .images-with-text {
   margin: 5rem auto;
-  max-width: 1080px;
+  max-width: 1240px;
   overflow: auto;
   padding: 0 1rem;
   position: relative;
@@ -496,7 +496,7 @@ figcaption {
 
 .video-with-text {
   margin: 5rem auto;
-  max-width: 1080px;
+  max-width: 1240px;
   overflow: auto;
   padding: 0 1rem;
   position: relative;
@@ -534,7 +534,7 @@ figcaption {
 
 .video-frame-project {
   margin: 2rem auto;
-  max-width: 1080px;
+  max-width: 1240px;
   overflow: auto;
   padding-top: 56.25%;
   position: relative;
@@ -545,6 +545,13 @@ figcaption {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 4rem; }
+  .video-frame-project .full-symbol {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    width: 1.75rem; }
+    .video-frame-project .full-symbol:hover {
+      cursor: pointer; }
 
 .video-is-playing .video-symbol {
   display: none; }
@@ -569,7 +576,7 @@ figcaption {
 
 .images-contact {
   margin: 5rem auto;
-  max-width: 1080px;
+  max-width: 1240px;
   overflow: auto;
   padding: 0 1rem;
   position: relative;

@@ -26,13 +26,13 @@
     }
 }
 
-.video-frame, .video-frame-project, .video-container {
+.video-frame, .reel-container, .video-frame-project, .video-container {
     iframe {
         pointer-events: none;
     }
 }
 
-.video-frame-project:hover {
+.video-frame-project:hover, .reel-container:hover {
     //cursor:  pointer;
     cursor: url("../svg/triangel.svg") 7 8,auto;
     //mix-blend-mode: difference;
