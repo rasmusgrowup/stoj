@@ -138,12 +138,24 @@
     z-index: 100;
 
     .reel-inner {
-        max-width: 520px;
+        max-width: 100%;
         left: 50%;
         top: 50%;
         transform: translate(-50%, -50%);
 
-        @media only screen and (min-width: $break-mobile) {
+        @media only screen and (min-width: 567px) {
+            max-width: 75%;
+        }
+
+        @media only screen and (min-width: 767px) {
+            max-width: 768px;
+        }
+
+        @media only screen and (min-width: 769px) {
+            max-width: 70%;
+        }
+
+        @media only screen and (min-width: 1023px) {
             max-width: 1440px;
         }
 
