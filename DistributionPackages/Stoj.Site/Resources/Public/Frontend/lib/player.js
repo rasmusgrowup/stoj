@@ -39,20 +39,6 @@ if (subheader.length > 0) {
 	    }
 	});
 
-	playReel.addEventListener("touchend", function() {
-		reelPlayer.requestFullscreen().then(function() {
-		// the player entered fullscreen
-		}).catch(function(error) {
-		// an error occurred
-		});
-		reelPlayer.play().then(function() {
-		// the video was played
-		});
-		reelPlayer.setMuted(false).then(function(muted) {
-	// muted was turned on
-		});
-	});
-
 	closeReel.addEventListener("click", function () {
 		reelPlayer.pause().then(function() {
 		// the video was played
