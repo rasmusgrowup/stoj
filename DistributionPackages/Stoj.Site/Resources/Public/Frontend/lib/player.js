@@ -45,6 +45,12 @@ if (subheader.length > 0) {
 		}).catch(function(error) {
 		// an error occurred
 		});
+		reelPlayer.play().then(function() {
+		// the video was played
+		});
+		reelPlayer.setMuted(false).then(function(muted) {
+	// muted was turned on
+		});
 	});
 
 	closeReel.addEventListener("click", function () {
