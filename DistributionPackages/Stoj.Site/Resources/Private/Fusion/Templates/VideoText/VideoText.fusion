@@ -44,15 +44,6 @@ prototype(Stoj.Site:Templates.VideoText) < prototype(Neos.Neos:ContentComponent)
 
     renderer = afx`
         <section class={"video-with-text " + (props.float)}>
-            <div class="video-with-text-inner">
-                <Stoj.Site:Content.Titel/>
-                <Stoj.Site:Content.Tekst/>
-                <Carbon.Link:Link
-                    link={props.link}
-                    additionalClass="line-link">
-                    {props.label}
-                </Carbon.Link:Link>
-            </div>
             <div class="video-frame">
                 <iframe
                     id={props.autoPlay}
@@ -68,6 +59,15 @@ prototype(Stoj.Site:Templates.VideoText) < prototype(Neos.Neos:ContentComponent)
             <figcaption @if.has={props.hasCaption && props.caption}>
                 {props.caption}
             </figcaption>
+            <div class="video-with-text-inner">
+                <Stoj.Site:Content.Titel/>
+                <Stoj.Site:Content.Tekst/>
+                <Carbon.Link:Link
+                    link={props.link}
+                    additionalClass="line-link">
+                    {props.label}
+                </Carbon.Link:Link>
+            </div>
         </section>
     `
 }

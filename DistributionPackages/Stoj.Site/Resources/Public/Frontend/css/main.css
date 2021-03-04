@@ -370,38 +370,36 @@
   @media only screen and (min-width: 768px) {
     .big-figure {
       display: inline-block;
-      float: left;
       width: 50%; } }
 
 .small-figure {
-  float: right;
+  margin-bottom: 2rem;
   margin-top: -7.5rem;
+  margin-left: auto;
   position: relative;
   width: 50%;
   z-index: 1; }
   @media only screen and (min-width: 768px) {
     .small-figure {
       width: 55%;
-      margin-top: -10rem; } }
+      margin-top: -12rem; } }
   @media only screen and (min-width: 1024px) {
     .small-figure {
-      margin-top: -20rem; } }
+      margin-top: -25rem; } }
 
 .--small-image {
-  float: right;
-  margin-left: -3rem;
-  margin-top: -7.5rem;
-  width: 45%; }
+  margin-left: auto;
+  width: 38%; }
   @media only screen and (min-width: 768px) {
     .--small-image {
-      float: left;
-      margin-left: -3rem;
-      margin-top: 0;
+      margin-left: 0;
+      margin-top: -8rem;
+      left: 46%;
       width: 35%; } }
   @media only screen and (min-width: 1024px) {
     .--small-image {
       margin-left: -3rem;
-      margin-top: 3rem;
+      left: 52%;
       width: 30%; } }
 
 figcaption {
@@ -417,15 +415,14 @@ figcaption {
   margin-bottom: 2.5rem; }
   @media only screen and (min-width: 768px) {
     .images-with-text-inner {
-      display: inline-block;
-      margin-left: 1rem;
-      margin-top: 1rem;
-      width: calc(50% - 1rem); } }
+      left: calc(50% + 2rem);
+      max-width: 415px;
+      position: absolute;
+      top: 0;
+      width: calc(40% - 1rem); } }
   @media only screen and (min-width: 1024px) {
     .images-with-text-inner {
-      margin-left: 3rem;
-      margin-top: 1.5rem;
-      max-width: 415px;
+      left: calc(50% + 3rem);
       width: calc(50% - 3rem); } }
   .images-with-text-inner .titel {
     margin-bottom: .5rem; }
@@ -449,16 +446,26 @@ figcaption {
   float: right; }
   @media only screen and (min-width: 768px) {
     .--two .large-figure {
+      display: none;
       width: 27%;
-      float: left;
       margin-left: .5rem; } }
   @media only screen and (min-width: 1024px) {
     .--two .large-figure {
-      width: 40%; } }
+      display: inline-block;
+      width: 40%;
+      float: left; } }
 
-@media only screen and (min-width: 1024px) {
-  .--two .images-with-text-inner {
-    width: calc(39% - 3rem); } }
+.--two .images-with-text-inner {
+  display: inline-block;
+  margin-top: 2rem; }
+  @media only screen and (min-width: 768px) {
+    .--two .images-with-text-inner {
+      margin-top: 0; } }
+  @media only screen and (min-width: 1024px) {
+    .--two .images-with-text-inner {
+      left: calc(59% + 3rem);
+      margin-top: 0;
+      width: calc(32% - 3rem); } }
 
 .--two figcaption {
   width: 100%; }
@@ -558,15 +565,15 @@ figcaption {
 
 .video-with-text-inner {
   display: block;
-  margin-bottom: 2.5rem; }
+  margin-bottom: 2rem;
+  margin-top: 2rem; }
   @media only screen and (min-width: 768px) {
     .video-with-text-inner {
       display: inline-block;
-      margin-top: 1rem;
       width: calc(60% - 1rem); } }
   @media only screen and (min-width: 1024px) {
     .video-with-text-inner {
-      margin-top: 1.5rem;
+      margin-top: 0;
       max-width: 415px;
       width: calc(45% - 3rem); } }
   .video-with-text-inner .titel {

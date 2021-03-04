@@ -27,6 +27,10 @@ prototype(Stoj.Site:Templates.ImageTextTwo) < prototype(Neos.Neos:ContentCompone
 
     renderer = afx`
         <section class="images-with-text --two">
+            <Stoj.Site:Content.Figure class="big-figure"/>
+            <figure class="large-figure">
+                <img src={props.srcSmall} alt={props.altSmall} />
+            </figure>
             <div class="images-with-text-inner">
                 <Stoj.Site:Content.Titel/>
                 <Stoj.Site:Content.Tekst/>
@@ -36,10 +40,6 @@ prototype(Stoj.Site:Templates.ImageTextTwo) < prototype(Neos.Neos:ContentCompone
                     {props.label}
                 </Carbon.Link:Link>
             </div>
-            <Stoj.Site:Content.Figure class="big-figure"/>
-            <figure class="large-figure">
-                <img src={props.srcSmall} alt={props.altSmall} />
-            </figure>
         </section>
     `
 }
