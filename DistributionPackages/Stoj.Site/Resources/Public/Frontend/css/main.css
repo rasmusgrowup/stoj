@@ -111,7 +111,7 @@
   .shout-inner h1 {
     font-size: 1.25em;
     font-weight: 400;
-    margin-bottom: 1rem; }
+    margin-bottom: .5rem; }
     @media only screen and (min-width: 768px) {
       .shout-inner h1 {
         font-size: 1.5em; } }
