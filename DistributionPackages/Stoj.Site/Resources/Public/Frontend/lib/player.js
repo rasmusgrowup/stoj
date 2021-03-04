@@ -14,6 +14,13 @@ if (subheader.length > 0) {
 	});
 
 	playReel.addEventListener("click", function() {
+			reelPlayer.play().then(function() {
+			// the video was played
+		});
+			reelPlayer.setMuted(false).then(function(muted) {
+			// muted was turned on
+		});
+			reelInner.classList.add("video-is-playing");
 			reelContainer.style.visibility = "visible";
 			reelContainer.style.opacity = "1";
 	});
@@ -22,19 +29,19 @@ if (subheader.length > 0) {
 		timesClicked++;
 
 		if (timesClicked%2==0) {
-			reelPlayer.pause().then(function() {
-			// the video was played
-		});
-			reelInner.classList.remove("video-is-playing");
-			reelPlayer.setMuted(true).then(function(muted) {
-	    // muted was turned on
-			});
-	    } else {
 			reelPlayer.play().then(function() {
 			// the video was played
 			});
 			reelInner.classList.add("video-is-playing");
 			reelPlayer.setMuted(false).then(function(muted) {
+	    // muted was turned on
+			});
+	    } else {
+			reelPlayer.pause().then(function() {
+			// the video was played
+		});
+			reelInner.classList.remove("video-is-playing");
+			reelPlayer.setMuted(true).then(function(muted) {
 	    // muted was turned on
 			});
 	    }
