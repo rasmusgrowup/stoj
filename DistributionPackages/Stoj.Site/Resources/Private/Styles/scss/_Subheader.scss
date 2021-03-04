@@ -130,22 +130,22 @@
     background-color: $stoj-dark;
     height: 100%;
     left: 0;
-    padding: 2rem 6rem;
+    padding: 2rem 0;
     position: fixed;
     top: 0;
     transition: .5s;
     width: 100%;
     z-index: 100;
 
-    @media only screen and (min-width: $break-mobile) {
-        padding: 2rem 0;
-    }
-
     .reel-inner {
-        max-width: 1440px;
+        max-width: 640px;
         left: 50%;
         top: 50%;
         transform: translate(-50%, -50%);
+
+        @media only screen and (min-width: $break-mobile) {
+            max-width: 1440px;
+        }
 
         .video-symbol {
             //display: block;
