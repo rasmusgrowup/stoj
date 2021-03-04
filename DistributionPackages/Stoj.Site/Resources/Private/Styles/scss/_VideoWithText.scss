@@ -90,6 +90,8 @@
     display: block;
     margin-bottom: 2rem;
     margin-top: 2rem;
+    visibility: hidden;
+    transform-origin: top;
 
     @media only screen and (min-width: $break-tablet) {
         display: inline-block;

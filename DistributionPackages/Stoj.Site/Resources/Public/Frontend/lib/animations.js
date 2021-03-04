@@ -1,9 +1,5 @@
 gsap.registerPlugin(ScrollTrigger);
-
-gsap.set(".aos", {opacity:0});
-gsap.set(".aos-text", {opacity:.5});
-//gsap.set(".reel-overlay", {opacity:0});
-//gsap.set(".video-body", {opacity:0});
+gsap.set(".images-with-text-inner, .video-with-text-inner", {y:75, scaleY: 1.5,});
 
 window.addEventListener('DOMContentLoaded', (event) => {
 	ScrollTrigger.batch(".line-link, .para p strong", {
@@ -20,6 +16,16 @@ window.addEventListener('DOMContentLoaded', (event) => {
 			autoAlpha: 1,
 			duration: .75,
 			stagger: .1
+		}),
+	})
+
+	ScrollTrigger.batch(".images-with-text-inner, .video-with-text-inner", {
+		start: '50 bottom',
+		onEnter: batch => gsap.to(batch, {
+			y: 0,
+			autoAlpha: 1,
+			scaleY: 1,
+			duration: 1,
 		}),
 	})
 

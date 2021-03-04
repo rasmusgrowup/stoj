@@ -8,12 +8,12 @@
     width: 100%;
 
     @media only screen and (min-width: $break-tablet) {
-        margin: 8rem auto;
+        margin: 5rem auto;
         padding: 0 3rem;
     }
 
     @media only screen and (min-width: $break-desk) {
-        margin: 10rem auto;
+        //margin: 10rem auto;
         padding: 0 5rem;
     }
 }
@@ -78,6 +78,8 @@ figcaption {
 .images-with-text-inner {
     display: block;
     margin-bottom: 2.5rem;
+    visibility: hidden;
+    transform-origin: top;
 
     @media only screen and (min-width: $break-tablet) {
         left: calc(50% + 2rem);

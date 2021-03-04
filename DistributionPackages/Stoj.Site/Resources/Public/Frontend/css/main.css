@@ -135,10 +135,10 @@
   margin-top: 7.5rem; }
   @media only screen and (min-width: 768px) {
     .--top-margin {
-      margin-top: 8rem; } }
+      margin-top: 6rem; } }
   @media only screen and (min-width: 1024px) {
     .--top-margin {
-      margin-top: 12rem; } }
+      margin-top: 6rem; } }
 
 .para {
   margin-bottom: 2rem;
@@ -357,11 +357,10 @@
   width: 100%; }
   @media only screen and (min-width: 768px) {
     .images-with-text {
-      margin: 8rem auto;
+      margin: 5rem auto;
       padding: 0 3rem; } }
   @media only screen and (min-width: 1024px) {
     .images-with-text {
-      margin: 10rem auto;
       padding: 0 5rem; } }
 
 .big-figure {
@@ -412,7 +411,9 @@ figcaption {
 
 .images-with-text-inner {
   display: block;
-  margin-bottom: 2.5rem; }
+  margin-bottom: 2.5rem;
+  visibility: hidden;
+  transform-origin: top; }
   @media only screen and (min-width: 768px) {
     .images-with-text-inner {
       left: calc(50% + 2rem);
@@ -566,7 +567,9 @@ figcaption {
 .video-with-text-inner {
   display: block;
   margin-bottom: 2rem;
-  margin-top: 2rem; }
+  margin-top: 2rem;
+  visibility: hidden;
+  transform-origin: top; }
   @media only screen and (min-width: 768px) {
     .video-with-text-inner {
       display: inline-block;
