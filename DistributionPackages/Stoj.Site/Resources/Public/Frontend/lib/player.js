@@ -6,6 +6,7 @@ if (subheader.length > 0) {
 	var reelContainer = document.querySelector('.reel-container');
 	var reelInner = document.querySelector('.reel-inner');
 	var reelInnerMobile = document.querySelector('.reel-inner');
+	var playSymbol = document.querySelector('.video-symbol');
 	var timesClicked = 0;
 
 	reelPlayer.pause().then(function() {
@@ -24,7 +25,7 @@ if (subheader.length > 0) {
 			reelPlayer.pause().then(function() {
 			// the video was played
 		});
-			reelContainer.classList.remove("video-is-playing");
+			reelInner.classList.remove("video-is-playing");
 			reelPlayer.setMuted(true).then(function(muted) {
 	    // muted was turned on
 			});
@@ -32,7 +33,7 @@ if (subheader.length > 0) {
 			reelPlayer.play().then(function() {
 			// the video was played
 			});
-			reelContainer.classList.add("video-is-playing");
+			reelInner.classList.add("video-is-playing");
 			reelPlayer.setMuted(false).then(function(muted) {
 	    // muted was turned on
 			});

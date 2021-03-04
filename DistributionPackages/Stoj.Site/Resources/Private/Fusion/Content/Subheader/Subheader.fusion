@@ -12,6 +12,14 @@ prototype(Stoj.Site:Content.Subheader) < prototype(Neos.Neos:ContentComponent) {
     path = 'resource://Stoj.Site/Public/Frontend/svg/play.svg'
     }
 
+    play = Neos.Fusion:ResourceUri {
+        path = 'resource://Stoj.Site/Public/Frontend/svg/play.svg'
+    }
+
+    full = Neos.Fusion:ResourceUri {
+        path = 'resource://Stoj.Site/Public/Frontend/svg/full.svg'
+    }
+
     lazy = ${q(node).prev().is()}
 
     renderer = afx`
@@ -41,6 +49,8 @@ prototype(Stoj.Site:Content.Subheader) < prototype(Neos.Neos:ContentComponent) {
                     allow="autoplay; fullscreen; picture-in-picture"
                     allowfullscreen>
                     </iframe>
+                    <img class="video-symbol" src={props.play} alt="play symbol" />
+                    <!-- <img class="full-symbol" src={props.full} alt="fullscreen symbol" /> -->
                 </div>
                 <div class="close-reel cursor-link" id="close-reel">
                     <span></span>
