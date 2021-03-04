@@ -5,6 +5,7 @@ if (subheader.length > 0) {
 	var closeReel = document.querySelector('.close-reel');
 	var reelContainer = document.querySelector('.reel-container');
 	var reelInner = document.querySelector('.reel-inner');
+	var reelInnerMobile = document.querySelector('.reel-inner');
 	var timesClicked = 0;
 
 	reelPlayer.pause().then(function() {
@@ -36,6 +37,14 @@ if (subheader.length > 0) {
 	    // muted was turned on
 			});
 	    }
+	});
+
+	playReel.addEventListener("touchend", function() {
+		reelPlayer.requestFullscreen().then(function() {
+		// the player entered fullscreen
+		}).catch(function(error) {
+		// an error occurred
+		});
 	});
 
 	closeReel.addEventListener("click", function () {
