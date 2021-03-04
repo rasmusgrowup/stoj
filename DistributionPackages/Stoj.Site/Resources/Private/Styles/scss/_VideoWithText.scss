@@ -2,14 +2,14 @@
     margin: 4rem auto;
     //visibility:hidden;
     max-width: $max-width;
-    //overflow:auto;
+    overflow:auto;
     padding: 0 1rem;
     position: relative;
     width: 100%;
 
     @media only screen and (min-width: $break-tablet) {
         margin: 8rem auto;
-        padding: 0 3rem;
+        padding: 0 2rem;
     }
 
     @media only screen and (min-width: $break-desk) {
@@ -90,8 +90,8 @@
     display: block;
     margin-bottom: 2rem;
     margin-top: 2rem;
-    visibility: hidden;
-    transform-origin: top;
+    //visibility: hidden;
+    //transform-origin: top;
 
     @media only screen and (min-width: $break-tablet) {
         display: inline-block;

@@ -1,5 +1,5 @@
 .images-contact {
-    margin: 5rem auto;
+    margin: 4rem auto 2rem;
     //visibility:hidden;
     max-width: $max-width;
     overflow:auto;
@@ -9,7 +9,7 @@
 
     @media only screen and (min-width: $break-tablet) {
         margin: 8rem auto;
-        padding: 0 3rem;
+        padding: 0 2rem;
     }
 
     @media only screen and (min-width: $break-desk) {
@@ -21,6 +21,7 @@
 .images-contact-inner {
     display: block;
     margin-bottom: 2.5rem;
+    margin-top: 2rem;
 
     @media only screen and (min-width: $break-tablet) {
         display: inline-block;
@@ -67,8 +68,9 @@
 
     p {
         font-size: 1em !important;
+        line-height: 1.2;
         margin-top: .5rem;
-        margin-bottom: .25rem;
+        margin-bottom: .5rem;
 
         &:last-child {
             margin-top: 0;

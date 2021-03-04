@@ -92,7 +92,7 @@
   width: 100%; }
   @media only screen and (min-width: 768px) {
     .main-section {
-      padding: 0 3rem; } }
+      padding: 0 2rem; } }
   @media only screen and (min-width: 1024px) {
     .main-section {
       padding: 0 5rem; } }
@@ -104,7 +104,7 @@
   width: 100%; }
   @media only screen and (min-width: 768px) {
     .shout-inner {
-      padding: 0 3rem; } }
+      padding: 0 2rem; } }
   @media only screen and (min-width: 1024px) {
     .shout-inner {
       padding: 0 5rem; } }
@@ -357,7 +357,7 @@
   @media only screen and (min-width: 768px) {
     .images-with-text {
       margin: 5rem auto;
-      padding: 0 3rem; } }
+      padding: 0 2rem; } }
   @media only screen and (min-width: 1024px) {
     .images-with-text {
       padding: 0 5rem; } }
@@ -383,7 +383,7 @@
       margin-top: -12rem; } }
   @media only screen and (min-width: 1024px) {
     .small-figure {
-      margin-top: -25rem; } }
+      margin-top: -30rem; } }
 
 .--small-image {
   margin-left: auto;
@@ -397,6 +397,7 @@
   @media only screen and (min-width: 1024px) {
     .--small-image {
       margin-left: -3rem;
+      margin-top: -25rem;
       left: 52%;
       width: 30%; } }
 
@@ -410,16 +411,14 @@ figcaption {
 
 .images-with-text-inner {
   display: block;
-  margin-bottom: 2.5rem;
-  visibility: hidden;
-  transform-origin: top; }
+  margin-bottom: 2.5rem; }
   @media only screen and (min-width: 768px) {
     .images-with-text-inner {
       left: calc(50% + 2rem);
       max-width: 415px;
       position: absolute;
       top: 0;
-      width: calc(40% - 1rem); } }
+      width: calc(43% - 1rem); } }
   @media only screen and (min-width: 1024px) {
     .images-with-text-inner {
       left: calc(50% + 3rem);
@@ -429,46 +428,45 @@ figcaption {
   .images-with-text-inner .tekst {
     margin-bottom: 1.5rem; }
 
-.--two .big-figure {
-  display: inline-block;
-  width: 38%;
-  float: left; }
-  @media only screen and (min-width: 768px) {
-    .--two .big-figure {
-      width: 50%; } }
-  @media only screen and (min-width: 1024px) {
-    .--two .big-figure {
-      width: 20%; } }
-
-.--two .large-figure {
-  display: inline-block;
-  width: 60%;
-  float: right; }
-  @media only screen and (min-width: 768px) {
-    .--two .large-figure {
-      display: none;
-      width: 27%;
-      margin-left: .5rem; } }
-  @media only screen and (min-width: 1024px) {
-    .--two .large-figure {
-      display: inline-block;
-      width: 40%;
-      float: left; } }
-
-.--two .images-with-text-inner {
-  display: inline-block;
-  margin-top: 2rem; }
-  @media only screen and (min-width: 768px) {
-    .--two .images-with-text-inner {
-      margin-top: 0; } }
-  @media only screen and (min-width: 1024px) {
-    .--two .images-with-text-inner {
-      left: calc(59% + 3rem);
-      margin-top: 0;
-      width: calc(32% - 3rem); } }
-
-.--two figcaption {
-  width: 100%; }
+.--two {
+  overflow: auto; }
+  .--two .big-figure {
+    display: inline-block;
+    width: 38%;
+    float: left; }
+    @media only screen and (min-width: 768px) {
+      .--two .big-figure {
+        width: 50%; } }
+    @media only screen and (min-width: 1024px) {
+      .--two .big-figure {
+        width: 20%; } }
+  .--two .large-figure {
+    display: inline-block;
+    width: 60%;
+    float: right; }
+    @media only screen and (min-width: 768px) {
+      .--two .large-figure {
+        display: none;
+        width: 27%;
+        margin-left: .5rem; } }
+    @media only screen and (min-width: 1024px) {
+      .--two .large-figure {
+        display: inline-block;
+        width: 40%;
+        float: left; } }
+  .--two .images-with-text-inner {
+    display: inline-block;
+    margin-top: 2rem; }
+    @media only screen and (min-width: 768px) {
+      .--two .images-with-text-inner {
+        margin-top: 0; } }
+    @media only screen and (min-width: 1024px) {
+      .--two .images-with-text-inner {
+        left: calc(59% + 3rem);
+        margin-top: 0;
+        width: calc(32% - 3rem); } }
+  .--two figcaption {
+    width: 100%; }
 
 .--three {
   margin-top: 7.5rem; }
@@ -504,13 +502,14 @@ figcaption {
 .video-with-text {
   margin: 4rem auto;
   max-width: 1240px;
+  overflow: auto;
   padding: 0 1rem;
   position: relative;
   width: 100%; }
   @media only screen and (min-width: 768px) {
     .video-with-text {
       margin: 8rem auto;
-      padding: 0 3rem; } }
+      padding: 0 2rem; } }
   @media only screen and (min-width: 1024px) {
     .video-with-text {
       margin: 10rem auto;
@@ -565,9 +564,7 @@ figcaption {
 .video-with-text-inner {
   display: block;
   margin-bottom: 2rem;
-  margin-top: 2rem;
-  visibility: hidden;
-  transform-origin: top; }
+  margin-top: 2rem; }
   @media only screen and (min-width: 768px) {
     .video-with-text-inner {
       display: inline-block;
@@ -583,7 +580,7 @@ figcaption {
     margin-bottom: 1.5rem; }
 
 .images-contact {
-  margin: 5rem auto;
+  margin: 4rem auto 2rem;
   max-width: 1240px;
   overflow: auto;
   padding: 0 1rem;
@@ -592,7 +589,7 @@ figcaption {
   @media only screen and (min-width: 768px) {
     .images-contact {
       margin: 8rem auto;
-      padding: 0 3rem; } }
+      padding: 0 2rem; } }
   @media only screen and (min-width: 1024px) {
     .images-contact {
       margin: 10rem auto;
@@ -600,7 +597,8 @@ figcaption {
 
 .images-contact-inner {
   display: block;
-  margin-bottom: 2.5rem; }
+  margin-bottom: 2.5rem;
+  margin-top: 2rem; }
   @media only screen and (min-width: 768px) {
     .images-contact-inner {
       display: inline-block;
@@ -635,8 +633,9 @@ figcaption {
   max-width: 90%; }
   .medarbejder-info p {
     font-size: 1em !important;
+    line-height: 1.2;
     margin-top: .5rem;
-    margin-bottom: .25rem; }
+    margin-bottom: .5rem; }
     .medarbejder-info p:last-child {
       margin-top: 0; }
 

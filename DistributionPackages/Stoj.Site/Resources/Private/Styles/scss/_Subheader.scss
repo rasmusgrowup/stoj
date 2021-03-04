@@ -51,7 +51,7 @@
     width: calc(100% - 2rem);
 
     @media only screen and (min-width: $break-mobile) {
-        width: calc(100% - 6rem);
+        width: calc(100% - 4rem);
     }
 
     @media only screen and (min-width: $break-desk) {

@@ -34,10 +34,6 @@ prototype(Stoj.Site:Templates.ImageTextContact) < prototype(Neos.Neos:ContentCom
 
     renderer = afx`
         <section class="images-contact">
-            <div class="images-contact-inner">
-                <Stoj.Site:Content.Titel/>
-                <Stoj.Site:Content.Tekst/>
-            </div>
             <div class="medarbejder --venstre">
                 <Stoj.Site:Content.Figure class="left-figure"/>
                 <div class="medarbejder-info">
@@ -51,6 +47,10 @@ prototype(Stoj.Site:Templates.ImageTextContact) < prototype(Neos.Neos:ContentCom
                 <div class="medarbejder-info">
                     {props.infoHoejre}
                 </div>
+            </div>
+            <div class="images-contact-inner">
+                <Stoj.Site:Content.Titel/>
+                <Stoj.Site:Content.Tekst/>
             </div>
         </section>
     `

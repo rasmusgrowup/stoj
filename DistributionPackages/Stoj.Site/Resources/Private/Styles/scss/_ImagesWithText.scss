@@ -9,7 +9,7 @@
 
     @media only screen and (min-width: $break-tablet) {
         margin: 5rem auto;
-        padding: 0 3rem;
+        padding: 0 2rem;
     }
 
     @media only screen and (min-width: $break-desk) {
@@ -43,7 +43,7 @@
     }
 
     @media only screen and (min-width: $break-desk) {
-        margin-top: -25rem;
+        margin-top: -30rem;
     }
 }
 
@@ -60,6 +60,7 @@
 
     @media only screen and (min-width: $break-desk) {
         margin-left: -3rem;
+        margin-top: -25rem;
         left: 52%;
         width: 30%;
     }
@@ -78,8 +79,8 @@ figcaption {
 .images-with-text-inner {
     display: block;
     margin-bottom: 2.5rem;
-    visibility: hidden;
-    transform-origin: top;
+    //visibility: hidden;
+    //transform-origin: top;
 
     @media only screen and (min-width: $break-tablet) {
         left: calc(50% + 2rem);
@@ -87,7 +88,7 @@ figcaption {
         position: absolute;
         //top: 2rem;
         top: 0;
-        width: calc(40% - 1rem);
+        width: calc(43% - 1rem);
     }
 
     @media only screen and (min-width: $break-desk) {
@@ -106,6 +107,7 @@ figcaption {
 }
 
 .--two {
+    overflow: auto;
     .big-figure {
         display: inline-block;
         width: 38%;

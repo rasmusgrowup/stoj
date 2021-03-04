@@ -313,14 +313,14 @@
        </variant>
       </node>
       <node identifier="94265ab0-bb5a-4ae4-914a-30ceda70f44f" nodeName="node-w5eqa6rxfc599">
-       <variant sortingIndex="50" workspace="live" nodeType="Stoj.Site:Templates.ImageTextThree" version="40" removed="" hidden="1" hiddenInIndex="">
+       <variant sortingIndex="50" workspace="live" nodeType="Stoj.Site:Templates.ImageTextThree" version="42" removed="" hidden="1" hiddenInIndex="">
         <dimensions>
          <language>da</language>
         </dimensions>
         <accessRoles __type="array"/>
         <creationDateTime __type="object" __classname="DateTime">2021-03-01T12:41:56+01:00</creationDateTime>
-        <lastModificationDateTime __type="object" __classname="DateTime">2021-03-04T14:53:07+01:00</lastModificationDateTime>
-        <lastPublicationDateTime __type="object" __classname="DateTime">2021-03-04T14:53:07+01:00</lastPublicationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2021-03-04T15:46:31+01:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2021-03-04T15:46:31+01:00</lastPublicationDateTime>
         <properties>
          <link __type="string">node://626a3832-61c8-4283-8639-6c3382f4a663</link>
          <image __type="object" __identifier="a3b26806-7394-4988-98ee-5cf42c8a20e3" __classname="Neos\Media\Domain\Model\ImageVariant" __encoding="json">{&quot;__identity&quot;:&quot;a3b26806-7394-4988-98ee-5cf42c8a20e3&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\ImageVariant&quot;,&quot;originalAsset&quot;:{&quot;__identity&quot;:&quot;b83fe302-4a7c-4943-8496-c96be94d7259&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;fastelavn3-kopi.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;bd7b5f7f49cc7bc7ff113444e9ed43d42f53b36d&quot;,&quot;hash&quot;:&quot;bd7b5f7f49cc7bc7ff113444e9ed43d42f53b36d&quot;,&quot;__identity&quot;:&quot;28839f16-3abf-4e3a-9377-7fabf1d6ecbb&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]},&quot;adjustments&quot;:[{&quot;aspectRatio&quot;:null,&quot;height&quot;:997,&quot;position&quot;:10,&quot;width&quot;:797,&quot;x&quot;:128,&quot;y&quot;:6,&quot;__identity&quot;:&quot;d4c74b37-a689-42bb-b227-0bda84ab8d6f&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Adjustment\\CropImageAdjustment&quot;}]}</image>
@@ -334,19 +334,19 @@
        </variant>
       </node>
       <node identifier="c5b0d2db-6580-425f-baa1-d130f085170d" nodeName="node-wjvsz27y84uct">
-       <variant sortingIndex="150" workspace="live" nodeType="Stoj.Site:Templates.ImageText" version="13" removed="" hidden="" hiddenInIndex="">
+       <variant sortingIndex="150" workspace="live" nodeType="Stoj.Site:Templates.ImageText" version="14" removed="" hidden="" hiddenInIndex="">
         <dimensions>
          <language>da</language>
         </dimensions>
         <accessRoles __type="array"/>
         <creationDateTime __type="object" __classname="DateTime">2021-02-22T17:00:51+01:00</creationDateTime>
-        <lastModificationDateTime __type="object" __classname="DateTime">2021-03-04T14:49:17+01:00</lastModificationDateTime>
-        <lastPublicationDateTime __type="object" __classname="DateTime">2021-03-04T14:49:17+01:00</lastPublicationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2021-03-04T15:45:55+01:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2021-03-04T15:45:55+01:00</lastPublicationDateTime>
         <properties>
          <link __type="string">node://bdc79675-5598-4644-a21a-6628fd623f54</link>
          <image __type="object" __identifier="74c2269a-9db4-430f-9637-e6a2d7ccb103" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;74c2269a-9db4-430f-9637-e6a2d7ccb103&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;Sk\u00e6rmbillede 2020-09-14 kl. 15.45.07.png&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/png&quot;,&quot;sha1&quot;:&quot;3760e0e0f958334ad92ebddd8cdd369a108a318e&quot;,&quot;hash&quot;:&quot;3760e0e0f958334ad92ebddd8cdd369a108a318e&quot;,&quot;__identity&quot;:&quot;da29124d-8455-4c95-8a6d-319ec5c3bb0f&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image>
          <label __type="string">Se vores seneste projekter</label>
-         <tekst __type="string">&lt;p&gt;Vores lyse og lækre studie-lokaler er placeret i hjertet af Odense, på Havnegade 100N. Det er her vi til dagligt producerer billederne til vores kunder. Kommer i uanmeldt en dag, vil i finde kaffe på kanden, forskellige setups, hvor vi fotograferer miljøer eller pack-shots, og musik på anlægget. Hos os er der en afslappet stemning, så de kreative tanker kan få frit spil, og de rigtige stemninger, kan indfanges på billederne.&lt;/p&gt;</tekst>
+         <tekst __type="string">&lt;p&gt;Vores lyse og lækre studie-lokaler er placeret i hjertet af Odense, på Havnegade 100N. Det er her vi til dagligt producerer billederne til vores kunder. Kommer i uanmeldt en dag, vil i finde kaffe på kanden, forskellige setups, hvor vi fotograferer miljøer eller pack-shots, og musik på anlægget. Hos os er der en afslappet stemning, så de kreative tanker kan få frit spil.&lt;/p&gt;</tekst>
          <titel __type="string">&lt;h2&gt;Om vores lokaler&lt;/h2&gt;</titel>
          <caption __type="string">&lt;p&gt;Når lyset falder helt rigtigt (og det gør den heldigvis det meste af året), opstår der magi i studiet @stöj&lt;/p&gt;</caption>
          <hasCaption __type="boolean">1</hasCaption>
