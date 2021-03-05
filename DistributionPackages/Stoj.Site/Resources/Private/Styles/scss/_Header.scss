@@ -179,24 +179,25 @@
     }
 }
 
-.kontakt--cta-inner {
+.kontakt-drawer {
     border-radius: 0;
     box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
     background-color: white;
     bottom:0;
     left: 0;
     padding: 1rem 1rem 3rem;
-    position: fixed;
+    position: absolute;
     width: 100%;
     transform: translateY(100%);
     //transition: .2s;
     visibility: hidden;
+    z-index: 100;
 
     @media only screen and (min-width: $break-mobile) {
         bottom: 3rem;
         border-radius: 1%;
         left: auto;
-        position: absolute;
+        //position: absolute;
         right: 0;
         width: 400px;
     }
@@ -290,9 +291,9 @@
     display: block;
     height: 10rem;
     left: 0;
-    position: absolute;
+    position: fixed;
     width: 100%;
-    z-index: 0;
+    z-index: 97;
 
     @media only screen and (min-width: $break-tablet) {
         height: 8rem;
