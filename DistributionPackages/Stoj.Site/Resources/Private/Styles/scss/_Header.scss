@@ -186,6 +186,7 @@
     bottom:0;
     left: 0;
     padding: 1rem 1rem 3rem;
+    pointer-events: auto;
     position: absolute;
     width: 100%;
     transform: translateY(100%);
@@ -194,12 +195,16 @@
     z-index: 100;
 
     @media only screen and (min-width: $break-mobile) {
-        bottom: 3rem;
+        bottom: 4rem;
         border-radius: 1%;
         left: auto;
         //position: absolute;
-        right: 0;
+        right: 1rem;
         width: 400px;
+    }
+
+    @media only screen and (min-width: $break-tablet) {
+        right: 2rem;
     }
 
     .close-drawer {
