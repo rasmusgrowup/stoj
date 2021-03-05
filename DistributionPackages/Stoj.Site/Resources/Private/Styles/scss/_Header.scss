@@ -185,7 +185,7 @@
     background-color: white;
     bottom:0;
     left: 0;
-    padding: 1rem;
+    padding: 1rem 1rem 2rem;
     position: fixed;
     width: 100%;
     transform: translateY(100%);
@@ -203,17 +203,17 @@
 
     .close-drawer {
         display: block;
-        height: 2rem;
+        height: 1.75rem;
         margin-bottom: 1rem;
         margin-left: auto;
         position: relative;
-        width: 2rem;
+        width: 1.75rem;
 
         span {
             background-color: $stoj-dark;
             content: '';
             display: block;
-            height: .2rem;
+            height: .15rem;
             position: absolute;
             top: 50%;
             width: 100%;
