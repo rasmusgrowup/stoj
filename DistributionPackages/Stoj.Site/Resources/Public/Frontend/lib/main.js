@@ -20,3 +20,19 @@ window.addEventListener('resize', function () {
   var vh = window.innerHeight * 0.01;
   document.documentElement.style.setProperty('--vh', vh + 'px');
 });
+
+var openDrawer = document.querySelector('#open-drawer');
+var closeDrawer = document.querySelector('#close-drawer');
+var outsideDrawer = document.querySelector('.main');
+
+openDrawer.addEventListener("click", function () {
+  document.getElementById("drawer").classList.add("--hidden-drawer");
+});
+
+closeDrawer.addEventListener("click", function () {
+  document.getElementById("drawer").classList.remove("--hidden-drawer");
+});
+
+outsideDrawer.addEventListener("click", function () {
+  document.getElementById("drawer").classList.remove("--hidden-drawer");
+});

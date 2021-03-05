@@ -4,7 +4,7 @@
     }
 
     a:hover {
-        //cursor: none;
+        cursor: url("../svg/dot.svg") 6 5,auto;
     }
 
     .cursor {
@@ -32,6 +32,10 @@
     }
 }
 
+.cursor-link:hover {
+    cursor: url("../svg/dot.svg") 6 5,auto;
+}
+
 .video-frame-project:hover, .reel-inner:hover {
     //cursor:  pointer;
     cursor: url("../svg/triangel.svg") 7 8,auto;
@@ -47,46 +51,3 @@
     cursor: url("../svg/pause.svg") 7 8, auto;
     //mix-blend-mode: difference;
 }
-
-/*@media only screen and (min-width: $break-desk) {
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        cursor: none !important;
-
-        &:hover {
-            cursor: none !important;
-        }
-    }
-
-    .custom-cursor {
-        position: fixed;
-        opacity: 0;
-        pointer-events: none;
-        mix-blend-mode: difference;
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        background-color: white;
-        transition: transform 350ms ease;
-        transform: translate(-50%, -50%) scale(.25);
-        z-index: 1000;
-    }
-    .custom-cursor--link {
-        transform: translate(-50%, -50%) scale(1.25);
-    }
-}*/
-
-/*.cursor-div {
-    width: 100%;
-    height: 100%;
-    bottom: 0;
-    display: block;
-    left: 0;
-    position: absolute;
-    right: 0;
-    top: 0;
-    z-index: 1;
-    cursor: none;
-}*/

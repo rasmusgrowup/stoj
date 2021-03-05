@@ -18,10 +18,6 @@ prototype(Stoj.Site:Component.Header) < prototype(Neos.Fusion:Component) {
     path = 'resource://Stoj.Site/Public/Frontend/svg/logo.svg'
     }
 
-    menuImage = Neos.Fusion:ResourceUri {
-    path = 'resource://Stoj.Site/Public/Frontend/assets/fastelavn3.jpg'
-    }
-
     in = Neos.Fusion:ResourceUri {
     path = 'resource://Stoj.Site/Public/Frontend/icons/instagram-3.svg'
     }
@@ -34,6 +30,13 @@ prototype(Stoj.Site:Component.Header) < prototype(Neos.Fusion:Component) {
     path = 'resource://Stoj.Site/Public/Frontend/icons/vimeo.svg'
     }
 
+    nick = Neos.Fusion:ResourceUri {
+    path = 'resource://Stoj.Site/Public/Frontend/assets/nick.jpg'
+    }
+
+    martin = Neos.Fusion:ResourceUri {
+    path = 'resource://Stoj.Site/Public/Frontend/assets/martin.jpg'
+    }
 
     renderer = afx`
         <header class="main-header" id="menu">
@@ -50,7 +53,31 @@ prototype(Stoj.Site:Component.Header) < prototype(Neos.Fusion:Component) {
                 <a class="cursor-link" href="#"><img src={props.li} alt=""/></a>
             </div>
             <div class="kontakt--cta">
-                <a href="mailto:">Kontakt os</a>
+                <button type="button" name="button" id="open-drawer">Kontakt os</button>
+                <div class="kontakt--cta-inner" id="drawer">
+                    <div class="close-drawer cursor-link" id="close-drawer">
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <a href="tel:+4525700722">
+                        <div class="">
+                            <span>Nick Degn</span>
+                            <span>+45 25 70 07 22</span>
+                        </div>
+                        <img src={props.nick} alt="" />
+                    </a>
+                    <a href="tel:+4525663565">
+                        <div class="">
+                            <span>Martin Kruse</span>
+                            <span>+45 25 66 35 65</span>
+                        </div>
+                        <img src={props.martin} alt="" />
+                    </a>
+                    <a href="mailto:halloj@hallojstoj.dk">
+                        <span>Kontakt os på mail</span>
+                        <span>halloj@hallojstoj.dk</span>
+                    </a>
+                </div>
             </div>
             <div class="gradient --top"></div>
             <div class="gradient --bottom"></div>

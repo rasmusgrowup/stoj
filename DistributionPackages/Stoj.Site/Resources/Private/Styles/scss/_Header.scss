@@ -154,7 +154,9 @@
         bottom: 1em;
     }
 
-    a {
+    button {
+        background-color: transparent;
+        border: 0;
         color: $stoj-sand;
         font-family: $family-secondary;
         font-size: 1.2rem;
@@ -173,6 +175,113 @@
             color: $stoj-sand !important;
         }
     }
+}
+
+.kontakt--cta-inner {
+    border-radius: 0;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+    background-color: white;
+    bottom:0;
+    left: 0;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    transform: translateY(100%);
+    //transition: .2s;
+    visibility: hidden;
+
+    @media only screen and (min-width: $break-mobile) {
+        bottom: 3rem;
+        border-radius: 1%;
+        left: auto;
+        position: absolute;
+        right: 0;
+        width: 400px;
+    }
+
+    .close-drawer {
+        display: block;
+        height: 2rem;
+        margin-bottom: 1rem;
+        margin-left: auto;
+        position: relative;
+        width: 2rem;
+
+        span {
+            background-color: $stoj-dark;
+            content: '';
+            display: block;
+            height: .2rem;
+            position: absolute;
+            top: 50%;
+            width: 100%;
+
+            &:first-child {
+                transform: rotate(45deg);
+            }
+
+            &:last-child {
+                transform: rotate(-45deg);
+            }
+        }
+    }
+
+    a {
+        align-items: center;
+        border-bottom: 1px solid #e2e2e2;
+        color: $stoj-dark;
+        display: flex;
+        font-family: $family-sans-serif;
+        height: 7rem;
+        justify-content: space-between;
+        padding-bottom: .5rem;
+
+        div span {
+            display: block;
+
+            &:first-child {
+                font-size: .9em;
+                margin-bottom: .5rem;
+            }
+
+            &:last-child {
+                font-size: 1.7em;
+            }
+        }
+
+        &:last-child {
+            align-items: flex-start;
+            border-bottom: 0;
+            flex-direction: column;
+            justify-content: center;
+            span {
+                display: block;
+
+                &:first-child {
+                    font-size: .9em;
+                    margin-bottom: .5rem;
+                }
+
+                &:last-child {
+                    font-size: 1.7em;
+                }
+            }
+        }
+
+        img {
+            border-radius: 50%;
+            display: block;
+            height: 4rem;
+            object-fit: cover;
+            width: 4rem;
+        }
+    }
+}
+
+.--hidden-drawer {
+    transform: translateY(0);
+    transition: .2s;
+    visibility: visible;
 }
 
 .gradient {
