@@ -25,6 +25,7 @@
     //visibility:hidden;
     max-width: $max-width;
     padding: 0 1rem;
+    padding: 0;
     width: 100%;
 
     @media only screen and (min-width: $break-tablet) {
@@ -69,14 +70,10 @@
 }
 
 .--top-margin {
-    margin-top: 7.5rem;
+    margin-top: 6rem;
 
     @media only screen and (min-width: $break-tablet) {
-        margin-top: 6rem;
-    }
-
-    @media only screen and (min-width: $break-desk) {
-        margin-top: 6rem;
+        margin-top: 8rem;
     }
 }
 

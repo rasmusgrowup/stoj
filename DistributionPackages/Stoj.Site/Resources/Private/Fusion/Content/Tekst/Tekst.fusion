@@ -3,7 +3,9 @@ prototype(Stoj.Site:Content.Tekst) < prototype(Neos.Neos:ContentComponent) {
         property = 'tekst'
     }
 
+    small = ${q(node).property('small') ? ' text-width' : ''}
+
     renderer = afx`
-        <div class="tekst --standard">{props.tekst}</div>
+        <div class={"tekst --standard" + (props.small)}>{props.tekst}</div>
     `
 }

@@ -26,6 +26,7 @@
         margin: 0 auto;
         //max-width: 1600px;
         padding: 1em 2em;
+        padding: 2rem;
     }
 
     .logo {
@@ -111,10 +112,6 @@
         left: 2em;
     }
 
-    @media only screen and (min-width: $break-desk) {
-        bottom: 1em;
-    }
-
     a {
         margin-right: 1rem;
 
@@ -149,10 +146,6 @@
 
     @media only screen and (min-width: $break-mobile) {
         right: 2em;
-    }
-
-    @media only screen and (min-width: $break-desk) {
-        bottom: 1em;
     }
 
     button {
@@ -195,7 +188,7 @@
     z-index: 100;
 
     @media only screen and (min-width: $break-mobile) {
-        bottom: 4rem;
+        bottom: 5rem;
         border-radius: 1%;
         left: auto;
         //position: absolute;
@@ -294,30 +287,31 @@
 
 .gradient {
     display: block;
-    height: 10rem;
+    height: 6rem;
     left: 0;
     position: fixed;
     width: 100%;
     z-index: 97;
+    opacity: 1;
 
     @media only screen and (min-width: $break-tablet) {
-        height: 8rem;
+        height: 7rem;
     }
 
     @media only screen and (min-width: $break-desk) {
-        height: 4rem;
+        height: 7rem;
     }
 }
 
 .--top {
     background: rgb(16,18,25);
-    background: linear-gradient(0deg, rgba(16,18,25,0) 0%, rgba(16,18,25,0) 4%, rgba(16,18,25,1) 95%, rgba(16,18,25,1) 100%);
+    background: linear-gradient(0deg, rgba(16,18,25,0) 10%, rgba(16,18,25,1) 100%);
     top: 0;
 }
 
 .--bottom {
     background: rgb(16,18,25);
-    background: linear-gradient(180deg, rgba(16,18,25,0) 0%, rgba(16,18,25,0) 4%, rgba(16,18,25,1) 95%, rgba(16,18,25,1) 100%);
+    background: linear-gradient(180deg, rgba(16,18,25,0) 10%, rgba(16,18,25,1) 100%);
     bottom: 0;
 }
 

@@ -10,8 +10,10 @@ prototype(Stoj.Site:Templates.ImageTextThree) < prototype(Neos.Neos:ContentCompo
 
     link = ${q(node).property('link')}
 
+    fade = ${q(node).property('fade') ? ' fade-in' : ''}
+
     renderer = afx`
-        <section class="images-with-text --three">
+        <section class={"images-with-text --three" + (props.fade)}>
             <div class="images-with-text-inner">
                 <Stoj.Site:Content.Titel/>
                 <div class="para">

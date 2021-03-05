@@ -45,9 +45,10 @@ prototype(Stoj.Site:Templates.VideoTextProject) < prototype(Neos.Neos:ContentCom
     }
 
     autoPlay = ${q(node).property('autoPlay') ? 'vimeo-video' : ''}
+    fade = ${q(node).property('fade') ? ' fade-in' : ''}
 
     renderer = afx`
-        <div class="video-frame-project">
+        <div class={"video-frame-project" + (props.fade)}>
             <iframe
                 class="vimeo-video"
                 id={props.autoPlay}

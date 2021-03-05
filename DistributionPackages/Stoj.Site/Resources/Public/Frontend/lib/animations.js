@@ -18,6 +18,30 @@ window.addEventListener('DOMContentLoaded', (event) => {
 		}),
 	})
 
+	gsap.utils.toArray(".shout, .fade-in").forEach(elem => {
+	gsap.from(elem, {
+		opacity: 0,
+		scrollTrigger: {
+			trigger: elem,
+			start: 'top bottom',
+			end: 'center center',
+			//markers: true,
+			scrub: true
+		}
+	});
+	});
+
+	gsap.from('.main-footer', {
+		opacity: 0,
+		scrollTrigger: {
+			trigger: '.main-footer',
+			start: 'top bottom',
+			end: 'top 60%',
+			//markers: true,
+			scrub: true
+		}
+	});
+
 	gsap.to('.filter-header', {
 		scrollTrigger: {
 			trigger: '.gallery-container',

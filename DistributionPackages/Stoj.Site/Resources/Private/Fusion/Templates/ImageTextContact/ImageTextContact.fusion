@@ -31,9 +31,11 @@ prototype(Stoj.Site:Templates.ImageTextContact) < prototype(Neos.Neos:ContentCom
         property = 'infoHoejre'
     }
 
+    fade = ${q(node).property('fade') ? ' fade-in' : ''}
+
 
     renderer = afx`
-        <section class="images-contact">
+        <section class={"images-contact" + (props.fade)}>
             <div class="medarbejder --venstre">
                 <Stoj.Site:Content.Figure class="left-figure"/>
                 <div class="medarbejder-info">

@@ -31,6 +31,13 @@
         inspector:
           group: 'image'
           reloadIfChanged: true
+    fade:
+      type: boolean
+      ui:
+        label: 'Fade in element?'
+        inspector:
+          group: 'link'
+          reloadIfChanged: true
     alternativeTextSmall:
       type: string
       ui:

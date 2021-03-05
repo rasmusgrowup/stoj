@@ -24,9 +24,10 @@ prototype(Stoj.Site:Templates.ImageText) < prototype(Neos.Neos:ContentComponent)
     altSmall = ${q(node).property('alternativeTextSmall')}
 
     smallImage = ${q(node).property('smallImage') ? '--small-image' : ''}
+    fade = ${q(node).property('fade') ? ' fade-in' : ''}
 
     renderer = afx`
-        <section class="images-with-text">
+        <section class={"images-with-text" + (props.fade)}>
             <Stoj.Site:Content.Figure class="big-figure"/>
             <figure class={"small-figure " + (props.smallImage)}>
                 <img src={props.srcSmall} alt={props.altSmall} />

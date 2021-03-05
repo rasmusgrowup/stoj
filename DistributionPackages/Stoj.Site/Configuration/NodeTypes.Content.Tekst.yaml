@@ -8,3 +8,16 @@
     icon: icon-file-text
     position: 200
     inlineEditable: true
+    inspector:
+      groups:
+        tekst:
+          label: 'Tekst indstillinger'
+          icon: text
+  properties:
+    small:
+      type: boolean
+      ui:
+        label: 'Begræns bredden af teksten'
+        inspector:
+          group: 'tekst'
+          reloadIfChanged: true

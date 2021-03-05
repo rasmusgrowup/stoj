@@ -4,16 +4,17 @@
     max-width: $max-width;
     overflow:auto;
     padding: 0 1rem;
+    padding: 0;
     position: relative;
     width: 100%;
 
     @media only screen and (min-width: $break-tablet) {
-        margin: 8rem auto;
+        margin: 4rem auto 8rem;
         padding: 0 2rem;
     }
 
     @media only screen and (min-width: $break-desk) {
-        margin: 10rem auto;
+        //margin: 10rem auto;
         padding: 0 5rem;
     }
 }

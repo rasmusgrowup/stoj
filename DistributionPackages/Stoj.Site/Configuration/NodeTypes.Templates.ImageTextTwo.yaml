@@ -18,6 +18,13 @@
           label: 'Link'
           icon: external-link-alt
   properties:
+    fade:
+      type: boolean
+      ui:
+        label: 'Fade in element?'
+        inspector:
+          group: 'link'
+          reloadIfChanged: true
     imageSmall:
       type: Neos\Media\Domain\Model\ImageInterface
       ui:
