@@ -53,7 +53,7 @@ prototype(Stoj.Site:Component.Header) < prototype(Neos.Fusion:Component) {
                 <a class="cursor-link" href="#"><img src={props.li} alt=""/></a>
             </div>
             <div class="kontakt--cta">
-                <button type="button" name="button" id="open-drawer">Kontakt os</button>
+                <button class="cursor-link" type="button" name="button" id="open-drawer">Kontakt os</button>
                 <div class="kontakt--cta-inner" id="drawer">
                     <div class="close-drawer cursor-link" id="close-drawer">
                         <span></span>

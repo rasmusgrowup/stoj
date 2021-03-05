@@ -3,8 +3,8 @@
         cursor: none;
     }
 
-    a:hover {
-        cursor: url("../svg/dot.svg") 6 5,auto;
+    a:hover, .cursor-link:hover {
+        cursor: url("../icons/dot.svg") 6 5,auto;
     }
 
     .cursor {
@@ -30,10 +30,6 @@
     iframe {
         pointer-events: none;
     }
-}
-
-.cursor-link:hover {
-    cursor: url("../svg/dot.svg") 6 5,auto;
 }
 
 .video-frame-project:hover, .reel-inner:hover {

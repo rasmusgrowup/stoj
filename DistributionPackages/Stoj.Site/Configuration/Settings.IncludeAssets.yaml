@@ -20,23 +20,13 @@ Carbon:
             #- https://cdn.jsdelivr.net/npm/@barba/core@2.9.7/dist/barba.umd.min.js
             - https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js
             - https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/ScrollTrigger.min.js
-          #  - https://unpkg.com/colcade@0/colcade.js
-          #  - colcade.js
-            #- barba.js
-            - main.js
-            #- menu.js
-            - lazysizes.min.js
             - https://player.vimeo.com/api/player.js
+            - main.js
+            - lazysizes.min.js
             - player.js
             - animations.js
             - gallery.js
-            #- flickity.min.js
-            #- flickity.js
-            #- isotope.min.js
-          #  - packery.min.js
-          #  - isotope.js
             - cursor.js
-          #  - slow-scroll.js
 
       ##
       # Sitegeist.Lazybones required lazysizes, we recommend to include lazysizes javascript
