@@ -28,13 +28,13 @@ var outsideDrawer = document.querySelector('.main');
 openDrawer.addEventListener("click", function () {
   document.getElementById("drawer").classList.add("--show-drawer");
   document.getElementById("drawer-background").classList.add("--show-drawer-bg");
-  document.body.classList.add("drawer-open");
+  document.documentElement.classList.add("drawer-open");
 });
 
 closeDrawer.addEventListener("click", function () {
   document.getElementById("drawer").classList.remove("--show-drawer");
   document.getElementById("drawer-background").classList.remove("--show-drawer-bg");
-  document.body.classList.remove("drawer-open");
+  document.documentElement.classList.remove("drawer-open");
 });
 
 outsideDrawer.addEventListener("click", function () {
