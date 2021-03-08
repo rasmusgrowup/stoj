@@ -279,7 +279,7 @@
     }
 }
 
-.--hidden-drawer {
+.--show-drawer {
     transform: translateY(0);
     transition: .2s;
     visibility: visible;
@@ -318,5 +318,29 @@
 .on-frontpage {
     ul li:first-child a {
         color: $stoj-red !important;
+    }
+}
+
+.drawer-background {
+    background-color: $stoj-dark;
+    display: none;
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    visibility: hidden;
+    width: 100%;
+}
+
+.--show-drawer-bg {
+    display: block;
+    opacity: .5;
+    transition: .5s;
+    visibility: visible;
+
+    @media only screen and (min-width: $break-desk) {
+        display: none;
+        visibility: hidden;
     }
 }

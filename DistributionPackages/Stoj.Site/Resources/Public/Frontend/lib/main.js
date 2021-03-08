@@ -26,13 +26,15 @@ var closeDrawer = document.querySelector('#close-drawer');
 var outsideDrawer = document.querySelector('.main');
 
 openDrawer.addEventListener("click", function () {
-  document.getElementById("drawer").classList.add("--hidden-drawer");
+  document.getElementById("drawer").classList.add("--show-drawer");
+  document.getElementById("drawer-background").classList.add("--show-drawer-bg");
 });
 
 closeDrawer.addEventListener("click", function () {
-  document.getElementById("drawer").classList.remove("--hidden-drawer");
+  document.getElementById("drawer").classList.remove("--show-drawer");
+  document.getElementById("drawer-background").classList.remove("--show-drawer-bg");
 });
 
 outsideDrawer.addEventListener("click", function () {
-  document.getElementById("drawer").classList.remove("--hidden-drawer");
+  document.getElementById("drawer").classList.remove("--show-drawer");
 });

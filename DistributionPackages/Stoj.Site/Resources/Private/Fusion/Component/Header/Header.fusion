@@ -79,6 +79,7 @@ prototype(Stoj.Site:Component.Header) < prototype(Neos.Fusion:Component) {
                     <span>halloj@hallojstoj.dk</span>
                 </a>
             </div>
+            <div class="drawer-background" id="drawer-background"></div>
         </header>
     `
 
