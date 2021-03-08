@@ -21,3 +21,10 @@
         inspector:
           group: 'tekst'
           reloadIfChanged: true
+    left:
+      type: boolean
+      ui:
+        label: 'Venstre-stil teksten'
+        inspector:
+          group: 'tekst'
+          reloadIfChanged: true

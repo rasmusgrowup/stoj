@@ -3356,15 +3356,17 @@
          <properties/>
         </variant>
         <node identifier="e5451168-4ebe-43df-9f59-67bb7a549b02" nodeName="node-4esioamsmrdsq">
-         <variant sortingIndex="225" workspace="live" nodeType="Stoj.Site:Content.Tekst" version="7" removed="" hidden="" hiddenInIndex="">
+         <variant sortingIndex="375" workspace="live" nodeType="Stoj.Site:Content.Tekst" version="13" removed="" hidden="1" hiddenInIndex="">
           <dimensions>
            <language>da</language>
           </dimensions>
           <accessRoles __type="array"/>
           <creationDateTime __type="object" __classname="DateTime">2021-03-02T13:41:21+01:00</creationDateTime>
-          <lastModificationDateTime __type="object" __classname="DateTime">2021-03-03T14:10:22+01:00</lastModificationDateTime>
-          <lastPublicationDateTime __type="object" __classname="DateTime">2021-03-03T14:10:22+01:00</lastPublicationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2021-03-08T10:31:32+01:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2021-03-08T10:31:32+01:00</lastPublicationDateTime>
           <properties>
+           <left __type="boolean">1</left>
+           <small __type="boolean">1</small>
            <tekst __type="string">&lt;h2&gt;Om opgaven&lt;/h2&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;Der er kommet mange gode projekter ud af vores samarbejde med LEGO - bl.a. denne behind-the-scenes video til LEGO Builder: The Journey. Videoen er blevet set af millioner af LEGO-kunder, der til dagligt spiller arcade spillet.&lt;/p&gt;</tekst>
           </properties>
          </variant>
@@ -3401,6 +3403,42 @@
           <properties>
            <link __type="string">node://c462785b-1e6e-444f-8edc-909c01968efb</link>
            <label __type="string">Næste projekt: Tuborg Strandeng</label>
+          </properties>
+         </variant>
+        </node>
+        <node identifier="fdb2ed40-cfd2-4b34-ac39-735ef59c6d84" nodeName="node-slfuv20bvoxjh">
+         <variant sortingIndex="413" workspace="live" nodeType="Stoj.Site:Templates.Screenshot" version="4" removed="" hidden="" hiddenInIndex="">
+          <dimensions>
+           <language>da</language>
+          </dimensions>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2021-03-08T10:33:56+01:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2021-03-08T10:34:47+01:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2021-03-08T10:34:47+01:00</lastPublicationDateTime>
+          <properties>
+           <image __type="object" __identifier="17fe00fb-1837-485f-a4ca-c38702032efe" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;17fe00fb-1837-485f-a4ca-c38702032efe&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;Sk\u00e6rmbillede 2020-12-17 kl. 11.57.35.png&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/png&quot;,&quot;sha1&quot;:&quot;e7316c79ba08265cd2e0a83c5c7ede1ef098f2a6&quot;,&quot;hash&quot;:&quot;e7316c79ba08265cd2e0a83c5c7ede1ef098f2a6&quot;,&quot;__identity&quot;:&quot;4a8e71cc-c4d5-432e-8402-32ea5f08e47a&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image>
+           <caption __type="string"></caption>
+           <reverse __type="boolean">1</reverse>
+           <imageSmall __type="object" __identifier="b3c5b092-9202-4125-9ab2-d842dee4a7f2" __classname="Neos\Media\Domain\Model\ImageVariant" __encoding="json">{&quot;__identity&quot;:&quot;b3c5b092-9202-4125-9ab2-d842dee4a7f2&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\ImageVariant&quot;,&quot;originalAsset&quot;:{&quot;__identity&quot;:&quot;6a2d0b7a-d2c3-4cfc-923e-f0aaadcf1b5d&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;Sk\u00e6rmbillede 2020-12-17 kl. 11.57.29.png&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/png&quot;,&quot;sha1&quot;:&quot;830829362535514e6295f3f1979b9d3119be753a&quot;,&quot;hash&quot;:&quot;830829362535514e6295f3f1979b9d3119be753a&quot;,&quot;__identity&quot;:&quot;9f62c90f-9e22-4fcc-8d0c-d991b2619de4&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]},&quot;adjustments&quot;:[{&quot;aspectRatio&quot;:null,&quot;height&quot;:532,&quot;position&quot;:10,&quot;width&quot;:426,&quot;x&quot;:312,&quot;y&quot;:0,&quot;__identity&quot;:&quot;6bc1fd47-25b2-42ef-906e-df5193223d36&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Adjustment\\CropImageAdjustment&quot;}]}</imageSmall>
+          </properties>
+         </variant>
+        </node>
+        <node identifier="d3e36afa-1708-4c63-b043-6046faa82e9b" nodeName="node-tpnmp95fxup5c">
+         <variant sortingIndex="400" workspace="live" nodeType="Stoj.Site:Templates.Screenshot" version="14" removed="" hidden="" hiddenInIndex="">
+          <dimensions>
+           <language>da</language>
+          </dimensions>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2021-03-08T10:12:12+01:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2021-03-08T10:35:31+01:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2021-03-08T10:35:31+01:00</lastPublicationDateTime>
+          <properties>
+           <fade __type="boolean">1</fade>
+           <image __type="object" __identifier="60e26eea-bbcb-4560-bc46-7a75b54de0c5" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;60e26eea-bbcb-4560-bc46-7a75b54de0c5&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;Sk\u00e6rmbillede 2020-12-17 kl. 11.55.50.png&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/png&quot;,&quot;sha1&quot;:&quot;307a33ff897bd2f38ece56f15a6d47ce0f8ddff0&quot;,&quot;hash&quot;:&quot;307a33ff897bd2f38ece56f15a6d47ce0f8ddff0&quot;,&quot;__identity&quot;:&quot;483ac906-5b36-4267-bf59-206c14b715d7&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image>
+           <caption __type="string"></caption>
+           <reverse __type="boolean"></reverse>
+           <hasCaption __type="boolean"></hasCaption>
+           <imageSmall __type="object" __identifier="dcae195d-00d5-474d-b262-ea017831d460" __classname="Neos\Media\Domain\Model\ImageVariant" __encoding="json">{&quot;__identity&quot;:&quot;dcae195d-00d5-474d-b262-ea017831d460&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\ImageVariant&quot;,&quot;originalAsset&quot;:{&quot;__identity&quot;:&quot;b2e1905f-1067-42ca-9d31-943004fbc45a&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;Sk\u00e6rmbillede 2020-12-17 kl. 11.55.23.png&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/png&quot;,&quot;sha1&quot;:&quot;bf133774f7d04a9b554b13cb7ff8d9f9cce1f5e9&quot;,&quot;hash&quot;:&quot;bf133774f7d04a9b554b13cb7ff8d9f9cce1f5e9&quot;,&quot;__identity&quot;:&quot;6cc7062b-046d-4ea4-9193-414bf3ffbe26&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]},&quot;adjustments&quot;:[{&quot;aspectRatio&quot;:null,&quot;height&quot;:530,&quot;position&quot;:10,&quot;width&quot;:424,&quot;x&quot;:351,&quot;y&quot;:0,&quot;__identity&quot;:&quot;0ad160a0-1dd2-4860-b84b-5a480529dd64&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Adjustment\\CropImageAdjustment&quot;}]}</imageSmall>
           </properties>
          </variant>
         </node>

@@ -1,0 +1,31 @@
+prototype(Stoj.Site:Templates.Screenshot) < prototype(Neos.Neos:ContentComponent) {
+
+    srcSmall = Neos.Fusion:Case {
+        asset {
+            condition = ${q(node).property('imageSmall')}
+            renderer = Neos.Neos:ImageUri {
+                asset = ${q(node).property('imageSmall')}
+            }
+        }
+        dummy {
+            condition = ${node.context.inBackend}
+            renderer = Neos.Fusion:ResourceUri {
+                path = 'resource://Neos.Neos/Public/Images/dummy-image.svg'
+            }
+        }
+    }
+
+    altSmall = ${q(node).property('alternativeTextSmall')}
+
+    fade = ${q(node).property('fade') ? ' fade-in' : ''}
+    reverse = ${q(node).property('reverse') ? ' --reverse-order' : ' --normal-order'}
+
+    renderer = afx`
+        <section class={"screenshots" + (props.fade) + (props.reverse)}>
+            <Stoj.Site:Content.Figure class="big-screenshot"/>
+            <figure class="small-screenshot">
+                <img src={props.srcSmall} alt={props.altSmall} />
+            </figure>
+        </section>
+    `
+}

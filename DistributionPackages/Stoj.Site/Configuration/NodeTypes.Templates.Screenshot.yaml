@@ -1,0 +1,45 @@
+
+'Stoj.Site:Templates.Screenshot':
+  superTypes:
+    'Neos.Neos:Content': true
+    'Neos.NodeTypes.BaseMixins:ImageMixin': true
+    'Neos.NodeTypes.BaseMixins:ImageCaptionMixin': true
+  ui:
+    label: Screenshot template
+    icon: icon-file-text
+    position: 500
+    inlineEditable: true
+    reloadIfChanged: true
+    inspector:
+      groups:
+        link:
+          label: 'Link'
+          icon: external-link-alt
+  properties:
+    imageSmall:
+      type: Neos\Media\Domain\Model\ImageInterface
+      ui:
+        label: 'Small image'
+        inspector:
+          group: 'image'
+    fade:
+      type: boolean
+      ui:
+        label: 'Fade in element?'
+        inspector:
+          group: 'link'
+          reloadIfChanged: true
+    reverse:
+      type: boolean
+      ui:
+        label: 'Reverse order?'
+        inspector:
+          group: 'link'
+          reloadIfChanged: true
+    alternativeTextSmall:
+      type: string
+      ui:
+        label: 'Alternative Text Small Image'
+        reloadIfChanged: true
+        inspector:
+          group: 'image'

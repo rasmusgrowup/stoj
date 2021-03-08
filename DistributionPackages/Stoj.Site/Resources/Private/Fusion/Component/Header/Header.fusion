@@ -48,9 +48,9 @@ prototype(Stoj.Site:Component.Header) < prototype(Neos.Fusion:Component) {
             </a>
             <Stoj.Site:Component.Header.MenuItemsRenderer items={props.menuItems} />
             <div class="social-links">
-                <a class="cursor-link" href="#"><img src={props.in} alt=""/></a>
-                <a class="cursor-link" href="#"><img src={props.vi} alt=""/></a>
-                <a class="cursor-link" href="#"><img src={props.li} alt=""/></a>
+                <a class="cursor-link" href="https://www.instagram.com/halloj_stoj/"><img src={props.in} alt=""/></a>
+                <a class="cursor-link" href="https://vimeo.com/user84699989"><img src={props.vi} alt=""/></a>
+                <!-- <a class="cursor-link" href="#"><img src={props.li} alt=""/></a> -->
             </div>
             <div class="kontakt--cta">
                 <button class="cursor-link" type="button" name="button" id="open-drawer">Kontakt os</button>

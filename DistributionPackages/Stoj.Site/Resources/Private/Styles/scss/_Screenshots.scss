@@ -1,0 +1,45 @@
+.screenshots {
+    display: block;
+    margin: 1rem auto;
+
+    @media only screen and (min-width: $break-tablet) {
+        display: flex;
+        margin: 4rem auto;
+    }
+
+    .big-screenshot {
+        margin-right: 0;
+
+        @media only screen and (min-width: $break-tablet) {
+            margin-right: 1rem;
+        }
+    }
+
+    .small-screenshot {
+        margin-right: 0;
+    }
+
+    figure img {
+        display: block;
+        margin-bottom: 2rem;
+        @media only screen and (min-width: $break-tablet) {
+            margin-bottom: 0;
+        }
+    }
+}
+
+.--reverse-order {
+    flex-direction: row-reverse;
+
+    .big-screenshot {
+        margin-right: 0;
+    }
+
+    .small-screenshot {
+        margin-right: 0;
+
+        @media only screen and (min-width: $break-tablet) {
+            margin-right: 1rem;
+        }
+    }
+}

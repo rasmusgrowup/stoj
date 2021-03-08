@@ -4,8 +4,9 @@ prototype(Stoj.Site:Content.Tekst) < prototype(Neos.Neos:ContentComponent) {
     }
 
     small = ${q(node).property('small') ? ' text-width' : ''}
+    left = ${q(node).property('left') ? ' --left-tekst' : ''}
 
     renderer = afx`
-        <div class={"tekst --standard" + (props.small)}>{props.tekst}</div>
+        <div class={"tekst --standard" + (props.small) + (props.left)}>{props.tekst}</div>
     `
 }

@@ -89,6 +89,7 @@
   margin: 0 auto;
   max-width: 1240px;
   padding: 0 1rem;
+  padding: 0;
   width: 100%; }
   @media only screen and (min-width: 768px) {
     .main-section {
@@ -173,6 +174,7 @@
   margin: 2rem auto;
   max-width: 1240px;
   padding: 0 1rem;
+  padding: 0;
   width: 100%; }
   @media only screen and (min-width: 768px) {
     .next-project {
@@ -268,7 +270,7 @@
       z-index: 98; } }
   @media only screen and (min-width: 1025px) {
     .filter-header {
-      left: 3rem; } }
+      left: 2rem; } }
   @media only screen and (min-width: 1025px) {
     .filter-header {
       top: 10rem; } }
@@ -314,7 +316,7 @@
       transition: none; } }
   @media only screen and (min-width: 1025px) {
     .filter-navigation {
-      left: 3rem; } }
+      left: 2rem; } }
   .filter-navigation ul {
     display: block; }
     .filter-navigation ul li {
@@ -658,3 +660,34 @@ figcaption {
 .filter-button-group .is-checked {
   background-color: #101219;
   color: white; }
+
+.screenshots {
+  display: block;
+  margin: 1rem auto; }
+  @media only screen and (min-width: 768px) {
+    .screenshots {
+      display: flex;
+      margin: 4rem auto; } }
+  .screenshots .big-screenshot {
+    margin-right: 0; }
+    @media only screen and (min-width: 768px) {
+      .screenshots .big-screenshot {
+        margin-right: 1rem; } }
+  .screenshots .small-screenshot {
+    margin-right: 0; }
+  .screenshots figure img {
+    display: block;
+    margin-bottom: 2rem; }
+    @media only screen and (min-width: 768px) {
+      .screenshots figure img {
+        margin-bottom: 0; } }
+
+.--reverse-order {
+  flex-direction: row-reverse; }
+  .--reverse-order .big-screenshot {
+    margin-right: 0; }
+  .--reverse-order .small-screenshot {
+    margin-right: 0; }
+    @media only screen and (min-width: 768px) {
+      .--reverse-order .small-screenshot {
+        margin-right: 1rem; } }
