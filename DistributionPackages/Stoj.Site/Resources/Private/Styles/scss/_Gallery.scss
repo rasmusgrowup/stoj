@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     margin: 0 auto 5rem;
-    padding: 10rem 0 0;
+    padding: 7.5rem 0 0;
     width: 100%;
 
     @media only screen and (min-width: $break-tablet) {
@@ -18,13 +18,15 @@
 }
 
 .--center-gallery {
-    margin: 0 auto;
+    margin: -5rem auto 0;
     //visibility:hidden;
     max-width: $max-width;
     padding: 0 1rem;
+    padding: 0;
     width: 100%;
 
     @media only screen and (min-width: $break-tablet) {
+        margin: 0 auto;
         padding: 0 3rem;
     }
 

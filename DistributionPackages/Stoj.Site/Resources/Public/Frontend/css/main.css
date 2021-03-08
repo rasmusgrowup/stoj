@@ -188,7 +188,7 @@
   display: flex;
   justify-content: space-between;
   margin: 0 auto 5rem;
-  padding: 10rem 0 0;
+  padding: 7.5rem 0 0;
   width: 100%; }
   @media only screen and (min-width: 768px) {
     .gallery-container {
@@ -201,12 +201,14 @@
       padding: 10rem 0 0; } }
 
 .--center-gallery {
-  margin: 0 auto;
+  margin: -5rem auto 0;
   max-width: 1240px;
   padding: 0 1rem;
+  padding: 0;
   width: 100%; }
   @media only screen and (min-width: 768px) {
     .--center-gallery {
+      margin: 0 auto;
       padding: 0 3rem; } }
   @media only screen and (min-width: 1025px) {
     .--center-gallery {
