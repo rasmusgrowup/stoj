@@ -345,6 +345,10 @@
     }
 }
 
-.drawer-open {
-    overflow: hidden;
+@media only screen and (max-width: $break-mobile) {
+    .drawer-open {
+        overflow: hidden;
+        touch-action: none;
+        -ms-touch-action: none;
+    }
 }
