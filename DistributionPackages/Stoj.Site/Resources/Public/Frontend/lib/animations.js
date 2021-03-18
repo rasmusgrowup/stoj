@@ -23,7 +23,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
 	gsap.utils.toArray(".shout, .fade-in").forEach(elem => {
 		gsap.from(elem, {
 			opacity: 0,
-			autoAlpha: 0,
+			//autoAlpha: 0,
 			scrollTrigger: {
 				trigger: elem,
 				start: 'top bottom',
