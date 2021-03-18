@@ -1,0 +1,18 @@
+prototype(Stoj.Site:Content.GalleryColumns) < prototype(Neos.Neos:ContentComponent) {
+    column0 = Neos.Neos:ContentCollection {
+        nodePath = 'column0'
+    }
+
+    column1 = Neos.Neos:ContentCollection {
+        nodePath = 'column1'
+    }
+
+    centerGallery = ${q(node).property('centerGallery') ? '--center-gallery' : ''}
+
+    renderer = afx`
+        <div class={"gallery-container " + (props.centerGallery)}>
+            <div class="gallery-col col--1">{props.column0}</div>
+            <div class="gallery-col col--2">{props.column1}</div>
+        </div>
+    `
+}

@@ -1,8 +1,8 @@
-'Stoj.Site:Content.Gallery':
+'Stoj.Site:Content.GalleryColumns':
   superTypes:
     'Neos.Neos:Content': true
   ui:
-    label: Galleri wrapper
+    label: Galleri wrapper w/ columns
     icon: 'icon-columns'
     group: 'structure'
     position: 400
@@ -13,6 +13,8 @@
           icon: external-link-alt
   childNodes:
     column0:
+      type: 'Stoj.Site:Collection.Content.Column'
+    column1:
       type: 'Stoj.Site:Collection.Content.Column'
   properties:
     centerGallery:

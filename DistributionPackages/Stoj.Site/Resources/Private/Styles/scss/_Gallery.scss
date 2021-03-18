@@ -1,7 +1,8 @@
 .gallery-container {
-    display: flex;
-    justify-content: space-between;
+    //display: flex;
+    //justify-content: space-between;
     margin: 0 auto 5rem;
+    overflow: auto;
     padding: 7.5rem 0 0;
     width: 100%;
 
@@ -45,12 +46,20 @@
     }
 }
 
+.col--1 {
+    margin-right: .5rem;
+
+    @media only screen and (min-width: $break-tablet) {
+        margin-right: 1rem;
+    }
+}
+
 .gallery-item {
-    display: none;
+    display: inline-block;
+    display: block;
     margin-bottom: .5rem;
     position: relative;
     transition: $transition;
-    visibility: hidden;
 
     @media only screen and (min-width: $break-tablet) {
         margin-bottom: 1rem;
@@ -67,8 +76,6 @@
 
 .show {
     display: block;
-    transition: $transition;
-    visibility: visible;
 }
 
 .filter-group {

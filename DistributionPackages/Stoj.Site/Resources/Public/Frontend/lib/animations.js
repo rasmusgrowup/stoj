@@ -9,26 +9,29 @@ window.addEventListener('DOMContentLoaded', (event) => {
 		}),
 	})
 
+	gsap.set(".gallery-image", {opacity:0,autoAlpha: 0})
 	ScrollTrigger.batch(".gallery-image", {
-		start: '50 bottom',
+		start: 'top bottom',
 		onEnter: batch => gsap.to(batch, {
+			opacity: 1,
 			autoAlpha: 1,
-			duration: .75,
+			duration: 1.2,
 			stagger: .1
 		}),
 	})
 
 	gsap.utils.toArray(".shout, .fade-in").forEach(elem => {
-	gsap.from(elem, {
-		opacity: 0,
-		scrollTrigger: {
-			trigger: elem,
-			start: 'top bottom',
-			end: 'center center',
-			//markers: true,
-			scrub: true
-		}
-	});
+		gsap.from(elem, {
+			opacity: 0,
+			autoAlpha: 0,
+			scrollTrigger: {
+				trigger: elem,
+				start: 'top bottom',
+				end: 'center center',
+				//markers: true,
+				scrub: true
+			}
+		});
 	});
 
 	gsap.from('.main-footer', {
@@ -64,63 +67,30 @@ window.addEventListener('DOMContentLoaded', (event) => {
 		}
 	})
 
-	gsap.from(".gallery-image", {
-		opacity: 0,
-		duration: .75,
-		stagger: .1
+	gsap.from(".reel-overlay",{
+		y: 75,
+		autoAlpha: 0,
+		duration: 2,
+		delay: 1.5,
+		ease: "power3.out"
 	});
 
-	gsap.from(".reel-overlay",{
-			y: 75,
-			autoAlpha: 0,
-			duration: 2,
-			delay: 1.5,
-			ease: "power3.out"
-		});
-
-	var player = new Vimeo.Player('subheader-video');
-
-	player.ready().then(function() {
-		gsap.from(".video-body",{
-				y: 75,
-				autoAlpha: 0,
-				duration: 2,
-				delay: 2,
-				ease: "power3.out"
-			});
-
-		gsap.from(".play--symbol",{
-				autoAlpha: 0,
-				duration: 1.5,
-				delay: 2.5,
-				ease: "power3.out"
-			});
+	gsap.from(".play--symbol",{
+		autoAlpha: 0,
+		duration: 1.5,
+		delay: 2.5,
+		ease: "power3.out"
 	});
 });
 
-const x = window.matchMedia("(max-width: 415px)");
+var player = new Vimeo.Player('subheader-video');
 
-x.addListener(handleDeviceChange);
-
-function handleDeviceChange(e) {
-	if (e.matches) { // If media query matches
-		var open = document.querySelector('#open-button');
-
-		open.addEventListener('click', function() {
-			var filter = document.getElementById('filter-list');
-			filter.classList.toggle("show-filter");
-			open.classList.toggle("filter-is-showing");
+player.ready().then(function() {
+	gsap.from(".video-body",{
+			y: 75,
+			autoAlpha: 0,
+			duration: 2,
+			delay: 2,
+			ease: "power3.out"
 		});
-
-		var close = document.querySelector('#filter-list');
-
-		close.addEventListener('click', function() {
-			var filter = document.getElementById('filter-list');
-			filter.classList.remove("show-filter");
-			open.classList.remove("filter-is-showing");
-		});
-	}
-	else {}
-}
-
-handleDeviceChange(x)
+});
