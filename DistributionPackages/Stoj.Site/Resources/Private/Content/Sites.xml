@@ -385,25 +385,25 @@
         <properties/>
        </variant>
        <node identifier="eddcfcd3-335c-41d8-8900-988760617b77" nodeName="node-lme7u67gqkph2">
-        <variant sortingIndex="150" workspace="live" nodeType="Stoj.Site:Content.Gallery" version="3" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="150" workspace="live" nodeType="Stoj.Site:Content.GalleryColumns" version="4" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>da</language>
          </dimensions>
          <accessRoles __type="array"/>
          <creationDateTime __type="object" __classname="DateTime">2021-02-25T11:01:27+01:00</creationDateTime>
-         <lastModificationDateTime __type="object" __classname="DateTime">2021-03-01T15:25:07+01:00</lastModificationDateTime>
-         <lastPublicationDateTime __type="object" __classname="DateTime">2021-03-01T15:25:01+01:00</lastPublicationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2021-03-18T15:26:44+01:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2021-03-18T15:26:44+01:00</lastPublicationDateTime>
          <properties/>
         </variant>
         <node identifier="61e9ee04-1db0-4a60-b932-3961b5509f6d" nodeName="column0">
-         <variant sortingIndex="100" workspace="live" nodeType="Stoj.Site:Collection.Content.Column" version="3" removed="" hidden="" hiddenInIndex="">
+         <variant sortingIndex="100" workspace="live" nodeType="Stoj.Site:Collection.Content.Column" version="4" removed="" hidden="" hiddenInIndex="">
           <dimensions>
            <language>da</language>
           </dimensions>
           <accessRoles __type="array"/>
           <creationDateTime __type="object" __classname="DateTime">2021-02-25T11:01:27+01:00</creationDateTime>
-          <lastModificationDateTime __type="object" __classname="DateTime">2021-03-01T15:25:07+01:00</lastModificationDateTime>
-          <lastPublicationDateTime __type="object" __classname="DateTime">2021-03-01T15:25:01+01:00</lastPublicationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2021-03-18T15:26:44+01:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2021-03-18T15:26:44+01:00</lastPublicationDateTime>
           <properties/>
          </variant>
          <node identifier="f34bc001-f582-4a67-826e-0ad9faf91a62" nodeName="node-75e34raolv4j5">
@@ -572,25 +572,25 @@
         <properties/>
        </variant>
        <node identifier="c27cd387-d88a-458f-a0d4-def24de2b1c3" nodeName="node-hmlvqcvyjfnme">
-        <variant sortingIndex="150" workspace="live" nodeType="Stoj.Site:Content.Gallery" version="3" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="150" workspace="live" nodeType="Stoj.Site:Content.GalleryColumns" version="4" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>da</language>
          </dimensions>
          <accessRoles __type="array"/>
          <creationDateTime __type="object" __classname="DateTime">2021-02-25T11:06:53+01:00</creationDateTime>
-         <lastModificationDateTime __type="object" __classname="DateTime">2021-03-01T15:25:07+01:00</lastModificationDateTime>
-         <lastPublicationDateTime __type="object" __classname="DateTime">2021-03-01T15:25:01+01:00</lastPublicationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2021-03-18T15:26:59+01:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2021-03-18T15:26:58+01:00</lastPublicationDateTime>
          <properties/>
         </variant>
         <node identifier="8b5f82ef-1b60-49da-b430-6d32b2139edc" nodeName="column0">
-         <variant sortingIndex="100" workspace="live" nodeType="Stoj.Site:Collection.Content.Column" version="3" removed="" hidden="" hiddenInIndex="">
+         <variant sortingIndex="100" workspace="live" nodeType="Stoj.Site:Collection.Content.Column" version="4" removed="" hidden="" hiddenInIndex="">
           <dimensions>
            <language>da</language>
           </dimensions>
           <accessRoles __type="array"/>
           <creationDateTime __type="object" __classname="DateTime">2021-02-25T11:06:53+01:00</creationDateTime>
-          <lastModificationDateTime __type="object" __classname="DateTime">2021-03-01T15:25:07+01:00</lastModificationDateTime>
-          <lastPublicationDateTime __type="object" __classname="DateTime">2021-03-01T15:25:01+01:00</lastPublicationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2021-03-18T15:26:59+01:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2021-03-18T15:26:58+01:00</lastPublicationDateTime>
           <properties/>
          </variant>
          <node identifier="ecb27020-390f-48da-bb68-71116072b7ff" nodeName="node-58osg127nj1xi">
@@ -2116,25 +2116,25 @@
         </variant>
        </node>
        <node identifier="de1a608a-7b58-46d0-acf8-349d657eec6c" nodeName="node-zxsuw8d1nuk27">
-        <variant sortingIndex="113" workspace="live" nodeType="Stoj.Site:Content.Gallery" version="3" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="113" workspace="live" nodeType="Stoj.Site:Content.GalleryColumns" version="4" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>da</language>
          </dimensions>
          <accessRoles __type="array"/>
          <creationDateTime __type="object" __classname="DateTime">2021-02-25T11:28:08+01:00</creationDateTime>
-         <lastModificationDateTime __type="object" __classname="DateTime">2021-03-01T15:25:07+01:00</lastModificationDateTime>
-         <lastPublicationDateTime __type="object" __classname="DateTime">2021-03-01T15:25:01+01:00</lastPublicationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2021-03-18T15:27:21+01:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2021-03-18T15:27:21+01:00</lastPublicationDateTime>
          <properties/>
         </variant>
         <node identifier="510f54df-00b9-4041-a0a1-560cdae272d4" nodeName="column0">
-         <variant sortingIndex="100" workspace="live" nodeType="Stoj.Site:Collection.Content.Column" version="3" removed="" hidden="" hiddenInIndex="">
+         <variant sortingIndex="100" workspace="live" nodeType="Stoj.Site:Collection.Content.Column" version="4" removed="" hidden="" hiddenInIndex="">
           <dimensions>
            <language>da</language>
           </dimensions>
           <accessRoles __type="array"/>
           <creationDateTime __type="object" __classname="DateTime">2021-02-25T11:28:08+01:00</creationDateTime>
-          <lastModificationDateTime __type="object" __classname="DateTime">2021-03-01T15:25:07+01:00</lastModificationDateTime>
-          <lastPublicationDateTime __type="object" __classname="DateTime">2021-03-01T15:25:01+01:00</lastPublicationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2021-03-18T15:27:21+01:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2021-03-18T15:27:21+01:00</lastPublicationDateTime>
           <properties/>
          </variant>
          <node identifier="7292b094-92c0-4d18-b1fd-aeddf51e549b" nodeName="node-58osg127nj1xi">
@@ -2547,25 +2547,25 @@
         <properties/>
        </variant>
        <node identifier="5e873966-ee20-4d94-bb7e-fbab4e704b29" nodeName="node-1sf1rp1nfwihr">
-        <variant sortingIndex="113" workspace="live" nodeType="Stoj.Site:Content.Gallery" version="3" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="113" workspace="live" nodeType="Stoj.Site:Content.GalleryColumns" version="4" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>da</language>
          </dimensions>
          <accessRoles __type="array"/>
          <creationDateTime __type="object" __classname="DateTime">2021-02-25T11:24:53+01:00</creationDateTime>
-         <lastModificationDateTime __type="object" __classname="DateTime">2021-03-01T15:25:07+01:00</lastModificationDateTime>
-         <lastPublicationDateTime __type="object" __classname="DateTime">2021-03-01T15:25:01+01:00</lastPublicationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2021-03-18T15:27:10+01:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2021-03-18T15:27:10+01:00</lastPublicationDateTime>
          <properties/>
         </variant>
         <node identifier="46f964ad-baa1-46aa-accf-8ff090cd3688" nodeName="column0">
-         <variant sortingIndex="100" workspace="live" nodeType="Stoj.Site:Collection.Content.Column" version="3" removed="" hidden="" hiddenInIndex="">
+         <variant sortingIndex="100" workspace="live" nodeType="Stoj.Site:Collection.Content.Column" version="4" removed="" hidden="" hiddenInIndex="">
           <dimensions>
            <language>da</language>
           </dimensions>
           <accessRoles __type="array"/>
           <creationDateTime __type="object" __classname="DateTime">2021-02-25T11:24:53+01:00</creationDateTime>
-          <lastModificationDateTime __type="object" __classname="DateTime">2021-03-01T15:25:07+01:00</lastModificationDateTime>
-          <lastPublicationDateTime __type="object" __classname="DateTime">2021-03-01T15:25:01+01:00</lastPublicationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2021-03-18T15:27:10+01:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2021-03-18T15:27:10+01:00</lastPublicationDateTime>
           <properties/>
          </variant>
          <node identifier="08323da1-f736-4a2b-93ea-744a7e1c0a0b" nodeName="node-dm4s40lqk6k6x">
@@ -2885,25 +2885,25 @@
         </variant>
        </node>
        <node identifier="2a0ef5b7-e5e9-4f4a-baff-35b93220f5a6" nodeName="node-xbtt0qu6x6b9f">
-        <variant sortingIndex="113" workspace="live" nodeType="Stoj.Site:Content.Gallery" version="3" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="113" workspace="live" nodeType="Stoj.Site:Content.GalleryColumns" version="4" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>da</language>
          </dimensions>
          <accessRoles __type="array"/>
          <creationDateTime __type="object" __classname="DateTime">2021-02-25T11:32:29+01:00</creationDateTime>
-         <lastModificationDateTime __type="object" __classname="DateTime">2021-03-01T15:25:07+01:00</lastModificationDateTime>
-         <lastPublicationDateTime __type="object" __classname="DateTime">2021-03-01T15:25:01+01:00</lastPublicationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2021-03-18T15:27:31+01:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2021-03-18T15:27:31+01:00</lastPublicationDateTime>
          <properties/>
         </variant>
         <node identifier="fd50ea2b-0452-4415-9493-778b9d697ef0" nodeName="column0">
-         <variant sortingIndex="100" workspace="live" nodeType="Stoj.Site:Collection.Content.Column" version="3" removed="" hidden="" hiddenInIndex="">
+         <variant sortingIndex="100" workspace="live" nodeType="Stoj.Site:Collection.Content.Column" version="4" removed="" hidden="" hiddenInIndex="">
           <dimensions>
            <language>da</language>
           </dimensions>
           <accessRoles __type="array"/>
           <creationDateTime __type="object" __classname="DateTime">2021-02-25T11:32:29+01:00</creationDateTime>
-          <lastModificationDateTime __type="object" __classname="DateTime">2021-03-01T15:25:07+01:00</lastModificationDateTime>
-          <lastPublicationDateTime __type="object" __classname="DateTime">2021-03-01T15:25:01+01:00</lastPublicationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2021-03-18T15:27:31+01:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2021-03-18T15:27:31+01:00</lastPublicationDateTime>
           <properties/>
          </variant>
          <node identifier="46537195-b0c3-417d-9b11-97ad26863f23" nodeName="node-4lxrg9cpsjyvc">
@@ -3224,27 +3224,27 @@
         </variant>
        </node>
        <node identifier="d20a276f-2d67-4056-a295-5134ba1f5f49" nodeName="node-wy41e3v2jegn5">
-        <variant sortingIndex="175" workspace="live" nodeType="Stoj.Site:Content.Gallery" version="5" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="175" workspace="live" nodeType="Stoj.Site:Content.GalleryColumns" version="6" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>da</language>
          </dimensions>
          <accessRoles __type="array"/>
          <creationDateTime __type="object" __classname="DateTime">2021-03-01T15:01:37+01:00</creationDateTime>
-         <lastModificationDateTime __type="object" __classname="DateTime">2021-03-01T15:23:15+01:00</lastModificationDateTime>
-         <lastPublicationDateTime __type="object" __classname="DateTime">2021-03-01T15:23:14+01:00</lastPublicationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2021-03-18T14:46:30+01:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2021-03-18T14:46:29+01:00</lastPublicationDateTime>
          <properties>
           <centerGallery __type="boolean">1</centerGallery>
          </properties>
         </variant>
         <node identifier="ea214ffa-2b7a-0b32-2dc4-be28514bf4ac" nodeName="column0">
-         <variant sortingIndex="100" workspace="live" nodeType="Stoj.Site:Collection.Content.Column" version="4" removed="" hidden="" hiddenInIndex="">
+         <variant sortingIndex="100" workspace="live" nodeType="Stoj.Site:Collection.Content.Column" version="5" removed="" hidden="" hiddenInIndex="">
           <dimensions>
            <language>da</language>
           </dimensions>
           <accessRoles __type="array"/>
           <creationDateTime __type="object" __classname="DateTime">2021-03-01T15:01:37+01:00</creationDateTime>
-          <lastModificationDateTime __type="object" __classname="DateTime">2021-03-01T15:23:15+01:00</lastModificationDateTime>
-          <lastPublicationDateTime __type="object" __classname="DateTime">2021-03-01T15:23:14+01:00</lastPublicationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2021-03-18T14:46:30+01:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2021-03-18T14:46:29+01:00</lastPublicationDateTime>
           <properties/>
          </variant>
          <node identifier="d44c6c89-fa7e-45f1-aec0-c788b967b2e6" nodeName="node-264qpz3yjei09">
@@ -3644,27 +3644,27 @@
         </variant>
        </node>
        <node identifier="90ce7781-56cf-4434-b703-f78ebe0d490c" nodeName="node-wy41e3v2jegn5">
-        <variant sortingIndex="175" workspace="live" nodeType="Stoj.Site:Content.Gallery" version="2" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="175" workspace="live" nodeType="Stoj.Site:Content.GalleryColumns" version="3" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>da</language>
          </dimensions>
          <accessRoles __type="array"/>
          <creationDateTime __type="object" __classname="DateTime">2021-03-03T13:56:25+01:00</creationDateTime>
-         <lastModificationDateTime __type="object" __classname="DateTime">2021-03-03T13:56:42+01:00</lastModificationDateTime>
-         <lastPublicationDateTime __type="object" __classname="DateTime">2021-03-03T13:56:41+01:00</lastPublicationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2021-03-18T14:46:52+01:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2021-03-18T14:46:52+01:00</lastPublicationDateTime>
          <properties>
           <centerGallery __type="boolean">1</centerGallery>
          </properties>
         </variant>
         <node identifier="471bd0fc-9052-4a96-b152-bc3ba1db8628" nodeName="column0">
-         <variant sortingIndex="100" workspace="live" nodeType="Stoj.Site:Collection.Content.Column" version="2" removed="" hidden="" hiddenInIndex="">
+         <variant sortingIndex="100" workspace="live" nodeType="Stoj.Site:Collection.Content.Column" version="3" removed="" hidden="" hiddenInIndex="">
           <dimensions>
            <language>da</language>
           </dimensions>
           <accessRoles __type="array"/>
           <creationDateTime __type="object" __classname="DateTime">2021-03-03T13:56:25+01:00</creationDateTime>
-          <lastModificationDateTime __type="object" __classname="DateTime">2021-03-03T13:56:42+01:00</lastModificationDateTime>
-          <lastPublicationDateTime __type="object" __classname="DateTime">2021-03-03T13:56:41+01:00</lastPublicationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2021-03-18T14:46:52+01:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2021-03-18T14:46:52+01:00</lastPublicationDateTime>
           <properties/>
          </variant>
          <node identifier="cf3eca23-4664-4843-bc35-75a0dffdced9" nodeName="node-264qpz3yjei09">
@@ -3763,6 +3763,22 @@
        <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-26T23:23:05+02:00</lastPublicationDateTime>
        <properties/>
       </variant>
+      <node identifier="33f5aacc-8b1d-4316-a03c-1355dab00f55" nodeName="node-x4m1b9ne81n6m">
+       <variant sortingIndex="100" workspace="live" nodeType="Stoj.Site:Content.ShoutHeader" version="9" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>da</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2021-03-18T14:47:54+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2021-03-18T14:54:20+01:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2021-03-18T14:54:20+01:00</lastPublicationDateTime>
+        <properties>
+         <titel __type="string">&lt;h1&gt;Siden blev ikke fundet (404)&lt;/h1&gt;</titel>
+         <paragraph __type="string">&lt;p&gt;Åh nej dog! Du har ramt en side, der ikke findes. Det beklager vi. De sider, du kan besøge er &lt;a href=&quot;node://f676459d-ca77-44bc-aeea-44114814c279&quot;&gt;forsiden&lt;/a&gt;, &lt;a href=&quot;node://626a3832-61c8-4283-8639-6c3382f4a663&quot;&gt;galleriet&lt;/a&gt; eller &lt;a href=&quot;node://83d51e1b-1253-4922-8089-79afbbeb9120&quot;&gt;om STÖJ&lt;/a&gt;.&lt;/p&gt;</paragraph>
+         <topMargin __type="boolean">1</topMargin>
+        </properties>
+       </variant>
+      </node>
      </node>
     </node>
    </node>

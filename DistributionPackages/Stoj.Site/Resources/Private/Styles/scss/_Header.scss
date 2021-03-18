@@ -6,7 +6,7 @@
     height: 100%;
     justify-content: space-between;
     left: 0;
-    //mix-blend-mode: exclusion;
+    mix-blend-mode: exclusion;
     padding: 1em;
     pointer-events: none;
     position: fixed;
@@ -32,6 +32,7 @@
     .logo {
         display: none;
         fill: $stoj-sand;
+        mix-blend-mode: exclusion;
         overflow: hidden;
         pointer-events: auto;
         z-index: 1;
@@ -52,6 +53,7 @@
 .navigation {
     display: flex;
     justify-content: space-between;
+    mix-blend-mode: exclusion;
     pointer-events: auto;
     width: 100%;
     z-index: 1;
@@ -104,6 +106,7 @@
     bottom: 2em;
     display: flex;
     left: 1em;
+    mix-blend-mode: exclusion;
     pointer-events: auto;
     position: absolute;
     z-index: 1;
@@ -138,6 +141,7 @@
 
 .kontakt--cta {
     bottom: 2em;
+    mix-blend-mode: exclusion;
     right: 1em;
     padding: 0;
     pointer-events: auto;
@@ -286,7 +290,7 @@
 }
 
 .gradient {
-    display: block;
+    display: none;
     height: 6rem;
     left: 0;
     position: fixed;
