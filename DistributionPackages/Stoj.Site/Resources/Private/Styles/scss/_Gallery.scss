@@ -36,6 +36,39 @@
     }
 }
 
+.--responsive {
+
+    .gallery-col {
+        column-count: 2;
+        column-gap: 1rem;
+        width: 100%;
+
+        @media only screen and (min-width: $break-desk) {
+            column-count: 3;
+        }
+    }
+
+    .gallery-item {
+        display: inline-block;
+        display: block;
+        margin-bottom: .5rem;
+        position: relative;
+        transition: $transition;
+
+        @media only screen and (min-width: $break-tablet) {
+            margin-bottom: 1rem;
+        }
+
+        .gallery-image {
+            display: block;
+            height: auto;
+            object-fit: cover;
+            visibility: hidden;
+            width: 100%;
+        }
+    }
+}
+
 .gallery-col {
     display: inline-block;
     vertical-align: top;

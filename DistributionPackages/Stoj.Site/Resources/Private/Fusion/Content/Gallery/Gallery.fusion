@@ -6,7 +6,7 @@ prototype(Stoj.Site:Content.Gallery) < prototype(Neos.Neos:ContentComponent) {
     centerGallery = ${q(node).property('centerGallery') ? '--center-gallery' : ''}
 
     renderer = afx`
-        <div class={"gallery-container " + (props.centerGallery)}>
+        <div class={"gallery-container --responsive " + (props.centerGallery)}>
             <div class="gallery-col">{props.column0}</div>
         </div>
     `
