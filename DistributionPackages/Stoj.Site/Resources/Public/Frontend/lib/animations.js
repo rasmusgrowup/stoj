@@ -12,6 +12,8 @@ window.addEventListener('DOMContentLoaded', (event) => {
 	gsap.set(".gallery-image", {opacity:0,autoAlpha: 0})
 	ScrollTrigger.batch(".gallery-image", {
 		start: 'top bottom',
+		end: 'center center',
+		scrub: true,
 		onEnter: batch => gsap.to(batch, {
 			opacity: 1,
 			autoAlpha: 1,
