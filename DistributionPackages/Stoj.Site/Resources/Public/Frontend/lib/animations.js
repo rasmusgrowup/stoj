@@ -10,17 +10,20 @@ window.addEventListener('DOMContentLoaded', (event) => {
 	})
 
 	gsap.set(".gallery-image", {opacity:0,autoAlpha: 0})
-	ScrollTrigger.batch(".gallery-image", {
-		start: 'top bottom',
-		end: 'center center',
-		scrub: true,
-		onEnter: batch => gsap.to(batch, {
+
+	gsap.utils.toArray(".gallery-image").forEach(elem => {
+		gsap.to(elem, {
 			opacity: 1,
 			autoAlpha: 1,
-			duration: 1.2,
-			stagger: .1
-		}),
-	})
+			scrollTrigger: {
+				trigger: elem,
+				start: 'top bottom',
+				end: 'center center',
+				//markers: true,
+				scrub: true
+			}
+		});
+	});
 
 	gsap.utils.toArray(".shout, .fade-in").forEach(elem => {
 		gsap.from(elem, {
