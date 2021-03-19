@@ -300,8 +300,8 @@
     opacity: 1;
 
     @media only screen and (min-width: $break-tablet) {
-        display: none;
-        visibility: hidden;
+        //display: none;
+        //visibility: hidden;
     }
 }
 
