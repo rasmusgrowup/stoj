@@ -381,7 +381,7 @@
   margin-left: auto;
   position: relative;
   width: 50%;
-  z-index: 1; }
+  z-index: 0; }
   @media only screen and (min-width: 768px) {
     .small-figure {
       width: 55%;

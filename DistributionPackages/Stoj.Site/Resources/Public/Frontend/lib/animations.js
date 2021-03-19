@@ -68,7 +68,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
 	})
 
 	gsap.from(".reel-overlay",{
-		y: 75,
+		y: 50,
 		autoAlpha: 0,
 		duration: 2,
 		delay: 1.5,
@@ -87,7 +87,7 @@ var player = new Vimeo.Player('subheader-video');
 
 player.ready().then(function() {
 	gsap.from(".video-body",{
-			y: 75,
+			//y: 75,
 			autoAlpha: 0,
 			duration: 2,
 			delay: 2,
