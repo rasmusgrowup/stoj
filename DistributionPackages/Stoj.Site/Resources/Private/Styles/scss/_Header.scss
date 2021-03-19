@@ -292,12 +292,12 @@
 
 .gradient {
     display: block;
-    height: 10vh;
+    height: 24vh;
     left: 0;
     position: fixed;
     width: 100%;
     z-index: 97;
-    opacity: .8;
+    opacity: 1;
 
     @media only screen and (min-width: $break-desk) {
         height: 16vh;
